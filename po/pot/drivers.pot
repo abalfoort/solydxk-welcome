@@ -1,0 +1,27 @@
+#: ./po/en/drivers.html%2Bhtml.body.h1:10-2
+msgid "Hardware drivers"
+msgstr ""
+
+#: ./po/en/drivers.html%2Bhtml.body.div.div.p:14-4
+msgid ""
+"SolydXK comes with a wide variety of drivers pre-installed. For most "
+"purposes these drivers suffice but in some cases better performance is "
+"provided by the proprietary drivers of the manufacturer."
+msgstr ""
+
+#: ./po/en/drivers.html%2Bhtml.body.div.div.p:15-4
+msgid ""
+"The install button will open the SolydXK System Settings application. This "
+"is a tool to help you installing these hardware drivers. It will check your "
+"hardware and list any available proprietary drivers you can install. You "
+"only need to select the recommended driver for your hardware and the "
+"application will do the rest."
+msgstr ""
+
+#: ./po/en/drivers.html%2Bhtml.body.div.div.p:16-4
+msgid ""
+"Currently <strong>Nvidia</strong>, <strong>AMD/ATI</strong> and "
+"<strong>Broadcom</strong> drivers can be installed. SolydXK System Settings "
+"also allows to install the <strong>PAE</strong> kernel for multi-core 32-bit "
+"systems."
+msgstr ""

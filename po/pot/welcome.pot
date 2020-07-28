@@ -1,0 +1,74 @@
+#: ./po/en/welcome.html%2Bhtml.body.h1:10-2
+msgid "Welcome to SolydXK"
+msgstr ""
+
+#: ./po/en/welcome.html%2Bhtml.body.div.div.p:14-4
+msgid "Thank you for using SolydXK"
+msgstr ""
+
+#: ./po/en/welcome.html%2Bhtml.body.div.div.p:15-4
+msgid ""
+"SolydXK is an open source desktop operating system for businesses, "
+"organizations and home users. Both SolydX and SolydK are based on Debian "
+"stable to ensure the greatest stability and security."
+msgstr ""
+
+#: ./po/en/welcome.html%2Bhtml.body.div.div.p:16-4
+msgid ""
+"We have created a list of recommended software for businesses and home users "
+"which you can install in the next couple of pages."
+msgstr ""
+
+#: ./po/en/welcome.html%2Bhtml.body.div.div.p:17-4
+msgid "Click on the <strong>Next</strong> button to get started."
+msgstr ""
+
+#: ./po/en/welcome.html%2Bhtml.body.div.div.table.tr.td:36-9
+msgid "Software"
+msgstr ""
+
+#: ./po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:38-10
+msgid ""
+"All software is built, maintained and checked by the community. Software "
+"databases called \"repositories\" are used to offer and maintain over 60,000 "
+"software packages. So, there is no need to download software from dubious "
+"web sites. You simply search and install the software you need with the "
+"Software Manager."
+msgstr ""
+
+#: ./po/en/welcome.html%2Bhtml.body.div.div.table.tr.td:39-6
+msgid "softwaremanager"
+msgstr ""
+
+#: ./po/en/welcome.html%2Bhtml.body.div.div.table.tr.td:44-9
+msgid "Support"
+msgstr ""
+
+#: ./po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:46-10
+msgid ""
+"If you're new to SolydXK or whenever you get stuck, there is the SolydXK "
+"community to help you solve your problem. You can search the forum to find "
+"if your issue has already been solved or start a new topic to get help."
+msgstr ""
+
+#: ./po/en/welcome.html%2Bhtml.body.div.div.table.tr.td:47-6
+msgid "forum"
+msgstr ""
+
+#: ./po/en/welcome.html%2Bhtml.body.div.div.table.tr.td:50-6
+msgid ""
+"Forum: <a href=\"https://forums.solydxk.com/\" target=\"_blank\""
+">https://forums.solydxk.com</a>"
+msgstr ""
+
+#: ./po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:54-7
+msgid ""
+"The following channels are used to communicate to the SolydX and SolydK "
+"users:"
+msgstr ""
+
+#: ./po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.ul.li:56-8
+msgid ""
+"RSS: <a href=\"https://solydxk.com/feed\" target=\"_blank\">https://solydxk."
+"com/feed</a>"
+msgstr ""

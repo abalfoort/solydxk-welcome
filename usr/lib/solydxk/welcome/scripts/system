@@ -1,0 +1,60 @@
+#!/bin/bash
+
+# Possible arguments: gparted, filezilla, virtualbox
+
+if [ $# -gt 0 ]; then
+  for ARG in "$@"; do
+    #echo "$ARG"
+    if [ "$ARG" == 'gparted' ]; then
+      PCK='gparted'
+    fi
+    if [ "$ARG" == 'filezilla' ]; then
+      PCK="$PCK filezilla"
+    fi
+    if [ "$ARG" == 'virtualbox' ]; then
+      PCK="$PCK virtualbox"
+    fi
+  done
+fi
+
+if [ -z "$PCK" ]; then
+  exit
+fi
+
+# ===============================================================
+
+# --force-yes is deprecated in stretch
+FORCE='--force-yes'
+. /etc/lsb-release
+if [[ -z "$DISTRIB_RELEASE" ]] || [ "$DISTRIB_RELEASE" -gt 8 ]; then
+  FORCE='--allow-downgrades --allow-remove-essential --allow-change-held-packages'
+fi
+
+
+#if [ "$DISTRIB_RELEASE" -eq 9 ]; then
+#  PCK="$PCK-5.2"
+#  # Add virtualbox to sources
+#  REL=$(grep '/debian' /etc/apt/sources.list | grep -v backports | awk '{print $3}')
+#  if [ "$REL" != '' ]; then
+#   wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | apt-key add -
+#    wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | apt-key add -
+#   echo "deb http://download.virtualbox.org/virtualbox/debian $REL contrib" > /etc/apt/sources.list.d/virtualbox.list
+# fi
+#  # Update
+#  apt-get update
+#fi
+
+if [ ! -e /tmp/update-state ]; then
+    apt-get update
+    touch /tmp/update-state
+fi
+
+export DEBIAN_FRONTEND=gnome
+echo
+while IFS=' ' read -ra PS; do
+  for P in "${PS[@]}"; do
+    echo "Start installing: $P"
+    apt-get install --assume-yes -o Dpkg::Options::=--force-confdef -o Dpkg::Options::=--force-confold $FORCE $P
+  done
+done <<< "$PCK"
+echo "Done"

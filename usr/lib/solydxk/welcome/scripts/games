@@ -1,0 +1,70 @@
+#!/bin/bash
+
+# Possible arguments: steam, minetest, 0ad, wesnoth, sauerbraten, neverball, supertuxkart
+
+if [ $# -gt 0 ]; then
+  for ARG in "$@"; do
+    #echo "$ARG"
+    if [ "$ARG" == 'steam' ]; then
+      PCK='steam'
+    fi
+    if [ "$ARG" == 'minetest' ]; then
+      PCK="$PCK minetest"
+    fi
+    if [ "$ARG" == '0ad' ]; then
+      PCK="$PCK 0ad"
+    fi
+    if [ "$ARG" == 'wesnoth' ]; then
+      PCK="$PCK wesnoth"
+    fi
+    if [ "$ARG" == 'sauerbraten' ]; then
+      PCK="$PCK sauerbraten"
+    fi
+    if [ "$ARG" == 'neverball' ]; then
+      PCK="$PCK neverball"
+    fi
+    if [ "$ARG" == 'supertuxkart' ]; then
+      PCK="$PCK supertuxkart"
+    fi
+  done
+fi
+
+if [ -z "$PCK" ]; then
+  exit
+fi
+
+if [ "$(uname -m)" == "x86_64" ]; then
+  PCK="$PCK libgl1-mesa-glx:i386"
+fi
+
+# ===============================================================
+
+# --force-yes is deprecated in stretch
+FORCE='--force-yes'
+. /etc/lsb-release
+if [[ -z "$DISTRIB_RELEASE" ]] || [ "$DISTRIB_RELEASE" -gt 8 ]; then
+  FORCE='--allow-downgrades --allow-remove-essential --allow-change-held-packages'
+fi
+
+# Preseeding doesn't seem to work with steam:
+# http://lists.alioth.debian.org/pipermail/pkg-games-devel/2014-December/033140.html
+#echo "Preseeding for steam..."
+#echo "steam steam/question select \"I AGREE\"" | debconf-set-selections
+#echo "steam steam/license note " | debconf-set-selections
+#echo "steam steam/purge note " | debconf-set-selections
+
+
+if [ ! -e /tmp/update-state ]; then
+    apt-get update
+    touch /tmp/update-state
+fi
+
+export DEBIAN_FRONTEND=gnome
+echo
+while IFS=' ' read -ra PS; do
+  for P in "${PS[@]}"; do
+    echo "Start installing: $P"
+    apt-get install --assume-yes -o Dpkg::Options::=--force-confdef -o Dpkg::Options::=--force-confold $FORCE $P
+  done
+done <<< "$PCK"
+echo "Done"

@@ -1,0 +1,26 @@
+Source: solydxk-welcome
+Section: admin
+Priority: optional
+Maintainer: Arjen Balfoort <arjenbalfoort@solydxk.com>
+Build-Depends: debhelper-compat (= 12)
+  , python3
+  , intltool
+  , itstool
+  , po4a
+  , transifex-client
+  , translate-toolkit
+  , dh-python
+Standards-Version: 4.5.0
+
+Package: solydxk-welcome
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+  , python3
+  , python3-gi
+  , gir1.2-webkit2-4.0 (>= 2.22.0) | gir1.2-webkit-3.0
+  , gir1.2-gtk-3.0
+  , libgtk3-perl
+Conflicts: solydxk-sws
+Replaces: solydxk-sws
+Description: Welcome screen for SolydXK.
+ Welcome screen and install most popular software.

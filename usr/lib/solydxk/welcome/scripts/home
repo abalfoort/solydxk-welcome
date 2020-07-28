@@ -1,0 +1,74 @@
+#!/bin/bash
+
+# Possible arguments: gimp inkscape shotwell clementine handbrake soundconverter pitivi transmission
+
+if [ $# -gt 0 ]; then
+  for ARG in "$@"; do
+    #echo "$ARG"
+    if [ "$ARG" == 'gimp' ]; then
+      XFCE='gimp'
+      KDE=$XFCE
+    fi
+    if [ "$ARG" == 'inkscape' ]; then
+      XFCE="$XFCE inkscape"
+      KDE=$XFCE
+    fi
+    if [ "$ARG" == 'shotwell' ]; then
+      XFCE="$XFCE shotwell"
+      KDE="$KDE digikam"
+    fi
+    if [ "$ARG" == 'clementine' ]; then
+      XFCE="$XFCE clementine"
+      KDE="$KDE amarok"
+    fi
+    if [ "$ARG" == 'handbrake' ]; then
+      XFCE="$XFCE handbrake"
+      KDE=$XFCE
+    fi
+    if [ "$ARG" == 'soundconverter' ]; then
+      XFCE="$XFCE soundconverter"
+      KDE=$XFCE
+    fi
+    if [ "$ARG" == 'pitivi' ]; then
+      XFCE="$XFCE pitivi"
+      KDE="$KDE kdenlive"
+    fi
+    if [ "$ARG" == 'transmission' ]; then
+      XFCE="$XFCE transmission-gtk"
+      KDE="$KDE transmission-qt"
+    fi
+  done
+fi
+
+if [ -z "$XFCE" ] && [ -z "$KDE" ] ; then
+  exit
+fi
+
+# =============================================
+
+# --force-yes is deprecated in stretch
+FORCE='--force-yes'
+. /etc/lsb-release
+if [[ -z "$DISTRIB_RELEASE" ]] || [ "$DISTRIB_RELEASE" -gt 8 ]; then
+  FORCE='--allow-downgrades --allow-remove-essential --allow-change-held-packages'
+fi
+
+PCK=$KDE
+if [ "$(pidof xfce4-session)" ]; then
+  PCK=$XFCE
+fi
+
+if [ ! -e /tmp/update-state ]; then
+    apt-get update
+    touch /tmp/update-state
+fi
+
+export DEBIAN_FRONTEND=gnome
+echo
+while IFS=' ' read -ra PS; do
+  for P in "${PS[@]}"; do
+    echo "Start installing: $P"
+    apt-get install --assume-yes -o Dpkg::Options::=--force-confdef -o Dpkg::Options::=--force-confold $FORCE $P
+  done
+done <<< "$PCK"
+echo "Done"

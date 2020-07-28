@@ -1,0 +1,50 @@
+#!/bin/bash
+
+# Possible arguments: flash, css
+
+if [ $# -gt 0 ]; then
+  for ARG in "$@"; do
+    #echo "$ARG"
+    if [ "$ARG" == 'flash' ]; then
+      AMD64='solydxk-flashplugin'
+      I386=$AMD64
+    fi
+    if [ "$ARG" == 'css' ]; then
+      AMD64="$AMD64 libdvdcss2 w64codecs"
+      I386="$I386 libdvdcss2 w32codecs"
+    fi
+  done
+fi
+
+if [ -z "$AMD64" ] && [ -z "$I386" ] ; then
+  exit
+fi
+
+PCK=$I386
+if [ "$(uname -m)" == "x86_64" ]; then
+  PCK=$AMD64
+fi
+
+# ======================================
+
+# --force-yes is deprecated in stretch
+FORCE='--force-yes'
+. /etc/lsb-release
+if [[ -z "$DISTRIB_RELEASE" ]] || [ "$DISTRIB_RELEASE" -gt 8 ]; then
+  FORCE='--allow-downgrades --allow-remove-essential --allow-change-held-packages'
+fi
+
+if [ ! -e /tmp/update-state ]; then
+    apt-get update
+    touch /tmp/update-state
+fi
+
+export DEBIAN_FRONTEND=gnome
+echo
+while IFS=' ' read -ra PS; do
+  for P in "${PS[@]}"; do
+    echo "Start installing: $P"
+    apt-get install --assume-yes -o Dpkg::Options::=--force-confdef -o Dpkg::Options::=--force-confold $FORCE $P
+  done
+done <<< "$PCK"
+echo "Done"

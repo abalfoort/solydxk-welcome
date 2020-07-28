@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=Welcome
+Name[de]=Willkommen
+Name[nb]=Velkommen
+Name[nl]=Welkom
+GenericName=SolydXK Welcome
+GenericName[de]=SolydXK Willkommen
+GenericName[nb]=SolydXK Velkommen
+GenericName[nl]=SolydXK Welkom
+Comment=SolydXK Welcome
+Comment[de]=SolydXK Willkommen
+Comment[nb]=SolydXK Velkommen
+Comment[nl]=SolydXK Welkom
+Exec=solydxk-welcome
+Icon=solydxk
+Terminal=False
+Type=Application
+Categories=Application;System;Settings;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;

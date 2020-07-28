@@ -1,0 +1,46 @@
+#!/bin/bash
+
+# Possible arguments: playonlinux
+
+if [ $# -gt 0 ]; then
+  for ARG in "$@"; do
+    #echo "$ARG"
+    if [ "$ARG" == 'playonlinux' ]; then
+      AMD64='playonlinux wine32 libasound2-plugins:i386 libgl1-mesa-glx:i386 libxft2:i386 libcups2:i386'
+      I386='playonlinux wine32 libasound2-plugins libgl1-mesa-glx libxft2 libcups2'
+    fi
+  done
+fi
+
+if [ -z "$AMD64" ] && [ -z "$I386" ] ; then
+  exit
+fi
+
+PCK=$I386
+if [ "$(uname -m)" == "x86_64" ]; then
+  PCK=$AMD64
+fi
+
+# ===============================================================
+
+# --force-yes is deprecated in stretch
+FORCE='--force-yes'
+. /etc/lsb-release
+if [[ -z "$DISTRIB_RELEASE" ]] || [ "$DISTRIB_RELEASE" -gt 8 ]; then
+  FORCE='--allow-downgrades --allow-remove-essential --allow-change-held-packages'
+fi
+
+if [ ! -e /tmp/update-state ]; then
+    apt-get update
+    touch /tmp/update-state
+fi
+
+export DEBIAN_FRONTEND=gnome
+echo
+while IFS=' ' read -ra PS; do
+  for P in "${PS[@]}"; do
+    echo "Start installing: $P"
+    apt-get install --assume-yes -o Dpkg::Options::=--force-confdef -o Dpkg::Options::=--force-confold $FORCE $P
+  done
+done <<< "$PCK"
+echo "Done"

@@ -1,0 +1,112 @@
+#: ./po/en/business.html%2Bhtml.body.h1:11-2
+msgid "Business applications"
+msgstr ""
+
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
+msgid "This is a list of recommended applications suited for businesses."
+msgstr ""
+
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
+msgid ""
+"When you click the install button all selected applications are going to be "
+"installed on your system."
+msgstr ""
+
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:24-6
+msgid "<input type=\"checkbox\" class=\"package\" value=\"gnucash\" /> Gnucash"
+msgstr ""
+
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:27-7
+msgid "GnuCash is personal and small-business financial-accounting software."
+msgstr ""
+
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:28-7
+msgid ""
+"Designed to be easy to use, yet powerful and flexible, GnuCash allows you to "
+"track bank accounts, stocks, income and expenses. As quick and intuitive to "
+"use as a checkbook register, it is based on professional accounting "
+"principles to ensure balanced books and accurate reports."
+msgstr ""
+
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:30-6
+msgid "gnucash"
+msgstr ""
+
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:33-6
+msgid ""
+"Homepage: <a href=\"http://www.gnucash.org/\" target=\"_blank\""
+">http://www.gnucash.org</a>"
+msgstr ""
+
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:35-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"postbooks\" /> PostBooks"
+msgstr ""
+
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:38-7
+msgid ""
+"Open source ERP for sales, accounting, operations and CRM in a single system "
+"(accounting, sales, CRM, purchasing, etc.)."
+msgstr ""
+
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:39-7
+msgid "Use this information to start PostBooks:"
+msgstr ""
+
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:41-9
+msgid "Username: admin"
+msgstr ""
+
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:42-9
+msgid "Password: solydxk"
+msgstr ""
+
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:43-9
+msgid "Server: localhost"
+msgstr ""
+
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:44-9
+msgid "Port: 5432"
+msgstr ""
+
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:45-9
+msgid "Database: demo, quickstart or empty"
+msgstr ""
+
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:47-8
+msgid ""
+"You can maintain the PostgreSql databases with pgAdmin III (Login: postgres /"
+" solydxk)"
+msgstr ""
+
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:49-6
+msgid "postbooks"
+msgstr ""
+
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:52-6
+msgid ""
+"Homepage: <a href=\"https://xtuple.com/products/postbooks\" target=\"_blank\""
+">https://xtuple.com/products/postbooks</a>"
+msgstr ""
+
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:85-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"projectlibre\" /> "
+"ProjectLibre"
+msgstr ""
+
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:88-7
+msgid ""
+"ProjectLibre is a project management software system. It intends to be a "
+"complete desktop replacement for Microsoft Project."
+msgstr ""
+
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:90-6
+msgid "projectlibre"
+msgstr ""
+
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:93-6
+msgid ""
+"Homepage: <a href=\"http://www.projectlibre.org/\" target=\"_blank\""
+">http://www.projectlibre.org</a>"
+msgstr ""

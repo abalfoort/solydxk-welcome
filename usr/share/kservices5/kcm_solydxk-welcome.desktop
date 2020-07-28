@@ -1,0 +1,23 @@
+[Desktop Entry]
+Type=Service
+Icon=solydxk
+Exec=solydxk-welcome
+
+X-KDE-ServiceTypes=SystemSettingsExternalApp
+X-KDE-System-Settings-Parent-Category=system-administration
+X-KDE-System-Settings-Parent-Category-V2=system-administration
+X-KDE-ParentApp=solydxk-welcome
+Categories=Qt;KDE;X-KDE-settings-system-administration;
+
+Name=Welcome
+Name[de]=Willkommen
+Name[nb]=Velkommen
+Name[nl]=Welkom
+GenericName=SolydXK Welcome
+GenericName[de]=SolydXK Willkommen
+GenericName[nb]=SolydXK Velkommen
+GenericName[nl]=SolydXK Welkom
+Comment=SolydXK Welcome
+Comment[de]=SolydXK Willkommen
+Comment[nb]=SolydXK Velkommen
+Comment[nl]=SolydXK Welkom

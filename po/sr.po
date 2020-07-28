@@ -1,0 +1,1192 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Arjen Balfoort <translations@solydxk.com>, 2017-2019
+# Slobodan Simić <slsimic@gmail.com>, 2017,2019
+# Slobodan Simić <slsimic@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: solydxk-welcome\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-13 09:07+0200\n"
+"PO-Revision-Date: 2020-05-13 07:07+0000\n"
+"Last-Translator: Arjen Balfoort <translations@solydxk.com>\n"
+"Language-Team: Serbian (http://www.transifex.com/solydxk/solydxk-welcome/"
+"language/sr/)\n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: usr/lib/solydxk/welcome/main.py:38 usr/lib/solydxk/welcome/welcome.py:82
+#: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:2
+#: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:2
+#: usr/share/applications/solydxk-welcome.desktop.in.h:2
+#: etc/xdg/autostart/solydxk-welcome.desktop.in.h:1
+msgid "SolydXK Welcome"
+msgstr ""
+
+#: usr/lib/solydxk/welcome/main.py:39
+msgid ""
+"SolydXK Welcome cannot be started in a live environment\n"
+"You can use the --force argument to start SolydXK Welcome in a live "
+"environment"
+msgstr ""
+
+#: usr/lib/solydxk/welcome/main.py:105
+msgid "Unexpected error"
+msgstr ""
+
+#: usr/lib/solydxk/welcome/main.py:106
+msgid ""
+"SolydXK Welcome has failed with the following unexpected error.\n"
+"Please submit a bug report!"
+msgstr ""
+
+#: usr/lib/solydxk/welcome/welcome.py:83
+msgid "Install"
+msgstr ""
+
+#: usr/lib/solydxk/welcome/welcome.py:84
+msgid "Quit"
+msgstr ""
+
+#: usr/lib/solydxk/welcome/welcome.py:85
+msgid "Next"
+msgstr ""
+
+#: usr/lib/solydxk/welcome/welcome.py:86
+msgid "Previous"
+msgstr ""
+
+#: usr/lib/solydxk/welcome/welcome.py:134
+msgid ""
+"VirtualBox cannot be installed in a VirtualBox client.\n"
+"This package is skipped."
+msgstr ""
+
+#: usr/lib/solydxk/welcome/welcome.py:155
+msgid ""
+"Nothing to do:\n"
+"No packages were selected."
+msgstr ""
+
+#: usr/lib/solydxk/welcome/welcome.py:170
+msgid ""
+"You selected some packages for installation.\n"
+"\n"
+"Do you want to install them now?\n"
+"Note: list is cleared if you continue without installing."
+msgstr ""
+
+#: usr/lib/solydxk/welcome/welcome.py:182
+msgid "No internet connection"
+msgstr ""
+
+#: usr/lib/solydxk/welcome/welcome.py:183
+msgid ""
+"You need an internet connection to install the additional software.\n"
+"Please, connect to the internet and try again."
+msgstr ""
+
+#: usr/lib/solydxk/welcome/welcome.py:205
+msgid ""
+"Cannot install the requested software:\n"
+"Script not found: {}"
+msgstr ""
+
+#: usr/lib/solydxk/welcome/welcome.py:270
+msgid ""
+"There was an error during the installation.\n"
+"Please, run 'sudo apt-get -f install' in a terminal.\n"
+"Visit our forum for support: https://forums.solydxk.com"
+msgstr ""
+
+#: usr/lib/solydxk/welcome/welcome.py:278
+msgid "The software has been successfully installed."
+msgstr ""
+
+#: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:1
+#: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:1
+#: usr/share/applications/solydxk-welcome.desktop.in.h:1
+msgid "Welcome"
+msgstr ""
+
+#: etc/xdg/autostart/solydxk-welcome.desktop.in.h:2
+msgid "SolydXK Welcome Screen"
+msgstr ""
+
+#: po/en/business.html%2Bhtml.body.h1:11-2
+msgid "Business applications"
+msgstr "Пословне апликације"
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
+msgid "This is a list of recommended applications suited for businesses."
+msgstr "Ово је листа препоручених пословних апликација."
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
+msgid ""
+"When you click the install button all selected applications are going to be "
+"installed on your system."
+msgstr ""
+"Када кликнете на дугме за инсталацију, све изабране апликације биће "
+"инсталиране на ваш систем."
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:24-6
+msgid "<input type=\"checkbox\" class=\"package\" value=\"gnucash\" /> Gnucash"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"gnucash\" /> Gnucash"
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:27-7
+msgid "GnuCash is personal and small-business financial-accounting software."
+msgstr "ГНУкеш је програм за лично или рачуноводство малих предузећа."
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:28-7
+msgid ""
+"Designed to be easy to use, yet powerful and flexible, GnuCash allows you to "
+"track bank accounts, stocks, income and expenses. As quick and intuitive to "
+"use as a checkbook register, it is based on professional accounting "
+"principles to ensure balanced books and accurate reports."
+msgstr ""
+"Дизајниран да буде лак за коришћење али моћан и прилагодљив, ГНУкеш "
+"омогућава да пратите своје банковне рачуне, деонице, приходе и расходе. Брз "
+"и интуитиван као чековна књижица, базиран је на принципима професионалног "
+"рачуноводства да би обезбедио сравњене рачуне и прецизне извештаје."
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:30-6
+msgid "gnucash"
+msgstr "gnucash"
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:33-6
+msgid ""
+"Homepage: <a href=\"http://www.gnucash.org/\" target=\"_blank\">http://www."
+"gnucash.org</a>"
+msgstr ""
+"Почетна страна: <a href=\"http://www.gnucash.org/\" target=\"_blank\">http://"
+"www.gnucash.org</a>"
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:35-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"postbooks\" /> PostBooks"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"postbooks\" /> PostBooks"
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:38-7
+msgid ""
+"Open source ERP for sales, accounting, operations and CRM in a single system "
+"(accounting, sales, CRM, purchasing, etc.)."
+msgstr ""
+"Пакет за управљање предузећем и клијентима, рачуноводством, продајом, "
+"набавком..."
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:39-7
+msgid "Use this information to start PostBooks:"
+msgstr "Користите следеће податке за покретање ПостБукса:"
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:41-9
+msgid "Username: admin"
+msgstr "Корисничко име: admin"
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:42-9
+msgid "Password: solydxk"
+msgstr "Лозинка: solydxk"
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:43-9
+msgid "Server: localhost"
+msgstr "Сервер: localhost"
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:44-9
+msgid "Port: 5432"
+msgstr "Порт: 5432"
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:45-9
+msgid "Database: demo, quickstart or empty"
+msgstr "База података: demo, quickstart или empty"
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:47-8
+msgid ""
+"You can maintain the PostgreSql databases with pgAdmin III (Login: "
+"postgres / solydxk)"
+msgstr ""
+"ПостгреСКул базу можете одржавати помоћу pgAdmin III (Пријава: postgres / "
+"solydxk)"
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:49-6
+msgid "postbooks"
+msgstr "postbooks"
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:52-6
+msgid ""
+"Homepage: <a href=\"https://xtuple.com/products/postbooks\" target=\"_blank"
+"\">https://xtuple.com/products/postbooks</a>"
+msgstr ""
+"Почетна страна: <a href=\"https://xtuple.com/products/postbooks\" target="
+"\"_blank\">https://xtuple.com/products/postbooks</a>"
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:85-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"projectlibre\" /> "
+"ProjectLibre"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"projectlibre\" /> "
+"ProjectLibre"
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:88-7
+msgid ""
+"ProjectLibre is a project management software system. It intends to be a "
+"complete desktop replacement for Microsoft Project."
+msgstr ""
+"Либре пројекат је софтвер за управљање пројектима. Намера је да буде потпуна "
+"замена за Мајкрософт пројекат."
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:90-6
+msgid "projectlibre"
+msgstr "projectlibre"
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:93-6
+msgid ""
+"Homepage: <a href=\"http://www.projectlibre.org/\" target=\"_blank\">http://"
+"www.projectlibre.org</a>"
+msgstr ""
+"Почетна страна: <a href=\"http://www.projectlibre.org/\" target=\"_blank"
+"\">http://www.projectlibre.org</a>"
+
+#: po/en/drivers.html%2Bhtml.body.h1:10-2
+msgid "Hardware drivers"
+msgstr "Хардверски драјвери"
+
+#: po/en/drivers.html%2Bhtml.body.div.div.p:14-4
+msgid ""
+"SolydXK comes with a wide variety of drivers pre-installed. For most "
+"purposes these drivers suffice but in some cases better performance is "
+"provided by the proprietary drivers of the manufacturer."
+msgstr ""
+"СолидИксК долази са широком палетом преинсталираних драјвера. За најчешће "
+"примене, ти драјвери су довољни али у неким случајевима, боље перформансе се "
+"могу добити власничким драјверима произвођача."
+
+#: po/en/drivers.html%2Bhtml.body.div.div.p:15-4
+msgid ""
+"The install button will open the SolydXK System Settings application. This "
+"is a tool to help you installing these hardware drivers. It will check your "
+"hardware and list any available proprietary drivers you can install. You "
+"only need to select the recommended driver for your hardware and the "
+"application will do the rest."
+msgstr ""
+
+#: po/en/drivers.html%2Bhtml.body.div.div.p:16-4
+msgid ""
+"Currently <strong>Nvidia</strong>, <strong>AMD/ATI</strong> and "
+"<strong>Broadcom</strong> drivers can be installed. SolydXK System Settings "
+"also allows to install the <strong>PAE</strong> kernel for multi-core 32-bit "
+"systems."
+msgstr ""
+"Тренутно <strong>Nvidia</strong>, <strong>AMD/ATI</strong> и "
+"<strong>Broadcom</strong> драјвери се могу инсталирати. ДДМ такође дозвољава "
+"инсталацију „<strong>ПАЕ</strong>“ кернела за вишејезгарне 32-битне системе."
+
+#: po/en/games.html%2Bhtml.body.h1:11-2
+msgid "Games"
+msgstr "Игре"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
+msgid "All work and no play..."
+msgstr "Само рад и без играња..."
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
+msgid ""
+"When you click the install button all selected games are going to be "
+"installed on your system."
+msgstr ""
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:23-9
+msgid "<input type=\"checkbox\" class=\"package\" value=\"steam\" /> Steam"
+msgstr "<input type=\"checkbox\" class=\"package\" value=\"steam\" /> Steam"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
+msgid ""
+"Steam is an internet-based digital distribution, digital rights management "
+"(DRM), multiplayer, and social networking platform developed by Valve "
+"Corporation."
+msgstr ""
+"Steam је интернет-базирана платформа за дистрибуцију дигиталних права (DRM), "
+"играње и друштвена мрежа развијена од стране Valve корпорације."
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:28-6
+msgid "steam"
+msgstr "steam"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:32-7
+msgid ""
+"Homepage: <a href=\"http://store.steampowered.com/\" target=\"_blank"
+"\">http://store.steampowered.com</a>"
+msgstr ""
+"Почетна страна: <a href=\"http://store.steampowered.com/\" target=\"_blank"
+"\">http://store.steampowered.com</a>"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:33-7
+msgid "Installed size: 200 MB (after user installation)"
+msgstr "Величина: 200MB (након корисничке инсталације)"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:36-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"minetest\" /> Minetest"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"minetest\" /> Minetest"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:39-7
+msgid ""
+"Minetest is an infinite-world block sandbox game and a game engine, inspired "
+"by InfiniMiner, Minecraft and the like."
+msgstr ""
+"Мајнтест је игра у бескрајном свету блокова, инспирисана Инфини мајнером, "
+"Мајнкрафтом и сличнима."
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:41-6
+msgid "minetest"
+msgstr "minetest"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:45-7
+msgid ""
+"Homepage: <a href=\"http://minetest.net\" target=\"_blank\">http://minetest."
+"net</a>"
+msgstr ""
+"Почетна страна: <a href=\"http://minetest.net\" target=\"_blank\">http://"
+"minetest.net</a>"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:46-7
+msgid "Installed size: 10 MB"
+msgstr "Величина: 10MB"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:49-9
+msgid "<input type=\"checkbox\" class=\"package\" value=\"0ad\" /> 0 A.D."
+msgstr "<input type=\"checkbox\" class=\"package\" value=\"0ad\" /> 0 A.D."
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:52-7
+msgid ""
+"0 A.D. (pronounced \"zero-ey-dee\") is a free, open-source, historical Real "
+"Time Strategy (RTS) game currently under development by Wildfire Games, a "
+"global group of volunteer game developers. As the leader of an ancient "
+"civilization, you must gather the resources you need to raise a military "
+"force and dominate your enemies."
+msgstr ""
+"0 A.D. (зиро еј ди) илити нулта година нове ере, је бесплатна и слободна "
+"стратегија у реалном времену (RTS) коју тренутно развија Вајлдфајер гејмс "
+"(Wildfire Games), светска група волонтера који праве игрице. Као вођа "
+"античке цивилизације, морате прикупити ресурсе потребне да створите војну "
+"силу и покорите своје непријатеље."
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:54-6
+msgid "0ad"
+msgstr "0ad"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:58-7
+msgid ""
+"Homepage: <a href=\"http://play0ad.com\" target=\"_blank\">http://play0ad."
+"com</a>"
+msgstr ""
+"Почетна страна: <a href=\"http://play0ad.com\" target=\"_blank\">http://"
+"play0ad.com</a>"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:59-7
+msgid "Installed size: 1 GB"
+msgstr "Величина: 1GB"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:62-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"wesnoth\" /> The Battle "
+"for Wesnoth"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"wesnoth\" /> The Battle "
+"for Wesnoth"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:65-7
+msgid ""
+"The Battle for Wesnoth is a turn-based tactical strategy game with a high "
+"fantasy theme."
+msgstr ""
+"Бој за Веснот је тактичка стратегија потез по потез са темом величанствене "
+"фантазије."
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:66-7
+msgid ""
+"Build up a great army, gradually turning raw recruits into hardened "
+"veterans. In later games, recall your toughest warriors and form a deadly "
+"host whom none can stand against! Choose units from a large pool of "
+"specialists, and hand-pick a force with the right strengths to fight well on "
+"different terrains against all manner of opposition."
+msgstr ""
+"Направите велику армију, постепено претварајући младе регруте у очврсле "
+"ветеране. У каснијим борбама, позовите своје најбоље ратнике и формирајте "
+"смртоносну силу којој се нико неће одупрети! Бирајте јединице из великог "
+"броја специјалности и бирајте снаге са правим особинама за борбу на "
+"различитим теренима против различитих противника."
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:68-6
+msgid "wesnoth"
+msgstr "wesnoth"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:72-7
+msgid ""
+"Homepage: <a href=\"http://www.wesnoth.org/\" target=\"_blank\">http://www."
+"wesnoth.org</a>"
+msgstr ""
+"Почетна страна: <a href=\"http://www.wesnoth.org/\" target=\"_blank\">http://"
+"www.wesnoth.org</a>"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:73-7
+msgid "Installed size: 450 MB"
+msgstr "Величина: 450 MB"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:76-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"sauerbraten\" /> "
+"Sauerbraten"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"sauerbraten\" /> "
+"Sauerbraten"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:79-7
+msgid ""
+"Sauerbraten is a free multiplayer and singleplayer first person shooter, the "
+"successor of the Cube FPS."
+msgstr ""
+"Зауербратен је слободна пуцачина за једног или више играча, наследник Кјуб "
+"ФПС-а (Cube FPS)"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:80-7
+msgid ""
+"Much like the original Cube, the aim of this game is fun, old school "
+"deathmatch gameplay and also to allow map/geometry editing to be done "
+"cooperatively in-game."
+msgstr ""
+"Попут оругиналног Кјуба, циљ игре је забава, стара добра пуцачина а такође "
+"дозвољава и уређивање мапа/геометрије заједнички, у току игре."
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:82-6
+msgid "sauerbraten"
+msgstr "sauerbraten"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:86-7
+msgid ""
+"Homepage: <a href=\"http://sauerbraten.org/\" target=\"_blank\">http://"
+"sauerbraten.org</a>"
+msgstr ""
+"Почетна страна: <a href=\"http://sauerbraten.org/\" target=\"_blank\">http://"
+"sauerbraten.org</a>"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:87-7
+msgid "Installed size: 650 MB"
+msgstr "Величина: 650 MB"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:90-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"neverball\" /> Neverball"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"neverball\" /> Neverball"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:93-7
+msgid ""
+"Tilt the floor to roll a ball through an obstacle course before time runs "
+"out. Neverball is part puzzle game, part action game, and entirely a test of "
+"skill."
+msgstr ""
+"Нагињите под како бисте котрљали лопту по нивоима са препрекама пре него што "
+"време истекне. Невербол је делом логичка, делом акциона игра али у "
+"потпуности тест за ваше способности."
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:95-6
+msgid "neverball"
+msgstr "neverball"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:99-7
+msgid ""
+"Homepage: <a href=\"http://neverball.org\" target=\"_blank\">http://"
+"neverball.org</a>"
+msgstr ""
+"Почетна страна: <a href=\"http://neverball.org\" target=\"_blank\">http://"
+"neverball.org</a>"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:100-7
+msgid "Installed size: 150 MB"
+msgstr "Величина: 150 MB"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:103-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"supertuxkart\" /> Super "
+"Tux Kart"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"supertuxkart\" /> Super "
+"Tux Kart"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:106-7
+msgid ""
+"SuperTuxKart is a Free 3D kart racing game, with many tracks, characters and "
+"items for you to try. Have fun!"
+msgstr ""
+"Супер Такс картинг је бесплатна 3Д игрица трке картинга са пуно стаза, "
+"ликова и побољшања.\n"
+"Забавите се!"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:108-6
+msgid "supertuxkart"
+msgstr "supertuxkart"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:112-7
+msgid ""
+"Homepage: <a href=\"http://supertuxkart.sourceforge.net/\" target=\"_blank"
+"\">http://supertuxkart.sourceforge.net</a>"
+msgstr ""
+"Почетна страна: <a href=\"http://supertuxkart.sourceforge.net/\" target="
+"\"_blank\">http://supertuxkart.sourceforge.net</a>"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:113-7
+msgid "Installed size: 350 MB"
+msgstr "Величина: 350 MB"
+
+#: po/en/home.html%2Bhtml.body.h1:11-2
+msgid "Home applications"
+msgstr "Кућне апликације"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
+msgid "This is a list of recommended applications suited for home users."
+msgstr "Ово је листа апликација препоручених за кућну употребу."
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:23-9
+msgid "<input type=\"checkbox\" class=\"package\" value=\"gimp\" /> Gimp"
+msgstr "<input type=\"checkbox\" class=\"package\" value=\"gimp\" /> Gimp"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
+msgid ""
+"GIMP is an acronym for GNU Image Manipulation Program. It is a freely "
+"distributed program for such tasks as photo retouching, image composition "
+"and image authoring."
+msgstr ""
+"ГИМП је акроним од „GNU Image Manipulation Program“. Он је слободан програм "
+"који служи за ретуширање, обраду, композицију и ауторизовање слика."
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:27-7
+msgid ""
+"It has many capabilities. It can be used as a simple paint program, an "
+"expert quality photo retouching program, an online batch processing system, "
+"a mass production image renderer, an image format converter, etc."
+msgstr ""
+"Има многобројне опције. Може се коритити као обичан програм за цртање, као "
+"програм за стручно ретуширање фотографија, пакетну обраду, конвертор формата "
+"итд."
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:29-6
+msgid "gimp"
+msgstr "gimp"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:32-6
+msgid ""
+"Homepage: <a href=\"http://www.gimp.org\" target=\"_blank\">http://www.gimp."
+"org</a>"
+msgstr ""
+"Почетна страна: <a href=\"http://www.gimp.org\" target=\"_blank\">http://www."
+"gimp.org</a>"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:34-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"inkscape\" /> Inkscape"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"inkscape\" /> Inkscape"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:37-7
+msgid ""
+"Inkscape is an open-source vector graphics editor similar to Adobe "
+"Illustrator, Corel Draw, Freehand, or Xara X. What sets Inkscape apart is "
+"its use of Scalable Vector Graphics (SVG), an open XML-based W3C standard, "
+"as the native format."
+msgstr ""
+"Инкскејп је уређивач векторске графике отвореног кода, попут Адобе "
+"илустратора, Корел дроу (Corel Draw), Фрихенд (Freehand) или Ксаре Икс (Xara "
+"X). Оно што издваја Инкскејп је да користи скалабилну векторску графику "
+"(SVG), отворени ИксМЛ базирани стандард, као главни формат."
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:39-6
+msgid "inkscape"
+msgstr "inkscape"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:42-6
+msgid ""
+"Homepage: <a href=\"https://inkscape.org\" target=\"_blank\">https://"
+"inkscape.org</a>"
+msgstr ""
+"Почетна страна: <a href=\"https://inkscape.org\" target=\"_blank\">https://"
+"inkscape.org</a>"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:44-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"shotwell\" /> Shotwell / "
+"Digikam"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"shotwell\" /> Shotwell / "
+"Digikam"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:47-7
+msgid ""
+"Shotwell is an image organizer designed to provide personal photo management."
+msgstr ""
+"Шотвел (Shotwell) је организатор слика осмишљен да омогући управљање личним "
+"фотографијама."
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:48-7
+msgid ""
+"Shotwell can import photos and videos from a digital camera directly. "
+"Shotwell automatically groups photos and videos by date, and supports "
+"tagging. Its image editing features allow users to straighten, crop, "
+"eliminate red eye, and adjust levels and color balance."
+msgstr ""
+"Шотвел може директно увозити слике и видео са камере. Шотвел аутоматски "
+"групише фотографије и видео по датуму и подржава означавање. Његове "
+"могућности уређивања дозвољавају кориснику да исправи, опсече слику, поправи "
+"„црвено око“, подеси нивое и баланс боја."
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:49-7
+msgid ""
+"For SolydK Digikam is installed. It has the same functionality as Shotwell"
+msgstr "За СолидК, Дигикам се инсталира. Има исте могућности као Шотвел"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:51-6
+msgid "shotwell"
+msgstr "shotwell"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:55-7
+msgid ""
+"Homepage Shotwell: <a href=\"https://wiki.gnome.org/Apps/Shotwell/\" target="
+"\"_blank\">https://wiki.gnome.org/Apps/Shotwell</a>"
+msgstr ""
+"Почетна страна: <a href=\"https://wiki.gnome.org/Apps/Shotwell/\" target="
+"\"_blank\">https://wiki.gnome.org/Apps/Shotwell</a>"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:56-7
+msgid ""
+"Homepage Digikam: <a href=\"https://www.digikam.org/\" target=\"_blank"
+"\">https://www.digikam.org</a>"
+msgstr ""
+"Почетна страна: <a href=\"https://www.digikam.org/\" target=\"_blank"
+"\">https://www.digikam.org</a>"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:59-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"clementine\" /> "
+"Clementine / Amarok"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"clementine\" /> "
+"Clementine / Amarok"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:62-7
+msgid "Clementine is a modern music player and library organizer."
+msgstr "Клементина је модеран музички плејер и организатор музике."
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:63-7
+msgid ""
+"Clementine is a multiplatform music player. It is inspired by Amarok 1.4, "
+"focusing on a fast and easy-to-use interface for searching and playing your "
+"music."
+msgstr ""
+"Клементина је више-платформски музички плејер. Инспирисан Амароком 1.4, "
+"фокусиран на брзину и лагано сучеље за претрагу и слушање музике."
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:64-7
+msgid ""
+"For SolydK Amarok is installed. It has the same functionality as Clementine"
+msgstr "За СолидК, Амарок се инсталира. Има исте могућности као Клементина"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:66-6
+msgid "clementine"
+msgstr "clementine"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:70-7
+msgid ""
+"Homepage Clementine: <a href=\"https://www.clementine-player.org\" target="
+"\"_blank\">https://www.clementine-player.org</a>"
+msgstr ""
+"Почетна страна: <a href=\"https://www.clementine-player.org\" target=\"_blank"
+"\">https://www.clementine-player.org</a>"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:71-7
+msgid ""
+"Homepage Amarok: <a href=\"https://amarok.kde.org\" target=\"_blank"
+"\">https://amarok.kde.org</a>"
+msgstr ""
+"Почетна страна: <a href=\"https://amarok.kde.org\" target=\"_blank\">https://"
+"amarok.kde.org</a>"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:74-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"handbrake\" /> HandBrake"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"handbrake\" /> HandBrake"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:77-7
+msgid ""
+"HandBrake is a tool for converting video from nearly any format to a "
+"selection of modern, widely supported codecs."
+msgstr ""
+"РучнаКочница (HandBrake) је алат за претварање формата видео фајлова у "
+"готово сваки модеран кодек."
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:79-6
+msgid "handbrake"
+msgstr "handbrake"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:82-6
+msgid ""
+"Homepage: <a href=\"https://handbrake.fr\" target=\"_blank\">https://"
+"handbrake.fr</a>"
+msgstr ""
+"Почетна страна: <a href=\"https://handbrake.fr\" target=\"_blank\">https://"
+"handbrake.fr</a>"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:84-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"soundconverter\" /> "
+"SoundConverter"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"soundconverter\" /> "
+"SoundConverter"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:87-7
+msgid ""
+"SoundConverter is the leading audio file converter. It reads anything "
+"GStreamer can read (Ogg Vorbis, AAC, MP3, FLAC, WAV, AVI, MPEG, MOV, M4A, "
+"AC3, DTS, ALAC, MPC, Shorten, APE, SID, MOD, XM, S3M, etc...), and writes to "
+"Opus, Ogg Vorbis, FLAC, WAV, AAC, and MP3 files."
+msgstr ""
+"Претварач звука (SoundConverter) је водећи претварач за звучне фајлове. Чита "
+"све што ГСтример (GStreamer) може да прочита  (Ogg Vorbis, AAC, MP3, FLAC, "
+"WAV, AVI, MPEG, MOV, M4A, AC3, DTS, ALAC, MPC, APE, SID, MOD, XM, S3M, "
+"итд...), и запише у Ogg Vorbis, FLAC, WAV, AAC, и MP3 фајлове."
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:89-6
+msgid "soundconverter"
+msgstr "soundconverter"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:92-6
+msgid ""
+"Homepage: <a href=\"http://soundconverter.org\" target=\"_blank\">http://"
+"soundconverter.org</a>"
+msgstr ""
+"Почетна страна: <a href=\"http://soundconverter.org\" target=\"_blank"
+"\">http://soundconverter.org</a>"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:94-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"pitivi\" /> Pitivi / "
+"Kdenlive"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"pitivi\" /> Pitivi / "
+"Kdenlive"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:97-7
+msgid ""
+"Pitivi is a Free video editor with a beautiful and intuitive user interface, "
+"a clean codebase and a fantastic community."
+msgstr ""
+"Питиви је слободни видео уређивач са прелепим и интуитивним корисничким "
+"сучељем, чистим кодом и фантастичном заједницом."
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:98-7
+msgid ""
+"For SolydK Kdenlive is installed. It has the same functionality as Pitivi"
+msgstr "За СолидК, Кденлајв се инсталира. Има исте могућности као Питиви"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:100-6
+msgid "pitivi"
+msgstr "pitivi"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:104-7
+msgid ""
+"Homepage Pitivi: <a href=\"http://www.pitivi.org\" target=\"_blank\">http://"
+"www.pitivi.org</a>"
+msgstr ""
+"Почетна страна: <a href=\"http://www.pitivi.org\" target=\"_blank\">http://"
+"www.pitivi.org</a>"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:105-7
+msgid ""
+"Homepage Kdenlive: <a href=\"https://kdenlive.org/\" target=\"_blank"
+"\">https://kdenlive.org</a>"
+msgstr ""
+"Почетна страна: <a href=\"https://kdenlive.org/\" target=\"_blank\">https://"
+"kdenlive.org</a>"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:108-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"transmission\" /> "
+"Transmission"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"transmission\" /> "
+"Transmission"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:111-7
+msgid ""
+"Transmission is a BitTorrent client which features a simple interface on top "
+"of a cross-platform back-end."
+msgstr ""
+"Трансмисија је БитТорент клијент који има једноставно сучеље које управља "
+"више-платформском позадином."
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:113-6
+msgid "transmission"
+msgstr "transmission"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:117-7
+msgid ""
+"Homepage Transmission: <a href=\"https://www.transmissionbt.com/\" target="
+"\"_blank\">https://www.transmissionbt.com</a>"
+msgstr ""
+"Почетна страна: <a href=\"https://www.transmissionbt.com/\" target=\"_blank"
+"\">https://www.transmissionbt.com</a>"
+
+#: po/en/libreoffice.html%2Bhtml.body.h1:11-2
+msgid "LibreOffice (Backports)"
+msgstr "ЛибреОфис (пред-издања)"
+
+#: po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td:17-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"libreoffice\" /> "
+"LibreOffice"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"libreoffice\" /> "
+"LibreOffice"
+
+#: po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
+msgid ""
+"SolydXK comes with the LibreOffice suite pre-installed. Its stability and "
+"features works great for most people and especially for businesses. However, "
+"if you are missing some features or you want LibreOffice to stay updated you "
+"can install LibreOffice from the backports repository."
+msgstr ""
+"СолидИксК долази са ЛибреОфисом преинсталираним. Његова стабилност и "
+"могућности раде одлично за већину људи, нарочито на послу. Међутим, ако вам "
+"недостају неке могућности или желите увек најновију верзију ЛибреОфиса, "
+"можете инсталирати пред-верзије из посебног „backports“ складишта."
+
+#: po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td.p:21-7
+msgid ""
+"Backports are recompiled new packages for the current stable environment. "
+"So, they will run without new libraries."
+msgstr ""
+"Пред-верзије (backports) су нови пакети, припремљени за стабилно окружење, "
+"тако да ће радити без нових библиотека."
+
+#: po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td.p:22-7
+msgid ""
+"Although you can run more up to date software using the backports "
+"repository, you introduce a greater risk of breakage doing so."
+msgstr ""
+"Иако вам ово (backports) складиште омогућава коришћење новијег софтвера, "
+"такође је већа могућност грешака и пуцања програма."
+
+#: po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td:27-6
+msgid ""
+"Homepage: <a href=\"https://www.libreoffice.org/\" target=\"_blank\">https://"
+"www.libreoffice.org</a>"
+msgstr ""
+"Почетна страна: <a href=\"https://www.libreoffice.org/\" target=\"_blank"
+"\">https://www.libreoffice.org</a>"
+
+#: po/en/multimedia.html%2Bhtml.body.h1:10-2
+msgid "Multimedia codecs"
+msgstr "Мултимедијални кодеци"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:17-7
+msgid ""
+"These multimedia codecs are not included by default for legal or security "
+"reasons."
+msgstr ""
+"Ови мултимедијални кодеци нису подразумевано укључени због законске "
+"регулативе."
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:20-9
+msgid "<input type=\"checkbox\" class=\"package\" value=\"flash\" /> Flash"
+msgstr "<input type=\"checkbox\" class=\"package\" value=\"flash\" /> Flash"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:23-7
+msgid "HTML5 is the default media player in Firefox."
+msgstr "ХТМЛ5 је подразумевани медија плејер за Фајерфокс."
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:24-7
+msgid ""
+"Youtube and other sites are already providing their content using HTML5. "
+"However, there are still sites using Flash."
+msgstr ""
+"Јутјуб и други сајтови већ пружају садржаје помоћу ХТМЛ5.\n"
+"Међутим, још постоје сајтови који користе Флеш."
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.div.p:30-8
+msgid "Warning:"
+msgstr "Упозорење:"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.div.p:31-8
+msgid ""
+"Be aware that Flash is not Open Source. Some Flash content may harm your "
+"system."
+msgstr ""
+"Флеш НИЈЕ отвореног кода.\n"
+"Неки Флеш садржаји могу наудити вашем систему."
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:35-9
+msgid "<input type=\"checkbox\" class=\"package\" value=\"css\" /> CSS"
+msgstr "<input type=\"checkbox\" class=\"package\" value=\"css\" /> CSS"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:38-7
+msgid ""
+"Most commercial DVDs are encrypted with CSS (the Content Scramble System), "
+"which attempts to restrict the software that can play a DVD."
+msgstr ""
+"Већина комерцијалних ДВД-а су шифровани помоћу CSS (Content Scramble "
+"System), којим се ограничава софтвер којим се пуштају ДВД дискови."
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:39-7
+msgid ""
+"SolydXK does not come with the necessary packages pre-installed to play "
+"these encrypted DVDs."
+msgstr ""
+"СолидИксК не долази са преинсталираним пакетима за пуштање ових шифрованих "
+"ДВД дискова."
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:40-7
+msgid ""
+"By clicking the install button below the following packages will be "
+"installed on your system:"
+msgstr ""
+"Кликом на инсталационо дугме, следећи пакети биће инсталирани на ваш систем:"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:42-8
+msgid "libdvdcss2"
+msgstr "libdvdcss2"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:43-8
+msgid "w32codecs or w64codecs"
+msgstr "w32codecs или w64codecs"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.div.p:50-8
+msgid "Legal warning:"
+msgstr "Законско упозорење:"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.div.p:51-8
+msgid ""
+"Check with your local laws to make sure usage of libdvdcss2 would be legal "
+"in your area."
+msgstr ""
+"Проверите да ли је коришћење libdvdcss2 легално по законима у вашој области."
+
+#: po/en/system.html%2Bhtml.body.h1:11-2
+msgid "System applications"
+msgstr "Системске апликације"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:34-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"virtualbox\" /> VirtualBox"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"virtualbox\" /> VirtualBox"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:37-7
+msgid ""
+"VirtualBox is a general-purpose full virtualizer for x86 hardware, targeted "
+"at server, desktop and embedded use. The VirtualBox package installs on an "
+"existing host operating system as an application; this host application "
+"allows additional guest operating systems, each known as a Guest OS, to load "
+"and run, each with its own virtual environment."
+msgstr ""
+"Виртуал бокс је пуни виртуализатор опште намене за x86 хардвер намењен за "
+"сервере, кућне рачунаре или уграђене системе. Виртуал бокс пакет се "
+"инсталира као апликација на постојећем оперативном систему и омогућава "
+"инсталацију „гостујућих“ оперативних система у сопственом виртуалном "
+"окружењу."
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:42-6
+msgid ""
+"Homepage: <a href=\"https://www.virtualbox.org/\" target=\"_blank\">https://"
+"www.virtualbox.org</a>"
+msgstr ""
+"Почетна страна: <a href=\"https://www.virtualbox.org/\" target=\"_blank"
+"\">https://www.virtualbox.org</a>"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:44-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"filezilla\" /> FileZilla"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"filezilla\" /> FileZilla"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:47-7
+msgid ""
+"FileZilla Client is a fast and reliable cross-platform FTP, FTPS and SFTP "
+"client with lots of useful features and an intuitive graphical user "
+"interface."
+msgstr ""
+"ФајлЗила клијент је брз и стабилан FTP, FTPS и SFTP клијент са пуно корисних "
+"могућности и интуитивним графичким сучељем."
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:52-6
+msgid ""
+"Homepage: <a href=\"https://filezilla-project.org/\" target=\"_blank"
+"\">https://filezilla-project.org</a>"
+msgstr ""
+"Почетна страна: <a href=\"https://filezilla-project.org/\" target=\"_blank"
+"\">https://filezilla-project.org</a>"
+
+#: po/en/welcome.html%2Bhtml.body.h1:10-2
+msgid "Welcome to SolydXK"
+msgstr "Добродошли у СолидИксК"
+
+#: po/en/welcome.html%2Bhtml.body.div.div.p:14-4
+msgid "Thank you for using SolydXK"
+msgstr "Хвала што користите СолидИксК"
+
+#: po/en/welcome.html%2Bhtml.body.div.div.p:15-4
+msgid ""
+"SolydXK is an open source desktop operating system for businesses, "
+"organizations and home users. Both SolydX and SolydK are based on Debian "
+"stable to ensure the greatest stability and security."
+msgstr ""
+"СолидИксК је оперативни систем отвореног кода, намењен пословним, јавним и "
+"кућним корисницима. И СолидИкс и СолидК су базирани на стабилном Дебијану да "
+"би обезбедили највећу могућу стабилност и безбедност."
+
+#: po/en/welcome.html%2Bhtml.body.div.div.p:16-4
+msgid ""
+"We have created a list of recommended software for businesses and home users "
+"which you can install in the next couple of pages."
+msgstr ""
+"Направили смо листу софтвера препорученог кућним и пословним\n"
+"корисницима који можете инсталирати на следећим страницама."
+
+#: po/en/welcome.html%2Bhtml.body.div.div.p:17-4
+msgid "Click on the <strong>Next</strong> button to get started."
+msgstr "Кликните на дугме <strong>Следеће</strong> за почетак."
+
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td:36-9
+msgid "Software"
+msgstr "Софтвер"
+
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:38-10
+msgid ""
+"All software is built, maintained and checked by the community. Software "
+"databases called \"repositories\" are used to offer and maintain over 60,000 "
+"software packages. So, there is no need to download software from dubious "
+"web sites. You simply search and install the software you need with the "
+"Software Manager."
+msgstr ""
+"Сав софтвер је изградила, проверила и одржава га заједница. Софтверске базе "
+"називају се складишта или ризнице и нуде преко 60.000 софтверских пакета, "
+"тако да нема никакве потребе за скидањем софтвера са разних сумњивих "
+"сајтова. Једноставно, помоћу Менаџера програма, пронађите и инсталирајте "
+"потребан софтвер."
+
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td:39-6
+msgid "softwaremanager"
+msgstr "softwaremanager"
+
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td:44-9
+msgid "Support"
+msgstr "Подршка"
+
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:46-10
+msgid ""
+"If you're new to SolydXK or whenever you get stuck, there is the SolydXK "
+"community to help you solve your problem. You can search the forum to find "
+"if your issue has already been solved or start a new topic to get help."
+msgstr ""
+"Ако сте нови у СолидИксК свету или икада запнете негде, СолидИксК заједница "
+"је ту да вам помогне. Можете претражити форум да проверите да ли је проблем "
+"већ решен или поставите нову тему са својим проблемом."
+
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td:47-6
+msgid "forum"
+msgstr "форум"
+
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td:50-6
+msgid ""
+"Forum: <a href=\"https://forums.solydxk.com/\" target=\"_blank\">https://"
+"forums.solydxk.com</a>"
+msgstr ""
+"Форум: <a href=\"https://forums.solydxk.com/\" target=\"_blank\">https://"
+"forums.solydxk.com</a>"
+
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:54-7
+msgid ""
+"The following channels are used to communicate to the SolydX and SolydK "
+"users:"
+msgstr "Следећи начини омогућавају комуникацију међу СолидИксК корисницима:"
+
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.ul.li:56-8
+msgid ""
+"RSS: <a href=\"https://solydxk.com/feed\" target=\"_blank\">https://solydxk."
+"com/feed</a>"
+msgstr ""
+"Довод: <a href=\"https://solydxk.com/feed\" target=\"_blank\">https://"
+"solydxk.com/feed</a>"
+
+#: po/en/wine.html%2Bhtml.body.h1:11-2
+msgid "PlayOnLinux"
+msgstr "PlayOnLinux"
+
+#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
+msgid ""
+"When you click the install button all listed applications are going to be "
+"installed on your system. You can use the software manager to install them "
+"separately."
+msgstr ""
+"Кад кликнете на дугме „Инсталација“, све приказане апликације биће "
+"инсталиране на вашем систему. Можете користити менаџера пакета да их "
+"инсталирате одвојено."
+
+#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td:22-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"playonlinux\" /> "
+"PlayOnLinux"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"playonlinux\" /> "
+"PlayOnLinux"
+
+#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.p:25-7
+msgid ""
+"SolydXK comes with a wide variety of software. However, if you cannot find "
+"the right software in our repository and you need to use MS Windows "
+"software, you can install it using PlayOnLinux. Not all software can run "
+"this way, but a large number of software is already supported."
+msgstr ""
+"СолидИксК долази са јако пуно софтвера. Ипак, ако вам ништа од 60.000 пакета "
+"не одговара и баш морате да инсталирате Мајкрософт Виндоуз софтвер, можете "
+"га инсталирати помоћу PlayOnLinux пакета. Не ради сав софтвер са Виндоуза "
+"али велики број је подржан."
+
+#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.div.p:27-8
+msgid ""
+"By using this software you may make your system vulnerable to MS Windows "
+"viruses and malware. The risk of infection is not higher than under native "
+"MS Windows."
+msgstr ""
+"Коришћењем овог софтвера чините ваш систем рањивим за МС Виндоуз вирусе и "
+"малвер. Ризик заразе није већи него при коришћењу обичног Виндоуз система."
+
+#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.div.p:28-8
+msgid "Make sure you install software from trusted parties only."
+msgstr "Инсталирајте софтвер само из поузданих извора."
+
+#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.div.p:29-8
+msgid ""
+"Read about the <a href=\"http://wiki.winehq.org/"
+"FAQ#head-1c91cac836dd52754c846d2ef62be4f346eebe87\">risk on using Wine</a>"
+msgstr ""
+"Читајте о <a href=\"http://wiki.winehq.org/"
+"FAQ#head-1c91cac836dd52754c846d2ef62be4f346eebe87\">ризицима при коришћењу "
+"Wine-а</a>"
+
+#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td:36-6
+msgid ""
+"Homepage: <a href=\"http://www.playonlinux.com\" target=\"_blank\">http://"
+"www.playonlinux.com</a>"
+msgstr ""
+"Почетна страна: <a href=\"http://www.playonlinux.com\" target=\"_blank"
+"\">http://www.playonlinux.com</a>"

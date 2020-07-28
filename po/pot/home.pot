@@ -1,0 +1,242 @@
+#: ./po/en/home.html%2Bhtml.body.h1:11-2
+msgid "Home applications"
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
+msgid "This is a list of recommended applications suited for home users."
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
+msgid ""
+"When you click the install button all selected applications are going to be "
+"installed on your system."
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:23-9
+msgid "<input type=\"checkbox\" class=\"package\" value=\"gimp\" /> Gimp"
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
+msgid ""
+"GIMP is an acronym for GNU Image Manipulation Program. It is a freely "
+"distributed program for such tasks as photo retouching, image composition "
+"and image authoring."
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:27-7
+msgid ""
+"It has many capabilities. It can be used as a simple paint program, an "
+"expert quality photo retouching program, an online batch processing system, "
+"a mass production image renderer, an image format converter, etc."
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:29-6
+msgid "gimp"
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:32-6
+msgid ""
+"Homepage: <a href=\"http://www.gimp.org\" target=\"_blank\""
+">http://www.gimp.org</a>"
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:34-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"inkscape\" /> Inkscape"
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:37-7
+msgid ""
+"Inkscape is an open-source vector graphics editor similar to Adobe "
+"Illustrator, Corel Draw, Freehand, or Xara X. What sets Inkscape apart is "
+"its use of Scalable Vector Graphics (SVG), an open XML-based W3C standard, "
+"as the native format."
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:39-6
+msgid "inkscape"
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:42-6
+msgid ""
+"Homepage: <a href=\"https://inkscape.org\" target=\"_blank\""
+">https://inkscape.org</a>"
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:44-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"shotwell\" /> Shotwell / "
+"Digikam"
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:47-7
+msgid ""
+"Shotwell is an image organizer designed to provide personal photo management."
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:48-7
+msgid ""
+"Shotwell can import photos and videos from a digital camera directly. "
+"Shotwell automatically groups photos and videos by date, and supports "
+"tagging. Its image editing features allow users to straighten, crop, "
+"eliminate red eye, and adjust levels and color balance."
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:49-7
+msgid ""
+"For SolydK Digikam is installed. It has the same functionality as Shotwell"
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:51-6
+msgid "shotwell"
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:55-7
+msgid ""
+"Homepage Shotwell: <a href=\"https://wiki.gnome.org/Apps/Shotwell/\" target="
+"\"_blank\">https://wiki.gnome.org/Apps/Shotwell</a>"
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:56-7
+msgid ""
+"Homepage Digikam: <a href=\"https://www.digikam.org/\" target=\"_blank\""
+">https://www.digikam.org</a>"
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:59-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"clementine\" /> "
+"Clementine / Amarok"
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:62-7
+msgid "Clementine is a modern music player and library organizer."
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:63-7
+msgid ""
+"Clementine is a multiplatform music player. It is inspired by Amarok 1.4, "
+"focusing on a fast and easy-to-use interface for searching and playing your "
+"music."
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:64-7
+msgid ""
+"For SolydK Amarok is installed. It has the same functionality as Clementine"
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:66-6
+msgid "clementine"
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:70-7
+msgid ""
+"Homepage Clementine: <a href=\"https://www.clementine-player.org\" target=\""
+"_blank\">https://www.clementine-player.org</a>"
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:71-7
+msgid ""
+"Homepage Amarok: <a href=\"https://amarok.kde.org\" target=\"_blank\""
+">https://amarok.kde.org</a>"
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:74-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"handbrake\" /> HandBrake"
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:77-7
+msgid ""
+"HandBrake is a tool for converting video from nearly any format to a "
+"selection of modern, widely supported codecs."
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:79-6
+msgid "handbrake"
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:82-6
+msgid ""
+"Homepage: <a href=\"https://handbrake.fr\" target=\"_blank\""
+">https://handbrake.fr</a>"
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:84-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"soundconverter\" /> "
+"SoundConverter"
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:87-7
+msgid ""
+"SoundConverter is the leading audio file converter. It reads anything "
+"GStreamer can read (Ogg Vorbis, AAC, MP3, FLAC, WAV, AVI, MPEG, MOV, M4A, "
+"AC3, DTS, ALAC, MPC, Shorten, APE, SID, MOD, XM, S3M, etc...), and writes to "
+"Opus, Ogg Vorbis, FLAC, WAV, AAC, and MP3 files."
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:89-6
+msgid "soundconverter"
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:92-6
+msgid ""
+"Homepage: <a href=\"http://soundconverter.org\" target=\"_blank\""
+">http://soundconverter.org</a>"
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:94-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"pitivi\" /> Pitivi / "
+"Kdenlive"
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:97-7
+msgid ""
+"Pitivi is a Free video editor with a beautiful and intuitive user interface, "
+"a clean codebase and a fantastic community."
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:98-7
+msgid ""
+"For SolydK Kdenlive is installed. It has the same functionality as Pitivi"
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:100-6
+msgid "pitivi"
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:104-7
+msgid ""
+"Homepage Pitivi: <a href=\"http://www.pitivi.org\" target=\"_blank\""
+">http://www.pitivi.org</a>"
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:105-7
+msgid ""
+"Homepage Kdenlive: <a href=\"https://kdenlive.org/\" target=\"_blank\""
+">https://kdenlive.org</a>"
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:108-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"transmission\" /> "
+"Transmission"
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:111-7
+msgid ""
+"Transmission is a BitTorrent client which features a simple interface on top "
+"of a cross-platform back-end."
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:113-6
+msgid "transmission"
+msgstr ""
+
+#: ./po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:117-7
+msgid ""
+"Homepage Transmission: <a href=\"https://www.transmissionbt.com/\" target=\""
+"_blank\">https://www.transmissionbt.com</a>"
+msgstr ""

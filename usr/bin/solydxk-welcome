@@ -1,0 +1,26 @@
+#!/bin/bash
+
+PYTHON=$(which python3)
+if [ "$PYTHON" == '' ]; then
+  echo "Cannot find python3 executable - exiting"
+  exit
+fi
+
+# Handle some arguments before running the application
+# Supported arguments:
+# -d|--debug: debug with -Wd arguments
+DEBUG='-OO'
+for ARG in $@; do
+  case $ARG in
+    -d|--debug)
+      DEBUG='-Wd'
+      ;;
+    -f|-a)
+      ARGS="$ARGS $ARG"
+    ;;
+  *)
+    # Unknown option
+  esac
+done
+
+python3 ${DEBUG} /usr/lib/solydxk/welcome/main.py $ARGS

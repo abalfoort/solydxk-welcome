@@ -1,0 +1,49 @@
+#!/bin/bash
+
+# Possible arguments: libreoffice
+
+if [ $# -gt 0 ]; then
+  for ARG in "$@"; do
+    #echo "$ARG"
+    if [ "$ARG" == 'libreoffice' ]; then
+      PCK='libreoffice'
+    fi
+  done
+fi
+
+if [ -z "$PCK" ]; then
+  exit
+fi
+
+# ===============================================================
+
+# --force-yes is deprecated in stretch
+FORCE='--force-yes'
+. /etc/lsb-release
+if [[ -z "$DISTRIB_RELEASE" ]] || [ "$DISTRIB_RELEASE" -gt 8 ]; then
+  FORCE='--allow-downgrades --allow-remove-essential --allow-change-held-packages'
+fi
+
+# Check if backports is enabled
+BP=$(grep backports /etc/apt/sources.list | grep -v ^# | awk '{print $3}')
+if [[ ! "$BP" =~ 'backports' ]]; then
+    BP=$(grep backports /etc/apt/sources.list.d/*.list | grep -v ^# | awk '{print $3}')
+fi
+if [[ "$BP" =~ 'backports' ]]; then
+    BP="-t $BP"
+fi
+
+if [ ! -e /tmp/update-state ]; then
+    apt-get update
+    touch /tmp/update-state
+fi
+
+export DEBIAN_FRONTEND=gnome
+echo
+while IFS=' ' read -ra PS; do
+  for P in "${PS[@]}"; do
+    echo "Start installing: $P"
+    apt-get install $BP --assume-yes -o Dpkg::Options::=--force-confdef -o Dpkg::Options::=--force-confold $FORCE $P
+  done
+done <<< "$PCK"
+echo "Done"

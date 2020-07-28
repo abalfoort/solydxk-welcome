@@ -1,0 +1,1215 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Arjen Balfoort <translations@solydxk.com>, 2018-2019
+# Tony Albers, 2018-2019
+msgid ""
+msgstr ""
+"Project-Id-Version: solydxk-welcome\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-13 09:07+0200\n"
+"PO-Revision-Date: 2020-05-13 07:07+0000\n"
+"Last-Translator: Arjen Balfoort <translations@solydxk.com>\n"
+"Language-Team: Danish (http://www.transifex.com/solydxk/solydxk-welcome/"
+"language/da/)\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: usr/lib/solydxk/welcome/main.py:38 usr/lib/solydxk/welcome/welcome.py:82
+#: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:2
+#: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:2
+#: usr/share/applications/solydxk-welcome.desktop.in.h:2
+#: etc/xdg/autostart/solydxk-welcome.desktop.in.h:1
+msgid "SolydXK Welcome"
+msgstr ""
+
+#: usr/lib/solydxk/welcome/main.py:39
+msgid ""
+"SolydXK Welcome cannot be started in a live environment\n"
+"You can use the --force argument to start SolydXK Welcome in a live "
+"environment"
+msgstr ""
+
+#: usr/lib/solydxk/welcome/main.py:105
+msgid "Unexpected error"
+msgstr ""
+
+#: usr/lib/solydxk/welcome/main.py:106
+msgid ""
+"SolydXK Welcome has failed with the following unexpected error.\n"
+"Please submit a bug report!"
+msgstr ""
+
+#: usr/lib/solydxk/welcome/welcome.py:83
+msgid "Install"
+msgstr ""
+
+#: usr/lib/solydxk/welcome/welcome.py:84
+msgid "Quit"
+msgstr ""
+
+#: usr/lib/solydxk/welcome/welcome.py:85
+msgid "Next"
+msgstr ""
+
+#: usr/lib/solydxk/welcome/welcome.py:86
+msgid "Previous"
+msgstr ""
+
+#: usr/lib/solydxk/welcome/welcome.py:134
+msgid ""
+"VirtualBox cannot be installed in a VirtualBox client.\n"
+"This package is skipped."
+msgstr ""
+
+#: usr/lib/solydxk/welcome/welcome.py:155
+msgid ""
+"Nothing to do:\n"
+"No packages were selected."
+msgstr ""
+
+#: usr/lib/solydxk/welcome/welcome.py:170
+msgid ""
+"You selected some packages for installation.\n"
+"\n"
+"Do you want to install them now?\n"
+"Note: list is cleared if you continue without installing."
+msgstr ""
+
+#: usr/lib/solydxk/welcome/welcome.py:182
+msgid "No internet connection"
+msgstr ""
+
+#: usr/lib/solydxk/welcome/welcome.py:183
+msgid ""
+"You need an internet connection to install the additional software.\n"
+"Please, connect to the internet and try again."
+msgstr ""
+
+#: usr/lib/solydxk/welcome/welcome.py:205
+msgid ""
+"Cannot install the requested software:\n"
+"Script not found: {}"
+msgstr ""
+
+#: usr/lib/solydxk/welcome/welcome.py:270
+msgid ""
+"There was an error during the installation.\n"
+"Please, run 'sudo apt-get -f install' in a terminal.\n"
+"Visit our forum for support: https://forums.solydxk.com"
+msgstr ""
+
+#: usr/lib/solydxk/welcome/welcome.py:278
+msgid "The software has been successfully installed."
+msgstr ""
+
+#: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:1
+#: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:1
+#: usr/share/applications/solydxk-welcome.desktop.in.h:1
+msgid "Welcome"
+msgstr ""
+
+#: etc/xdg/autostart/solydxk-welcome.desktop.in.h:2
+msgid "SolydXK Welcome Screen"
+msgstr ""
+
+#: po/en/business.html%2Bhtml.body.h1:11-2
+msgid "Business applications"
+msgstr "Forretningsapplikationer"
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
+msgid "This is a list of recommended applications suited for businesses."
+msgstr "Dette er en liste over programmer der anbefales til forretningsbrug."
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
+msgid ""
+"When you click the install button all selected applications are going to be "
+"installed on your system."
+msgstr ""
+"Når du trykker på 'Installér'-knappen vil alle de valgte programmer blive "
+"installeret på dit system."
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:24-6
+msgid "<input type=\"checkbox\" class=\"package\" value=\"gnucash\" /> Gnucash"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"gnucash\" /> Gnucash"
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:27-7
+msgid "GnuCash is personal and small-business financial-accounting software."
+msgstr ""
+"GnuCash er et regnskabsprogram til husholdninger og mindre virksomheder."
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:28-7
+msgid ""
+"Designed to be easy to use, yet powerful and flexible, GnuCash allows you to "
+"track bank accounts, stocks, income and expenses. As quick and intuitive to "
+"use as a checkbook register, it is based on professional accounting "
+"principles to ensure balanced books and accurate reports."
+msgstr ""
+"Designet til at være nemt at bruge, men alligevel stærkt og fleksibelt, "
+"giver GnuCash dig mulighed for at følge kontobevægelser i banker, "
+"aktiekurser, indtægter og udgifter. Lige så hurtigt at bruge som en "
+"kassekladde, er det baseret på professionelle regnskabsprincipper for at "
+"sikre balancerede kanti og nøjagtige rapporter."
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:30-6
+msgid "gnucash"
+msgstr "gnucash"
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:33-6
+msgid ""
+"Homepage: <a href=\"http://www.gnucash.org/\" target=\"_blank\">http://www."
+"gnucash.org</a>"
+msgstr ""
+"Hjemmeside: <a href=\"http://www.gnucash.org/\" target=\"_blank\">http://www."
+"gnucash.org</a>"
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:35-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"postbooks\" /> PostBooks"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"postbooks\" /> PostBooks"
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:38-7
+msgid ""
+"Open source ERP for sales, accounting, operations and CRM in a single system "
+"(accounting, sales, CRM, purchasing, etc.)."
+msgstr ""
+"Open Source ERP til salg, bogholderi, drift og CRM i et enkelt system "
+"(regnskab, salg, CRM, indkøb, osv.)."
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:39-7
+msgid "Use this information to start PostBooks:"
+msgstr "Brug denne information til at starte PostBooks:"
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:41-9
+msgid "Username: admin"
+msgstr "Brugernavn: admin"
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:42-9
+msgid "Password: solydxk"
+msgstr "Kodeord: solydxk"
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:43-9
+msgid "Server: localhost"
+msgstr "Server: localhost"
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:44-9
+msgid "Port: 5432"
+msgstr "Port: 5432"
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:45-9
+msgid "Database: demo, quickstart or empty"
+msgstr "Database: demo, quickstart eller empty"
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:47-8
+msgid ""
+"You can maintain the PostgreSql databases with pgAdmin III (Login: "
+"postgres / solydxk)"
+msgstr ""
+"Du kan vedligeholde PostgreSql databaser med pgAdmin III (Login: postgres / "
+"solydxk)"
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:49-6
+msgid "postbooks"
+msgstr "postbooks"
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:52-6
+msgid ""
+"Homepage: <a href=\"https://xtuple.com/products/postbooks\" target=\"_blank"
+"\">https://xtuple.com/products/postbooks</a>"
+msgstr ""
+"Hjemmeside: <a href=\"https://xtuple.com/products/postbooks\" target=\"_blank"
+"\">https://xtuple.com/products/postbooks</a>"
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:85-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"projectlibre\" /> "
+"ProjectLibre"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"projectlibre\" /> "
+"ProjectLibre"
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:88-7
+msgid ""
+"ProjectLibre is a project management software system. It intends to be a "
+"complete desktop replacement for Microsoft Project."
+msgstr ""
+"ProjectLibre er et projektledelsesprogram. Det er meningen at det skal være "
+"en fuldstændig erstatning for Microsoft Project."
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:90-6
+msgid "projectlibre"
+msgstr "projectlibre"
+
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:93-6
+msgid ""
+"Homepage: <a href=\"http://www.projectlibre.org/\" target=\"_blank\">http://"
+"www.projectlibre.org</a>"
+msgstr ""
+"Hjemmeside: <a href=\"http://www.projectlibre.org/\" target=\"_blank"
+"\">http://www.projectlibre.org</a>"
+
+#: po/en/drivers.html%2Bhtml.body.h1:10-2
+msgid "Hardware drivers"
+msgstr "Hardwaredrivere"
+
+#: po/en/drivers.html%2Bhtml.body.div.div.p:14-4
+msgid ""
+"SolydXK comes with a wide variety of drivers pre-installed. For most "
+"purposes these drivers suffice but in some cases better performance is "
+"provided by the proprietary drivers of the manufacturer."
+msgstr ""
+"SolydXK kommer med et bredt udvalg af drivere præinstalleret. I de fleste "
+"tilfælde er det nok med disse, men i nogle tilfælde kan man få en højere "
+"ydelse på systemet ved at bruge producentens proprietære drivere."
+
+#: po/en/drivers.html%2Bhtml.body.div.div.p:15-4
+msgid ""
+"The install button will open the SolydXK System Settings application. This "
+"is a tool to help you installing these hardware drivers. It will check your "
+"hardware and list any available proprietary drivers you can install. You "
+"only need to select the recommended driver for your hardware and the "
+"application will do the rest."
+msgstr ""
+"'Installér'-knappen åbner programmet SolydXK Systemindstillinger. Dette er "
+"et værktøj, der kan hjælpe dig med at installere disse hardware-drivere. Det "
+"vil gennemgå din hardwarekonfiguration og vise en liste over tilgængelige "
+"drivere som du kan vælge at installere. Du behøver kun at vælge de "
+"anbefalede drivere, så sørger programmet for resten. "
+
+#: po/en/drivers.html%2Bhtml.body.div.div.p:16-4
+msgid ""
+"Currently <strong>Nvidia</strong>, <strong>AMD/ATI</strong> and "
+"<strong>Broadcom</strong> drivers can be installed. SolydXK System Settings "
+"also allows to install the <strong>PAE</strong> kernel for multi-core 32-bit "
+"systems."
+msgstr ""
+"Aktuelt kan <strong>Nvidia</strong>, <strong>AMD/ATI</strong> and "
+"<strong>Broadcom</strong> drivere installeres. SolydXK Systemindstillinger "
+"giver også mulighed for at installere <strong>PAE</strong> kernen for multi-"
+"kerne 32-bit systemer."
+
+#: po/en/games.html%2Bhtml.body.h1:11-2
+msgid "Games"
+msgstr "Spil"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
+msgid "All work and no play..."
+msgstr "Arbejde, arbejde og ingen fornøjelser..."
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
+msgid ""
+"When you click the install button all selected games are going to be "
+"installed on your system."
+msgstr ""
+"Når du trykker på 'Installér'-knappen vil alle de valgte spil blive "
+"installeret på dit system."
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:23-9
+msgid "<input type=\"checkbox\" class=\"package\" value=\"steam\" /> Steam"
+msgstr "<input type=\"checkbox\" class=\"package\" value=\"steam\" /> Steam"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
+msgid ""
+"Steam is an internet-based digital distribution, digital rights management "
+"(DRM), multiplayer, and social networking platform developed by Valve "
+"Corporation."
+msgstr ""
+"Steam er et internetbaseret digitalt distributionssystem der understøtter "
+"digitale rettigheder(DRM), multibruger spil og sociale netværk. Det udvikles "
+"af Valve Corporation."
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:28-6
+msgid "steam"
+msgstr "steam"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:32-7
+msgid ""
+"Homepage: <a href=\"http://store.steampowered.com/\" target=\"_blank"
+"\">http://store.steampowered.com</a>"
+msgstr ""
+"Hjemmeside: <a href=\"http://store.steampowered.com/\" target=\"_blank"
+"\">http://store.steampowered.com</a>"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:33-7
+msgid "Installed size: 200 MB (after user installation)"
+msgstr "Installeret størrelse: 200 MB (efter brugerinstallation)"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:36-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"minetest\" /> Minetest"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"minetest\" /> Minetest"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:39-7
+msgid ""
+"Minetest is an infinite-world block sandbox game and a game engine, inspired "
+"by InfiniMiner, Minecraft and the like."
+msgstr ""
+"Minetest er et sandkassespil der foregår i en uendelig verden. Det er "
+"yderligere en spilplatform inspireret af InfiniMiner, Minecraft og lignende."
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:41-6
+msgid "minetest"
+msgstr "minetest"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:45-7
+msgid ""
+"Homepage: <a href=\"http://minetest.net\" target=\"_blank\">http://minetest."
+"net</a>"
+msgstr ""
+"Hjemmeside: <a href=\"http://minetest.net\" target=\"_blank\">http://"
+"minetest.net</a>"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:46-7
+msgid "Installed size: 10 MB"
+msgstr "Installeret størrelse: 10 MB"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:49-9
+msgid "<input type=\"checkbox\" class=\"package\" value=\"0ad\" /> 0 A.D."
+msgstr "<input type=\"checkbox\" class=\"package\" value=\"0ad\" /> 0 A.D."
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:52-7
+msgid ""
+"0 A.D. (pronounced \"zero-ey-dee\") is a free, open-source, historical Real "
+"Time Strategy (RTS) game currently under development by Wildfire Games, a "
+"global group of volunteer game developers. As the leader of an ancient "
+"civilization, you must gather the resources you need to raise a military "
+"force and dominate your enemies."
+msgstr ""
+"0 A.D. (\"udtales: År 0 anno domino\") er et gratis, open-source, historisk "
+"realtidsstrategispil(RTS) der stadig er under udvikling af Wildfire Games, "
+"en global gruppe af spiludviklere. Som leder af en gammel civilisation skal "
+"du samle forråd, opstille en militærstyrke og nedkæmpe dine fjender."
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:54-6
+msgid "0ad"
+msgstr "0ad"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:58-7
+msgid ""
+"Homepage: <a href=\"http://play0ad.com\" target=\"_blank\">http://play0ad."
+"com</a>"
+msgstr ""
+"Hjemmeside: <a href=\"http://play0ad.com\" target=\"_blank\">http://play0ad."
+"com</a>"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:59-7
+msgid "Installed size: 1 GB"
+msgstr "Installeret størrelse: 1 GB"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:62-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"wesnoth\" /> The Battle "
+"for Wesnoth"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"wesnoth\" /> The Battle "
+"for Wesnoth"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:65-7
+msgid ""
+"The Battle for Wesnoth is a turn-based tactical strategy game with a high "
+"fantasy theme."
+msgstr ""
+"The Battle for Wesnoth er et tur-baseret taktisk strategispil i et "
+"fantasimiljø."
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:66-7
+msgid ""
+"Build up a great army, gradually turning raw recruits into hardened "
+"veterans. In later games, recall your toughest warriors and form a deadly "
+"host whom none can stand against! Choose units from a large pool of "
+"specialists, and hand-pick a force with the right strengths to fight well on "
+"different terrains against all manner of opposition."
+msgstr ""
+"Opbyg en stor hær, forvandl gradvist rekrutter til hærdede veteraner. I "
+"senere spil kan du indkalde dine stærkeste krigere og danne en uovervindelig "
+"hær. Vælg enheder fra den store mængde af specialister, og håndpluk en "
+"styrke med de rigtige egenskaber til at kæmpe i forskellige terræner mod "
+"alle typer modstandere. "
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:68-6
+msgid "wesnoth"
+msgstr "wesnoth"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:72-7
+msgid ""
+"Homepage: <a href=\"http://www.wesnoth.org/\" target=\"_blank\">http://www."
+"wesnoth.org</a>"
+msgstr ""
+"Hjemmeside: <a href=\"http://www.wesnoth.org/\" target=\"_blank\">http://www."
+"wesnoth.org</a>"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:73-7
+msgid "Installed size: 450 MB"
+msgstr "Installeret størrelse: 450 MB"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:76-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"sauerbraten\" /> "
+"Sauerbraten"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"sauerbraten\" /> "
+"Sauerbraten"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:79-7
+msgid ""
+"Sauerbraten is a free multiplayer and singleplayer first person shooter, the "
+"successor of the Cube FPS."
+msgstr ""
+"Sauerbraten er et gratis multi- og enkeltspiller første persons skydespil. "
+"Det er efterfølgeren til Cube FPS."
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:80-7
+msgid ""
+"Much like the original Cube, the aim of this game is fun, old school "
+"deathmatch gameplay and also to allow map/geometry editing to be done "
+"cooperatively in-game."
+msgstr ""
+"Ligesom i det originale Cube, er formålet med spillet en underholdende opsøg-"
+"dræb taktik og man kan også sammen ændre i spillets baner mens spillet "
+"kører. "
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:82-6
+msgid "sauerbraten"
+msgstr "sauerbraten"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:86-7
+msgid ""
+"Homepage: <a href=\"http://sauerbraten.org/\" target=\"_blank\">http://"
+"sauerbraten.org</a>"
+msgstr ""
+"Hjemmeside: <a href=\"http://sauerbraten.org/\" target=\"_blank\">http://"
+"sauerbraten.org</a>"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:87-7
+msgid "Installed size: 650 MB"
+msgstr "Installeret størrelse: 650 MB"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:90-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"neverball\" /> Neverball"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"neverball\" /> Neverball"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:93-7
+msgid ""
+"Tilt the floor to roll a ball through an obstacle course before time runs "
+"out. Neverball is part puzzle game, part action game, and entirely a test of "
+"skill."
+msgstr ""
+"Hæld brættet for at få en kugle til at rulle gennem en forhindringsbane før "
+"tiden løber ud. Neverball er delvist puslespil, delvist action-spil, og en "
+"test af motoriske evner."
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:95-6
+msgid "neverball"
+msgstr "neverball"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:99-7
+msgid ""
+"Homepage: <a href=\"http://neverball.org\" target=\"_blank\">http://"
+"neverball.org</a>"
+msgstr ""
+"Hjemmeside: <a href=\"http://neverball.org\" target=\"_blank\">http://"
+"neverball.org</a>"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:100-7
+msgid "Installed size: 150 MB"
+msgstr "Installeret størrelse: 150 MB"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:103-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"supertuxkart\" /> Super "
+"Tux Kart"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"supertuxkart\" /> Super "
+"Tux Kart"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:106-7
+msgid ""
+"SuperTuxKart is a Free 3D kart racing game, with many tracks, characters and "
+"items for you to try. Have fun!"
+msgstr ""
+"SuperTuxKart er et gratis 3D gokart racerspil. Der er mange baner, figurer "
+"og genstande du kan prøve. God fornøjelse!"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:108-6
+msgid "supertuxkart"
+msgstr "supertuxkart"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:112-7
+msgid ""
+"Homepage: <a href=\"http://supertuxkart.sourceforge.net/\" target=\"_blank"
+"\">http://supertuxkart.sourceforge.net</a>"
+msgstr ""
+"Hjemmeside: <a href=\"http://supertuxkart.sourceforge.net/\" target=\"_blank"
+"\">http://supertuxkart.sourceforge.net</a>"
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:113-7
+msgid "Installed size: 350 MB"
+msgstr "Installeret størrelse: 350 MB"
+
+#: po/en/home.html%2Bhtml.body.h1:11-2
+msgid "Home applications"
+msgstr "Hjemmeprogrammer"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
+msgid "This is a list of recommended applications suited for home users."
+msgstr ""
+"Dette en en liste over programmer der egner sig til den typiske hjemmebruger."
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:23-9
+msgid "<input type=\"checkbox\" class=\"package\" value=\"gimp\" /> Gimp"
+msgstr "<input type=\"checkbox\" class=\"package\" value=\"gimp\" /> Gimp"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
+msgid ""
+"GIMP is an acronym for GNU Image Manipulation Program. It is a freely "
+"distributed program for such tasks as photo retouching, image composition "
+"and image authoring."
+msgstr ""
+"GIMP står for GNU Image Manipulation Program. Det er et frit distribuerbart "
+"program til billedredigering."
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:27-7
+msgid ""
+"It has many capabilities. It can be used as a simple paint program, an "
+"expert quality photo retouching program, an online batch processing system, "
+"a mass production image renderer, an image format converter, etc."
+msgstr ""
+"Det har mange muligheder, det kan bruges som tegneprogram, til professionel "
+"foto-redigering, masseprocessering af billeddata, formatomformning og meget "
+"mere."
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:29-6
+msgid "gimp"
+msgstr "gimp"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:32-6
+msgid ""
+"Homepage: <a href=\"http://www.gimp.org\" target=\"_blank\">http://www.gimp."
+"org</a>"
+msgstr ""
+"Hjemmeside: <a href=\"http://www.gimp.org\" target=\"_blank\">http://www."
+"gimp.org</a>"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:34-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"inkscape\" /> Inkscape"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"inkscape\" /> Inkscape"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:37-7
+msgid ""
+"Inkscape is an open-source vector graphics editor similar to Adobe "
+"Illustrator, Corel Draw, Freehand, or Xara X. What sets Inkscape apart is "
+"its use of Scalable Vector Graphics (SVG), an open XML-based W3C standard, "
+"as the native format."
+msgstr ""
+"Inkscape er et open-source vektorgrafikprogram i stil med Adobe Illustrator, "
+"Corel Draw, freehand eller Xara X. Det der gør Inkscape specielt er dets "
+"anvendelse af Scalable Vector Graphics(SVG), en åben, xml-baseret W3C-"
+"standard som udgangspunkt."
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:39-6
+msgid "inkscape"
+msgstr "inkscape"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:42-6
+msgid ""
+"Homepage: <a href=\"https://inkscape.org\" target=\"_blank\">https://"
+"inkscape.org</a>"
+msgstr ""
+"Hjemmeside: <a href=\"https://inkscape.org\" target=\"_blank\">https://"
+"inkscape.org</a>"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:44-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"shotwell\" /> Shotwell / "
+"Digikam"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"shotwell\" /> Shotwell / "
+"Digikam"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:47-7
+msgid ""
+"Shotwell is an image organizer designed to provide personal photo management."
+msgstr ""
+"Shotwave er et billedorganiseringsprogram, designet til at organisere "
+"personlige fotosamlinger."
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:48-7
+msgid ""
+"Shotwell can import photos and videos from a digital camera directly. "
+"Shotwell automatically groups photos and videos by date, and supports "
+"tagging. Its image editing features allow users to straighten, crop, "
+"eliminate red eye, and adjust levels and color balance."
+msgstr ""
+"Shotwell kan importere billeder og film direkte fra digitalkameraer. "
+"Shotwell grupperer automatisk billeder efter dato, og giver mulighed for at "
+"sætte etiketter på indholdet. Billedredigeringsfunktionerne giver mulighed "
+"for at beskære, fjerne røde øjne samt justere belysning og farvebalance."
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:49-7
+msgid ""
+"For SolydK Digikam is installed. It has the same functionality as Shotwell"
+msgstr ""
+"I SolydXk's tilfælde er Digikam allerede installeret. Det kan det samme som "
+"Shotwell"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:51-6
+msgid "shotwell"
+msgstr "shotwell"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:55-7
+msgid ""
+"Homepage Shotwell: <a href=\"https://wiki.gnome.org/Apps/Shotwell/\" target="
+"\"_blank\">https://wiki.gnome.org/Apps/Shotwell</a>"
+msgstr ""
+"Shotwells Hjemmeside: <a href=\"https://wiki.gnome.org/Apps/Shotwell/\" "
+"target=\"_blank\">https://wiki.gnome.org/Apps/Shotwell</a>"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:56-7
+msgid ""
+"Homepage Digikam: <a href=\"https://www.digikam.org/\" target=\"_blank"
+"\">https://www.digikam.org</a>"
+msgstr ""
+"Digikams Hjemmeside: <a href=\"https://www.digikam.org/\" target=\"_blank"
+"\">https://www.digikam.org</a>"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:59-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"clementine\" /> "
+"Clementine / Amarok"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"clementine\" /> "
+"Clementine / Amarok"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:62-7
+msgid "Clementine is a modern music player and library organizer."
+msgstr ""
+"Clementine er en moderne musikafspiller der også kan organisere et "
+"musikbibliotek."
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:63-7
+msgid ""
+"Clementine is a multiplatform music player. It is inspired by Amarok 1.4, "
+"focusing on a fast and easy-to-use interface for searching and playing your "
+"music."
+msgstr ""
+"Clementine er et multiplatforms musikprogram. Det er inspireret af Amarok "
+"1.4. Det fokuserer på en hurtig og enkel brugergrænseflade til søgning i og "
+"afspilning af din musik."
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:64-7
+msgid ""
+"For SolydK Amarok is installed. It has the same functionality as Clementine"
+msgstr ""
+"I SolydXK er Amarok allerede installeret, det kan det samme som Clementine"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:66-6
+msgid "clementine"
+msgstr "clementine"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:70-7
+msgid ""
+"Homepage Clementine: <a href=\"https://www.clementine-player.org\" target="
+"\"_blank\">https://www.clementine-player.org</a>"
+msgstr ""
+"Clementines Hjemmeside : <a href=\"https://www.clementine-player.org\" "
+"target=\"_blank\">https://www.clementine-player.org</a>"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:71-7
+msgid ""
+"Homepage Amarok: <a href=\"https://amarok.kde.org\" target=\"_blank"
+"\">https://amarok.kde.org</a>"
+msgstr ""
+"Amaroks Hjemmeside: <a href=\"https://amarok.kde.org\" target=\"_blank"
+"\">https://amarok.kde.org</a>"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:74-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"handbrake\" /> HandBrake"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"handbrake\" /> HandBrake"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:77-7
+msgid ""
+"HandBrake is a tool for converting video from nearly any format to a "
+"selection of modern, widely supported codecs."
+msgstr ""
+"HandBrake er et videokonverteringsværktøj der kan konvertere til og fra "
+"næsten alle digitale videoformater."
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:79-6
+msgid "handbrake"
+msgstr "handbrake"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:82-6
+msgid ""
+"Homepage: <a href=\"https://handbrake.fr\" target=\"_blank\">https://"
+"handbrake.fr</a>"
+msgstr ""
+"Hjemmeside: <a href=\"https://handbrake.fr\" target=\"_blank\">https://"
+"handbrake.fr</a>"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:84-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"soundconverter\" /> "
+"SoundConverter"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"soundconverter\" /> "
+"SoundConverter"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:87-7
+msgid ""
+"SoundConverter is the leading audio file converter. It reads anything "
+"GStreamer can read (Ogg Vorbis, AAC, MP3, FLAC, WAV, AVI, MPEG, MOV, M4A, "
+"AC3, DTS, ALAC, MPC, Shorten, APE, SID, MOD, XM, S3M, etc...), and writes to "
+"Opus, Ogg Vorbis, FLAC, WAV, AAC, and MP3 files."
+msgstr ""
+"Soundconverter er det førende lydfilskonverteringsprogram. Det kan læse alt "
+"det som GStreamer kan læse (Ogg Vorbis, AAC, MP3, FLAC, WAV, AVI, MPEG, MOV, "
+"M4A, AC3, DTS, ALAC, MPC, Shorten, APE, SID, MOD, XM, S3M, osv...), og kan "
+"gemme i Opus, Ogg Vorbis, FLAC, WAV, AAC, og MP3 -format."
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:89-6
+msgid "soundconverter"
+msgstr "soundconverter"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:92-6
+msgid ""
+"Homepage: <a href=\"http://soundconverter.org\" target=\"_blank\">http://"
+"soundconverter.org</a>"
+msgstr ""
+"Hjemmeside: <a href=\"http://soundconverter.org\" target=\"_blank\">http://"
+"soundconverter.org</a>"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:94-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"pitivi\" /> Pitivi / "
+"Kdenlive"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"pitivi\" /> Pitivi / "
+"Kdenlive"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:97-7
+msgid ""
+"Pitivi is a Free video editor with a beautiful and intuitive user interface, "
+"a clean codebase and a fantastic community."
+msgstr ""
+"Pitivi er et gratis videoredigeringsprogram med en pæn og intuitiv "
+"brugergrænseflade, en velorganiseret programkodebase og et fantastisk "
+"brugermiljø. "
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:98-7
+msgid ""
+"For SolydK Kdenlive is installed. It has the same functionality as Pitivi"
+msgstr ""
+"I SolydXK er Kdenlive installeret allerede. Det har samme funktionalitet som "
+"Pitivi"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:100-6
+msgid "pitivi"
+msgstr "pitivi"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:104-7
+msgid ""
+"Homepage Pitivi: <a href=\"http://www.pitivi.org\" target=\"_blank\">http://"
+"www.pitivi.org</a>"
+msgstr ""
+"Hjemmeside Pitivi: <a href=\"http://www.pitivi.org\" target=\"_blank"
+"\">http://www.pitivi.org</a>"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:105-7
+msgid ""
+"Homepage Kdenlive: <a href=\"https://kdenlive.org/\" target=\"_blank"
+"\">https://kdenlive.org</a>"
+msgstr ""
+"Kdenlives Hjemmeside: <a href=\"https://kdenlive.org/\" target=\"_blank"
+"\">https://kdenlive.org</a>"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:108-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"transmission\" /> "
+"Transmission"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"transmission\" /> "
+"Transmission"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:111-7
+msgid ""
+"Transmission is a BitTorrent client which features a simple interface on top "
+"of a cross-platform back-end."
+msgstr ""
+"Transmission er en BitTorrent-klient med en enkel brugergrænseflade ovenpå "
+"et multiplatform system."
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:113-6
+msgid "transmission"
+msgstr "transmission"
+
+#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:117-7
+msgid ""
+"Homepage Transmission: <a href=\"https://www.transmissionbt.com/\" target="
+"\"_blank\">https://www.transmissionbt.com</a>"
+msgstr ""
+"Transmissions Hjemmeside: <a href=\"https://www.transmissionbt.com/\" target="
+"\"_blank\">https://www.transmissionbt.com</a>"
+
+#: po/en/libreoffice.html%2Bhtml.body.h1:11-2
+msgid "LibreOffice (Backports)"
+msgstr "LibreOffice (Backports)"
+
+#: po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td:17-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"libreoffice\" /> "
+"LibreOffice"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"libreoffice\" /> "
+"LibreOffice"
+
+#: po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
+msgid ""
+"SolydXK comes with the LibreOffice suite pre-installed. Its stability and "
+"features works great for most people and especially for businesses. However, "
+"if you are missing some features or you want LibreOffice to stay updated you "
+"can install LibreOffice from the backports repository."
+msgstr ""
+"SolydXk kommer med kontorpakken LibreOffice præinstalleret. Det stabilitet "
+"og muligheder fungerer storartet for de fleste brugere, specielt til "
+"forretningsbrug. Hvis du alligevel synes du mangler nogle funktionaliteter "
+"eller gerne vil have at LibreOffice opdateres til nyeste version automatisk, "
+"kan du selv installere det gennem 'backports'."
+
+#: po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td.p:21-7
+msgid ""
+"Backports are recompiled new packages for the current stable environment. "
+"So, they will run without new libraries."
+msgstr ""
+"'backports' er rekompilerede nye programpakker til det aktuelle stabile "
+"miljø, så de kan køre uden at der skal installeres yderligere "
+"understøttelsesbiblioteker."
+
+#: po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td.p:22-7
+msgid ""
+"Although you can run more up to date software using the backports "
+"repository, you introduce a greater risk of breakage doing so."
+msgstr ""
+"Selvom du kan køre nyere programmer med 'backports', risikerer du flere fejl "
+"og udfald da de ikke er testet lige så grundigt."
+
+#: po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td:27-6
+msgid ""
+"Homepage: <a href=\"https://www.libreoffice.org/\" target=\"_blank\">https://"
+"www.libreoffice.org</a>"
+msgstr ""
+"Hjemmeside: <a href=\"https://www.libreoffice.org/\" target=\"_blank"
+"\">https://www.libreoffice.org</a>"
+
+#: po/en/multimedia.html%2Bhtml.body.h1:10-2
+msgid "Multimedia codecs"
+msgstr "Multimedia codecs"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:17-7
+msgid ""
+"These multimedia codecs are not included by default for legal or security "
+"reasons."
+msgstr ""
+"Disse multimedie-codecs er ikke inkluderet som standard på grund af "
+"ophavsret- eller sikkerhedsårsager."
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:20-9
+msgid "<input type=\"checkbox\" class=\"package\" value=\"flash\" /> Flash"
+msgstr "<input type=\"checkbox\" class=\"package\" value=\"flash\" /> Flash"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:23-7
+msgid "HTML5 is the default media player in Firefox."
+msgstr "HTML5 er standard medieafspilleren i FireFox."
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:24-7
+msgid ""
+"Youtube and other sites are already providing their content using HTML5. "
+"However, there are still sites using Flash."
+msgstr ""
+"Youtube og andre sider er i gang med at udbyde deres indhold kodet med "
+"HTML5. Ikke desto mindre er der stadig steder hvor Flash er påkrævet."
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.div.p:30-8
+msgid "Warning:"
+msgstr "Advarsel:"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.div.p:31-8
+msgid ""
+"Be aware that Flash is not Open Source. Some Flash content may harm your "
+"system."
+msgstr ""
+"Vær opmærksom på at Flash ikke er open-source. Noget Flash-indhold kan "
+"beskadige dit system."
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:35-9
+msgid "<input type=\"checkbox\" class=\"package\" value=\"css\" /> CSS"
+msgstr "<input type=\"checkbox\" class=\"package\" value=\"css\" /> CSS"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:38-7
+msgid ""
+"Most commercial DVDs are encrypted with CSS (the Content Scramble System), "
+"which attempts to restrict the software that can play a DVD."
+msgstr ""
+"De fleste DVD'er er krypteret med CSS (Content Scramble System), der "
+"forsøger at begrænse hvilken software der kan afspille en DVD."
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:39-7
+msgid ""
+"SolydXK does not come with the necessary packages pre-installed to play "
+"these encrypted DVDs."
+msgstr ""
+"SolydXK har ikke de nødvendige pakker til afspilning af krypterede DVD'er "
+"præinstalleret."
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:40-7
+msgid ""
+"By clicking the install button below the following packages will be "
+"installed on your system:"
+msgstr ""
+"Når du trykker på 'Installér'-knappen nedenfor, vil følgende pakker blive "
+"installeret på dit system:"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:42-8
+msgid "libdvdcss2"
+msgstr "libdvdcss2"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:43-8
+msgid "w32codecs or w64codecs"
+msgstr "w32codecs eller w64codecs"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.div.p:50-8
+msgid "Legal warning:"
+msgstr "Juridisk advarsel:"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.div.p:51-8
+msgid ""
+"Check with your local laws to make sure usage of libdvdcss2 would be legal "
+"in your area."
+msgstr ""
+"Kontrollér at gældende lovgivning ikke forhindrer dig i at bruge libdvdcss2 "
+"der hvor du er."
+
+#: po/en/system.html%2Bhtml.body.h1:11-2
+msgid "System applications"
+msgstr "Systemprogrammer"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:34-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"virtualbox\" /> VirtualBox"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"virtualbox\" /> VirtualBox"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:37-7
+msgid ""
+"VirtualBox is a general-purpose full virtualizer for x86 hardware, targeted "
+"at server, desktop and embedded use. The VirtualBox package installs on an "
+"existing host operating system as an application; this host application "
+"allows additional guest operating systems, each known as a Guest OS, to load "
+"and run, each with its own virtual environment."
+msgstr ""
+"VirtualBox er en generel virtuel-maskine applikation til x86-pc'er. Den "
+"installeres på et eksisterende system og afvikles som et program. Programmet "
+"giver så mulighed for at køre andre operativsystemer på samme tid, i hvert "
+"deres vindue, som om de var installeret på en fysisk maskine."
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:42-6
+msgid ""
+"Homepage: <a href=\"https://www.virtualbox.org/\" target=\"_blank\">https://"
+"www.virtualbox.org</a>"
+msgstr ""
+"Hjemmeside: <a href=\"https://www.virtualbox.org/\" target=\"_blank"
+"\">https://www.virtualbox.org</a>"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:44-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"filezilla\" /> FileZilla"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"filezilla\" /> FileZilla"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:47-7
+msgid ""
+"FileZilla Client is a fast and reliable cross-platform FTP, FTPS and SFTP "
+"client with lots of useful features and an intuitive graphical user "
+"interface."
+msgstr ""
+"FileZilla er en hurtig og pålidelig ftp-klient der virker på flere platforme "
+"og understøtter adskillige protokoller og har en intuitiv brugergrænseflade. "
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:52-6
+msgid ""
+"Homepage: <a href=\"https://filezilla-project.org/\" target=\"_blank"
+"\">https://filezilla-project.org</a>"
+msgstr ""
+"Hjemmeside: <a href=\"https://filezilla-project.org/\" target=\"_blank"
+"\">https://filezilla-project.org</a>"
+
+#: po/en/welcome.html%2Bhtml.body.h1:10-2
+msgid "Welcome to SolydXK"
+msgstr "Velkommen til SolydXK"
+
+#: po/en/welcome.html%2Bhtml.body.div.div.p:14-4
+msgid "Thank you for using SolydXK"
+msgstr "Tak for dit valg af SolydXK"
+
+#: po/en/welcome.html%2Bhtml.body.div.div.p:15-4
+msgid ""
+"SolydXK is an open source desktop operating system for businesses, "
+"organizations and home users. Both SolydX and SolydK are based on Debian "
+"stable to ensure the greatest stability and security."
+msgstr ""
+"SolydXK er et open-source PC-operativsystem til virksomheder, foreninger og "
+"hjemmebrugere. Både SolydX og SolydK er baseret på den stabile version af "
+"operativsystemet Debian for at sikre størst mulig stabilitet og sikkerhed."
+
+#: po/en/welcome.html%2Bhtml.body.div.div.p:16-4
+msgid ""
+"We have created a list of recommended software for businesses and home users "
+"which you can install in the next couple of pages."
+msgstr ""
+"Vi har lavet en liste over anbefalede programmer til virksomheder og "
+"hjemmebrugere som du kan vælge at installere på de følgende sider."
+
+#: po/en/welcome.html%2Bhtml.body.div.div.p:17-4
+msgid "Click on the <strong>Next</strong> button to get started."
+msgstr "Tryk på <strong>Næste</strong> -knappen for at begynde."
+
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td:36-9
+msgid "Software"
+msgstr "Programmer"
+
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:38-10
+msgid ""
+"All software is built, maintained and checked by the community. Software "
+"databases called \"repositories\" are used to offer and maintain over 60,000 "
+"software packages. So, there is no need to download software from dubious "
+"web sites. You simply search and install the software you need with the "
+"Software Manager."
+msgstr ""
+"Alle programmer er skrevet, vedligeholdt og kontrolleret af udviklermiljøet. "
+"Programdatabaser kaldet \"repositories\" eller repositorier anvendes til at "
+"tilbyde og vedligeholde mere end 60.000 programpakker. Så du behøver ikke "
+"finde og hente programmer på mere eller mindre skumle hjemmesider. Du kan "
+"ganske enkelt søge efter og installere de programmer du har brug for med "
+"\"Programadministration\". "
+
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td:39-6
+msgid "softwaremanager"
+msgstr "Programadministration"
+
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td:44-9
+msgid "Support"
+msgstr "Support"
+
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:46-10
+msgid ""
+"If you're new to SolydXK or whenever you get stuck, there is the SolydXK "
+"community to help you solve your problem. You can search the forum to find "
+"if your issue has already been solved or start a new topic to get help."
+msgstr ""
+"Hvis du er ny til SolydXK eller hvis du sidder fast, kan du finde hjælpe i "
+"SolydXK brugermiljøet. Du kan søge i et onlineforum for at se om dit problem "
+"allerede er blevet løst, eller starte en ny tråd for at bede om hjælp."
+
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td:47-6
+msgid "forum"
+msgstr "forum"
+
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td:50-6
+msgid ""
+"Forum: <a href=\"https://forums.solydxk.com/\" target=\"_blank\">https://"
+"forums.solydxk.com</a>"
+msgstr ""
+"Forum: <a href=\"https://forums.solydxk.com/\" target=\"_blank\">https://"
+"forums.solydxk.com</a>"
+
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:54-7
+msgid ""
+"The following channels are used to communicate to the SolydX and SolydK "
+"users:"
+msgstr "Følgende fora bruges til at kommunikere med SolydX og SolydK brugere:"
+
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.ul.li:56-8
+msgid ""
+"RSS: <a href=\"https://solydxk.com/feed\" target=\"_blank\">https://solydxk."
+"com/feed</a>"
+msgstr ""
+"RSS: <a href=\"https://solydxk.com/feed\" target=\"_blank\">https://solydxk."
+"com/feed</a>"
+
+#: po/en/wine.html%2Bhtml.body.h1:11-2
+msgid "PlayOnLinux"
+msgstr "PlayOnLinux"
+
+#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
+msgid ""
+"When you click the install button all listed applications are going to be "
+"installed on your system. You can use the software manager to install them "
+"separately."
+msgstr ""
+"Når du trykker på 'Installér'-knappen, installeres de valgte programmer på "
+"dit system. Du kan bruge Programadministration til at installere dem hver "
+"for sig."
+
+#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td:22-9
+msgid ""
+"<input type=\"checkbox\" class=\"package\" value=\"playonlinux\" /> "
+"PlayOnLinux"
+msgstr ""
+"<input type=\"checkbox\" class=\"package\" value=\"playonlinux\" /> "
+"PlayOnLinux"
+
+#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.p:25-7
+msgid ""
+"SolydXK comes with a wide variety of software. However, if you cannot find "
+"the right software in our repository and you need to use MS Windows "
+"software, you can install it using PlayOnLinux. Not all software can run "
+"this way, but a large number of software is already supported."
+msgstr ""
+"SolydXK kommer med en mængde udvalgte programmer. Hvis du alligevel ikke kan "
+"finde det du skal bruge, eller du skal bruge Windows-programmer, kan du "
+"installere PlayOnLinux. Ikke alle programmer kan køres på denne måde, men "
+"mange er understøttede."
+
+#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.div.p:27-8
+msgid ""
+"By using this software you may make your system vulnerable to MS Windows "
+"viruses and malware. The risk of infection is not higher than under native "
+"MS Windows."
+msgstr ""
+"Når du anvender disse programmer gør du dit system sårbart overfor vira og "
+"andre skadelige programmer der findes til MS Windows. Infektionsrisikoen er "
+"ikke højere end hvis du brugte MS Windows."
+
+#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.div.p:28-8
+msgid "Make sure you install software from trusted parties only."
+msgstr ""
+"Vær sikker på at du kun installerer programmer fra steder du stoler på."
+
+#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.div.p:29-8
+msgid ""
+"Read about the <a href=\"http://wiki.winehq.org/"
+"FAQ#head-1c91cac836dd52754c846d2ef62be4f346eebe87\">risk on using Wine</a>"
+msgstr ""
+"Læs om risici ved at bruge wine<a href=\"http://wiki.winehq.org/"
+"FAQ#head-1c91cac836dd52754c846d2ef62be4f346eebe87\">risk on using Wine</a>"
+
+#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td:36-6
+msgid ""
+"Homepage: <a href=\"http://www.playonlinux.com\" target=\"_blank\">http://"
+"www.playonlinux.com</a>"
+msgstr ""
+"Hjemmeside: <a href=\"http://www.playonlinux.com\" target=\"_blank\">http://"
+"www.playonlinux.com</a>"

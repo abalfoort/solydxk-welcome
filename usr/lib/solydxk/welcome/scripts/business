@@ -1,0 +1,279 @@
+#!/bin/bash
+
+# Possible arguments: gnucash, postbooks, projectlibre
+
+LOG="$PWD/business.log"
+
+DB=false
+PB=false
+if [ $# -gt 0 ]; then
+  for ARG in "$@"; do
+    #echo "$ARG"
+    if [ "$ARG" == 'gnucash' ]; then
+      PCK='gnucash'
+    fi
+    if [ "$ARG" == 'dolibarr' ]; then
+      echo 'Dolibarr is no longer maintained > skipping'
+      #PCK="$PCK dolibarr phpmyadmin"
+      #DB=true
+    fi
+    if [ "$ARG" == 'postbooks' ]; then
+      PCK="$PCK postbooks postbooks-schema-* postbooks-updater postgresql postgresql-contrib postgresql-plv8 pgadmin3"
+      PB=true
+    fi
+    if [ "$ARG" == 'letodms' ]; then
+      echo "Letodms is not functioning in Debian Stretch > skipping"
+      #PCK="$PCK letodms phpmyadmin"
+      #DB=true
+    fi
+    if [ "$ARG" == 'projectlibre' ]; then
+      PCK="$PCK projectlibre"
+    fi
+  done
+fi
+
+if [ -z "$PCK" ]; then
+  exit
+fi
+
+# ====================================================
+
+if $DB; then
+    # Use debconf-get-selections to see what settings are needed
+    echo "Fix database when needed."
+    # Fix before continuing
+    if [ -f /usr/share/debconf/fix_db.pl ]; then
+      perl /usr/share/debconf/fix_db.pl
+    fi
+    echo "Preseeding for business application..."
+    # New password the MySQL "root" user:
+    echo "mysql-server-5.5 mysql-server/root_password password solydxk" | debconf-set-selections
+    # MySQL application password for phpmyadmin:
+    echo "phpmyadmin phpmyadmin/mysql/app-pass password solydxk" | debconf-set-selections
+    # Password confirmation:
+    echo "dbconfig-common dbconfig-common/app-password-confirm password solydxk" | debconf-set-selections
+    # Password of the database's administrative user:
+    echo "dbconfig-common dbconfig-common/mysql/admin-pass password solydxk" | debconf-set-selections
+    # Password confirmation:
+    echo "phpmyadmin phpmyadmin/app-password-confirm password solydxk" | debconf-set-selections
+    # Password of the database's administrative user:
+    echo "letodms letodms/mysql/admin-pass password solydxk" | debconf-set-selections
+    # Password confirmation:
+    echo "letodms letodms/app-password-confirm password solydxk" | debconf-set-selections
+    # Password of your database's administrative user:
+    echo "dbconfig-common dbconfig-common/pgsql/admin-pass password solydxk" | debconf-set-selections
+    # Password confirmation:
+    echo "dbconfig-common dbconfig-common/password-confirm password solydxk" | debconf-set-selections
+    # Password for web-based setup system:
+    echo "phpmyadmin phpmyadmin/setup-password password solydxk" | debconf-set-selections
+    # MySQL application password for :
+    echo "dbconfig-common dbconfig-common/mysql/app-pass password solydxk" | debconf-set-selections
+    # Password of the database's administrative user:
+    echo "phpmyadmin phpmyadmin/mysql/admin-pass password solydxk" | debconf-set-selections
+    # MySQL application password for letodms:
+    echo "letodms letodms/mysql/app-pass password solydxk" | debconf-set-selections
+    # Password confirmation:
+    echo "letodms letodms/password-confirm password solydxk" | debconf-set-selections
+    # Password confirmation:
+    echo "phpmyadmin phpmyadmin/password-confirm password solydxk" | debconf-set-selections
+    # Repeat password for the MySQL "root" user:
+    echo "mysql-server-5.5 mysql-server/root_password_again password solydxk" | debconf-set-selections
+    # Deconfigure database for  with dbconfig-common?
+    echo "dbconfig-common dbconfig-common/dbconfig-remove boolean true" | debconf-set-selections
+    # Do you want to purge the database for letodms?
+    echo "letodms letodms/purge boolean false" | debconf-set-selections
+    # Database type to be used by phpmyadmin:
+    # Choices: 
+    echo "phpmyadmin phpmyadmin/database-type select mysql" | debconf-set-selections
+    # Keep "administrative" database passwords?
+    echo "dbconfig-common dbconfig-common/remember-admin-pass boolean true" | debconf-set-selections
+    # Deconfigure database for phpmyadmin with dbconfig-common?
+    echo "phpmyadmin phpmyadmin/dbconfig-remove boolean true" | debconf-set-selections
+    # Connection method for MySQL database of :
+    # Choices: unix socket, tcp/ip
+    echo "dbconfig-common dbconfig-common/mysql/method select unix socket" | debconf-set-selections
+    # Reinstall database for phpmyadmin?
+    echo "phpmyadmin phpmyadmin/dbconfig-reinstall boolean false" | debconf-set-selections
+    # MySQL username for letodms:
+    echo "letodms letodms/db/app-user string letodms" | debconf-set-selections
+    # Perform upgrade on database for  with dbconfig-common?
+    echo "dbconfig-common dbconfig-common/dbconfig-upgrade boolean true" | debconf-set-selections
+    # Do you want to purge the database for phpmyadmin?
+    echo "phpmyadmin phpmyadmin/purge boolean false" | debconf-set-selections
+    # Name of the database's administrative user:
+    echo "phpmyadmin phpmyadmin/mysql/admin-user string root" | debconf-set-selections
+    # Deconfigure database for letodms with dbconfig-common?
+    echo "letodms letodms/dbconfig-remove boolean true" | debconf-set-selections
+    # Configure database for letodms with dbconfig-common?
+    echo "letodms letodms/dbconfig-install boolean true" | debconf-set-selections
+    # Name of the database's administrative user:
+    echo "dbconfig-common dbconfig-common/mysql/admin-user string root" | debconf-set-selections
+    # Choices: 
+    echo "letodms letodms/database-type select mysql" | debconf-set-selections
+    # Connection method for MySQL database of phpmyadmin:
+    # Choices: unix socket, tcp/ip
+    echo "phpmyadmin phpmyadmin/mysql/method select unix socket" | debconf-set-selections
+    # MySQL username for phpmyadmin:
+    echo "phpmyadmin phpmyadmin/db/app-user string phpmyadmin" | debconf-set-selections
+    # Web server to reconfigure automatically:
+    # Choices: apache2, lighttpd
+    echo "phpmyadmin phpmyadmin/reconfigure-webserver multiselect apache2" | debconf-set-selections
+    # Configure database for  with dbconfig-common?
+    echo "dbconfig-common dbconfig-common/dbconfig-install boolean true" | debconf-set-selections
+    # Reinstall database for letodms?
+    echo "letodms letodms/dbconfig-reinstall boolean false" | debconf-set-selections
+    # Username for web-based setup system:
+    echo "phpmyadmin phpmyadmin/setup-username string admin" | debconf-set-selections
+    # Start the MySQL server on boot?
+    echo "mysql-server-5.5 mysql-server-5.5/start_on_boot boolean true" | debconf-set-selections
+    # MySQL database name for phpmyadmin:
+    echo "phpmyadmin phpmyadmin/db/dbname string phpmyadmin" | debconf-set-selections
+    # MySQL database name for letodms:
+    echo "letodms letodms/db/dbname string letodms" | debconf-set-selections
+    # Perform upgrade on database for phpmyadmin with dbconfig-common?
+    echo "phpmyadmin phpmyadmin/dbconfig-upgrade boolean true" | debconf-set-selections
+    # Name of the database's administrative user:
+    echo "letodms letodms/mysql/admin-user string root" | debconf-set-selections
+    # Configure database for phpmyadmin with dbconfig-common?
+    echo "phpmyadmin phpmyadmin/dbconfig-install boolean true" | debconf-set-selections
+    # WARNING: include path for php has changed!
+    echo "libphp-adodb libphp-adodb/pathmove note " | debconf-set-selections
+    
+    echo "Copy business software information to localhost..."
+    IND='/var/www/html/index.html'
+    if [ -f $IND ]; then
+    mv $IND $IND.bak
+    fi
+
+    cp -r /usr/share/solydxk/welcome/html/en /var/www/html/
+    cp -r /usr/share/solydxk/welcome/html/link /var/www/html/
+    ln -s /var/www/html/en/business.html /var/www/html/index.html
+fi
+
+if [ ! -e /tmp/update-state ]; then
+    apt-get update
+    touch /tmp/update-state
+fi
+
+export DEBIAN_FRONTEND=gnome
+echo | tee "$LOG"
+while IFS=' ' read -ra PS; do
+    for P in "${PS[@]}"; do
+        echo "> Start installing: $P" | tee -a "$LOG"
+        apt-get install --allow-downgrades --allow-remove-essential --allow-change-held-packages --assume-yes -o Dpkg::Options::=--force-confdef -o Dpkg::Options::=--force-confold $P
+    done
+done <<< "$PCK"
+
+if $DB; then
+    echo "> Create solydxk root account in MariaDB and set password: solydxk" | tee -a "$LOG"
+    mysql -e "GRANT ALL ON *.* TO 'solydxk'@'localhost' IDENTIFIED BY 'solydxk' WITH GRANT OPTION" | tee -a "$LOG"
+fi
+
+if $PB; then
+  # Get PostBooks client version
+  CLIENTVER=$(dpkg -s postbooks | grep -i version | awk '{print $2}' | cut -d'-' -f 1)
+  if [ "$CLIENTVER" == '' ]; then
+    echo ">>> ERROR: cannot retrieve installed postbooks version." | tee -a "$LOG"
+    exit
+  fi
+
+  # Set password
+  export PGPASSWORD='solydxk'
+  
+  # Set variables
+  INITSQL='/tmp/init.sql'
+  QSFLE='postbooks_quickstart'
+  QSDIR='/usr/share/postbooks-schema'
+  
+  echo "> Add plv8 variable to postgresql.conf" | tee -a "$LOG"
+  CNF=$(find /etc/postgresql -name "postgresql.conf")
+  for C in "$CNF"; do
+    if ! grep -q "^plv8.start_proc" "$C"; then
+      echo >> "$C"
+      echo "plv8.start_proc = 'xt.js_init'" >> "$C"
+    fi
+    cat "$C" | tee -a "$LOG"
+  done
+
+  echo "> Write admin sql script to $INITSQL" | tee -a "$LOG"
+  cat > $INITSQL << EOF
+CREATE ROLE xtrole WITH NOLOGIN;
+
+CREATE ROLE admin WITH PASSWORD '$PGPASSWORD'
+                       SUPERUSER
+                       CREATEDB
+                       CREATEROLE
+                       LOGIN
+                       IN ROLE xtrole;
+EOF
+  cat $INITSQL | tee -a "$LOG"
+
+  echo "> Make local postgres user trust" | tee -a "$LOG"
+  CNF=$(find /etc/postgresql -name "pg_hba.conf")
+  for C in "$CNF"; do
+    sed -i 's/^local.*\spostgres\s.*/local\tall\t\tpostgres\t\t\t\ttrust/' "$C"
+    cat "$C" | tee -a "$LOG"
+  done
+  
+  echo "> Restart the postgres service" | tee -a "$LOG"
+  service postgresql restart | tee -a "$LOG"
+
+  echo "> Change postgress password to $PGPASSWORD" | tee -a "$LOG"
+  psql -U postgres -w -c "ALTER USER postgres WITH PASSWORD '$PGPASSWORD'" | tee -a "$LOG"
+
+  echo "> Create admin user from $INITSQL" | tee -a "$LOG"
+  psql -U postgres -w -f $INITSQL postgres | tee -a "$LOG"
+  
+  # Get installed schemas
+  SCHEMAS=$(ls "$QSDIR" | cut -d'-' -f 1 | cut -d'_' -f 2 | uniq)
+   
+  for SCHEMA in $SCHEMAS; do
+    echo "> Create database $SCHEMA" | tee -a "$LOG"
+    createdb -U admin -w -h localhost $SCHEMA | tee -a "$LOG"
+
+    # Import data into new database
+    IMPORTED=false
+    GZ=$(ls "$QSDIR/postbooks_$SCHEMA"*.sql.gz)
+    
+    # Extract sql from gz
+    gunzip -fk "$GZ"
+    QSSQL=$(ls "$QSDIR/postbooks_$SCHEMA"*.sql)
+    
+    if [ -e $QSSQL ]; then
+      echo "> Import $QSSQL into database $SCHEMA" | tee -a "$LOG"
+      psql -U admin -w -h localhost -d $SCHEMA -f "$QSSQL" | tee -a "$LOG"
+      IMPORTED=true
+    else
+      echo ">>> ERROR: Cannot find $QSSQL." | tee -a "$LOG"
+      BU="postbooks_$SCHEMA.backup"
+      BACKURL="https://github.com/xtuple/qt-client/releases/download/v$CLIENTVER/postbooks_$SCHEMA-$CLIENTVER.backup"
+  
+      echo "> Download backup file from $BACKURL" | tee -a "$LOG"
+      wget -O $BU "$BACKURL" | tee -a "$LOG"
+  
+      echo "> Check if the backup download succeeded" | tee -a "$LOG"
+      FS=$(stat -c%s $BU)
+      if [ "$FS" -eq 0 ]; then
+        rm $BU 2>/dev/null
+        echo ">>> ERROR: Failed to download $BACKURL." | tee -a "$LOG"
+      fi
+
+      # Restore the downloaded backup data
+      if [ -e $BU ]; then
+        echo "> Import $BU into database $SCHEMA" | tee -a "$LOG"
+        pg_restore -U admin -w -h localhost -d $SCHEMA "$BU" -v | tee -a "$LOG"
+        rm $BU 2>/dev/null
+        IMPORTED=true
+      fi
+    fi
+    
+    # Cleanup sql
+    rm "$QSSQL" 2>/dev/null
+    
+    if ! $IMPORTED; then
+      echo ">>> ERROR: could not find sql or backup file for $SCHEMA." | tee -a "$LOG"
+    fi
+  done
+fi
+
+echo "> Done" | tee -a "$LOG"
