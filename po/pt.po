@@ -3,19 +3,19 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Arjen Balfoort <translations@solydxk.com>, 2017-2019
-# Arjen Balfoort <translations@solydxk.com>, 2016-2017
+# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2017-2019
+# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2016-2017
 # Luis Filipe Teixeira <lufilte@gmail.com>, 2015-2020
-# Nuno Duarte <inactive+nuno.passiano@transifex.com>, 2015
+# 25dcf36596cc573910517485ce7471d2_e63d9c6 <02fb85a8c2ff1359b9784c1b22793096_365094>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-13 09:07+0200\n"
-"PO-Revision-Date: 2020-05-13 07:07+0000\n"
-"Last-Translator: Arjen Balfoort <translations@solydxk.com>\n"
-"Language-Team: Portuguese (http://www.transifex.com/solydxk/solydxk-welcome/"
-"language/pt/)\n"
+"POT-Creation-Date: 2020-08-11 17:13+0200\n"
+"PO-Revision-Date: 2020-08-05 17:11+0000\n"
+"Last-Translator: Luis Filipe Teixeira <lufilte@gmail.com>\n"
+"Language-Team: Portuguese (http://www.transifex.com/abalfoort/solydxk-"
+"welcome/language/pt/)\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,12 +23,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: usr/lib/solydxk/welcome/main.py:38 usr/lib/solydxk/welcome/welcome.py:82
+#: etc/xdg/autostart/solydxk-welcome.desktop.in.h:1
+#: usr/share/applications/solydxk-welcome.desktop.in.h:2
 #: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:2
 #: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:2
-#: usr/share/applications/solydxk-welcome.desktop.in.h:2
-#: etc/xdg/autostart/solydxk-welcome.desktop.in.h:1
 msgid "SolydXK Welcome"
-msgstr ""
+msgstr "Bem-vindo ao SolydXK"
 
 #: usr/lib/solydxk/welcome/main.py:39
 msgid ""
@@ -36,44 +36,53 @@ msgid ""
 "You can use the --force argument to start SolydXK Welcome in a live "
 "environment"
 msgstr ""
+"O Bem-vindo do SolydXK não pode ser iniciado num ambiente Live\n"
+"Pode usar o argumento --force para começar o Bem-vindo do SolydXK num "
+"ambiente Live"
 
 #: usr/lib/solydxk/welcome/main.py:105
 msgid "Unexpected error"
-msgstr ""
+msgstr "Erro inesperado"
 
 #: usr/lib/solydxk/welcome/main.py:106
 msgid ""
 "SolydXK Welcome has failed with the following unexpected error.\n"
 "Please submit a bug report!"
 msgstr ""
+"O Bem-vindo do SolydXK falhou com o seguinte erro inesperado.\n"
+"Por favor envie um relatório de erro!"
 
 #: usr/lib/solydxk/welcome/welcome.py:83
 msgid "Install"
-msgstr ""
+msgstr "Instalar"
 
 #: usr/lib/solydxk/welcome/welcome.py:84
 msgid "Quit"
-msgstr ""
+msgstr "Sair"
 
 #: usr/lib/solydxk/welcome/welcome.py:85
 msgid "Next"
-msgstr ""
+msgstr "Seguinte"
 
 #: usr/lib/solydxk/welcome/welcome.py:86
 msgid "Previous"
-msgstr ""
+msgstr "Anterior"
 
 #: usr/lib/solydxk/welcome/welcome.py:134
 msgid ""
 "VirtualBox cannot be installed in a VirtualBox client.\n"
 "This package is skipped."
 msgstr ""
+"O VirtualBox não pode ser instalado num cliente VirtualBox.\n"
+"Este pacote é ignorado."
 
 #: usr/lib/solydxk/welcome/welcome.py:155
 msgid ""
 "Nothing to do:\n"
 "No packages were selected."
 msgstr ""
+"Nada a fazer:\n"
+"Nenhum pacote foi selecionado."
 
 #: usr/lib/solydxk/welcome/welcome.py:170
 msgid ""
@@ -82,22 +91,30 @@ msgid ""
 "Do you want to install them now?\n"
 "Note: list is cleared if you continue without installing."
 msgstr ""
+"Selecionou alguns pacotes para instalação.\n"
+"\n"
+"Deseja instalar os pacotes agora?\n"
+"Nota: a lista é limpa se continuar sem instalar."
 
 #: usr/lib/solydxk/welcome/welcome.py:182
 msgid "No internet connection"
-msgstr ""
+msgstr "Sem ligação à Internet"
 
 #: usr/lib/solydxk/welcome/welcome.py:183
 msgid ""
 "You need an internet connection to install the additional software.\n"
 "Please, connect to the internet and try again."
 msgstr ""
+"Vai precisar de uma ligação à Internet para instalar o software adicional.\n"
+"Por favor, ligue a Internet e tente novamente."
 
 #: usr/lib/solydxk/welcome/welcome.py:205
 msgid ""
 "Cannot install the requested software:\n"
 "Script not found: {}"
 msgstr ""
+"Não é possível instalar o software solicitado:\n"
+"O script não foi encontrado: {}"
 
 #: usr/lib/solydxk/welcome/welcome.py:270
 msgid ""
@@ -105,20 +122,23 @@ msgid ""
 "Please, run 'sudo apt-get -f install' in a terminal.\n"
 "Visit our forum for support: https://forums.solydxk.com"
 msgstr ""
+"Houve um erro durante a instalação.\n"
+"Por favor, execute 'sudo apt-get -f install' num terminal.\n"
+"Ou Visite o nosso fórum para suporte: https://forums.solydxk.com "
 
 #: usr/lib/solydxk/welcome/welcome.py:278
 msgid "The software has been successfully installed."
-msgstr ""
-
-#: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:1
-#: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:1
-#: usr/share/applications/solydxk-welcome.desktop.in.h:1
-msgid "Welcome"
-msgstr ""
+msgstr "O software foi instalado com sucesso."
 
 #: etc/xdg/autostart/solydxk-welcome.desktop.in.h:2
 msgid "SolydXK Welcome Screen"
-msgstr ""
+msgstr "Tela de Bem-vindo do Solydxk"
+
+#: usr/share/applications/solydxk-welcome.desktop.in.h:1
+#: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:1
+#: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:1
+msgid "Welcome"
+msgstr "Bem-vindo"
 
 #: po/en/business.html%2Bhtml.body.h1:11-2
 msgid "Business applications"

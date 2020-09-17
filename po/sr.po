@@ -3,17 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Arjen Balfoort <translations@solydxk.com>, 2017-2019
-# Slobodan Simić <slsimic@gmail.com>, 2017,2019
+# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2017-2019
+# Slobodan Simić <slsimic@gmail.com>, 2017,2019-2020
 # Slobodan Simić <slsimic@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-13 09:07+0200\n"
-"PO-Revision-Date: 2020-05-13 07:07+0000\n"
-"Last-Translator: Arjen Balfoort <translations@solydxk.com>\n"
-"Language-Team: Serbian (http://www.transifex.com/solydxk/solydxk-welcome/"
+"POT-Creation-Date: 2020-08-11 17:13+0200\n"
+"PO-Revision-Date: 2020-08-10 13:11+0000\n"
+"Last-Translator: Slobodan Simić <slsimic@gmail.com>\n"
+"Language-Team: Serbian (http://www.transifex.com/abalfoort/solydxk-welcome/"
 "language/sr/)\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
@@ -23,12 +23,12 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: usr/lib/solydxk/welcome/main.py:38 usr/lib/solydxk/welcome/welcome.py:82
+#: etc/xdg/autostart/solydxk-welcome.desktop.in.h:1
+#: usr/share/applications/solydxk-welcome.desktop.in.h:2
 #: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:2
 #: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:2
-#: usr/share/applications/solydxk-welcome.desktop.in.h:2
-#: etc/xdg/autostart/solydxk-welcome.desktop.in.h:1
 msgid "SolydXK Welcome"
-msgstr ""
+msgstr "СолидИксК добродошлица"
 
 #: usr/lib/solydxk/welcome/main.py:39
 msgid ""
@@ -36,44 +36,52 @@ msgid ""
 "You can use the --force argument to start SolydXK Welcome in a live "
 "environment"
 msgstr ""
+"СолидИксК добродошлица се не може покренути на „живом“ систему\n"
+"Можете употребити --force аргумент како бисте ипак то учинили"
 
 #: usr/lib/solydxk/welcome/main.py:105
 msgid "Unexpected error"
-msgstr ""
+msgstr "Неочекивана грешка"
 
 #: usr/lib/solydxk/welcome/main.py:106
 msgid ""
 "SolydXK Welcome has failed with the following unexpected error.\n"
 "Please submit a bug report!"
 msgstr ""
+"СолидИксК добродошлица није завршила услед неочекиване грешке.\n"
+"Пошаљите нам извештај!"
 
 #: usr/lib/solydxk/welcome/welcome.py:83
 msgid "Install"
-msgstr ""
+msgstr "Инсталација"
 
 #: usr/lib/solydxk/welcome/welcome.py:84
 msgid "Quit"
-msgstr ""
+msgstr "Напусти"
 
 #: usr/lib/solydxk/welcome/welcome.py:85
 msgid "Next"
-msgstr ""
+msgstr "Следеће"
 
 #: usr/lib/solydxk/welcome/welcome.py:86
 msgid "Previous"
-msgstr ""
+msgstr "Претходно"
 
 #: usr/lib/solydxk/welcome/welcome.py:134
 msgid ""
 "VirtualBox cannot be installed in a VirtualBox client.\n"
 "This package is skipped."
 msgstr ""
+"VirtualBox се не може инсталирати у VirtualBox машини.\n"
+"Овај пакет ће бити прескочен."
 
 #: usr/lib/solydxk/welcome/welcome.py:155
 msgid ""
 "Nothing to do:\n"
 "No packages were selected."
 msgstr ""
+"Нема шта да се ради:\n"
+"нема изабраних пакета."
 
 #: usr/lib/solydxk/welcome/welcome.py:170
 msgid ""
@@ -82,22 +90,30 @@ msgid ""
 "Do you want to install them now?\n"
 "Note: list is cleared if you continue without installing."
 msgstr ""
+"Изабрали сте неке пакете за инсталацију.\n"
+"\n"
+"Желите ли сада да их инсталирате?\n"
+"Напомена: листа ће бити очишћена ако наставите без инсталације."
 
 #: usr/lib/solydxk/welcome/welcome.py:182
 msgid "No internet connection"
-msgstr ""
+msgstr "Нема интернет везе"
 
 #: usr/lib/solydxk/welcome/welcome.py:183
 msgid ""
 "You need an internet connection to install the additional software.\n"
 "Please, connect to the internet and try again."
 msgstr ""
+"Потребна је веза са интернетом да бисте инсталирали додатни софтвер.\n"
+"Повежите се и покушајте поново."
 
 #: usr/lib/solydxk/welcome/welcome.py:205
 msgid ""
 "Cannot install the requested software:\n"
 "Script not found: {}"
 msgstr ""
+"Не могу да инсталирам тражени софтвер:\n"
+"Скрипта није пронађена: {}"
 
 #: usr/lib/solydxk/welcome/welcome.py:270
 msgid ""
@@ -105,20 +121,23 @@ msgid ""
 "Please, run 'sudo apt-get -f install' in a terminal.\n"
 "Visit our forum for support: https://forums.solydxk.com"
 msgstr ""
+"Дошло је до грешке током инсталације.\n"
+"Покрените „sudo apt-get -f install“ у терминалу.\n"
+"Посетите наш форум ради подршке: https://forums.solydxk.com"
 
 #: usr/lib/solydxk/welcome/welcome.py:278
 msgid "The software has been successfully installed."
-msgstr ""
-
-#: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:1
-#: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:1
-#: usr/share/applications/solydxk-welcome.desktop.in.h:1
-msgid "Welcome"
-msgstr ""
+msgstr "Софтвер је успешно инсталиран."
 
 #: etc/xdg/autostart/solydxk-welcome.desktop.in.h:2
 msgid "SolydXK Welcome Screen"
-msgstr ""
+msgstr "СолидИксК екран добродошлице"
+
+#: usr/share/applications/solydxk-welcome.desktop.in.h:1
+#: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:1
+#: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:1
+msgid "Welcome"
+msgstr "Добродошли"
 
 #: po/en/business.html%2Bhtml.body.h1:11-2
 msgid "Business applications"
@@ -180,8 +199,8 @@ msgid ""
 "Open source ERP for sales, accounting, operations and CRM in a single system "
 "(accounting, sales, CRM, purchasing, etc.)."
 msgstr ""
-"Пакет за управљање предузећем и клијентима, рачуноводством, продајом, "
-"набавком..."
+"Пакет за управљање предузећем и клијентима, све у једном (рачуноводство, "
+"продаја, набавком...)"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:39-7
 msgid "Use this information to start PostBooks:"
@@ -277,6 +296,11 @@ msgid ""
 "only need to select the recommended driver for your hardware and the "
 "application will do the rest."
 msgstr ""
+"Инсталационо дугме ће отворити апликацију СолидИксК системских поставки. Она "
+"ће вам помоћи при инсталацији  драјвера. Провериће хардвер и приказати листу "
+"свих доступних власничких драјвера које можете инсталирати. Све што треба је "
+"да изаберете препоручени драјвер за ваш хардвер и апликација ће одрадити "
+"остало."
 
 #: po/en/drivers.html%2Bhtml.body.div.div.p:16-4
 msgid ""
@@ -302,6 +326,8 @@ msgid ""
 "When you click the install button all selected games are going to be "
 "installed on your system."
 msgstr ""
+"Када кликнете на дугме за инсталацију, све изабране игре биће инсталиране на "
+"ваш систем."
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:23-9
 msgid "<input type=\"checkbox\" class=\"package\" value=\"steam\" /> Steam"
