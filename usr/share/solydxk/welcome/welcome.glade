@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Generated with glade 3.20.0 -->
+<!-- Generated with glade 3.38.2 -->
 <interface>
   <requires lib="gtk+" version="3.20"/>
   <object class="GtkImage" id="imgInstall">
     <property name="visible">True</property>
-    <property name="can_focus">False</property>
+    <property name="can-focus">False</property>
     <property name="stock">gtk-save</property>
   </object>
   <object class="GtkImage" id="imgNext">
     <property name="visible">True</property>
-    <property name="can_focus">False</property>
-    <property name="stock">gtk-media-next</property>
+    <property name="can-focus">False</property>
+    <property name="stock">gtk-go-forward</property>
   </object>
   <object class="GtkImage" id="imgPrevious">
     <property name="visible">True</property>
-    <property name="can_focus">False</property>
-    <property name="stock">gtk-media-previous</property>
+    <property name="can-focus">False</property>
+    <property name="stock">gtk-go-back</property>
   </object>
   <object class="GtkImage" id="imgQuit">
     <property name="visible">True</property>
-    <property name="can_focus">False</property>
+    <property name="can-focus">False</property>
     <property name="stock">gtk-quit</property>
   </object>
   <object class="GtkWindow" id="welcomeWindow">
-    <property name="can_focus">False</property>
-    <property name="window_position">center-always</property>
-    <property name="icon_name">solydxk</property>
+    <property name="can-focus">False</property>
+    <property name="window-position">center-always</property>
+    <property name="icon-name">solydxk</property>
     <property name="decorated">False</property>
     <signal name="destroy" handler="on_welcomeWindow_destroy" swapped="no"/>
     <child>
       <object class="GtkBox" id="box1">
         <property name="visible">True</property>
-        <property name="can_focus">False</property>
-        <property name="margin_left">5</property>
-        <property name="margin_right">5</property>
-        <property name="margin_top">5</property>
-        <property name="margin_bottom">5</property>
+        <property name="can-focus">False</property>
+        <property name="margin-left">5</property>
+        <property name="margin-right">5</property>
+        <property name="margin-top">5</property>
+        <property name="margin-bottom">5</property>
         <property name="orientation">vertical</property>
         <child>
           <object class="GtkScrolledWindow" id="swWelcome">
             <property name="visible">True</property>
-            <property name="can_focus">True</property>
-            <property name="shadow_type">in</property>
-            <property name="overlay_scrolling">False</property>
+            <property name="can-focus">True</property>
+            <property name="shadow-type">in</property>
+            <property name="overlay-scrolling">False</property>
             <child>
               <placeholder/>
             </child>
@@ -55,11 +55,11 @@
         </child>
         <child>
           <object class="GtkProgressBar" id="pbWelcome">
-            <property name="height_request">5</property>
+            <property name="height-request">5</property>
             <property name="visible">True</property>
-            <property name="can_focus">False</property>
-            <property name="margin_top">5</property>
-            <property name="margin_bottom">5</property>
+            <property name="can-focus">False</property>
+            <property name="margin-top">5</property>
+            <property name="margin-bottom">5</property>
           </object>
           <packing>
             <property name="expand">False</property>
@@ -70,19 +70,19 @@
         <child>
           <object class="GtkBox" id="box2">
             <property name="visible">True</property>
-            <property name="can_focus">False</property>
-            <property name="margin_top">5</property>
+            <property name="can-focus">False</property>
+            <property name="margin-top">5</property>
             <property name="hexpand">True</property>
             <property name="spacing">5</property>
             <child>
               <object class="GtkButton" id="btnQuit">
                 <property name="label" translatable="yes">Quit</property>
-                <property name="width_request">100</property>
+                <property name="width-request">100</property>
                 <property name="visible">True</property>
-                <property name="can_focus">True</property>
-                <property name="receives_default">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
                 <property name="image">imgQuit</property>
-                <property name="always_show_image">True</property>
+                <property name="always-show-image">True</property>
                 <signal name="clicked" handler="on_btnQuit_clicked" swapped="no"/>
               </object>
               <packing>
@@ -94,7 +94,7 @@
             <child>
               <object class="GtkLabel" id="label2">
                 <property name="visible">True</property>
-                <property name="can_focus">False</property>
+                <property name="can-focus">False</property>
               </object>
               <packing>
                 <property name="expand">True</property>
@@ -105,12 +105,12 @@
             <child>
               <object class="GtkButton" id="btnInstall">
                 <property name="label" translatable="yes">Install</property>
-                <property name="width_request">200</property>
+                <property name="width-request">200</property>
                 <property name="visible">True</property>
-                <property name="can_focus">True</property>
-                <property name="receives_default">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
                 <property name="image">imgInstall</property>
-                <property name="always_show_image">True</property>
+                <property name="always-show-image">True</property>
                 <signal name="clicked" handler="on_btnInstall_clicked" swapped="no"/>
               </object>
               <packing>
@@ -122,7 +122,7 @@
             <child>
               <object class="GtkLabel" id="label1">
                 <property name="visible">True</property>
-                <property name="can_focus">False</property>
+                <property name="can-focus">False</property>
               </object>
               <packing>
                 <property name="expand">True</property>
@@ -133,12 +133,12 @@
             <child>
               <object class="GtkButton" id="btnPrevious">
                 <property name="label" translatable="yes">Previous</property>
-                <property name="width_request">100</property>
+                <property name="width-request">100</property>
                 <property name="visible">True</property>
-                <property name="can_focus">True</property>
-                <property name="receives_default">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
                 <property name="image">imgPrevious</property>
-                <property name="always_show_image">True</property>
+                <property name="always-show-image">True</property>
                 <signal name="clicked" handler="on_btnPrevious_clicked" swapped="no"/>
               </object>
               <packing>
@@ -151,14 +151,14 @@
             <child>
               <object class="GtkButton" id="btnNext">
                 <property name="label" translatable="yes">Next</property>
-                <property name="width_request">100</property>
+                <property name="width-request">100</property>
                 <property name="visible">True</property>
-                <property name="can_focus">True</property>
-                <property name="can_default">True</property>
-                <property name="receives_default">True</property>
+                <property name="can-focus">True</property>
+                <property name="can-default">True</property>
+                <property name="receives-default">True</property>
                 <property name="image">imgNext</property>
-                <property name="image_position">right</property>
-                <property name="always_show_image">True</property>
+                <property name="image-position">right</property>
+                <property name="always-show-image">True</property>
                 <signal name="clicked" handler="on_btnNext_clicked" swapped="no"/>
               </object>
               <packing>
