@@ -1,4 +1,5 @@
 #: ./po/en/wine.html%2Bhtml.body.h1:11-2
+#: ./po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td:22-9
 msgid "PlayOnLinux"
 msgstr ""
 
@@ -9,10 +10,8 @@ msgid ""
 "separately."
 msgstr ""
 
-#: ./po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td:22-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"playonlinux\" /> "
-"PlayOnLinux"
+#: ./po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:22-41
+msgid "playonlinux"
 msgstr ""
 
 #: ./po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.p:25-7
@@ -42,6 +41,6 @@ msgstr ""
 
 #: ./po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td:36-6
 msgid ""
-"Homepage: <a href=\"http://www.playonlinux.com\" target=\"_blank\""
-">http://www.playonlinux.com</a>"
+"Homepage: <a href=\"http://www.playonlinux.com\" target=\"_blank\">http://www"
+".playonlinux.com</a>"
 msgstr ""

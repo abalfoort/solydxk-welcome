@@ -3,8 +3,9 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Arjen Balfoort <translations@solydxk.com>, 2017-2019
-# Arjen Balfoort <translations@solydxk.com>, 2016-2017
+# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021
+# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2017-2019
+# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2016-2017
 # ilu lu, 2015
 # pitfd, 2017
 # pitfd, 2018-2020
@@ -12,10 +13,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-13 09:07+0200\n"
-"PO-Revision-Date: 2020-05-13 07:07+0000\n"
-"Last-Translator: pitfd\n"
-"Language-Team: German (http://www.transifex.com/solydxk/solydxk-welcome/"
+"POT-Creation-Date: 2021-06-28 09:12+0200\n"
+"PO-Revision-Date: 2021-06-28 07:10+0000\n"
+"Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>\n"
+"Language-Team: German (http://www.transifex.com/abalfoort/solydxk-welcome/"
 "language/de/)\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -23,10 +24,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: usr/lib/solydxk/welcome/main.py:38 usr/lib/solydxk/welcome/welcome.py:82
+#: usr/lib/solydxk/welcome/main.py:38
+#: usr/share/applications/solydxk-welcome.desktop.in.h:2
 #: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:2
 #: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:2
-#: usr/share/applications/solydxk-welcome.desktop.in.h:2
 #: etc/xdg/autostart/solydxk-welcome.desktop.in.h:1
 msgid "SolydXK Welcome"
 msgstr "SolydXK Willkommen"
@@ -52,23 +53,23 @@ msgstr ""
 "SolydXK Willkommen ist mit dem folgenden unerwarteten Fehler gescheitert. \n"
 "Bitte einen Fehler-Bericht erstellen!"
 
-#: usr/lib/solydxk/welcome/welcome.py:83
+#: usr/lib/solydxk/welcome/welcome.py:79
 msgid "Install"
 msgstr "Installiere"
 
-#: usr/lib/solydxk/welcome/welcome.py:84
+#: usr/lib/solydxk/welcome/welcome.py:80
 msgid "Quit"
 msgstr "Beenden"
 
-#: usr/lib/solydxk/welcome/welcome.py:85
+#: usr/lib/solydxk/welcome/welcome.py:81
 msgid "Next"
 msgstr "Nächste"
 
-#: usr/lib/solydxk/welcome/welcome.py:86
+#: usr/lib/solydxk/welcome/welcome.py:82
 msgid "Previous"
 msgstr "Vorherige"
 
-#: usr/lib/solydxk/welcome/welcome.py:134
+#: usr/lib/solydxk/welcome/welcome.py:130
 msgid ""
 "VirtualBox cannot be installed in a VirtualBox client.\n"
 "This package is skipped."
@@ -76,7 +77,7 @@ msgstr ""
 "VirtualBox kann nicht in einem VirtualBox-Client installiert werden.\n"
 "Dieses Paket wird übersprungen."
 
-#: usr/lib/solydxk/welcome/welcome.py:155
+#: usr/lib/solydxk/welcome/welcome.py:151
 msgid ""
 "Nothing to do:\n"
 "No packages were selected."
@@ -84,7 +85,7 @@ msgstr ""
 "Nichts zu tun:\n"
 "Es wurden keine Pakete ausgewählt."
 
-#: usr/lib/solydxk/welcome/welcome.py:170
+#: usr/lib/solydxk/welcome/welcome.py:166
 msgid ""
 "You selected some packages for installation.\n"
 "\n"
@@ -96,11 +97,11 @@ msgstr ""
 "Möchten Sie sie jetzt installieren?\n"
 "Hinweis: Die Liste wird gelöscht, wenn Sie mit der Installation fortfahren."
 
-#: usr/lib/solydxk/welcome/welcome.py:182
+#: usr/lib/solydxk/welcome/welcome.py:178
 msgid "No internet connection"
 msgstr "Keine Internet Verbindung"
 
-#: usr/lib/solydxk/welcome/welcome.py:183
+#: usr/lib/solydxk/welcome/welcome.py:179
 msgid ""
 "You need an internet connection to install the additional software.\n"
 "Please, connect to the internet and try again."
@@ -108,7 +109,7 @@ msgstr ""
 "Zusätzliche Software kann nur mit Internet-Verbindung installiert werden.\n"
 "Bitte mit dem Internet verbinden und erneut versuchen."
 
-#: usr/lib/solydxk/welcome/welcome.py:205
+#: usr/lib/solydxk/welcome/welcome.py:201
 msgid ""
 "Cannot install the requested software:\n"
 "Script not found: {}"
@@ -117,7 +118,7 @@ msgstr ""
 ":\n"
 "Das Skript wurde nicht gefunden: {}"
 
-#: usr/lib/solydxk/welcome/welcome.py:270
+#: usr/lib/solydxk/welcome/welcome.py:266
 msgid ""
 "There was an error during the installation.\n"
 "Please, run 'sudo apt-get -f install' in a terminal.\n"
@@ -127,13 +128,13 @@ msgstr ""
 "Bitte führen Sie den Befehl 'sudo apt-get -f install' im Terminal aus.\n"
 "Hilfe gibt es in unserem Forum: https://forums.solydxk.com"
 
-#: usr/lib/solydxk/welcome/welcome.py:278
+#: usr/lib/solydxk/welcome/welcome.py:274
 msgid "The software has been successfully installed."
 msgstr "Die Software wurde erfolgreich installiert."
 
+#: usr/share/applications/solydxk-welcome.desktop.in.h:1
 #: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:1
 #: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:1
-#: usr/share/applications/solydxk-welcome.desktop.in.h:1
 msgid "Welcome"
 msgstr "Willkommen"
 
@@ -157,10 +158,14 @@ msgstr ""
 "Wenn Sie auf die Schaltfläche\"Installieren\" klicken, werden alle "
 "ausgewählten Anwendungen auf Ihrem System installiert."
 
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:24-40
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:30-22
+msgid "gnucash"
+msgstr "gnucash"
+
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:24-6
-msgid "<input type=\"checkbox\" class=\"package\" value=\"gnucash\" /> Gnucash"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"gnucash\" /> Gnucash"
+msgid "Gnucash"
+msgstr "Gnucash"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:27-7
 msgid "GnuCash is personal and small-business financial-accounting software."
@@ -181,10 +186,6 @@ msgstr ""
 "Lieferanten und Rechnungen, Import von OFX und QIF, zahlreiche Berichte und "
 "Grafiken und eine benutzerdefinierbare Oberfläche."
 
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:30-6
-msgid "gnucash"
-msgstr "gnucash"
-
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:33-6
 msgid ""
 "Homepage: <a href=\"http://www.gnucash.org/\" target=\"_blank\">http://www."
@@ -193,11 +194,14 @@ msgstr ""
 "Homepage: <a href=\"http://www.gnucash.org/\" target=\"_blank\">http://www."
 "gnucash.org</a>"
 
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:35-43
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:49-22
+msgid "postbooks"
+msgstr "postbooks"
+
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:35-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"postbooks\" /> PostBooks"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"postbooks\" /> PostBooks"
+msgid "PostBooks"
+msgstr "PostBooks"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:38-7
 msgid ""
@@ -239,10 +243,6 @@ msgstr ""
 "Sie können die PostgreSql-Datenbanken mit pgAdmin III pflegen (Login: "
 "postgres / solydxk)."
 
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:49-6
-msgid "postbooks"
-msgstr "postbooks"
-
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:52-6
 msgid ""
 "Homepage: <a href=\"https://xtuple.com/products/postbooks\" target=\"_blank"
@@ -251,13 +251,14 @@ msgstr ""
 "Homepage: <a href=\"https://xtuple.com/products/postbooks\" target=\"_blank"
 "\">https://xtuple.com/products/postbooks</a>"
 
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:85-43
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:90-22
+msgid "projectlibre"
+msgstr "projectlibre"
+
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:85-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"projectlibre\" /> "
-"ProjectLibre"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"projectlibre\" /> "
-"ProjectLibre"
+msgid "ProjectLibre"
+msgstr "ProjectLibre"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:88-7
 msgid ""
@@ -266,10 +267,6 @@ msgid ""
 msgstr ""
 "ProjectLibre ist ein Projekt-Management-System, das anstrebt, ein "
 "vollständiger Desktop-Ersatz für Microsoft Project zu sein."
-
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:90-6
-msgid "projectlibre"
-msgstr "projectlibre"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:93-6
 msgid ""
@@ -336,9 +333,14 @@ msgstr ""
 "Wenn Sie auf die Schaltfläche \"Installieren\" klicken, werden alle "
 "ausgewählten Spiele auf Ihrem System installiert."
 
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:23-43
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:28-22
+msgid "steam"
+msgstr "steam"
+
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:23-9
-msgid "<input type=\"checkbox\" class=\"package\" value=\"steam\" /> Steam"
-msgstr "<input type=\"checkbox\" class=\"package\" value=\"steam\" /> Steam"
+msgid "Steam"
+msgstr "Steam"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
 msgid ""
@@ -349,10 +351,6 @@ msgstr ""
 "Steam ist eine internetbasierte digitale Spiele-Plattform der Valve "
 "Corporation für Distribution, Verwaltung digitaler Rechte (DRM-), "
 "Multiplayer und Soziale Vernetzung."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:28-6
-msgid "steam"
-msgstr "steam"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:32-7
 msgid ""
@@ -366,11 +364,14 @@ msgstr ""
 msgid "Installed size: 200 MB (after user installation)"
 msgstr "Installierte Größe: 200 MB (nach Benutzerinstallation)"
 
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:36-43
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:41-22
+msgid "minetest"
+msgstr "minetest"
+
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:36-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"minetest\" /> Minetest"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"minetest\" /> Minetest"
+msgid "Minetest"
+msgstr "Minetest"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:39-7
 msgid ""
@@ -379,10 +380,6 @@ msgid ""
 msgstr ""
 "Minetest ist ein Sandbox-Spiel mit einer unendlichen Welt aus Blöcken und "
 "eine Spiel-Engine, inspiriert von InfiniMiner, Minecraft und ahnlichem."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:41-6
-msgid "minetest"
-msgstr "minetest"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:45-7
 msgid ""
@@ -396,9 +393,14 @@ msgstr ""
 msgid "Installed size: 10 MB"
 msgstr "Installierte Größe: 10 MB"
 
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:49-43
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:54-22
+msgid "0ad"
+msgstr "0ad"
+
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:49-9
-msgid "<input type=\"checkbox\" class=\"package\" value=\"0ad\" /> 0 A.D."
-msgstr "<input type=\"checkbox\" class=\"package\" value=\"0ad\" /> 0 A.D."
+msgid "0 A.D."
+msgstr "0 A.D."
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:52-7
 msgid ""
@@ -414,10 +416,6 @@ msgstr ""
 "Als Anführer einer antiken Zivilisation müssen Sie die nötigen Ressourcen "
 "sammeln, um eine Militärmacht zu begründen und Ihre Feinde zu beherrschen."
 
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:54-6
-msgid "0ad"
-msgstr "0ad"
-
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:58-7
 msgid ""
 "Homepage: <a href=\"http://play0ad.com\" target=\"_blank\">http://play0ad."
@@ -430,13 +428,14 @@ msgstr ""
 msgid "Installed size: 1 GB"
 msgstr "Installierte Größe: 1 GB"
 
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:62-43
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:68-22
+msgid "wesnoth"
+msgstr "wesnoth"
+
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:62-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"wesnoth\" /> The Battle "
-"for Wesnoth"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"wesnoth\" /> The Battle "
-"for Wesnoth"
+msgid "The Battle for Wesnoth"
+msgstr "Die Schlacht um Wesnoth"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:65-7
 msgid ""
@@ -461,10 +460,6 @@ msgstr ""
 "mit den richtigen Stärken zusammen, um gut auf verschiedenen Terrains gegen "
 "alle Arten von Gegnern zu kämpfen."
 
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:68-6
-msgid "wesnoth"
-msgstr "wesnoth"
-
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:72-7
 msgid ""
 "Homepage: <a href=\"http://www.wesnoth.org/\" target=\"_blank\">http://www."
@@ -477,13 +472,14 @@ msgstr ""
 msgid "Installed size: 450 MB"
 msgstr "Installierte Größe: 450 MB"
 
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:76-43
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:82-22
+msgid "sauerbraten"
+msgstr "sauerbraten"
+
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:76-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"sauerbraten\" /> "
-"Sauerbraten"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"sauerbraten\" /> "
-"Sauerbraten"
+msgid "Sauerbraten"
+msgstr "Sauerbraten"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:79-7
 msgid ""
@@ -503,10 +499,6 @@ msgstr ""
 "Schule. Darüberhinaus erlaubt es eine kooperative Karten/Geometrie-"
 "Bearbeitung im Spiel."
 
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:82-6
-msgid "sauerbraten"
-msgstr "sauerbraten"
-
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:86-7
 msgid ""
 "Homepage: <a href=\"http://sauerbraten.org/\" target=\"_blank\">http://"
@@ -519,11 +511,14 @@ msgstr ""
 msgid "Installed size: 650 MB"
 msgstr "Installierte Größe: 650 MB"
 
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:90-43
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:95-22
+msgid "neverball"
+msgstr "neverball"
+
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:90-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"neverball\" /> Neverball"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"neverball\" /> Neverball"
+msgid "Neverball"
+msgstr "Neverball"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:93-7
 msgid ""
@@ -534,10 +529,6 @@ msgstr ""
 "Neigen Sie den Boden, um einen Ball durch einen Hindernislauf zu rollen, "
 "bevor die Zeit abläuft. Neverball ist teils Puzzle-Spiel, teils Action-"
 "Spiel, und testet Ihre Geschicklichkeit."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:95-6
-msgid "neverball"
-msgstr "neverball"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:99-7
 msgid ""
@@ -551,13 +542,14 @@ msgstr ""
 msgid "Installed size: 150 MB"
 msgstr "Installierte Größe: 150 MB"
 
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:103-43
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:108-22
+msgid "supertuxkart"
+msgstr "supertuxkart"
+
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:103-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"supertuxkart\" /> Super "
-"Tux Kart"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"supertuxkart\" /> Super "
-"Tux Kart"
+msgid "Super Tux Kart"
+msgstr "Super Tux Kart"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:106-7
 msgid ""
@@ -566,10 +558,6 @@ msgid ""
 msgstr ""
 "SuperTuxKart ist ein quelloffenes 3D-Kart-Rennspiel, mit vielen "
 "Rennparcours, Figuren und Einzelteilen. Viel Spaß!"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:108-6
-msgid "supertuxkart"
-msgstr "supertuxkart"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:112-7
 msgid ""
@@ -583,327 +571,17 @@ msgstr ""
 msgid "Installed size: 350 MB"
 msgstr "Installierte Größe: 350 MB"
 
-#: po/en/home.html%2Bhtml.body.h1:11-2
-msgid "Home applications"
-msgstr "Heimanwendungen"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
-msgid "This is a list of recommended applications suited for home users."
-msgstr "Dies ist eine Liste geeigneter Anwendungen für Heimanwender."
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:23-9
-msgid "<input type=\"checkbox\" class=\"package\" value=\"gimp\" /> Gimp"
-msgstr "<input type=\"checkbox\" class=\"package\" value=\"gimp\" /> Gimp"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
-msgid ""
-"GIMP is an acronym for GNU Image Manipulation Program. It is a freely "
-"distributed program for such tasks as photo retouching, image composition "
-"and image authoring."
-msgstr ""
-"GIMP ist ein Akronym für GNU Image Manipulation Program. Es ist ein frei "
-"verteilbares Programm für Aufgaben wie Foto-Retusche, Bildkomposition und "
-"Bildbearbeitung."
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:27-7
-msgid ""
-"It has many capabilities. It can be used as a simple paint program, an "
-"expert quality photo retouching program, an online batch processing system, "
-"a mass production image renderer, an image format converter, etc."
-msgstr ""
-"Es hat viele Funktionen. Es kann als ein einfaches Malprogramm, als hoch "
-"qualitatives Foto-Retusche-Programm, als Online-Batch-Verarbeitungssystem, "
-"als Bild-Renderer in Massenproduktion, als Bild-Format-Konverter, usw. "
-"verwendet werden"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:29-6
-msgid "gimp"
-msgstr "gimp"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:32-6
-msgid ""
-"Homepage: <a href=\"http://www.gimp.org\" target=\"_blank\">http://www.gimp."
-"org</a>"
-msgstr ""
-"Homepage: <a href=\"http://www.gimp.org\" target=\"_blank\">http://www.gimp."
-"org</a>"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:34-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"inkscape\" /> Inkscape"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"inkscape\" /> Inkscape"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:37-7
-msgid ""
-"Inkscape is an open-source vector graphics editor similar to Adobe "
-"Illustrator, Corel Draw, Freehand, or Xara X. What sets Inkscape apart is "
-"its use of Scalable Vector Graphics (SVG), an open XML-based W3C standard, "
-"as the native format."
-msgstr ""
-"Inkscape ist ein quelloffener Vektorgrafikeditor ähnlich wie Adobe "
-"Illustrator, Corel Draw, Freehand oder Xara X. Was Inkscape  von allen "
-"anderen unterscheide, ist die Verwendung von Scalable Vector Graphics (SVG), "
-"einem offenen XML-basierte W3C-Standard."
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:39-6
-msgid "inkscape"
-msgstr "inkscape"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:42-6
-msgid ""
-"Homepage: <a href=\"https://inkscape.org\" target=\"_blank\">https://"
-"inkscape.org</a>"
-msgstr ""
-"Homepage: <a href=\"https://inkscape.org\" target=\"_blank\">https://"
-"inkscape.org</a>"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:44-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"shotwell\" /> Shotwell / "
-"Digikam"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"shotwell\" /> Shotwell / "
-"Digikam"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:47-7
-msgid ""
-"Shotwell is an image organizer designed to provide personal photo management."
-msgstr ""
-"Shotwell ist ein Bildorganisationsprogramm für Ihr persönliches "
-"Fotomanagement."
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:48-7
-msgid ""
-"Shotwell can import photos and videos from a digital camera directly. "
-"Shotwell automatically groups photos and videos by date, and supports "
-"tagging. Its image editing features allow users to straighten, crop, "
-"eliminate red eye, and adjust levels and color balance."
-msgstr ""
-"Shotwell kann Fotos und Videos von einer Digitalkamera direkt importieren. "
-"Es sortiert automatisch Fotos und Videos nach Datum, und unterstützt "
-"Tagging. Seine Bildbearbeitungsfunktionen ermöglichen Begradigungen, "
-"Zuschneiden, die Beseitigung roter Augen sowie die Einstellung von Ebenen "
-"und Farbbalance."
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:49-7
-msgid ""
-"For SolydK Digikam is installed. It has the same functionality as Shotwell"
-msgstr ""
-"Bei SolydK ist Digikam installiert. Es hat die gleiche Funktionalität wie "
-"Shotwell"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:51-6
-msgid "shotwell"
-msgstr "shotwell"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:55-7
-msgid ""
-"Homepage Shotwell: <a href=\"https://wiki.gnome.org/Apps/Shotwell/\" target="
-"\"_blank\">https://wiki.gnome.org/Apps/Shotwell</a>"
-msgstr ""
-"Homepage Shotwell: <a href=\"https://wiki.gnome.org/Apps/Shotwell/\" target="
-"\"_blank\">https://wiki.gnome.org/Apps/Shotwell</a>"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:56-7
-msgid ""
-"Homepage Digikam: <a href=\"https://www.digikam.org/\" target=\"_blank"
-"\">https://www.digikam.org</a>"
-msgstr ""
-"Homepage Digikam: <a href=\"https://www.digikam.org/\" target=\"_blank"
-"\">https://www.digikam.org</a>"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:59-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"clementine\" /> "
-"Clementine / Amarok"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"clementine\" /> "
-"Clementine / Amarok"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:62-7
-msgid "Clementine is a modern music player and library organizer."
-msgstr ""
-"Clementine ist ein Musikplayer und Organisationsprogramm für Musikdateien."
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:63-7
-msgid ""
-"Clementine is a multiplatform music player. It is inspired by Amarok 1.4, "
-"focusing on a fast and easy-to-use interface for searching and playing your "
-"music."
-msgstr ""
-"Clementine ist ein Multiplattform-Musik-Player. Es ist von Amarok 1.4 "
-"inspiriert und konzentriert sich auf eine schnelle und einfach zu bedienende "
-"Benutzeroberfläche für die Suche und Wiedergabe Ihrer Musik."
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:64-7
-msgid ""
-"For SolydK Amarok is installed. It has the same functionality as Clementine"
-msgstr ""
-"Bei SolydK ist das Programm Amarok installiert. Es hat die gleiche "
-"Funktionalität wie Clementine"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:66-6
-msgid "clementine"
-msgstr "clementine"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:70-7
-msgid ""
-"Homepage Clementine: <a href=\"https://www.clementine-player.org\" target="
-"\"_blank\">https://www.clementine-player.org</a>"
-msgstr ""
-"Homepage Clementine: <a href=\"https://www.clementine-player.org\" target="
-"\"_blank\">https://www.clementine-player.org</a>"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:71-7
-msgid ""
-"Homepage Amarok: <a href=\"https://amarok.kde.org\" target=\"_blank"
-"\">https://amarok.kde.org</a>"
-msgstr ""
-"Homepage Amarok: <a href=\"https://amarok.kde.org\" target=\"_blank"
-"\">https://amarok.kde.org</a>"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:74-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"handbrake\" /> HandBrake"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"handbrake\" /> HandBrake"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:77-7
-msgid ""
-"HandBrake is a tool for converting video from nearly any format to a "
-"selection of modern, widely supported codecs."
-msgstr ""
-"Handbrake ist ein Werkzeug zum Konvertieren von Videos nahezu jeden Formates "
-"in eine eine Auswahl von modernen, weit verbreiteten Codecs."
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:79-6
-msgid "handbrake"
-msgstr "handbrake"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:82-6
-msgid ""
-"Homepage: <a href=\"https://handbrake.fr\" target=\"_blank\">https://"
-"handbrake.fr</a>"
-msgstr ""
-"Homepage: <a href=\"https://handbrake.fr\" target=\"_blank\">https://"
-"handbrake.fr</a>"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:84-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"soundconverter\" /> "
-"SoundConverter"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"soundconverter\" /> "
-"SoundConverter"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:87-7
-msgid ""
-"SoundConverter is the leading audio file converter. It reads anything "
-"GStreamer can read (Ogg Vorbis, AAC, MP3, FLAC, WAV, AVI, MPEG, MOV, M4A, "
-"AC3, DTS, ALAC, MPC, Shorten, APE, SID, MOD, XM, S3M, etc...), and writes to "
-"Opus, Ogg Vorbis, FLAC, WAV, AAC, and MP3 files."
-msgstr ""
-"Soundconverter ist der führende Audio-Datei-Konverter. Er liest alles was "
-"GStreamer lesen kann (Ogg Vorbis, AAC, MP3, FLAC, WAV, AVI, MPEG, MOV, M4A, "
-"AC3, DTS, ALAC, MPC, Shorten, APE, SID, MOD, XM, S3M, usw.), und schreibt "
-"die Formate Opus, Ogg Vorbis, FLAC, WAV, AAC und MP3."
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:89-6
-msgid "soundconverter"
-msgstr "soundconverter"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:92-6
-msgid ""
-"Homepage: <a href=\"http://soundconverter.org\" target=\"_blank\">http://"
-"soundconverter.org</a>"
-msgstr ""
-"Homepage: <a href=\"http://soundconverter.org\" target=\"_blank\">http://"
-"soundconverter.org</a>"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:94-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"pitivi\" /> Pitivi / "
-"Kdenlive"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"pitivi\" /> Pitivi / "
-"Kdenlive"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:97-7
-msgid ""
-"Pitivi is a Free video editor with a beautiful and intuitive user interface, "
-"a clean codebase and a fantastic community."
-msgstr ""
-"Pitivi ist ein kostenloser Video-Editor mit einer schönen und intuitiven "
-"Benutzerschnittstelle, einer sauberen Codebasis und einer fantastischen "
-"Community."
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:98-7
-msgid ""
-"For SolydK Kdenlive is installed. It has the same functionality as Pitivi"
-msgstr ""
-"Bei SolydK ist Kdenlive installiert. Es hat die gleiche Funktionalität wie "
-"Pitivi"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:100-6
-msgid "pitivi"
-msgstr "pitivi"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:104-7
-msgid ""
-"Homepage Pitivi: <a href=\"http://www.pitivi.org\" target=\"_blank\">http://"
-"www.pitivi.org</a>"
-msgstr ""
-"Homepage Pitivi: <a href=\"http://www.pitivi.org\" target=\"_blank\">http://"
-"www.pitivi.org</a>"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:105-7
-msgid ""
-"Homepage Kdenlive: <a href=\"https://kdenlive.org/\" target=\"_blank"
-"\">https://kdenlive.org</a>"
-msgstr ""
-"Homepage Kdenlive: <a href=\"https://kdenlive.org/\" target=\"_blank"
-"\">https://kdenlive.org</a>"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:108-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"transmission\" /> "
-"Transmission"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"transmission\" /> "
-"Transmission"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:111-7
-msgid ""
-"Transmission is a BitTorrent client which features a simple interface on top "
-"of a cross-platform back-end."
-msgstr ""
-"Transmission ist ein BitTorrent-Client mit einer einfachen Schnittstelle auf "
-"einem Cross-Plattform-Back-End."
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:113-6
-msgid "transmission"
-msgstr "transmission"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:117-7
-msgid ""
-"Homepage Transmission: <a href=\"https://www.transmissionbt.com/\" target="
-"\"_blank\">https://www.transmissionbt.com</a>"
-msgstr ""
-"Homepage Transmission: <a href=\"https://www.transmissionbt.com/\" target="
-"\"_blank\">https://www.transmissionbt.com</a>"
-
 #: po/en/libreoffice.html%2Bhtml.body.h1:11-2
 msgid "LibreOffice (Backports)"
 msgstr "LibreOffice (Backports)"
 
+#: po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:17-41
+msgid "libreoffice"
+msgstr "libreoffice"
+
 #: po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td:17-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"libreoffice\" /> "
-"LibreOffice"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"libreoffice\" /> "
-"LibreOffice"
+msgid "LibreOffice"
+msgstr "LibreOffice"
 
 #: po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
 msgid ""
@@ -943,104 +621,296 @@ msgstr ""
 "Homepage: <a href=\"https://www.libreoffice.org/\" target=\"_blank\">https://"
 "www.libreoffice.org</a>"
 
-#: po/en/multimedia.html%2Bhtml.body.h1:10-2
-msgid "Multimedia codecs"
-msgstr "Multimedia-Codecs"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:17-7
-msgid ""
-"These multimedia codecs are not included by default for legal or security "
-"reasons."
+#: po/en/multimedia.html%2Bhtml.body.h1:11-2
+msgid "Multimedia applications"
 msgstr ""
-"Die folgenden Multimedia-Codecs sind aus rechtlichen oder aus Gründen der "
-"Sicherheit nicht vorinstalliert."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:20-9
-msgid "<input type=\"checkbox\" class=\"package\" value=\"flash\" /> Flash"
-msgstr "<input type=\"checkbox\" class=\"package\" value=\"flash\" /> Flash"
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
+msgid "This is a list of recommended applications suited for home users."
+msgstr "Dies ist eine Liste geeigneter Anwendungen für Heimanwender."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:23-7
-msgid "HTML5 is the default media player in Firefox."
-msgstr "HTML5 ist der Standardmediaplayer in Firefox."
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:23-43
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:29-22
+msgid "gimp"
+msgstr "gimp"
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:24-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:23-9
+msgid "Gimp"
+msgstr "Gimp"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
 msgid ""
-"Youtube and other sites are already providing their content using HTML5. "
-"However, there are still sites using Flash."
+"GIMP is an acronym for GNU Image Manipulation Program. It is a freely "
+"distributed program for such tasks as photo retouching, image composition "
+"and image authoring."
 msgstr ""
-"Youtube und andere Websites bieten ihren Inhalt bereits im  HTML5 Format an. "
-"Allerdings gibt es immer noch Webseiten, die allein auf Flash setzen."
+"GIMP ist ein Akronym für GNU Image Manipulation Program. Es ist ein frei "
+"verteilbares Programm für Aufgaben wie Foto-Retusche, Bildkomposition und "
+"Bildbearbeitung."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.div.p:30-8
-msgid "Warning:"
-msgstr "Warnung:"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.div.p:31-8
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:27-7
 msgid ""
-"Be aware that Flash is not Open Source. Some Flash content may harm your "
-"system."
+"It has many capabilities. It can be used as a simple paint program, an "
+"expert quality photo retouching program, an online batch processing system, "
+"a mass production image renderer, an image format converter, etc."
 msgstr ""
-"Beachten Sie, dass Flash nicht quelloffen ist. Einige Flash-Inhalte könnten "
-"Ihr System beschädigen."
+"Es hat viele Funktionen. Es kann als ein einfaches Malprogramm, als hoch "
+"qualitatives Foto-Retusche-Programm, als Online-Batch-Verarbeitungssystem, "
+"als Bild-Renderer in Massenproduktion, als Bild-Format-Konverter, usw. "
+"verwendet werden"
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:35-9
-msgid "<input type=\"checkbox\" class=\"package\" value=\"css\" /> CSS"
-msgstr "<input type=\"checkbox\" class=\"package\" value=\"css\" /> CSS"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:38-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:32-6
 msgid ""
-"Most commercial DVDs are encrypted with CSS (the Content Scramble System), "
-"which attempts to restrict the software that can play a DVD."
+"Homepage: <a href=\"http://www.gimp.org\" target=\"_blank\">http://www.gimp."
+"org</a>"
 msgstr ""
-"Die meisten kommerziellen DVDs sind mit CSS (Content Scramble System) "
-"verschlüsselt. um die Software, die DVDs wiedergeben, in ihrem "
-"Funktionsumfang einzuschränken. "
+"Homepage: <a href=\"http://www.gimp.org\" target=\"_blank\">http://www.gimp."
+"org</a>"
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:39-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:34-43
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:39-22
+msgid "inkscape"
+msgstr "inkscape"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:34-9
+msgid "Inkscape"
+msgstr "Inkscape"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:37-7
 msgid ""
-"SolydXK does not come with the necessary packages pre-installed to play "
-"these encrypted DVDs."
+"Inkscape is an open-source vector graphics editor similar to Adobe "
+"Illustrator, Corel Draw, Freehand, or Xara X. What sets Inkscape apart is "
+"its use of Scalable Vector Graphics (SVG), an open XML-based W3C standard, "
+"as the native format."
 msgstr ""
-"In SolydXK sind die für das Abspielen dieser verschlüsselten DVDs "
-"notwendigen Pakete nicht vorinstalliert."
+"Inkscape ist ein quelloffener Vektorgrafikeditor ähnlich wie Adobe "
+"Illustrator, Corel Draw, Freehand oder Xara X. Was Inkscape  von allen "
+"anderen unterscheide, ist die Verwendung von Scalable Vector Graphics (SVG), "
+"einem offenen XML-basierte W3C-Standard."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:40-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:42-6
 msgid ""
-"By clicking the install button below the following packages will be "
-"installed on your system:"
+"Homepage: <a href=\"https://inkscape.org\" target=\"_blank\">https://"
+"inkscape.org</a>"
 msgstr ""
-"Wenn Sie \"Installieren\" auswählen, werden die folgenden Pakete auf Ihrem "
-"System installiert:"
+"Homepage: <a href=\"https://inkscape.org\" target=\"_blank\">https://"
+"inkscape.org</a>"
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:42-8
-msgid "libdvdcss2"
-msgstr "libdvdcss2"
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:44-43
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:51-22
+msgid "shotwell"
+msgstr "shotwell"
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:43-8
-msgid "w32codecs or w64codecs"
-msgstr "w32codecs or w64codecs"
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:44-9
+msgid "Shotwell / Digikam"
+msgstr "Shotwell / Digikam"
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.div.p:50-8
-msgid "Legal warning:"
-msgstr "Rechtlicher Hinweis:"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.div.p:51-8
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:47-7
 msgid ""
-"Check with your local laws to make sure usage of libdvdcss2 would be legal "
-"in your area."
+"Shotwell is an image organizer designed to provide personal photo management."
 msgstr ""
-"Beachten Sie die lokalen Gesetze, um sicherzustellen, dass die Nutzung von "
-"libdvdcss2 bei Ihnen rechtmäßig ist."
+"Shotwell ist ein Bildorganisationsprogramm für Ihr persönliches "
+"Fotomanagement."
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:48-7
+msgid ""
+"Shotwell can import photos and videos from a digital camera directly. "
+"Shotwell automatically groups photos and videos by date, and supports "
+"tagging. Its image editing features allow users to straighten, crop, "
+"eliminate red eye, and adjust levels and color balance."
+msgstr ""
+"Shotwell kann Fotos und Videos von einer Digitalkamera direkt importieren. "
+"Es sortiert automatisch Fotos und Videos nach Datum, und unterstützt "
+"Tagging. Seine Bildbearbeitungsfunktionen ermöglichen Begradigungen, "
+"Zuschneiden, die Beseitigung roter Augen sowie die Einstellung von Ebenen "
+"und Farbbalance."
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:49-7
+msgid ""
+"For SolydK Digikam is installed. It has the same functionality as Shotwell"
+msgstr ""
+"Bei SolydK ist Digikam installiert. Es hat die gleiche Funktionalität wie "
+"Shotwell"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:55-7
+msgid ""
+"Homepage Shotwell: <a href=\"https://wiki.gnome.org/Apps/Shotwell/\" target="
+"\"_blank\">https://wiki.gnome.org/Apps/Shotwell</a>"
+msgstr ""
+"Homepage Shotwell: <a href=\"https://wiki.gnome.org/Apps/Shotwell/\" target="
+"\"_blank\">https://wiki.gnome.org/Apps/Shotwell</a>"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:56-7
+msgid ""
+"Homepage Digikam: <a href=\"https://www.digikam.org/\" target=\"_blank"
+"\">https://www.digikam.org</a>"
+msgstr ""
+"Homepage Digikam: <a href=\"https://www.digikam.org/\" target=\"_blank"
+"\">https://www.digikam.org</a>"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:59-43
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:66-22
+msgid "clementine"
+msgstr "clementine"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:59-9
+msgid "Clementine"
+msgstr "Clementine"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:62-7
+msgid "Clementine is a modern music player and library organizer."
+msgstr ""
+"Clementine ist ein Musikplayer und Organisationsprogramm für Musikdateien."
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:63-7
+msgid ""
+"Clementine is a multiplatform music player. It is inspired by Amarok 1.4, "
+"focusing on a fast and easy-to-use interface for searching and playing your "
+"music."
+msgstr ""
+"Clementine ist ein Multiplattform-Musik-Player. Es ist von Amarok 1.4 "
+"inspiriert und konzentriert sich auf eine schnelle und einfach zu bedienende "
+"Benutzeroberfläche für die Suche und Wiedergabe Ihrer Musik."
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:70-7
+msgid ""
+"Homepage Clementine: <a href=\"https://www.clementine-player.org\" target="
+"\"_blank\">https://www.clementine-player.org</a>"
+msgstr ""
+"Homepage Clementine: <a href=\"https://www.clementine-player.org\" target="
+"\"_blank\">https://www.clementine-player.org</a>"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:74-43
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:79-22
+msgid "handbrake"
+msgstr "handbrake"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:74-9
+msgid "HandBrake"
+msgstr "HandBrake"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:77-7
+msgid ""
+"HandBrake is a tool for converting video from nearly any format to a "
+"selection of modern, widely supported codecs."
+msgstr ""
+"Handbrake ist ein Werkzeug zum Konvertieren von Videos nahezu jeden Formates "
+"in eine eine Auswahl von modernen, weit verbreiteten Codecs."
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:82-6
+msgid ""
+"Homepage: <a href=\"https://handbrake.fr\" target=\"_blank\">https://"
+"handbrake.fr</a>"
+msgstr ""
+"Homepage: <a href=\"https://handbrake.fr\" target=\"_blank\">https://"
+"handbrake.fr</a>"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:84-43
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:89-22
+msgid "soundconverter"
+msgstr "soundconverter"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:84-9
+msgid "SoundConverter"
+msgstr "SoundConverter"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:87-7
+msgid ""
+"SoundConverter is the leading audio file converter. It reads anything "
+"GStreamer can read (Ogg Vorbis, AAC, MP3, FLAC, WAV, AVI, MPEG, MOV, M4A, "
+"AC3, DTS, ALAC, MPC, Shorten, APE, SID, MOD, XM, S3M, etc...), and writes to "
+"Opus, Ogg Vorbis, FLAC, WAV, AAC, and MP3 files."
+msgstr ""
+"Soundconverter ist der führende Audio-Datei-Konverter. Er liest alles was "
+"GStreamer lesen kann (Ogg Vorbis, AAC, MP3, FLAC, WAV, AVI, MPEG, MOV, M4A, "
+"AC3, DTS, ALAC, MPC, Shorten, APE, SID, MOD, XM, S3M, usw.), und schreibt "
+"die Formate Opus, Ogg Vorbis, FLAC, WAV, AAC und MP3."
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:92-6
+msgid ""
+"Homepage: <a href=\"http://soundconverter.org\" target=\"_blank\">http://"
+"soundconverter.org</a>"
+msgstr ""
+"Homepage: <a href=\"http://soundconverter.org\" target=\"_blank\">http://"
+"soundconverter.org</a>"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:94-43
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:100-22
+msgid "pitivi"
+msgstr "pitivi"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:94-9
+msgid "Pitivi / Kdenlive"
+msgstr "Pitivi / Kdenlive"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:97-7
+msgid ""
+"Pitivi is a Free video editor with a beautiful and intuitive user interface, "
+"a clean codebase and a fantastic community."
+msgstr ""
+"Pitivi ist ein kostenloser Video-Editor mit einer schönen und intuitiven "
+"Benutzerschnittstelle, einer sauberen Codebasis und einer fantastischen "
+"Community."
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:98-7
+msgid ""
+"For SolydK Kdenlive is installed. It has the same functionality as Pitivi"
+msgstr ""
+"Bei SolydK ist Kdenlive installiert. Es hat die gleiche Funktionalität wie "
+"Pitivi"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:104-7
+msgid ""
+"Homepage Pitivi: <a href=\"http://www.pitivi.org\" target=\"_blank\">http://"
+"www.pitivi.org</a>"
+msgstr ""
+"Homepage Pitivi: <a href=\"http://www.pitivi.org\" target=\"_blank\">http://"
+"www.pitivi.org</a>"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:105-7
+msgid ""
+"Homepage Kdenlive: <a href=\"https://kdenlive.org/\" target=\"_blank"
+"\">https://kdenlive.org</a>"
+msgstr ""
+"Homepage Kdenlive: <a href=\"https://kdenlive.org/\" target=\"_blank"
+"\">https://kdenlive.org</a>"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:108-43
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:113-22
+msgid "transmission"
+msgstr "transmission"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:108-9
+msgid "Transmission"
+msgstr "Transmission"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:111-7
+msgid ""
+"Transmission is a BitTorrent client which features a simple interface on top "
+"of a cross-platform back-end."
+msgstr ""
+"Transmission ist ein BitTorrent-Client mit einer einfachen Schnittstelle auf "
+"einem Cross-Plattform-Back-End."
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:117-7
+msgid ""
+"Homepage Transmission: <a href=\"https://www.transmissionbt.com/\" target="
+"\"_blank\">https://www.transmissionbt.com</a>"
+msgstr ""
+"Homepage Transmission: <a href=\"https://www.transmissionbt.com/\" target="
+"\"_blank\">https://www.transmissionbt.com</a>"
 
 #: po/en/system.html%2Bhtml.body.h1:11-2
 msgid "System applications"
 msgstr "Systemanwendungen"
 
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:34-41
+msgid "virtualbox"
+msgstr "virtualbox"
+
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:34-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"virtualbox\" /> VirtualBox"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"virtualbox\" /> VirtualBox"
+msgid "VirtualBox"
+msgstr "VirtualBox"
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:37-7
 msgid ""
@@ -1064,11 +934,13 @@ msgstr ""
 "Homepage: <a href=\"https://www.virtualbox.org/\" target=\"_blank\">https://"
 "www.virtualbox.org</a>"
 
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:44-41
+msgid "filezilla"
+msgstr "filezilla"
+
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:44-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"filezilla\" /> FileZilla"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"filezilla\" /> FileZilla"
+msgid "FileZilla"
+msgstr "FileZilla"
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:47-7
 msgid ""
@@ -1087,6 +959,59 @@ msgid ""
 msgstr ""
 "Homepage: <a href=\"https://filezilla-project.org/\" target=\"_blank"
 "\">https://filezilla-project.org</a>"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:54-31
+msgid "css"
+msgstr "css"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:54-9
+msgid "CSS"
+msgstr "CSS"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:57-7
+msgid ""
+"Most commercial DVDs are encrypted with CSS (the Content Scramble System), "
+"which attempts to restrict the software that can play a DVD."
+msgstr ""
+"Die meisten kommerziellen DVDs sind mit CSS (Content Scramble System) "
+"verschlüsselt. um die Software, die DVDs wiedergeben, in ihrem "
+"Funktionsumfang einzuschränken. "
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:58-7
+msgid ""
+"SolydXK does not come with the necessary packages pre-installed to play "
+"these encrypted DVDs."
+msgstr ""
+"In SolydXK sind die für das Abspielen dieser verschlüsselten DVDs "
+"notwendigen Pakete nicht vorinstalliert."
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:59-7
+msgid ""
+"By clicking the install button below the following packages will be "
+"installed on your system:"
+msgstr ""
+"Wenn Sie \"Installieren\" auswählen, werden die folgenden Pakete auf Ihrem "
+"System installiert:"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:61-8
+msgid "libdvdcss2"
+msgstr "libdvdcss2"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:62-8
+msgid "w32codecs or w64codecs"
+msgstr "w32codecs or w64codecs"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:69-8
+msgid "Legal warning:"
+msgstr "Rechtlicher Hinweis:"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:70-8
+msgid ""
+"Check with your local laws to make sure usage of libdvdcss2 would be legal "
+"in your area."
+msgstr ""
+"Beachten Sie die lokalen Gesetze, um sicherzustellen, dass die Nutzung von "
+"libdvdcss2 bei Ihnen rechtmäßig ist."
 
 #: po/en/welcome.html%2Bhtml.body.h1:10-2
 msgid "Welcome to SolydXK"
@@ -1137,7 +1062,7 @@ msgstr ""
 "notwendig, Software von zweifelhaften Websites herunterzuladen. Sie suchen "
 "und installieren einfach die benötigte Software mit der Software-Manager."
 
-#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td:39-6
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.img[alt]:39-22
 msgid "softwaremanager"
 msgstr "softwaremanager"
 
@@ -1156,7 +1081,7 @@ msgstr ""
 "die Forum-Suche nutzen, um herauszufinden, ob Ihr Problem bereits gelöst ist "
 "oder Sie starten ein neues Thema mit der Bitte um Hilfe."
 
-#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td:47-6
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.img[alt]:47-22
 msgid "forum"
 msgstr "Forum"
 
@@ -1185,6 +1110,7 @@ msgstr ""
 "com/feed</a>"
 
 #: po/en/wine.html%2Bhtml.body.h1:11-2
+#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td:22-9
 msgid "PlayOnLinux"
 msgstr "PlayOnLinux"
 
@@ -1198,13 +1124,9 @@ msgstr ""
 "Ihrem System installiert. Einzeln können sie mit dem Software Manager "
 "installiert werden."
 
-#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td:22-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"playonlinux\" /> "
-"PlayOnLinux"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"playonlinux\" /> "
-"PlayOnLinux"
+#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:22-41
+msgid "playonlinux"
+msgstr "playonlinux"
 
 #: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.p:25-7
 msgid ""

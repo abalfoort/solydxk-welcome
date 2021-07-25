@@ -3,18 +3,19 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Arjen Balfoort <translations@solydxk.com>, 2017-2019
-# Arjen Balfoort <translations@solydxk.com>, 2016-2017
-# Moo, 2016-2020
+# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021
+# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2017-2019
+# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2016-2017
+# Moo, 2016-2021
 msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-13 09:07+0200\n"
-"PO-Revision-Date: 2020-05-13 07:07+0000\n"
-"Last-Translator: Arjen Balfoort <translations@solydxk.com>\n"
-"Language-Team: Lithuanian (http://www.transifex.com/solydxk/solydxk-welcome/"
-"language/lt/)\n"
+"POT-Creation-Date: 2021-06-28 09:12+0200\n"
+"PO-Revision-Date: 2021-06-28 07:11+0000\n"
+"Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>\n"
+"Language-Team: Lithuanian (http://www.transifex.com/abalfoort/solydxk-"
+"welcome/language/lt/)\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,13 +24,13 @@ msgstr ""
 "11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? "
 "1 : n % 1 != 0 ? 2: 3);\n"
 
-#: usr/lib/solydxk/welcome/main.py:38 usr/lib/solydxk/welcome/welcome.py:82
+#: usr/lib/solydxk/welcome/main.py:38
+#: usr/share/applications/solydxk-welcome.desktop.in.h:2
 #: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:2
 #: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:2
-#: usr/share/applications/solydxk-welcome.desktop.in.h:2
 #: etc/xdg/autostart/solydxk-welcome.desktop.in.h:1
 msgid "SolydXK Welcome"
-msgstr ""
+msgstr "SolydXK pasveikinimas"
 
 #: usr/lib/solydxk/welcome/main.py:39
 msgid ""
@@ -37,89 +38,110 @@ msgid ""
 "You can use the --force argument to start SolydXK Welcome in a live "
 "environment"
 msgstr ""
+"SolydXK pasveikinimas negali būti paleistas pristatymo aplinkoje\n"
+"Galite naudoti --force argumentą, kad paleistumėte SolydXK pasveikinimą "
+"pristatymo aplinkoje"
 
 #: usr/lib/solydxk/welcome/main.py:105
 msgid "Unexpected error"
-msgstr ""
+msgstr "Netikėta klaida"
 
 #: usr/lib/solydxk/welcome/main.py:106
 msgid ""
 "SolydXK Welcome has failed with the following unexpected error.\n"
 "Please submit a bug report!"
 msgstr ""
+"SolydXK pasveikinimas patyrė nesėkmę su šia netikėta klaida.\n"
+"Prašome pranešti apie klaidą!"
 
-#: usr/lib/solydxk/welcome/welcome.py:83
+#: usr/lib/solydxk/welcome/welcome.py:79
 msgid "Install"
-msgstr ""
+msgstr "Įdiegti"
 
-#: usr/lib/solydxk/welcome/welcome.py:84
+#: usr/lib/solydxk/welcome/welcome.py:80
 msgid "Quit"
-msgstr ""
+msgstr "Baigti"
 
-#: usr/lib/solydxk/welcome/welcome.py:85
+#: usr/lib/solydxk/welcome/welcome.py:81
 msgid "Next"
-msgstr ""
+msgstr "Kitas"
 
-#: usr/lib/solydxk/welcome/welcome.py:86
+#: usr/lib/solydxk/welcome/welcome.py:82
 msgid "Previous"
-msgstr ""
+msgstr "Ankstesnis"
 
-#: usr/lib/solydxk/welcome/welcome.py:134
+#: usr/lib/solydxk/welcome/welcome.py:130
 msgid ""
 "VirtualBox cannot be installed in a VirtualBox client.\n"
 "This package is skipped."
 msgstr ""
+"VirtualBox paketas negali būti įdiegtas VirtualBox kliente.\n"
+"Šis paketas yra praleistas."
 
-#: usr/lib/solydxk/welcome/welcome.py:155
+#: usr/lib/solydxk/welcome/welcome.py:151
 msgid ""
 "Nothing to do:\n"
 "No packages were selected."
 msgstr ""
+"Nėra ką atlikti:\n"
+"Nebuvo pažymėti jokie paketai."
 
-#: usr/lib/solydxk/welcome/welcome.py:170
+#: usr/lib/solydxk/welcome/welcome.py:166
 msgid ""
 "You selected some packages for installation.\n"
 "\n"
 "Do you want to install them now?\n"
 "Note: list is cleared if you continue without installing."
 msgstr ""
+"Įdiegimui pasirinkote kai kuriuos paketus.\n"
+"\n"
+"Ar norite juos įdiegti dabar?\n"
+"Pastaba: jei tęsite neįdiegdami, sąrašas bus išvalytas."
 
-#: usr/lib/solydxk/welcome/welcome.py:182
+#: usr/lib/solydxk/welcome/welcome.py:178
 msgid "No internet connection"
-msgstr ""
+msgstr "Nėra interneto ryšio"
 
-#: usr/lib/solydxk/welcome/welcome.py:183
+#: usr/lib/solydxk/welcome/welcome.py:179
 msgid ""
 "You need an internet connection to install the additional software.\n"
 "Please, connect to the internet and try again."
 msgstr ""
+"Norint įdiegti papildomą programinę įrangą, reikalingas interneto ryšys.\n"
+"Prašome prisijungti prie interneto ir bandyti vėl."
 
-#: usr/lib/solydxk/welcome/welcome.py:205
+#: usr/lib/solydxk/welcome/welcome.py:201
 msgid ""
 "Cannot install the requested software:\n"
 "Script not found: {}"
 msgstr ""
+"Nepavyksta įdiegti užklaustos programinės įrangos:\n"
+"Scenarijus nerastas: {}"
 
-#: usr/lib/solydxk/welcome/welcome.py:270
+#: usr/lib/solydxk/welcome/welcome.py:266
 msgid ""
 "There was an error during the installation.\n"
 "Please, run 'sudo apt-get -f install' in a terminal.\n"
 "Visit our forum for support: https://forums.solydxk.com"
 msgstr ""
+"Įdiegimo metu įvyko klaida.\n"
+"Prašome terminale įvykdyti \"sudo apt-get -f install\".\n"
+"Norėdami gauti palaikymą, apsilankykite mūsų forume: https://forums.solydxk."
+"com"
 
-#: usr/lib/solydxk/welcome/welcome.py:278
+#: usr/lib/solydxk/welcome/welcome.py:274
 msgid "The software has been successfully installed."
-msgstr ""
+msgstr "Programinė įranga buvo sėkmingai įdiegta."
 
+#: usr/share/applications/solydxk-welcome.desktop.in.h:1
 #: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:1
 #: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:1
-#: usr/share/applications/solydxk-welcome.desktop.in.h:1
 msgid "Welcome"
-msgstr ""
+msgstr "Sveiki atvykę"
 
 #: etc/xdg/autostart/solydxk-welcome.desktop.in.h:2
 msgid "SolydXK Welcome Screen"
-msgstr ""
+msgstr "SolydXK pasveikinimo ekranas"
 
 #: po/en/business.html%2Bhtml.body.h1:11-2
 msgid "Business applications"
@@ -137,10 +159,14 @@ msgstr ""
 "Kai spustelėsite įdiegimo mygtuką, visos pažymėtos programos bus įdiegtos į "
 "jūsų sistemą."
 
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:24-40
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:30-22
+msgid "gnucash"
+msgstr "gnucash"
+
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:24-6
-msgid "<input type=\"checkbox\" class=\"package\" value=\"gnucash\" /> Gnucash"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"gnucash\" /> Gnucash"
+msgid "Gnucash"
+msgstr "Gnucash"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:27-7
 msgid "GnuCash is personal and small-business financial-accounting software."
@@ -160,10 +186,6 @@ msgstr ""
 "profesionaliais apskaitos principais, kad būtų užtikrintos subalansuotos "
 "knygos ir tikslios ataskaitos."
 
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:30-6
-msgid "gnucash"
-msgstr "gnucash"
-
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:33-6
 msgid ""
 "Homepage: <a href=\"http://www.gnucash.org/\" target=\"_blank\">http://www."
@@ -172,11 +194,14 @@ msgstr ""
 "Tinklalapis: <a href=\"http://www.gnucash.org/\" target=\"_blank\">http://"
 "www.gnucash.org</a>"
 
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:35-43
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:49-22
+msgid "postbooks"
+msgstr "postbooks"
+
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:35-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"postbooks\" /> PostBooks"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"postbooks\" /> PostBooks"
+msgid "PostBooks"
+msgstr "PostBooks"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:38-7
 msgid ""
@@ -219,10 +244,6 @@ msgstr ""
 "Galite prižiūrėti PostgreSql duomenų bazes, naudodami pgAdmin III "
 "(Prisijungimas: postgres / solydxk)"
 
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:49-6
-msgid "postbooks"
-msgstr "postbooks"
-
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:52-6
 msgid ""
 "Homepage: <a href=\"https://xtuple.com/products/postbooks\" target=\"_blank"
@@ -231,13 +252,14 @@ msgstr ""
 "Tinklalapis: <a href=\"https://xtuple.com/products/postbooks\" target="
 "\"_blank\">https://xtuple.com/products/postbooks</a>"
 
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:85-43
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:90-22
+msgid "projectlibre"
+msgstr "projectlibre"
+
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:85-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"projectlibre\" /> "
-"ProjectLibre"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"projectlibre\" /> "
-"ProjectLibre"
+msgid "ProjectLibre"
+msgstr "ProjectLibre"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:88-7
 msgid ""
@@ -246,10 +268,6 @@ msgid ""
 msgstr ""
 "ProjectLibre yra projektų valdymo programinės įrangos sistema. Jos tikslas "
 "yra būti pilnu Microsoft Project pakaitalu."
-
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:90-6
-msgid "projectlibre"
-msgstr "projectlibre"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:93-6
 msgid ""
@@ -316,9 +334,14 @@ msgstr ""
 "Kai spustelėsite įdiegimo mygtuką, visi pažymėti žaidimai bus įdiegti į jūsų "
 "sistemą."
 
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:23-43
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:28-22
+msgid "steam"
+msgstr "steam"
+
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:23-9
-msgid "<input type=\"checkbox\" class=\"package\" value=\"steam\" /> Steam"
-msgstr "<input type=\"checkbox\" class=\"package\" value=\"steam\" /> Steam"
+msgid "Steam"
+msgstr "Steam"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
 msgid ""
@@ -329,10 +352,6 @@ msgstr ""
 "Steam yra Valve Corporation kuriama internetu pagrįsta skaitmeninio "
 "platinimo, skaitmeninių teisių valdymo (DRM), daugelio žaidėjų ir socialinio "
 "tinklo platforma."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:28-6
-msgid "steam"
-msgstr "steam"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:32-7
 msgid ""
@@ -346,11 +365,14 @@ msgstr ""
 msgid "Installed size: 200 MB (after user installation)"
 msgstr "Dydis įdiegus: 200 MB (po naudotojo įdiegimo)"
 
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:36-43
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:41-22
+msgid "minetest"
+msgstr "minetest"
+
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:36-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"minetest\" /> Minetest"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"minetest\" /> Minetest"
+msgid "Minetest"
+msgstr "Minetest"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:39-7
 msgid ""
@@ -359,10 +381,6 @@ msgid ""
 msgstr ""
 "Minetest yra beribio pasaulio blokų smėliadėžės žaidimas ir žaidimo modulis, "
 "įkvėptas InfiniMiner, Minecraft ir kitų panašių žaidimų."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:41-6
-msgid "minetest"
-msgstr "minetest"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:45-7
 msgid ""
@@ -376,9 +394,14 @@ msgstr ""
 msgid "Installed size: 10 MB"
 msgstr "Dydis įdiegus: 10 MB"
 
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:49-43
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:54-22
+msgid "0ad"
+msgstr "0ad"
+
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:49-9
-msgid "<input type=\"checkbox\" class=\"package\" value=\"0ad\" /> 0 A.D."
-msgstr "<input type=\"checkbox\" class=\"package\" value=\"0ad\" /> 0 A.D."
+msgid "0 A.D."
+msgstr "0 A.D."
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:52-7
 msgid ""
@@ -394,10 +417,6 @@ msgstr ""
 "senovinės civilizacijos vadovas, jūs privalote surinkti išteklius, kad "
 "suformuotumėte kariuomenę ir nugalėtumėte priešus."
 
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:54-6
-msgid "0ad"
-msgstr "0ad"
-
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:58-7
 msgid ""
 "Homepage: <a href=\"http://play0ad.com\" target=\"_blank\">http://play0ad."
@@ -410,13 +429,14 @@ msgstr ""
 msgid "Installed size: 1 GB"
 msgstr "Dydis įdiegus: 1 GB"
 
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:62-43
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:68-22
+msgid "wesnoth"
+msgstr "wesnoth"
+
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:62-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"wesnoth\" /> The Battle "
-"for Wesnoth"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"wesnoth\" /> The Battle "
-"for Wesnoth"
+msgid "The Battle for Wesnoth"
+msgstr "The Battle for Wesnoth"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:65-7
 msgid ""
@@ -440,10 +460,6 @@ msgstr ""
 "iš didelio specialistų sąrašo ir išrinkite armiją su tinkamomis stiprybėmis "
 "gerai kariauti įvairiose vietovėse prieš įvairios manieros opoziciją."
 
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:68-6
-msgid "wesnoth"
-msgstr "wesnoth"
-
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:72-7
 msgid ""
 "Homepage: <a href=\"http://www.wesnoth.org/\" target=\"_blank\">http://www."
@@ -456,13 +472,14 @@ msgstr ""
 msgid "Installed size: 450 MB"
 msgstr "Dydis įdiegus: 450 MB"
 
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:76-43
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:82-22
+msgid "sauerbraten"
+msgstr "sauerbraten"
+
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:76-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"sauerbraten\" /> "
-"Sauerbraten"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"sauerbraten\" /> "
-"Sauerbraten"
+msgid "Sauerbraten"
+msgstr "Sauerbraten"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:79-7
 msgid ""
@@ -482,10 +499,6 @@ msgstr ""
 "mokyklos \"deathmatch\" žaidimo eiga ir taip pat leisti atlikti žemėlapio/"
 "geometrijos redagavimą bendradarbiaujant žaidime."
 
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:82-6
-msgid "sauerbraten"
-msgstr "sauerbraten"
-
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:86-7
 msgid ""
 "Homepage: <a href=\"http://sauerbraten.org/\" target=\"_blank\">http://"
@@ -498,11 +511,14 @@ msgstr ""
 msgid "Installed size: 650 MB"
 msgstr "Dydis įdiegus: 650 MB"
 
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:90-43
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:95-22
+msgid "neverball"
+msgstr "neverball"
+
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:90-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"neverball\" /> Neverball"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"neverball\" /> Neverball"
+msgid "Neverball"
+msgstr "Neverball"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:93-7
 msgid ""
@@ -513,10 +529,6 @@ msgstr ""
 "Palenkite grindis, kad kamuolys nuriedėtų per kliūčių ruožą dar laikui "
 "nepasibaigus. Neverball yra dalinai galvosūkių, dalinai veiksmo ir pilnai "
 "įgūdžių išbandymo žaidimas."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:95-6
-msgid "neverball"
-msgstr "neverball"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:99-7
 msgid ""
@@ -530,13 +542,14 @@ msgstr ""
 msgid "Installed size: 150 MB"
 msgstr "Dydis įdiegus: 150 MB"
 
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:103-43
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:108-22
+msgid "supertuxkart"
+msgstr "supertuxkart"
+
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:103-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"supertuxkart\" /> Super "
-"Tux Kart"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"supertuxkart\" /> Super "
-"Tux Kart"
+msgid "Super Tux Kart"
+msgstr "Super Tux Kart"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:106-7
 msgid ""
@@ -545,10 +558,6 @@ msgid ""
 msgstr ""
 "SuperTuxKart yra nemokamas 3D kartingų lenktynių žaidimas, su daugeliu "
 "išbandyti prieinamų trasų, personažų ir elementų. Linksmai praleiskite laiką!"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:108-6
-msgid "supertuxkart"
-msgstr "supertuxkart"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:112-7
 msgid ""
@@ -562,328 +571,17 @@ msgstr ""
 msgid "Installed size: 350 MB"
 msgstr "Dydis įdiegus: 350 MB"
 
-#: po/en/home.html%2Bhtml.body.h1:11-2
-msgid "Home applications"
-msgstr "Programos namams"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
-msgid "This is a list of recommended applications suited for home users."
-msgstr "Tai yra rekomenduojamų, tinkamų namų naudotojams, programų sąrašas."
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:23-9
-msgid "<input type=\"checkbox\" class=\"package\" value=\"gimp\" /> Gimp"
-msgstr "<input type=\"checkbox\" class=\"package\" value=\"gimp\" /> Gimp"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
-msgid ""
-"GIMP is an acronym for GNU Image Manipulation Program. It is a freely "
-"distributed program for such tasks as photo retouching, image composition "
-"and image authoring."
-msgstr ""
-"GIMP yra GNU Paveikslėlių Manipuliavimo Programos (angl. GNU Image "
-"Manipulation Program) akronimas. Tai yra laisvai platinama programa, skirta "
-"nuotraukų tobulinimui, paveikslų komponavimui ir paveikslų kūrimui."
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:27-7
-msgid ""
-"It has many capabilities. It can be used as a simple paint program, an "
-"expert quality photo retouching program, an online batch processing system, "
-"a mass production image renderer, an image format converter, etc."
-msgstr ""
-"Ji turi daug charakteristikų. Ji gali būti naudojama kaip paprasta piešimo "
-"programa, ekspertinė kokybiškų nuotraukų patobulinimo programa, internetinio "
-"paketinio apdorojimo sistema, paveikslų formatų keitiklis, gali atvaizduoti "
-"masinės gamybos paveikslus ir t.t."
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:29-6
-msgid "gimp"
-msgstr "gimp"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:32-6
-msgid ""
-"Homepage: <a href=\"http://www.gimp.org\" target=\"_blank\">http://www.gimp."
-"org</a>"
-msgstr ""
-"Tinklalapis: <a href=\"http://www.gimp.org\" target=\"_blank\">http://www."
-"gimp.org</a>"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:34-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"inkscape\" /> Inkscape"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"inkscape\" /> Inkscape"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:37-7
-msgid ""
-"Inkscape is an open-source vector graphics editor similar to Adobe "
-"Illustrator, Corel Draw, Freehand, or Xara X. What sets Inkscape apart is "
-"its use of Scalable Vector Graphics (SVG), an open XML-based W3C standard, "
-"as the native format."
-msgstr ""
-"Inkscape yra atviro kodo braižyklė, kuri yra panaši į Adobe Illustrator, "
-"Corel Draw, Freehand, ar Xara X. Vienas iš dalykų, kuris išskiria Inkscape "
-"iš kitų, yra tai, kad ji kaip savą naudoja keičiamo dydžio vektorinės "
-"grafikos (angl. Scalable Vector Graphics (SVG)) formatą, kuris yra atviro "
-"XML-pagrįsto W3C standarto."
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:39-6
-msgid "inkscape"
-msgstr "inkscape"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:42-6
-msgid ""
-"Homepage: <a href=\"https://inkscape.org\" target=\"_blank\">https://"
-"inkscape.org</a>"
-msgstr ""
-"Tinklalapis: <a href=\"https://inkscape.org\" target=\"_blank\">https://"
-"inkscape.org</a>"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:44-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"shotwell\" /> Shotwell / "
-"Digikam"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"shotwell\" /> Shotwell / "
-"Digikam"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:47-7
-msgid ""
-"Shotwell is an image organizer designed to provide personal photo management."
-msgstr ""
-"Shotwell yra paveikslų tvarkytuvė, kuri yra skirta asmeninių nuotraukų "
-"tvarkymui."
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:48-7
-msgid ""
-"Shotwell can import photos and videos from a digital camera directly. "
-"Shotwell automatically groups photos and videos by date, and supports "
-"tagging. Its image editing features allow users to straighten, crop, "
-"eliminate red eye, and adjust levels and color balance."
-msgstr ""
-"Shotwell gali importuoti nuotraukas ir vaizdo įrašus tiesiai iš skaitmeninio "
-"fotoaparato. Shotwell automatiškai sugrupuoja nuotraukas bei vaizdo įrašus "
-"pagal datą ir palaiko žymes. Programos nuotraukų redagavimo ypatybės leidžia "
-"naudotojui išlyginti, apkirpti nuotraukas, pašalinti raudonų akių efektą ir "
-"reguliuoti lygius bei spalvos balansus."
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:49-7
-msgid ""
-"For SolydK Digikam is installed. It has the same functionality as Shotwell"
-msgstr ""
-"SolydK sistemoje yra įdiegiama programa Digikam. Jos funkcionalumas yra toks "
-"pats kaip ir Shotwell"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:51-6
-msgid "shotwell"
-msgstr "shotwell"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:55-7
-msgid ""
-"Homepage Shotwell: <a href=\"https://wiki.gnome.org/Apps/Shotwell/\" target="
-"\"_blank\">https://wiki.gnome.org/Apps/Shotwell</a>"
-msgstr ""
-"Shotwell tinklalapis: <a href=\"https://wiki.gnome.org/Apps/Shotwell/\" "
-"target=\"_blank\">https://wiki.gnome.org/Apps/Shotwell</a>"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:56-7
-msgid ""
-"Homepage Digikam: <a href=\"https://www.digikam.org/\" target=\"_blank"
-"\">https://www.digikam.org</a>"
-msgstr ""
-"Digikam tinklalapis: <a href=\"https://www.digikam.org/\" target=\"_blank"
-"\">https://www.digikam.org</a>"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:59-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"clementine\" /> "
-"Clementine / Amarok"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"clementine\" /> "
-"Clementine / Amarok"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:62-7
-msgid "Clementine is a modern music player and library organizer."
-msgstr ""
-"Clementine yra šiuolaikinis muzikos grotuvas ir bibliotekos tvarkytuvė."
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:63-7
-msgid ""
-"Clementine is a multiplatform music player. It is inspired by Amarok 1.4, "
-"focusing on a fast and easy-to-use interface for searching and playing your "
-"music."
-msgstr ""
-"Clementine yra daugiaplatformis muzikos grotuvas. Jis yra įkvėptas programos "
-"Amarok 1.4, ir susitelkia ties greita ir lengva naudoti sąsaja, kuri skirta "
-"jūsų muzikos paieškai ir atkūrimui."
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:64-7
-msgid ""
-"For SolydK Amarok is installed. It has the same functionality as Clementine"
-msgstr ""
-"SolydK sistemoje yra įdiegiama programa Amarok. Jos funkcionalumas yra toks "
-"pats kaip ir Clementine"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:66-6
-msgid "clementine"
-msgstr "clementine"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:70-7
-msgid ""
-"Homepage Clementine: <a href=\"https://www.clementine-player.org\" target="
-"\"_blank\">https://www.clementine-player.org</a>"
-msgstr ""
-"Clementine tinklalapis: <a href=\"https://www.clementine-player.org\" target="
-"\"_blank\">https://www.clementine-player.org</a>"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:71-7
-msgid ""
-"Homepage Amarok: <a href=\"https://amarok.kde.org\" target=\"_blank"
-"\">https://amarok.kde.org</a>"
-msgstr ""
-"Amarok tinklalapis: <a href=\"https://amarok.kde.org\" target=\"_blank"
-"\">https://amarok.kde.org</a>"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:74-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"handbrake\" /> HandBrake"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"handbrake\" /> HandBrake"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:77-7
-msgid ""
-"HandBrake is a tool for converting video from nearly any format to a "
-"selection of modern, widely supported codecs."
-msgstr ""
-"HandBrake yra vaizdo įrašų konvertavimo įrankis, skirtas konvertuoti iš "
-"beveik bet kurio formato į plačiai palaikomų šiuolaikinių kodekų pasirinkimą."
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:79-6
-msgid "handbrake"
-msgstr "handbrake"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:82-6
-msgid ""
-"Homepage: <a href=\"https://handbrake.fr\" target=\"_blank\">https://"
-"handbrake.fr</a>"
-msgstr ""
-"Tinklalapis: <a href=\"https://handbrake.fr\" target=\"_blank\">https://"
-"handbrake.fr</a>"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:84-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"soundconverter\" /> "
-"SoundConverter"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"soundconverter\" /> "
-"SoundConverter"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:87-7
-msgid ""
-"SoundConverter is the leading audio file converter. It reads anything "
-"GStreamer can read (Ogg Vorbis, AAC, MP3, FLAC, WAV, AVI, MPEG, MOV, M4A, "
-"AC3, DTS, ALAC, MPC, Shorten, APE, SID, MOD, XM, S3M, etc...), and writes to "
-"Opus, Ogg Vorbis, FLAC, WAV, AAC, and MP3 files."
-msgstr ""
-"SoundConverter yra pirmaujantis garso įrašo failų keitiklis. Jis gali "
-"skaityti bet ką, ką gali skaityti GStreamer (Ogg Vorbis, AAC, MP3, FLAC, "
-"WAV, AVI, MPEG, MOV, M4A, AC3, DTS, ALAC, MPC, Shorten, APE, SID, MOD, XM, "
-"S3M, ir t.t....), ir gali rašyti į Opus, Ogg Vorbis, FLAC, WAV, AAC, ir MP3 "
-"failus."
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:89-6
-msgid "soundconverter"
-msgstr "soundconverter"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:92-6
-msgid ""
-"Homepage: <a href=\"http://soundconverter.org\" target=\"_blank\">http://"
-"soundconverter.org</a>"
-msgstr ""
-"Tinklalapis: <a href=\"http://soundconverter.org\" target=\"_blank\">http://"
-"soundconverter.org</a>"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:94-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"pitivi\" /> Pitivi / "
-"Kdenlive"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"pitivi\" /> Pitivi / "
-"Kdenlive"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:97-7
-msgid ""
-"Pitivi is a Free video editor with a beautiful and intuitive user interface, "
-"a clean codebase and a fantastic community."
-msgstr ""
-"Pitivi yra laisvas vaizdo įrašų redaktorius su patrauklia ir intuityvia "
-"naudotojo sąsaja, tvarkingu kodu ir fantastiška bendruomene."
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:98-7
-msgid ""
-"For SolydK Kdenlive is installed. It has the same functionality as Pitivi"
-msgstr ""
-"SolydK sistemoje yra įdiegiama programa Kdenlive. Jos funkcionalumas yra "
-"toks pats kaip ir Pitivi"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:100-6
-msgid "pitivi"
-msgstr "pitivi"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:104-7
-msgid ""
-"Homepage Pitivi: <a href=\"http://www.pitivi.org\" target=\"_blank\">http://"
-"www.pitivi.org</a>"
-msgstr ""
-"Pitivi tinklalapis: <a href=\"http://www.pitivi.org\" target=\"_blank"
-"\">http://www.pitivi.org</a>"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:105-7
-msgid ""
-"Homepage Kdenlive: <a href=\"https://kdenlive.org/\" target=\"_blank"
-"\">https://kdenlive.org</a>"
-msgstr ""
-"Kdenlive tinklalapis: <a href=\"https://kdenlive.org/\" target=\"_blank"
-"\">https://kdenlive.org</a>"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:108-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"transmission\" /> "
-"Transmission"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"transmission\" /> "
-"Transmission"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:111-7
-msgid ""
-"Transmission is a BitTorrent client which features a simple interface on top "
-"of a cross-platform back-end."
-msgstr ""
-"Transmission yra BitTorrent kliento programa su paprasta sąsaja, kuri yra "
-"paremta daugiaplatforme vidine sąsaja."
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td:113-6
-msgid "transmission"
-msgstr "transmission"
-
-#: po/en/home.html%2Bhtml.body.div.div.form.table.tr.td.p:117-7
-msgid ""
-"Homepage Transmission: <a href=\"https://www.transmissionbt.com/\" target="
-"\"_blank\">https://www.transmissionbt.com</a>"
-msgstr ""
-"Transmission tinklalapis: <a href=\"https://www.transmissionbt.com/\" target="
-"\"_blank\">https://www.transmissionbt.com</a>"
-
 #: po/en/libreoffice.html%2Bhtml.body.h1:11-2
 msgid "LibreOffice (Backports)"
 msgstr "LibreOffice (Naujų versijų paketai)"
 
+#: po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:17-41
+msgid "libreoffice"
+msgstr "libreoffice"
+
 #: po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td:17-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"libreoffice\" /> "
-"LibreOffice"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"libreoffice\" /> "
-"LibreOffice"
+msgid "LibreOffice"
+msgstr "LibreOffice"
 
 #: po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
 msgid ""
@@ -922,103 +620,297 @@ msgstr ""
 "Tinklalapis: <a href=\"https://www.libreoffice.org/\" target=\"_blank"
 "\">https://www.libreoffice.org</a>"
 
-#: po/en/multimedia.html%2Bhtml.body.h1:10-2
-msgid "Multimedia codecs"
-msgstr "Multimedijos kodekai"
+#: po/en/multimedia.html%2Bhtml.body.h1:11-2
+msgid "Multimedia applications"
+msgstr "Multimedijos programos"
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:17-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
+msgid "This is a list of recommended applications suited for home users."
+msgstr "Tai yra rekomenduojamų, tinkamų namų naudotojams, programų sąrašas."
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:23-43
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:29-22
+msgid "gimp"
+msgstr "gimp"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:23-9
+msgid "Gimp"
+msgstr "Gimp"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
 msgid ""
-"These multimedia codecs are not included by default for legal or security "
-"reasons."
+"GIMP is an acronym for GNU Image Manipulation Program. It is a freely "
+"distributed program for such tasks as photo retouching, image composition "
+"and image authoring."
 msgstr ""
-"Pagal numatymą, šie kodekai nėra įtraukti dėl teisinių ar saugumo priežasčių."
+"GIMP yra GNU Paveikslėlių Manipuliavimo Programos (angl. GNU Image "
+"Manipulation Program) akronimas. Tai yra laisvai platinama programa, skirta "
+"nuotraukų tobulinimui, paveikslų komponavimui ir paveikslų kūrimui."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:20-9
-msgid "<input type=\"checkbox\" class=\"package\" value=\"flash\" /> Flash"
-msgstr "<input type=\"checkbox\" class=\"package\" value=\"flash\" /> Flash"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:23-7
-msgid "HTML5 is the default media player in Firefox."
-msgstr "HTML5 yra numatytasis medijos grotuvas naršyklėje Firefox."
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:24-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:27-7
 msgid ""
-"Youtube and other sites are already providing their content using HTML5. "
-"However, there are still sites using Flash."
+"It has many capabilities. It can be used as a simple paint program, an "
+"expert quality photo retouching program, an online batch processing system, "
+"a mass production image renderer, an image format converter, etc."
 msgstr ""
-"Youtube ir kitos svetainės jau pateikia savo turinį, naudodamos HTML5. Kita "
-"vertus, vis dar yra svetainių, naudojančių Flash."
+"Ji turi daug charakteristikų. Ji gali būti naudojama kaip paprasta piešimo "
+"programa, ekspertinė kokybiškų nuotraukų patobulinimo programa, internetinio "
+"paketinio apdorojimo sistema, paveikslų formatų keitiklis, gali atvaizduoti "
+"masinės gamybos paveikslus ir t.t."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.div.p:30-8
-msgid "Warning:"
-msgstr "Įspėjimas:"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.div.p:31-8
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:32-6
 msgid ""
-"Be aware that Flash is not Open Source. Some Flash content may harm your "
-"system."
+"Homepage: <a href=\"http://www.gimp.org\" target=\"_blank\">http://www.gimp."
+"org</a>"
 msgstr ""
-"Turėkite omenyje, kad Flash nėra atviro kodo. Tam tikras Flash turinys gali "
-"pažeisti jūsų sistemą."
+"Tinklalapis: <a href=\"http://www.gimp.org\" target=\"_blank\">http://www."
+"gimp.org</a>"
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:35-9
-msgid "<input type=\"checkbox\" class=\"package\" value=\"css\" /> CSS"
-msgstr "<input type=\"checkbox\" class=\"package\" value=\"css\" /> CSS"
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:34-43
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:39-22
+msgid "inkscape"
+msgstr "inkscape"
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:38-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:34-9
+msgid "Inkscape"
+msgstr "Inkscape"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:37-7
 msgid ""
-"Most commercial DVDs are encrypted with CSS (the Content Scramble System), "
-"which attempts to restrict the software that can play a DVD."
+"Inkscape is an open-source vector graphics editor similar to Adobe "
+"Illustrator, Corel Draw, Freehand, or Xara X. What sets Inkscape apart is "
+"its use of Scalable Vector Graphics (SVG), an open XML-based W3C standard, "
+"as the native format."
 msgstr ""
-"Daugelis komercinių DVD diskų yra užšifruoti su CSS (Turinio šifravimo "
-"sistema, (angl. Content Scramble System)), kuri bando apriboti programinę "
-"įrangą, galinčią atkurti DVD diskus."
+"Inkscape yra atviro kodo braižyklė, kuri yra panaši į Adobe Illustrator, "
+"Corel Draw, Freehand, ar Xara X. Vienas iš dalykų, kuris išskiria Inkscape "
+"iš kitų, yra tai, kad ji kaip savą naudoja keičiamo dydžio vektorinės "
+"grafikos (angl. Scalable Vector Graphics (SVG)) formatą, kuris yra atviro "
+"XML-pagrįsto W3C standarto."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:39-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:42-6
 msgid ""
-"SolydXK does not come with the necessary packages pre-installed to play "
-"these encrypted DVDs."
+"Homepage: <a href=\"https://inkscape.org\" target=\"_blank\">https://"
+"inkscape.org</a>"
 msgstr ""
-"SolydXK sistemoje, šių DVD diskų atkūrimui reikalingi paketai nėra iš anksto "
-"įdiegti."
+"Tinklalapis: <a href=\"https://inkscape.org\" target=\"_blank\">https://"
+"inkscape.org</a>"
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:40-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:44-43
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:51-22
+msgid "shotwell"
+msgstr "shotwell"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:44-9
+msgid "Shotwell / Digikam"
+msgstr "Shotwell / Digikam"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:47-7
 msgid ""
-"By clicking the install button below the following packages will be "
-"installed on your system:"
+"Shotwell is an image organizer designed to provide personal photo management."
 msgstr ""
-"Spustelėjus žemiau esantį įdiegimo mygtuką, į jūsų sistemą bus įdiegti šie "
-"paketai:"
+"Shotwell yra paveikslų tvarkytuvė, kuri yra skirta asmeninių nuotraukų "
+"tvarkymui."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:42-8
-msgid "libdvdcss2"
-msgstr "libdvdcss2"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:43-8
-msgid "w32codecs or w64codecs"
-msgstr "w32codecs arba w64codecs"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.div.p:50-8
-msgid "Legal warning:"
-msgstr "Teisinis įspėjimas:"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.div.p:51-8
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:48-7
 msgid ""
-"Check with your local laws to make sure usage of libdvdcss2 would be legal "
-"in your area."
+"Shotwell can import photos and videos from a digital camera directly. "
+"Shotwell automatically groups photos and videos by date, and supports "
+"tagging. Its image editing features allow users to straighten, crop, "
+"eliminate red eye, and adjust levels and color balance."
 msgstr ""
-"Susipažinkite su vietiniais įstatymais, kad įsitikintumėte, jog libdvdcss2 "
-"naudojimas jūsų vietovėje yra teisėtas."
+"Shotwell gali importuoti nuotraukas ir vaizdo įrašus tiesiai iš skaitmeninio "
+"fotoaparato. Shotwell automatiškai sugrupuoja nuotraukas bei vaizdo įrašus "
+"pagal datą ir palaiko žymes. Programos nuotraukų redagavimo ypatybės leidžia "
+"naudotojui išlyginti, apkirpti nuotraukas, pašalinti raudonų akių efektą ir "
+"reguliuoti lygius bei spalvos balansus."
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:49-7
+msgid ""
+"For SolydK Digikam is installed. It has the same functionality as Shotwell"
+msgstr ""
+"SolydK sistemoje yra įdiegiama programa Digikam. Jos funkcionalumas yra toks "
+"pats kaip ir Shotwell"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:55-7
+msgid ""
+"Homepage Shotwell: <a href=\"https://wiki.gnome.org/Apps/Shotwell/\" target="
+"\"_blank\">https://wiki.gnome.org/Apps/Shotwell</a>"
+msgstr ""
+"Shotwell tinklalapis: <a href=\"https://wiki.gnome.org/Apps/Shotwell/\" "
+"target=\"_blank\">https://wiki.gnome.org/Apps/Shotwell</a>"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:56-7
+msgid ""
+"Homepage Digikam: <a href=\"https://www.digikam.org/\" target=\"_blank"
+"\">https://www.digikam.org</a>"
+msgstr ""
+"Digikam tinklalapis: <a href=\"https://www.digikam.org/\" target=\"_blank"
+"\">https://www.digikam.org</a>"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:59-43
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:66-22
+msgid "clementine"
+msgstr "clementine"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:59-9
+msgid "Clementine"
+msgstr "Clementine"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:62-7
+msgid "Clementine is a modern music player and library organizer."
+msgstr ""
+"Clementine yra šiuolaikinis muzikos grotuvas ir bibliotekos tvarkytuvė."
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:63-7
+msgid ""
+"Clementine is a multiplatform music player. It is inspired by Amarok 1.4, "
+"focusing on a fast and easy-to-use interface for searching and playing your "
+"music."
+msgstr ""
+"Clementine yra daugiaplatformis muzikos grotuvas. Jis yra įkvėptas programos "
+"Amarok 1.4, ir susitelkia ties greita ir lengva naudoti sąsaja, kuri skirta "
+"jūsų muzikos paieškai ir atkūrimui."
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:70-7
+msgid ""
+"Homepage Clementine: <a href=\"https://www.clementine-player.org\" target="
+"\"_blank\">https://www.clementine-player.org</a>"
+msgstr ""
+"Clementine tinklalapis: <a href=\"https://www.clementine-player.org\" target="
+"\"_blank\">https://www.clementine-player.org</a>"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:74-43
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:79-22
+msgid "handbrake"
+msgstr "handbrake"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:74-9
+msgid "HandBrake"
+msgstr "HandBrake"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:77-7
+msgid ""
+"HandBrake is a tool for converting video from nearly any format to a "
+"selection of modern, widely supported codecs."
+msgstr ""
+"HandBrake yra vaizdo įrašų konvertavimo įrankis, skirtas konvertuoti iš "
+"beveik bet kurio formato į plačiai palaikomų šiuolaikinių kodekų pasirinkimą."
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:82-6
+msgid ""
+"Homepage: <a href=\"https://handbrake.fr\" target=\"_blank\">https://"
+"handbrake.fr</a>"
+msgstr ""
+"Tinklalapis: <a href=\"https://handbrake.fr\" target=\"_blank\">https://"
+"handbrake.fr</a>"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:84-43
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:89-22
+msgid "soundconverter"
+msgstr "soundconverter"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:84-9
+msgid "SoundConverter"
+msgstr "Garso keitiklis"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:87-7
+msgid ""
+"SoundConverter is the leading audio file converter. It reads anything "
+"GStreamer can read (Ogg Vorbis, AAC, MP3, FLAC, WAV, AVI, MPEG, MOV, M4A, "
+"AC3, DTS, ALAC, MPC, Shorten, APE, SID, MOD, XM, S3M, etc...), and writes to "
+"Opus, Ogg Vorbis, FLAC, WAV, AAC, and MP3 files."
+msgstr ""
+"SoundConverter yra pirmaujantis garso įrašo failų keitiklis. Jis gali "
+"skaityti bet ką, ką gali skaityti GStreamer (Ogg Vorbis, AAC, MP3, FLAC, "
+"WAV, AVI, MPEG, MOV, M4A, AC3, DTS, ALAC, MPC, Shorten, APE, SID, MOD, XM, "
+"S3M, ir t.t....), ir gali rašyti į Opus, Ogg Vorbis, FLAC, WAV, AAC, ir MP3 "
+"failus."
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:92-6
+msgid ""
+"Homepage: <a href=\"http://soundconverter.org\" target=\"_blank\">http://"
+"soundconverter.org</a>"
+msgstr ""
+"Tinklalapis: <a href=\"http://soundconverter.org\" target=\"_blank\">http://"
+"soundconverter.org</a>"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:94-43
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:100-22
+msgid "pitivi"
+msgstr "pitivi"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:94-9
+msgid "Pitivi / Kdenlive"
+msgstr "Pitivi / Kdenlive"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:97-7
+msgid ""
+"Pitivi is a Free video editor with a beautiful and intuitive user interface, "
+"a clean codebase and a fantastic community."
+msgstr ""
+"Pitivi yra laisvas vaizdo įrašų redaktorius su patrauklia ir intuityvia "
+"naudotojo sąsaja, tvarkingu kodu ir fantastiška bendruomene."
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:98-7
+msgid ""
+"For SolydK Kdenlive is installed. It has the same functionality as Pitivi"
+msgstr ""
+"SolydK sistemoje yra įdiegiama programa Kdenlive. Jos funkcionalumas yra "
+"toks pats kaip ir Pitivi"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:104-7
+msgid ""
+"Homepage Pitivi: <a href=\"http://www.pitivi.org\" target=\"_blank\">http://"
+"www.pitivi.org</a>"
+msgstr ""
+"Pitivi tinklalapis: <a href=\"http://www.pitivi.org\" target=\"_blank"
+"\">http://www.pitivi.org</a>"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:105-7
+msgid ""
+"Homepage Kdenlive: <a href=\"https://kdenlive.org/\" target=\"_blank"
+"\">https://kdenlive.org</a>"
+msgstr ""
+"Kdenlive tinklalapis: <a href=\"https://kdenlive.org/\" target=\"_blank"
+"\">https://kdenlive.org</a>"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:108-43
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:113-22
+msgid "transmission"
+msgstr "transmission"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:108-9
+msgid "Transmission"
+msgstr "Transmission"
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:111-7
+msgid ""
+"Transmission is a BitTorrent client which features a simple interface on top "
+"of a cross-platform back-end."
+msgstr ""
+"Transmission yra BitTorrent kliento programa su paprasta sąsaja, kuri yra "
+"paremta daugiaplatforme vidine sąsaja."
+
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:117-7
+msgid ""
+"Homepage Transmission: <a href=\"https://www.transmissionbt.com/\" target="
+"\"_blank\">https://www.transmissionbt.com</a>"
+msgstr ""
+"Transmission tinklalapis: <a href=\"https://www.transmissionbt.com/\" target="
+"\"_blank\">https://www.transmissionbt.com</a>"
 
 #: po/en/system.html%2Bhtml.body.h1:11-2
 msgid "System applications"
 msgstr "Sistemos programos"
 
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:34-41
+msgid "virtualbox"
+msgstr "virtualbox"
+
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:34-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"virtualbox\" /> VirtualBox"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"virtualbox\" /> VirtualBox"
+msgid "VirtualBox"
+msgstr "VirtualBox"
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:37-7
 msgid ""
@@ -1044,11 +936,13 @@ msgstr ""
 "Tinklalapis: <a href=\"https://www.virtualbox.org/\" target=\"_blank"
 "\">https://www.virtualbox.org</a>"
 
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:44-41
+msgid "filezilla"
+msgstr "filezilla"
+
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:44-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"filezilla\" /> FileZilla"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"filezilla\" /> FileZilla"
+msgid "FileZilla"
+msgstr "FileZilla"
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:47-7
 msgid ""
@@ -1067,6 +961,59 @@ msgid ""
 msgstr ""
 "Tinklalapis: <a href=\"https://filezilla-project.org/\" target=\"_blank"
 "\">https://filezilla-project.org</a>"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:54-31
+msgid "css"
+msgstr "css"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:54-9
+msgid "CSS"
+msgstr "CSS"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:57-7
+msgid ""
+"Most commercial DVDs are encrypted with CSS (the Content Scramble System), "
+"which attempts to restrict the software that can play a DVD."
+msgstr ""
+"Daugelis komercinių DVD diskų yra užšifruoti su CSS (Turinio šifravimo "
+"sistema, (angl. Content Scramble System)), kuri bando apriboti programinę "
+"įrangą, galinčią atkurti DVD diskus."
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:58-7
+msgid ""
+"SolydXK does not come with the necessary packages pre-installed to play "
+"these encrypted DVDs."
+msgstr ""
+"SolydXK sistemoje, šių DVD diskų atkūrimui reikalingi paketai nėra iš anksto "
+"įdiegti."
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:59-7
+msgid ""
+"By clicking the install button below the following packages will be "
+"installed on your system:"
+msgstr ""
+"Spustelėjus žemiau esantį įdiegimo mygtuką, į jūsų sistemą bus įdiegti šie "
+"paketai:"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:61-8
+msgid "libdvdcss2"
+msgstr "libdvdcss2"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:62-8
+msgid "w32codecs or w64codecs"
+msgstr "w32codecs arba w64codecs"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:69-8
+msgid "Legal warning:"
+msgstr "Teisinis įspėjimas:"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:70-8
+msgid ""
+"Check with your local laws to make sure usage of libdvdcss2 would be legal "
+"in your area."
+msgstr ""
+"Susipažinkite su vietiniais įstatymais, kad įsitikintumėte, jog libdvdcss2 "
+"naudojimas jūsų vietovėje yra teisėtas."
 
 #: po/en/welcome.html%2Bhtml.body.h1:10-2
 msgid "Welcome to SolydXK"
@@ -1117,7 +1064,7 @@ msgstr ""
 "Programinės įrangos tvarkytuvės pagalba, jūs, tiesiog, ieškote ir įdiegiate "
 "reikiamą programinę įrangą."
 
-#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td:39-6
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.img[alt]:39-22
 msgid "softwaremanager"
 msgstr "softwaremanager"
 
@@ -1135,7 +1082,7 @@ msgstr ""
 "įstrigus, yra SolydXK bendruomenė, skirta padėti jums išspręsti jūsų "
 "problemas."
 
-#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td:47-6
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.img[alt]:47-22
 msgid "forum"
 msgstr "forumas"
 
@@ -1162,6 +1109,7 @@ msgstr ""
 "com/feed</a>"
 
 #: po/en/wine.html%2Bhtml.body.h1:11-2
+#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td:22-9
 msgid "PlayOnLinux"
 msgstr "PlayOnLinux"
 
@@ -1175,13 +1123,9 @@ msgstr ""
 "jūsų sistemą. Galite naudoti programinės įrangos tvarkytuvę, kad įdiegtumėte "
 "jas kiekvieną atskirai."
 
-#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td:22-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"playonlinux\" /> "
-"PlayOnLinux"
-msgstr ""
-"<input type=\"checkbox\" class=\"package\" value=\"playonlinux\" /> "
-"PlayOnLinux"
+#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:22-41
+msgid "playonlinux"
+msgstr "playonlinux"
 
 #: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.p:25-7
 msgid ""

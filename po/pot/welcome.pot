@@ -36,7 +36,7 @@ msgid ""
 "Software Manager."
 msgstr ""
 
-#: ./po/en/welcome.html%2Bhtml.body.div.div.table.tr.td:39-6
+#: ./po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.img[alt]:39-22
 msgid "softwaremanager"
 msgstr ""
 
@@ -51,7 +51,7 @@ msgid ""
 "if your issue has already been solved or start a new topic to get help."
 msgstr ""
 
-#: ./po/en/welcome.html%2Bhtml.body.div.div.table.tr.td:47-6
+#: ./po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.img[alt]:47-22
 msgid "forum"
 msgstr ""
 

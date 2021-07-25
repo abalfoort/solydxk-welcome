@@ -2,10 +2,12 @@
 msgid "LibreOffice (Backports)"
 msgstr ""
 
+#: ./po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:17-41
+msgid "libreoffice"
+msgstr ""
+
 #: ./po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td:17-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"libreoffice\" /> "
-"LibreOffice"
+msgid "LibreOffice"
 msgstr ""
 
 #: ./po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7

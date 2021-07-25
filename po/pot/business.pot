@@ -12,8 +12,13 @@ msgid ""
 "installed on your system."
 msgstr ""
 
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:24-40
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:30-22
+msgid "gnucash"
+msgstr ""
+
 #: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:24-6
-msgid "<input type=\"checkbox\" class=\"package\" value=\"gnucash\" /> Gnucash"
+msgid "Gnucash"
 msgstr ""
 
 #: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:27-7
@@ -28,19 +33,19 @@ msgid ""
 "principles to ensure balanced books and accurate reports."
 msgstr ""
 
-#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:30-6
-msgid "gnucash"
-msgstr ""
-
 #: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:33-6
 msgid ""
-"Homepage: <a href=\"http://www.gnucash.org/\" target=\"_blank\""
-">http://www.gnucash.org</a>"
+"Homepage: <a href=\"http://www.gnucash.org/\" target=\"_blank\">http://www."
+"gnucash.org</a>"
+msgstr ""
+
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:35-43
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:49-22
+msgid "postbooks"
 msgstr ""
 
 #: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:35-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"postbooks\" /> PostBooks"
+msgid "PostBooks"
 msgstr ""
 
 #: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:38-7
@@ -79,30 +84,25 @@ msgid ""
 " solydxk)"
 msgstr ""
 
-#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:49-6
-msgid "postbooks"
-msgstr ""
-
 #: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:52-6
 msgid ""
 "Homepage: <a href=\"https://xtuple.com/products/postbooks\" target=\"_blank\""
 ">https://xtuple.com/products/postbooks</a>"
 msgstr ""
 
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:85-43
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:90-22
+msgid "projectlibre"
+msgstr ""
+
 #: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:85-9
-msgid ""
-"<input type=\"checkbox\" class=\"package\" value=\"projectlibre\" /> "
-"ProjectLibre"
+msgid "ProjectLibre"
 msgstr ""
 
 #: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:88-7
 msgid ""
 "ProjectLibre is a project management software system. It intends to be a "
 "complete desktop replacement for Microsoft Project."
-msgstr ""
-
-#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:90-6
-msgid "projectlibre"
 msgstr ""
 
 #: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:93-6
