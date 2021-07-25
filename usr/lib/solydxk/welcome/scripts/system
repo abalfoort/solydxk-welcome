@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Possible arguments: gparted, filezilla, virtualbox
+# Possible arguments: gparted, filezilla, virtualbox, css
 
 if [ $# -gt 0 ]; then
   for ARG in "$@"; do
@@ -13,6 +13,14 @@ if [ $# -gt 0 ]; then
     fi
     if [ "$ARG" == 'virtualbox' ]; then
       PCK="$PCK virtualbox"
+    fi
+    if [ "$ARG" == 'css' ]; then
+      PCK="$PCK libdvdcss2"
+      if [ "$(uname -m)" == "x86_64" ]; then
+          PCK="$PCK w64codecs"
+      else
+          PCK="$PCK w32codecs"
+      fi
     fi
   done
 fi

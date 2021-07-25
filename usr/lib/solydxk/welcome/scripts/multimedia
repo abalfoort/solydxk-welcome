@@ -1,37 +1,61 @@
 #!/bin/bash
 
-# Possible arguments: flash, css
+# Possible arguments: gimp inkscape shotwell clementine handbrake soundconverter pitivi transmission
 
 if [ $# -gt 0 ]; then
   for ARG in "$@"; do
     #echo "$ARG"
-    if [ "$ARG" == 'flash' ]; then
-      AMD64='solydxk-flashplugin'
-      I386=$AMD64
+    if [ "$ARG" == 'gimp' ]; then
+      XFCE='gimp'
+      KDE=$XFCE
     fi
-    if [ "$ARG" == 'css' ]; then
-      AMD64="$AMD64 libdvdcss2 w64codecs"
-      I386="$I386 libdvdcss2 w32codecs"
+    if [ "$ARG" == 'inkscape' ]; then
+      XFCE="$XFCE inkscape"
+      KDE=$XFCE
+    fi
+    if [ "$ARG" == 'shotwell' ]; then
+      XFCE="$XFCE shotwell"
+      KDE="$KDE digikam"
+    fi
+    if [ "$ARG" == 'clementine' ]; then
+      XFCE="$XFCE clementine"
+      KDE=$XFCE
+    fi
+    if [ "$ARG" == 'handbrake' ]; then
+      XFCE="$XFCE handbrake"
+      KDE=$XFCE
+    fi
+    if [ "$ARG" == 'soundconverter' ]; then
+      XFCE="$XFCE soundconverter"
+      KDE=$XFCE
+    fi
+    if [ "$ARG" == 'pitivi' ]; then
+      XFCE="$XFCE pitivi"
+      KDE="$KDE kdenlive"
+    fi
+    if [ "$ARG" == 'transmission' ]; then
+      XFCE="$XFCE transmission-gtk"
+      KDE="$KDE transmission-qt"
     fi
   done
 fi
 
-if [ -z "$AMD64" ] && [ -z "$I386" ] ; then
+if [ -z "$XFCE" ] && [ -z "$KDE" ] ; then
   exit
 fi
 
-PCK=$I386
-if [ "$(uname -m)" == "x86_64" ]; then
-  PCK=$AMD64
-fi
-
-# ======================================
+# =============================================
 
 # --force-yes is deprecated in stretch
 FORCE='--force-yes'
 . /etc/lsb-release
 if [[ -z "$DISTRIB_RELEASE" ]] || [ "$DISTRIB_RELEASE" -gt 8 ]; then
   FORCE='--allow-downgrades --allow-remove-essential --allow-change-held-packages'
+fi
+
+PCK=$KDE
+if [ "$(pidof xfce4-session)" ]; then
+  PCK=$XFCE
 fi
 
 if [ ! -e /tmp/update-state ]; then
