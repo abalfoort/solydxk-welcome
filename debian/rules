@@ -46,9 +46,6 @@ override_dh_builddeb:
 	rm -rf ./debian/$(source)
 
 update:
-	# Push pot file to Transifex
-	tx push -s
-
 	# Get translations from Transifex
 	tx pull -a
 
@@ -123,3 +120,6 @@ update:
 
 	# Do not ship incomplete html translations
 	@ find ./po/translated -empty -type d -delete &&  echo "Shipped $(source) translations ($(shell ls ./po/translated | wc -l)):" $(shell ls ./po/translated)
+
+	# Push pot file to Transifex
+	tx push -s
