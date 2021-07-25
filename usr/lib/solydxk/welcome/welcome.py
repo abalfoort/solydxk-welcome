@@ -8,7 +8,7 @@ gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk, Gdk, GLib
 from os.path import join, abspath, dirname, basename, exists, isdir
 from utils import ExecuteThreadedCommands, has_internet_connection, \
-                  getoutput, get_architecture, in_virtualbox, get_debian_version
+                  getoutput, in_virtualbox, get_debian_version
 from simplebrowser import SimpleBrowser
 import os
 from dialogs import ErrorDialog, WarningDialog, \
@@ -26,8 +26,7 @@ class SolydXKWelcome(object):
 
     def __init__(self):
 
-        # Check the system's architecture
-        self.architecture = get_architecture()
+        # Check debian version
         self.deb_version = get_debian_version()
 
         # Check for backports
@@ -47,18 +46,15 @@ class SolydXKWelcome(object):
         # 2 = open external application
         self.pages = []
         self.pages.append([0, 'welcome', ''])
-        if not 'arm' in self.architecture:
-            if self.need_drivers():
-                self.pages.append([2, 'drivers', ''])
-            self.pages.append([1, 'multimedia', ''])
+        if self.need_drivers():
+            self.pages.append([2, 'drivers', ''])
         if self.isBackportsEnabled:
             self.pages.append([1, 'libreoffice', ''])
         self.pages.append([1, 'business', ''])
-        self.pages.append([1, 'home', ''])
+        self.pages.append([1, 'multimedia', ''])
         self.pages.append([1, 'system', ''])
         self.pages.append([1, 'games', ''])
-        if not 'arm' in self.architecture:
-            self.pages.append([1, 'wine'])
+        self.pages.append([1, 'wine'])
         # ================================
 
         # Load window and widgets
@@ -79,7 +75,7 @@ class SolydXKWelcome(object):
         self.btnPrevious = go("btnPrevious")
         self.pbWelcome = go("pbWelcome")
 
-        self.window.set_title(_("SolydXK Welcome"))
+        self.window.set_title("SolydXK Welcome")
         self.btnInstall.set_label(_("Install"))
         self.btnQuit.set_label(_("Quit"))
         self.btnNext.set_label(_("Next"))
