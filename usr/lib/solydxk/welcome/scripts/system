@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Possible arguments: gparted, filezilla, virtualbox, css
+# Possible arguments: gparted, filezilla, virtualbox, clamav, samba, css
 
 if [ $# -gt 0 ]; then
   for ARG in "$@"; do
@@ -13,6 +13,12 @@ if [ $# -gt 0 ]; then
     fi
     if [ "$ARG" == 'virtualbox' ]; then
       PCK="$PCK virtualbox"
+    fi
+    if [ "$ARG" == 'clamav' ]; then
+      PCK="$PCK clamav clamtk"
+    fi
+    if [ "$ARG" == 'samba' ]; then
+      PCK="$PCK samba winbind"
     fi
     if [ "$ARG" == 'css' ]; then
       PCK="$PCK libdvdcss2"
