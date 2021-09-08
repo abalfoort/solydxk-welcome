@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-28 09:12+0200\n"
-"PO-Revision-Date: 2021-06-28 07:09+0000\n"
+"POT-Creation-Date: 2021-09-07 16:28+0200\n"
+"PO-Revision-Date: 2021-09-07 14:26+0000\n"
 "Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/abalfoort/solydxk-welcome/"
 "language/nl/)\n"
@@ -948,15 +948,67 @@ msgstr ""
 "Homepage: <a href=\"https://filezilla-project.org/\" target=\"_blank"
 "\">https://filezilla-project.org</a>"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:54-31
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:54-41
+msgid "clamav"
+msgstr "clamav"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:54-9
+msgid "ClamAV"
+msgstr "ClamAV"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:57-7
+msgid ""
+"ClamAV is an open source antivirus engine for detecting trojans, viruses, "
+"malware & other malicious threats."
+msgstr ""
+"ClamAV is een open source antivirus engine voor het detecteren van trojans, "
+"virussen, malware & andere kwaadaardige bedreigingen."
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:62-6
+msgid ""
+"Homepage: <a href=\"https://www.clamav.net/\" target=\"_blank\">https://www."
+"clamav.net</a>"
+msgstr ""
+"Homepage: <a href=\"https://www.clamav.net/\" target=\"_blank\">https://www."
+"clamav.net</a>"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:64-41
+msgid "samba"
+msgstr "samba"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:64-9
+msgid "Samba"
+msgstr "Samba"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:67-7
+msgid ""
+"Samba provides file and print services for various Microsoft Windows clients "
+"and can integrate with a Microsoft Windows Server domain, either as a Domain "
+"Controller (DC) or as a domain member. It supports both Active Directory and "
+"Microsoft Windows NT domains."
+msgstr ""
+"Samba biedt bestands- en afdrukservices voor diverse Microsoft Windows "
+"clients en kan worden geïntegreerd in een Microsoft Windows Server domein, "
+"als domeincontroller (DC) of als domeinlid. Het ondersteunt zowel Active "
+"Directory als Microsoft Windows NT domeinen."
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:71-6
+msgid ""
+"Homepage: <a href=\"https://samba.org\" target=\"_blank\">https://samba.org</"
+"a>"
+msgstr ""
+"Homepage: <a href=\"https://samba.org\" target=\"_blank\">https://samba.org</"
+"a>"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:73-31
 msgid "css"
 msgstr "css"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:54-9
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:73-9
 msgid "CSS"
 msgstr "CSS"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:57-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:76-7
 msgid ""
 "Most commercial DVDs are encrypted with CSS (the Content Scramble System), "
 "which attempts to restrict the software that can play a DVD."
@@ -964,7 +1016,7 @@ msgstr ""
 "De meeste commerciële dvd's zijn gecodeerd met CSS (Content Scramble "
 "System), dat probeert de software die een DVD kan spelen te beperken."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:58-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:77-7
 msgid ""
 "SolydXK does not come with the necessary packages pre-installed to play "
 "these encrypted DVDs."
@@ -972,7 +1024,7 @@ msgstr ""
 "SolydXK heeft niet de nodige pakketten vooraf geïnstalleerd om deze "
 "versleutelde dvd's af te kunnen spelen."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:59-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:78-7
 msgid ""
 "By clicking the install button below the following packages will be "
 "installed on your system:"
@@ -980,19 +1032,19 @@ msgstr ""
 "Door op de installatieknop te klikken, worden de volgende pakketten "
 "geïnstalleerd:"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:61-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:80-8
 msgid "libdvdcss2"
 msgstr "libdvdcss2"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:62-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:81-8
 msgid "w32codecs or w64codecs"
 msgstr "w32codecs of w64codecs"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:69-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:88-8
 msgid "Legal warning:"
 msgstr "Wettelijke waarschuwing:"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:70-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:89-8
 msgid ""
 "Check with your local laws to make sure usage of libdvdcss2 would be legal "
 "in your area."

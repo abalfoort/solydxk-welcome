@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
+# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2017-2019
 # ilu lu, 2017
 # juan jose borges <juanborgesprivado@gmail.com>, 2017
@@ -11,9 +12,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-28 09:05+0200\n"
-"PO-Revision-Date: 2020-09-22 18:59+0000\n"
-"Last-Translator: Vibo Lavida <vibo@firemail.cc>\n"
+"POT-Creation-Date: 2021-09-07 16:28+0200\n"
+"PO-Revision-Date: 2021-09-07 14:27+0000\n"
+"Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/abalfoort/solydxk-welcome/"
 "language/es/)\n"
 "Language: es\n"
@@ -163,9 +164,8 @@ msgid "gnucash"
 msgstr "gnucash"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:24-6
-#, fuzzy
 msgid "Gnucash"
-msgstr "gnucash"
+msgstr "Gnucash"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:27-7
 msgid "GnuCash is personal and small-business financial-accounting software."
@@ -200,9 +200,8 @@ msgid "postbooks"
 msgstr "postbooks"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:35-9
-#, fuzzy
 msgid "PostBooks"
-msgstr "postbooks"
+msgstr ""
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:38-7
 msgid ""
@@ -245,6 +244,8 @@ msgid ""
 "Homepage: <a href=\"https://xtuple.com/products/postbooks\" target=\"_blank"
 "\">https://xtuple.com/products/postbooks</a>"
 msgstr ""
+"Homepage: <a href=\"https://xtuple.com/products/postbooks\" target=\"_blank"
+"\">https://xtuple.com/products/postbooks</a>"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:85-43
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:90-22
@@ -252,9 +253,8 @@ msgid "projectlibre"
 msgstr "projectlibre"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:85-9
-#, fuzzy
 msgid "ProjectLibre"
-msgstr "projectlibre"
+msgstr "ProjectLibre"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:88-7
 msgid ""
@@ -336,9 +336,8 @@ msgid "steam"
 msgstr "steam"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:23-9
-#, fuzzy
 msgid "Steam"
-msgstr "steam"
+msgstr "Steam"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
 msgid ""
@@ -368,9 +367,8 @@ msgid "minetest"
 msgstr "minetest"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:36-9
-#, fuzzy
 msgid "Minetest"
-msgstr "minetest"
+msgstr "Minetest"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:39-7
 msgid ""
@@ -397,7 +395,7 @@ msgstr "0ad"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:49-9
 msgid "0 A.D."
-msgstr ""
+msgstr "0 A.D."
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:52-7
 msgid ""
@@ -433,7 +431,7 @@ msgstr "wesnoth"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:62-9
 msgid "The Battle for Wesnoth"
-msgstr ""
+msgstr "The Battle for Wesnoth"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:65-7
 msgid ""
@@ -476,9 +474,8 @@ msgid "sauerbraten"
 msgstr "sauerbraten"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:76-9
-#, fuzzy
 msgid "Sauerbraten"
-msgstr "sauerbraten"
+msgstr "Sauerbraten"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:79-7
 msgid ""
@@ -517,9 +514,8 @@ msgid "neverball"
 msgstr "neverball"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:90-9
-#, fuzzy
 msgid "Neverball"
-msgstr "neverball"
+msgstr "Neverball"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:93-7
 msgid ""
@@ -546,9 +542,8 @@ msgid "supertuxkart"
 msgstr "supertuxkart"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:103-9
-#, fuzzy
 msgid "Super Tux Kart"
-msgstr "supertuxkart"
+msgstr "Super Tux Kart"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:106-7
 msgid ""
@@ -573,14 +568,12 @@ msgid "LibreOffice (Backports)"
 msgstr "LibreOffice (Backports)"
 
 #: po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:17-41
-#, fuzzy
 msgid "libreoffice"
-msgstr "LibreOffice (Backports)"
+msgstr "libreoffice"
 
 #: po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td:17-9
-#, fuzzy
 msgid "LibreOffice"
-msgstr "LibreOffice (Backports)"
+msgstr "LibreOffice"
 
 #: po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
 msgid ""
@@ -611,9 +604,8 @@ msgstr ""
 "www.libreoffice.org</a>"
 
 #: po/en/multimedia.html%2Bhtml.body.h1:11-2
-#, fuzzy
 msgid "Multimedia applications"
-msgstr "Aplicaciones en casa."
+msgstr ""
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
 msgid "This is a list of recommended applications suited for home users."
@@ -626,7 +618,7 @@ msgstr "gimp"
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:23-9
 msgid "Gimp"
-msgstr ""
+msgstr "Gimp"
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
 msgid ""
@@ -656,9 +648,8 @@ msgid "inkscape"
 msgstr "inkscape"
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:34-9
-#, fuzzy
 msgid "Inkscape"
-msgstr "inkscape"
+msgstr "Inkscape"
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:37-7
 msgid ""
@@ -683,7 +674,7 @@ msgstr "shotwell"
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:44-9
 msgid "Shotwell / Digikam"
-msgstr ""
+msgstr "Shotwell / Digikam"
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:47-7
 msgid ""
@@ -727,9 +718,8 @@ msgid "clementine"
 msgstr "clementine"
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:59-9
-#, fuzzy
 msgid "Clementine"
-msgstr "clementine"
+msgstr "Clementine"
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:62-7
 msgid "Clementine is a modern music player and library organizer."
@@ -747,6 +737,8 @@ msgid ""
 "Homepage Clementine: <a href=\"https://www.clementine-player.org\" target="
 "\"_blank\">https://www.clementine-player.org</a>"
 msgstr ""
+"Homepage Clementine: <a href=\"https://www.clementine-player.org\" target="
+"\"_blank\">https://www.clementine-player.org</a>"
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:74-43
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:79-22
@@ -754,9 +746,8 @@ msgid "handbrake"
 msgstr "handbrake"
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:74-9
-#, fuzzy
 msgid "HandBrake"
-msgstr "handbrake"
+msgstr "HandBrake"
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:77-7
 msgid ""
@@ -780,9 +771,8 @@ msgid "soundconverter"
 msgstr "soundconverter"
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:84-9
-#, fuzzy
 msgid "SoundConverter"
-msgstr "soundconverter"
+msgstr "SoundConverter"
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:87-7
 msgid ""
@@ -797,6 +787,8 @@ msgid ""
 "Homepage: <a href=\"http://soundconverter.org\" target=\"_blank\">http://"
 "soundconverter.org</a>"
 msgstr ""
+"Homepage: <a href=\"http://soundconverter.org\" target=\"_blank\">http://"
+"soundconverter.org</a>"
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:94-43
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:100-22
@@ -805,7 +797,7 @@ msgstr "pitivi"
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:94-9
 msgid "Pitivi / Kdenlive"
-msgstr ""
+msgstr "Pitivi / Kdenlive"
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:97-7
 msgid ""
@@ -840,9 +832,8 @@ msgid "transmission"
 msgstr "transmission"
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:108-9
-#, fuzzy
 msgid "Transmission"
-msgstr "transmission"
+msgstr "Transmission"
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:111-7
 msgid ""
@@ -864,11 +855,11 @@ msgstr "Aplicaciones de sistema"
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:34-41
 msgid "virtualbox"
-msgstr ""
+msgstr "virtualbox"
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:34-9
 msgid "VirtualBox"
-msgstr ""
+msgstr "VirtualBox"
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:37-7
 msgid ""
@@ -889,11 +880,11 @@ msgstr ""
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:44-41
 msgid "filezilla"
-msgstr ""
+msgstr "filezilla"
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:44-9
 msgid "FileZilla"
-msgstr ""
+msgstr "FileZilla"
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:47-7
 msgid ""
@@ -913,15 +904,61 @@ msgstr ""
 "Homepage: <a href=\"https://filezilla-project.org/\" target=\"_blank"
 "\">https://filezilla-project.org</a>"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:54-31
-msgid "css"
-msgstr ""
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:54-41
+msgid "clamav"
+msgstr "clamav"
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:54-9
-msgid "CSS"
-msgstr ""
+msgid "ClamAV"
+msgstr "ClamAV"
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:57-7
+msgid ""
+"ClamAV is an open source antivirus engine for detecting trojans, viruses, "
+"malware & other malicious threats."
+msgstr ""
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:62-6
+msgid ""
+"Homepage: <a href=\"https://www.clamav.net/\" target=\"_blank\">https://www."
+"clamav.net</a>"
+msgstr ""
+"Homepage: <a href=\"https://www.clamav.net/\" target=\"_blank\">https://www."
+"clamav.net</a>"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:64-41
+msgid "samba"
+msgstr "samba"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:64-9
+msgid "Samba"
+msgstr "Samba"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:67-7
+msgid ""
+"Samba provides file and print services for various Microsoft Windows clients "
+"and can integrate with a Microsoft Windows Server domain, either as a Domain "
+"Controller (DC) or as a domain member. It supports both Active Directory and "
+"Microsoft Windows NT domains."
+msgstr ""
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:71-6
+msgid ""
+"Homepage: <a href=\"https://samba.org\" target=\"_blank\">https://samba.org</"
+"a>"
+msgstr ""
+"Homepage: <a href=\"https://samba.org\" target=\"_blank\">https://samba.org</"
+"a>"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:73-31
+msgid "css"
+msgstr "css"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:73-9
+msgid "CSS"
+msgstr "CSS"
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:76-7
 msgid ""
 "Most commercial DVDs are encrypted with CSS (the Content Scramble System), "
 "which attempts to restrict the software that can play a DVD."
@@ -929,7 +966,7 @@ msgstr ""
 "La mayoría de los DVD comerciales están cifrados con CSS (Content Scramble "
 "System), que intenta restringir el software que puede reproducir un DVD."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:58-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:77-7
 msgid ""
 "SolydXK does not come with the necessary packages pre-installed to play "
 "these encrypted DVDs."
@@ -937,7 +974,7 @@ msgstr ""
 "SolydXK no vienen con los paquetes necesarios pre-instalado para jugar estos "
 "DVDs encriptados."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:59-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:78-7
 msgid ""
 "By clicking the install button below the following packages will be "
 "installed on your system:"
@@ -945,19 +982,19 @@ msgstr ""
 "Haciendo clic en el botón Instalar los siguientes paquetes serán instalados "
 "en su sistema:"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:61-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:80-8
 msgid "libdvdcss2"
 msgstr "libdvdcss2"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:62-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:81-8
 msgid "w32codecs or w64codecs"
 msgstr "w32codecs o w64codecs"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:69-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:88-8
 msgid "Legal warning:"
 msgstr "Aviso legal:"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:70-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:89-8
 msgid ""
 "Check with your local laws to make sure usage of libdvdcss2 would be legal "
 "in your area."
@@ -1076,9 +1113,8 @@ msgstr ""
 "software para instalarlas por separado."
 
 #: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:22-41
-#, fuzzy
 msgid "playonlinux"
-msgstr "PlayOnLinux"
+msgstr "playonlinux"
 
 #: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.p:25-7
 msgid ""
@@ -1124,188 +1160,3 @@ msgid ""
 msgstr ""
 "Homepage: <a href=\"http://www.playonlinux.com\" target=\"_blank\">http://"
 "www.playonlinux.com</a>"
-
-#~ msgid ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"gnucash\" /> Gnucash"
-#~ msgstr ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"gnucash\" /> Gnucash"
-
-#~ msgid ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"postbooks\" /> "
-#~ "PostBooks"
-#~ msgstr ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"postbooks\" /> "
-#~ "PostBooks"
-
-#~ msgid ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"projectlibre\" /> "
-#~ "ProjectLibre"
-#~ msgstr ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"projectlibre\" /> "
-#~ "ProjectLibre"
-
-#~ msgid "<input type=\"checkbox\" class=\"package\" value=\"steam\" /> Steam"
-#~ msgstr "<input type=\"checkbox\" class=\"package\" value=\"steam\" /> Steam"
-
-#~ msgid ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"minetest\" /> Minetest"
-#~ msgstr ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"minetest\" /> Minetest"
-
-#~ msgid "<input type=\"checkbox\" class=\"package\" value=\"0ad\" /> 0 A.D."
-#~ msgstr "<input type=\"checkbox\" class=\"package\" value=\"0ad\" /> 0 A.D."
-
-#~ msgid ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"wesnoth\" /> The "
-#~ "Battle for Wesnoth"
-#~ msgstr ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"wesnoth\" /> The "
-#~ "Battle for Wesnoth"
-
-#~ msgid ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"sauerbraten\" /> "
-#~ "Sauerbraten"
-#~ msgstr ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"sauerbraten\" /> "
-#~ "Sauerbraten"
-
-#~ msgid ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"neverball\" /> "
-#~ "Neverball"
-#~ msgstr ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"neverball\" /> "
-#~ "Neverball"
-
-#~ msgid ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"supertuxkart\" /> "
-#~ "Super Tux Kart"
-#~ msgstr ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"supertuxkart\" /> "
-#~ "Super Tux Kart"
-
-#~ msgid ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"libreoffice\" /> "
-#~ "LibreOffice"
-#~ msgstr ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"libreoffice\" /> "
-#~ "LibreOffice"
-
-#, fuzzy
-#~| msgid "<input type=\"checkbox\" class=\"package\" value=\"steam\" /> Steam"
-#~ msgid "<input type=\"checkbox\" class=\"package\" value=\"gimp\" /> Gimp"
-#~ msgstr "<input type=\"checkbox\" class=\"package\" value=\"steam\" /> Steam"
-
-#, fuzzy
-#~| msgid ""
-#~| "<input type=\"checkbox\" class=\"package\" value=\"gnucash\" /> Gnucash"
-#~ msgid ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"inkscape\" /> Inkscape"
-#~ msgstr ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"gnucash\" /> Gnucash"
-
-#, fuzzy
-#~| msgid "<input type=\"checkbox\" class=\"package\" value=\"steam\" /> Steam"
-#~ msgid ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"shotwell\" /> "
-#~ "Shotwell / Digikam"
-#~ msgstr "<input type=\"checkbox\" class=\"package\" value=\"steam\" /> Steam"
-
-#, fuzzy
-#~| msgid ""
-#~| "<input type=\"checkbox\" class=\"package\" value=\"clementine\" /> "
-#~| "Clementine / Amarok"
-#~ msgid ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"clementine\" /> "
-#~ "Clementine"
-#~ msgstr ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"clementine\" /> "
-#~ "Clementine / Amarok"
-
-#~ msgid ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"handbrake\" /> "
-#~ "HandBrake"
-#~ msgstr ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"handbrake\" /> "
-#~ "HandBrake"
-
-#~ msgid ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"soundconverter\" /> "
-#~ "SoundConverter"
-#~ msgstr ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"soundconverter\" /> "
-#~ "SoundConverter"
-
-#~ msgid ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"pitivi\" /> Pitivi / "
-#~ "Kdenlive"
-#~ msgstr ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"pitivi\" /> Pitivi / "
-#~ "Kdenlive"
-
-#~ msgid ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"transmission\" /> "
-#~ "Transmission"
-#~ msgstr ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"transmission\" /> "
-#~ "Transmission"
-
-#~ msgid ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"virtualbox\" /> "
-#~ "VirtualBox"
-#~ msgstr ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"virtualbox\" /> "
-#~ "VirtualBox"
-
-#~ msgid ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"filezilla\" /> "
-#~ "FileZilla"
-#~ msgstr ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"filezilla\" /> "
-#~ "FileZilla"
-
-#~ msgid "<input type=\"checkbox\" class=\"package\" value=\"css\" /> CSS"
-#~ msgstr "<input type=\"checkbox\" class=\"package\" value=\"css\" /> CSS"
-
-#~ msgid ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"playonlinux\" /> "
-#~ "PlayOnLinux"
-#~ msgstr ""
-#~ "<input type=\"checkbox\" class=\"package\" value=\"playonlinux\" /> "
-#~ "PlayOnLinux"
-
-#, fuzzy
-#~ msgid "Clementine / Amarok"
-#~ msgstr "clementine"
-
-#~ msgid "Multimedia codecs"
-#~ msgstr "Codecs multimedia "
-
-#~ msgid ""
-#~ "These multimedia codecs are not included by default for legal or security "
-#~ "reasons."
-#~ msgstr ""
-#~ "Estos códecs multimedia no se incluyen de forma predeterminada por "
-#~ "razones de seguridad o legales."
-
-#~ msgid "HTML5 is the default media player in Firefox."
-#~ msgstr "HTML5 es el reproductor multimedia predeterminado en Firefox."
-
-#~ msgid ""
-#~ "Youtube and other sites are already providing their content using HTML5. "
-#~ "However, there are still sites using Flash."
-#~ msgstr ""
-#~ "Youtube y otros sitios ya están ofreciendo su contenido usando HTML5. "
-#~ "Pero todavía hay sitios web utilizando Flash."
-
-#~ msgid "Warning:"
-#~ msgstr "Advertencia:"
-
-#~ msgid ""
-#~ "Be aware that Flash is not Open Source. Some Flash content may harm your "
-#~ "system."
-#~ msgstr ""
-#~ "Se debe tener en cuenta que Flash no es Código Abierto. Algun contenido "
-#~ "puede dañar su sistema."
-
-#~ msgid "<input type=\"checkbox\" class=\"package\" value=\"flash\" /> Flash"
-#~ msgstr "<input type=\"checkbox\" class=\"package\" value=\"flash\" /> Flash"
