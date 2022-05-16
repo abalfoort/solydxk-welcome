@@ -1,37 +1,18 @@
 #: ./po/en/libreoffice.html%2Bhtml.body.h1:11-2
-msgid "LibreOffice (Backports)"
-msgstr ""
-
-#: ./po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:17-41
-msgid "libreoffice"
-msgstr ""
-
-#: ./po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td:17-9
 msgid "LibreOffice"
 msgstr ""
 
-#: ./po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
+#: ./po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
 msgid ""
-"SolydXK comes with the LibreOffice suite pre-installed. Its stability and "
-"features works great for most people and especially for businesses. However, "
-"if you are missing some features or you want LibreOffice to stay updated you "
-"can install LibreOffice from the backports repository."
+"SolydXK comes with a minimal LibreOffice suite pre-installed. However, if "
+"you are missing some additional packages, you can install them here."
 msgstr ""
 
-#: ./po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td.p:21-7
-msgid ""
-"Backports are recompiled new packages for the current stable environment. "
-"So, they will run without new libraries."
-msgstr ""
 
-#: ./po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td.p:22-7
-msgid ""
-"Although you can run more up to date software using the backports "
-"repository, you introduce a greater risk of breakage doing so."
-msgstr ""
 
-#: ./po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td:27-6
-msgid ""
-"Homepage: <a href=\"https://www.libreoffice.org/\" target=\"_blank\""
-">https://www.libreoffice.org</a>"
-msgstr ""
+
+
+
+
+
+

@@ -6,73 +6,36 @@ msgstr ""
 msgid "All work and no play..."
 msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
-msgid ""
-"When you click the install button all selected games are going to be "
-"installed on your system."
-msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:23-43
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:28-22
-msgid "steam"
-msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:23-9
-msgid "Steam"
-msgstr ""
-
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
+#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:25-7
 msgid ""
 "Steam is an internet-based digital distribution, digital rights management "
 "(DRM), multiplayer, and social networking platform developed by Valve "
 "Corporation."
 msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:32-7
-msgid ""
-"Homepage: <a href=\"http://store.steampowered.com/\" target=\"_blank\""
-">http://store.steampowered.com</a>"
-msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:33-7
+#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:32-7
 msgid "Installed size: 200 MB (after user installation)"
 msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:36-43
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:41-22
-msgid "minetest"
-msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:36-9
-msgid "Minetest"
-msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:39-7
+#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:38-7
 msgid ""
 "Minetest is an infinite-world block sandbox game and a game engine, inspired "
 "by InfiniMiner, Minecraft and the like."
 msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:45-7
-msgid ""
-"Homepage: <a href=\"http://minetest.net\" target=\"_blank\">http://minetest."
-"net</a>"
-msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:46-7
+#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:45-7
 msgid "Installed size: 10 MB"
 msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:49-43
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:54-22
-msgid "0ad"
-msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:49-9
-msgid "0 A.D."
-msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:52-7
+#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:51-7
 msgid ""
 "0 A.D. (pronounced \"zero-ey-dee\") is a free, open-source, historical Real "
 "Time Strategy (RTS) game currently under development by Wildfire Games, a "
@@ -81,32 +44,20 @@ msgid ""
 "force and dominate your enemies."
 msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:58-7
-msgid ""
-"Homepage: <a href=\"http://play0ad.com\" target=\"_blank\">http://play0ad."
-"com</a>"
-msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:59-7
+#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:58-7
 msgid "Installed size: 1 GB"
 msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:62-43
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:68-22
-msgid "wesnoth"
-msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:62-9
-msgid "The Battle for Wesnoth"
-msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:65-7
+#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:64-7
 msgid ""
 "The Battle for Wesnoth is a turn-based tactical strategy game with a high "
 "fantasy theme."
 msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:66-7
+#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:65-7
 msgid ""
 "Build up a great army, gradually turning raw recruits into hardened "
 "veterans. In later games, recall your toughest warriors and form a deadly "
@@ -115,95 +66,54 @@ msgid ""
 "different terrains against all manner of opposition."
 msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:72-7
-msgid ""
-"Homepage: <a href=\"http://www.wesnoth.org/\" target=\"_blank\">http://www."
-"wesnoth.org</a>"
-msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:73-7
+#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:72-7
 msgid "Installed size: 450 MB"
 msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:76-43
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:82-22
-msgid "sauerbraten"
-msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:76-9
-msgid "Sauerbraten"
-msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:79-7
+#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:78-7
 msgid ""
 "Sauerbraten is a free multiplayer and singleplayer first person shooter, the "
 "successor of the Cube FPS."
 msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:80-7
+#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:79-7
 msgid ""
 "Much like the original Cube, the aim of this game is fun, old school "
 "deathmatch gameplay and also to allow map/geometry editing to be done "
 "cooperatively in-game."
 msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:86-7
-msgid ""
-"Homepage: <a href=\"http://sauerbraten.org/\" target=\"_blank\""
-">http://sauerbraten.org</a>"
-msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:87-7
+#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:86-7
 msgid "Installed size: 650 MB"
 msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:90-43
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:95-22
-msgid "neverball"
-msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:90-9
-msgid "Neverball"
-msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:93-7
+#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:92-7
 msgid ""
 "Tilt the floor to roll a ball through an obstacle course before time runs "
 "out. Neverball is part puzzle game, part action game, and entirely a test of "
 "skill."
 msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:99-7
-msgid ""
-"Homepage: <a href=\"http://neverball.org\" target=\"_blank\">http://neverball"
-".org</a>"
-msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:100-7
+#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:99-7
 msgid "Installed size: 150 MB"
 msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:103-43
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:108-22
-msgid "supertuxkart"
-msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:103-9
-msgid "Super Tux Kart"
-msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:106-7
+#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:105-7
 msgid ""
 "SuperTuxKart is a Free 3D kart racing game, with many tracks, characters and "
 "items for you to try. Have fun!"
 msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:112-7
-msgid ""
-"Homepage: <a href=\"http://supertuxkart.sourceforge.net/\" target=\"_blank\""
-">http://supertuxkart.sourceforge.net</a>"
-msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:113-7
+#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:112-7
 msgid "Installed size: 350 MB"
 msgstr ""

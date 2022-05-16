@@ -1,20 +1,7 @@
 #: ./po/en/wine.html%2Bhtml.body.h1:11-2
-#: ./po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td:22-9
-msgid "PlayOnLinux"
-msgstr ""
 
-#: ./po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
-msgid ""
-"When you click the install button all listed applications are going to be "
-"installed on your system. You can use the software manager to install them "
-"separately."
-msgstr ""
 
-#: ./po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:22-41
-msgid "playonlinux"
-msgstr ""
-
-#: ./po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.p:25-7
+#: ./po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
 msgid ""
 "SolydXK comes with a wide variety of software. However, if you cannot find "
 "the right software in our repository and you need to use MS Windows "
@@ -22,25 +9,20 @@ msgid ""
 "this way, but a large number of software is already supported."
 msgstr ""
 
-#: ./po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.div.p:27-8
+#: ./po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.div.p:22-8
 msgid ""
 "By using this software you may make your system vulnerable to MS Windows "
 "viruses and malware. The risk of infection is not higher than under native "
 "MS Windows."
 msgstr ""
 
-#: ./po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.div.p:28-8
+#: ./po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.div.p:23-8
 msgid "Make sure you install software from trusted parties only."
 msgstr ""
 
-#: ./po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.div.p:29-8
+#: ./po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.div.p:24-8
 msgid ""
 "Read about the <a href=\"http://wiki.winehq.org/FAQ#head-"
 "1c91cac836dd52754c846d2ef62be4f346eebe87\">risk on using Wine</a>"
 msgstr ""
 
-#: ./po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td:36-6
-msgid ""
-"Homepage: <a href=\"http://www.playonlinux.com\" target=\"_blank\">http://www"
-".playonlinux.com</a>"
-msgstr ""

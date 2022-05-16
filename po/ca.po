@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021
+# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2022
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2017-2019
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2016-2017
 # Eduard Selma <selma@tinet.cat>, 2015,2018-2019,2021
@@ -12,9 +12,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-07 16:28+0200\n"
-"PO-Revision-Date: 2021-09-07 14:23+0000\n"
-"Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>\n"
+"POT-Creation-Date: 2022-05-05 21:30+0200\n"
+"PO-Revision-Date: 2015-09-21 17:31+0000\n"
+"Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2022\n"
 "Language-Team: Catalan (http://www.transifex.com/abalfoort/solydxk-welcome/"
 "language/ca/)\n"
 "Language: ca\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: usr/lib/solydxk/welcome/main.py:38
+#: usr/lib/solydxk/welcome/main.py:37
 #: usr/share/applications/solydxk-welcome.desktop.in.h:2
 #: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:2
 #: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:2
@@ -31,7 +31,7 @@ msgstr ""
 msgid "SolydXK Welcome"
 msgstr "SolydXK Welcome"
 
-#: usr/lib/solydxk/welcome/main.py:39
+#: usr/lib/solydxk/welcome/main.py:38
 msgid ""
 "SolydXK Welcome cannot be started in a live environment\n"
 "You can use the --force argument to start SolydXK Welcome in a live "
@@ -40,11 +40,11 @@ msgstr ""
 "No es pot engegar SolydXK Welcome en un entorn autònom\n"
 "Podeu usar l'argument --force per engegar-lo dins d'un entorn autònom."
 
-#: usr/lib/solydxk/welcome/main.py:105
+#: usr/lib/solydxk/welcome/main.py:104
 msgid "Unexpected error"
 msgstr "Error inesperat"
 
-#: usr/lib/solydxk/welcome/main.py:106
+#: usr/lib/solydxk/welcome/main.py:105
 msgid ""
 "SolydXK Welcome has failed with the following unexpected error.\n"
 "Please submit a bug report!"
@@ -52,23 +52,23 @@ msgstr ""
 "SolydXK Welcome ha fallat amb un error inesperat.\n"
 "Si us plau, envieu un informe d'error!"
 
-#: usr/lib/solydxk/welcome/welcome.py:79
+#: usr/lib/solydxk/welcome/welcome.py:73
 msgid "Install"
 msgstr "Instal·la"
 
-#: usr/lib/solydxk/welcome/welcome.py:80
+#: usr/lib/solydxk/welcome/welcome.py:74
 msgid "Quit"
 msgstr "Surt"
 
-#: usr/lib/solydxk/welcome/welcome.py:81
+#: usr/lib/solydxk/welcome/welcome.py:75
 msgid "Next"
 msgstr "Següent"
 
-#: usr/lib/solydxk/welcome/welcome.py:82
+#: usr/lib/solydxk/welcome/welcome.py:76
 msgid "Previous"
 msgstr "Anterior"
 
-#: usr/lib/solydxk/welcome/welcome.py:130
+#: usr/lib/solydxk/welcome/welcome.py:124
 msgid ""
 "VirtualBox cannot be installed in a VirtualBox client.\n"
 "This package is skipped."
@@ -76,7 +76,7 @@ msgstr ""
 "No es pot instal·lar VirtualBox en un client de Virtualmox. Ometem aquest "
 "paquet."
 
-#: usr/lib/solydxk/welcome/welcome.py:151
+#: usr/lib/solydxk/welcome/welcome.py:145
 msgid ""
 "Nothing to do:\n"
 "No packages were selected."
@@ -84,7 +84,7 @@ msgstr ""
 "No cal fer res:\n"
 "No s'ha seleccionat cap paquet."
 
-#: usr/lib/solydxk/welcome/welcome.py:166
+#: usr/lib/solydxk/welcome/welcome.py:160
 msgid ""
 "You selected some packages for installation.\n"
 "\n"
@@ -96,11 +96,11 @@ msgstr ""
 "Voleu instal·lar-los ara?\n"
 "Nota: S'esborrarà la llista si continueu sense instal·lar."
 
-#: usr/lib/solydxk/welcome/welcome.py:178
+#: usr/lib/solydxk/welcome/welcome.py:172
 msgid "No internet connection"
 msgstr "Sense connexió a internet"
 
-#: usr/lib/solydxk/welcome/welcome.py:179
+#: usr/lib/solydxk/welcome/welcome.py:173
 msgid ""
 "You need an internet connection to install the additional software.\n"
 "Please, connect to the internet and try again."
@@ -108,7 +108,7 @@ msgstr ""
 "Cal una connexió a Internet per instal·lar programari addicional.\n"
 "Si us plau, connecteu-vos a Internet i torneu-ho a provar."
 
-#: usr/lib/solydxk/welcome/welcome.py:201
+#: usr/lib/solydxk/welcome/welcome.py:195
 msgid ""
 "Cannot install the requested software:\n"
 "Script not found: {}"
@@ -116,7 +116,7 @@ msgstr ""
 "No es pot instal·lar el programari demanat:\n"
 "No es troba l'script: {} "
 
-#: usr/lib/solydxk/welcome/welcome.py:266
+#: usr/lib/solydxk/welcome/welcome.py:260
 msgid ""
 "There was an error during the installation.\n"
 "Please, run 'sudo apt-get -f install' in a terminal.\n"
@@ -126,7 +126,7 @@ msgstr ""
 "Executeu 'sudo apt-get -f install' en un terminal.\n"
 "Trobareu ajuda al nostre fòrum: https://forums.solydxk.com"
 
-#: usr/lib/solydxk/welcome/welcome.py:274
+#: usr/lib/solydxk/welcome/welcome.py:268
 msgid "The software has been successfully installed."
 msgstr "El programari s'ha instal·lat amb èxit."
 
@@ -148,29 +148,12 @@ msgstr "Aplicacions d'Empresa"
 msgid "This is a list of recommended applications suited for businesses."
 msgstr "Aquesta és una llista d'aplicacions recomanades per a empreses."
 
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
-msgid ""
-"When you click the install button all selected applications are going to be "
-"installed on your system."
-msgstr ""
-"Quan cliqueu el botó d'instal·lar, s'instal·laran totes les aplicacions "
-"seleccionades al vostre sistema."
-
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:24-40
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:30-22
-msgid "gnucash"
-msgstr "gnucash"
-
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:24-6
-msgid "Gnucash"
-msgstr "Gnucash"
-
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:27-7
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
 msgid "GnuCash is personal and small-business financial-accounting software."
 msgstr ""
 "GnuCash és un programari lliure de comptabilitat per a petites empreses."
 
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:28-7
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:27-7
 msgid ""
 "Designed to be easy to use, yet powerful and flexible, GnuCash allows you to "
 "track bank accounts, stocks, income and expenses. As quick and intuitive to "
@@ -183,24 +166,7 @@ msgstr ""
 "comptabilitat professional per assegurar informes acurats i un balanç "
 "correcte."
 
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:33-6
-msgid ""
-"Homepage: <a href=\"http://www.gnucash.org/\" target=\"_blank\">http://www."
-"gnucash.org</a>"
-msgstr ""
-"Pàgina Web: <a href=\"http://www.gnucash.org/\" target=\"_blank\">http://www."
-"gnucash.org</a>"
-
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:35-43
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:49-22
-msgid "postbooks"
-msgstr "postbooks"
-
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:35-9
-msgid "PostBooks"
-msgstr "PostBooks"
-
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:38-7
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:37-7
 msgid ""
 "Open source ERP for sales, accounting, operations and CRM in a single system "
 "(accounting, sales, CRM, purchasing, etc.)."
@@ -208,31 +174,31 @@ msgstr ""
 "PRE per a vendes, comptabilitat, operacions GRC en un sol sistema "
 "(comptabilitat, vendes, compres, relació amb clients, etc.)."
 
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:39-7
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:38-7
 msgid "Use this information to start PostBooks:"
 msgstr "Useu aquesta informació per engegar PostBooks:"
 
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:41-9
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:40-9
 msgid "Username: admin"
 msgstr "Nom d'usuari: admin "
 
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:42-9
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:41-9
 msgid "Password: solydxk"
 msgstr "Contrasenya: solydxk"
 
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:43-9
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:42-9
 msgid "Server: localhost"
 msgstr "Servidor: localhost"
 
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:44-9
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:43-9
 msgid "Port: 5432"
 msgstr "Port: 5432"
 
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:45-9
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:44-9
 msgid "Database: demo, quickstart or empty"
 msgstr "Base de dades: demo, quickstart o buida"
 
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:47-8
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:46-8
 msgid ""
 "You can maintain the PostgreSql databases with pgAdmin III (Login: "
 "postgres / solydxk)"
@@ -240,38 +206,13 @@ msgstr ""
 "Podeu mantenir les bases de dades PostgreSQL amb pgAdmin III (entrada: "
 "postgres / solydxk)"
 
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:52-6
-msgid ""
-"Homepage: <a href=\"https://xtuple.com/products/postbooks\" target=\"_blank"
-"\">https://xtuple.com/products/postbooks</a>"
-msgstr ""
-"Pàgina Web: <a href=\"https://xtuple.com/products/postbooks\" target=\"_blank"
-"\">https://xtuple.com/products/postbooks</a>"
-
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:85-43
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:90-22
-msgid "projectlibre"
-msgstr "projectlibre"
-
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:85-9
-msgid "ProjectLibre"
-msgstr "ProjectLibre"
-
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:88-7
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:56-7
 msgid ""
 "ProjectLibre is a project management software system. It intends to be a "
 "complete desktop replacement for Microsoft Project."
 msgstr ""
 "ProjectLibre és un programari de Gestió de Projectes. Està pensat per a ser "
 "una alternativa completa a Microsoft Project."
-
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td:93-6
-msgid ""
-"Homepage: <a href=\"http://www.projectlibre.org/\" target=\"_blank\">http://"
-"www.projectlibre.org</a>"
-msgstr ""
-"Pàgina Web: <a href=\"http://www.projectlibre.org/\" target=\"_blank"
-"\">http://www.projectlibre.org</a>"
 
 #: po/en/drivers.html%2Bhtml.body.h1:10-2
 msgid "Hardware drivers"
@@ -321,24 +262,7 @@ msgstr "Jocs"
 msgid "All work and no play..."
 msgstr "No tot és treballar..."
 
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
-msgid ""
-"When you click the install button all selected games are going to be "
-"installed on your system."
-msgstr ""
-"Quan cliqueu el botó \"Instal·la\" tots els jocs seleccionat s'instal·laran "
-"al vostre sistema."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:23-43
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:28-22
-msgid "steam"
-msgstr "steam"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:23-9
-msgid "Steam"
-msgstr "Steam"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:25-7
 msgid ""
 "Steam is an internet-based digital distribution, digital rights management "
 "(DRM), multiplayer, and social networking platform developed by Valve "
@@ -349,27 +273,10 @@ msgstr ""
 "Corporation."
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:32-7
-msgid ""
-"Homepage: <a href=\"http://store.steampowered.com/\" target=\"_blank"
-"\">http://store.steampowered.com</a>"
-msgstr ""
-"Pàgina Web: <a href=\"http://store.steampowered.com/\" target=\"_blank"
-"\">http://store.steampowered.com</a>"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:33-7
 msgid "Installed size: 200 MB (after user installation)"
 msgstr "Mida instal·lat: 200 MB (després de la instal·lació d'usuari)"
 
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:36-43
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:41-22
-msgid "minetest"
-msgstr "minetest"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:36-9
-msgid "Minetest"
-msgstr "Minetest"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:39-7
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:38-7
 msgid ""
 "Minetest is an infinite-world block sandbox game and a game engine, inspired "
 "by InfiniMiner, Minecraft and the like."
@@ -378,27 +285,10 @@ msgstr ""
 "InfiniMiner, Minecraft i similars."
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:45-7
-msgid ""
-"Homepage: <a href=\"http://minetest.net\" target=\"_blank\">http://minetest."
-"net</a>"
-msgstr ""
-"Pàgina Web: <a href=\"http://minetest.net\" target=\"_blank\">http://"
-"minetest.net</a>"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:46-7
 msgid "Installed size: 10 MB"
 msgstr "Mida instal·lat: 10 MB"
 
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:49-43
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:54-22
-msgid "0ad"
-msgstr "0ad"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:49-9
-msgid "0 A.D."
-msgstr "0 A.D."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:52-7
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:51-7
 msgid ""
 "0 A.D. (pronounced \"zero-ey-dee\") is a free, open-source, historical Real "
 "Time Strategy (RTS) game currently under development by Wildfire Games, a "
@@ -413,27 +303,10 @@ msgstr ""
 "una força militar i dominar els vostres enemics."
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:58-7
-msgid ""
-"Homepage: <a href=\"http://play0ad.com\" target=\"_blank\">http://play0ad."
-"com</a>"
-msgstr ""
-"Pàgina Web: <a href=\"http://play0ad.com\" target=\"_blank\">http://play0ad."
-"com</a>"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:59-7
 msgid "Installed size: 1 GB"
 msgstr "Mida instal·lat: 1 GB"
 
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:62-43
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:68-22
-msgid "wesnoth"
-msgstr "wesnoth"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:62-9
-msgid "The Battle for Wesnoth"
-msgstr "The Battle for Wesnoth"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:65-7
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:64-7
 msgid ""
 "The Battle for Wesnoth is a turn-based tactical strategy game with a high "
 "fantasy theme."
@@ -441,7 +314,7 @@ msgstr ""
 "The Battle for Wesnoth (La batalla de Wesnoth) és un joc tàctic d'estratègia "
 "amb un tema fantàstic."
 
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:66-7
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:65-7
 msgid ""
 "Build up a great army, gradually turning raw recruits into hardened "
 "veterans. In later games, recall your toughest warriors and form a deadly "
@@ -456,27 +329,10 @@ msgstr ""
 "lluitar bé en diversos terrenys contra tota mena d'oposició."
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:72-7
-msgid ""
-"Homepage: <a href=\"http://www.wesnoth.org/\" target=\"_blank\">http://www."
-"wesnoth.org</a>"
-msgstr ""
-"Pàgina Web: <a href=\"http://www.wesnoth.org/\" target=\"_blank\">http://www."
-"wesnoth.org</a>"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:73-7
 msgid "Installed size: 450 MB"
 msgstr "Mida instal·lat: 450 MB"
 
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:76-43
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:82-22
-msgid "sauerbraten"
-msgstr "sauerbraten"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:76-9
-msgid "Sauerbraten"
-msgstr "Sauerbraten"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:79-7
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:78-7
 msgid ""
 "Sauerbraten is a free multiplayer and singleplayer first person shooter, the "
 "successor of the Cube FPS."
@@ -484,7 +340,7 @@ msgstr ""
 "Sauerbraten és un joc lliure multi- i uni-jugador de trets en primera "
 "persona, el successor de Cube FPS."
 
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:80-7
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:79-7
 msgid ""
 "Much like the original Cube, the aim of this game is fun, old school "
 "deathmatch gameplay and also to allow map/geometry editing to be done "
@@ -495,27 +351,10 @@ msgstr ""
 "cooperativa del mapa i la geometria."
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:86-7
-msgid ""
-"Homepage: <a href=\"http://sauerbraten.org/\" target=\"_blank\">http://"
-"sauerbraten.org</a>"
-msgstr ""
-"Pàgina Web: <a href=\"http://sauerbraten.org/\" target=\"_blank\">http://"
-"sauerbraten.org</a>"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:87-7
 msgid "Installed size: 650 MB"
 msgstr "Mida instal·lat: 650 MB"
 
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:90-43
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:95-22
-msgid "neverball"
-msgstr "neverball"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:90-9
-msgid "Neverball"
-msgstr "Neverball"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:93-7
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:92-7
 msgid ""
 "Tilt the floor to roll a ball through an obstacle course before time runs "
 "out. Neverball is part puzzle game, part action game, and entirely a test of "
@@ -526,27 +365,10 @@ msgstr ""
 "d'acció, però sempre d'habilitat."
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:99-7
-msgid ""
-"Homepage: <a href=\"http://neverball.org\" target=\"_blank\">http://"
-"neverball.org</a>"
-msgstr ""
-"Pàgina Web: <a href=\"http://neverball.org\" target=\"_blank\">http://"
-"neverball.org</a>"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:100-7
 msgid "Installed size: 150 MB"
 msgstr "Mida instal·lat: 150 MB"
 
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:103-43
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:108-22
-msgid "supertuxkart"
-msgstr "supertuxkart"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td:103-9
-msgid "Super Tux Kart"
-msgstr "Super Tux Kart"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:106-7
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:105-7
 msgid ""
 "SuperTuxKart is a Free 3D kart racing game, with many tracks, characters and "
 "items for you to try. Have fun!"
@@ -555,30 +377,14 @@ msgstr ""
 "personatges per provar. A passar-ho bé!"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:112-7
-msgid ""
-"Homepage: <a href=\"http://supertuxkart.sourceforge.net/\" target=\"_blank"
-"\">http://supertuxkart.sourceforge.net</a>"
-msgstr ""
-"Pàgina Web: <a href=\"http://supertuxkart.sourceforge.net/\" target=\"_blank"
-"\">http://supertuxkart.sourceforge.net</a>"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:113-7
 msgid "Installed size: 350 MB"
 msgstr "Mida instal·lat: 350 MB"
 
-#: po/en/libreoffice.html%2Bhtml.body.h1:11-2
+#: po/en/libreofficebp.html%2Bhtml.body.h1:11-2
 msgid "LibreOffice (Backports)"
 msgstr "LibreOffice (Backports)"
 
-#: po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:17-41
-msgid "libreoffice"
-msgstr "libreoffice"
-
-#: po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td:17-9
-msgid "LibreOffice"
-msgstr "LibreOffice"
-
-#: po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
+#: po/en/libreofficebp.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
 msgid ""
 "SolydXK comes with the LibreOffice suite pre-installed. Its stability and "
 "features works great for most people and especially for businesses. However, "
@@ -591,7 +397,7 @@ msgstr ""
 "LibreOffice actualitzat a la darrera versió, podeu instal·lar LibreOffice "
 "des del dipòsit de Backports. "
 
-#: po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td.p:21-7
+#: po/en/libreofficebp.html%2Bhtml.body.div.div.form.table.tr.td.p:21-7
 msgid ""
 "Backports are recompiled new packages for the current stable environment. "
 "So, they will run without new libraries."
@@ -600,7 +406,7 @@ msgstr ""
 "D'aquesta manera es poden executar aplicacions sense instal·lar biblioteques "
 "noves. "
 
-#: po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td.p:22-7
+#: po/en/libreofficebp.html%2Bhtml.body.div.div.form.table.tr.td.p:22-7
 msgid ""
 "Although you can run more up to date software using the backports "
 "repository, you introduce a greater risk of breakage doing so."
@@ -608,13 +414,15 @@ msgstr ""
 "Podeu executar aplicacions més actualitzades bo i usant el dipòsit de "
 "Backports. Tanmateix, introduïu un cert risc d'inestabilitats fent-ho. "
 
-#: po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td:27-6
+#: po/en/libreoffice.html%2Bhtml.body.h1:11-2
+msgid "LibreOffice"
+msgstr "LibreOffice"
+
+#: po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
 msgid ""
-"Homepage: <a href=\"https://www.libreoffice.org/\" target=\"_blank\">https://"
-"www.libreoffice.org</a>"
+"SolydXK comes with a minimal LibreOffice suite pre-installed. However, if "
+"you are missing some additional packages, you can install them here."
 msgstr ""
-"Homepage: <a href=\"https://www.libreoffice.org/\" target=\"_blank\">https://"
-"www.libreoffice.org</a>"
 
 #: po/en/multimedia.html%2Bhtml.body.h1:11-2
 msgid "Multimedia applications"
@@ -625,16 +433,7 @@ msgid "This is a list of recommended applications suited for home users."
 msgstr ""
 "Aquesta és una llista d'aplicacions recomanades per a usuaris domèstics."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:23-43
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:29-22
-msgid "gimp"
-msgstr "gimp"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:23-9
-msgid "Gimp"
-msgstr "Gimp"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:25-7
 msgid ""
 "GIMP is an acronym for GNU Image Manipulation Program. It is a freely "
 "distributed program for such tasks as photo retouching, image composition "
@@ -644,7 +443,7 @@ msgstr ""
 "Manipulació d'Imatges GNU). És un programari lliure per tasques com el retoc "
 "de fotos, composició d'imatges i edició d'imatges de mapa de bits."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:27-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
 msgid ""
 "It has many capabilities. It can be used as a simple paint program, an "
 "expert quality photo retouching program, an online batch processing system, "
@@ -654,24 +453,7 @@ msgstr ""
 "programa de retoc fotogràfic, sistema de processat gràfic per lots, "
 "reproductor d'imatges en producció massiva, convertidor de formats, etc."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:32-6
-msgid ""
-"Homepage: <a href=\"http://www.gimp.org\" target=\"_blank\">http://www.gimp."
-"org</a>"
-msgstr ""
-"Pàgina Web: <a href=\"http://www.gimp.org\" target=\"_blank\">http://www."
-"gimp.org</a>"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:34-43
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:39-22
-msgid "inkscape"
-msgstr "inkscape"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:34-9
-msgid "Inkscape"
-msgstr "Inkscape"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:37-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:36-7
 msgid ""
 "Inkscape is an open-source vector graphics editor similar to Adobe "
 "Illustrator, Corel Draw, Freehand, or Xara X. What sets Inkscape apart is "
@@ -683,31 +465,14 @@ msgstr ""
 "Inkscape és l'ús de SVG (Scalable Vector Graphics), un estàndard obert W3C "
 "amb base XML com a format nadiu."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:42-6
-msgid ""
-"Homepage: <a href=\"https://inkscape.org\" target=\"_blank\">https://"
-"inkscape.org</a>"
-msgstr ""
-"Pàgina Web: <a href=\"https://inkscape.org\" target=\"_blank\">https://"
-"inkscape.org</a>"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:44-43
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:51-22
-msgid "shotwell"
-msgstr "shotwell"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:44-9
-msgid "Shotwell / Digikam"
-msgstr "Shotwell / Digikam"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:47-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:46-7
 msgid ""
 "Shotwell is an image organizer designed to provide personal photo management."
 msgstr ""
 "Shotwell és un organitzador d'imatges dissenyat per a la gestió personal de "
 "fotografies."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:48-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:47-7
 msgid ""
 "Shotwell can import photos and videos from a digital camera directly. "
 "Shotwell automatically groups photos and videos by date, and supports "
@@ -719,44 +484,19 @@ msgstr ""
 "etiquetes (tags). Les seves característiques d'edició d'imatges permeten als "
 "usuaris escalar, retallar, eliminar els ulls vermells i rectificar el color."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:49-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:48-7
 msgid ""
 "For SolydK Digikam is installed. It has the same functionality as Shotwell"
 msgstr ""
 "Per a SolydK s'instal·la Digikam. Té les mateixes funcionalitats que "
 "Shotwell."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:55-7
-msgid ""
-"Homepage Shotwell: <a href=\"https://wiki.gnome.org/Apps/Shotwell/\" target="
-"\"_blank\">https://wiki.gnome.org/Apps/Shotwell</a>"
-msgstr ""
-"Pàgina Web de Shotwell: <a href=\"https://wiki.gnome.org/Apps/Shotwell/\" "
-"target=\"_blank\">https://wiki.gnome.org/Apps/Shotwell</a>"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:56-7
-msgid ""
-"Homepage Digikam: <a href=\"https://www.digikam.org/\" target=\"_blank"
-"\">https://www.digikam.org</a>"
-msgstr ""
-"Pàgina Web de Digikam: <a href=\"https://www.digikam.org/\" target=\"_blank"
-"\">https://www.digikam.org</a>"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:59-43
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:66-22
-msgid "clementine"
-msgstr "clementine"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:59-9
-msgid "Clementine"
-msgstr "Clementine"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:62-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:61-7
 msgid "Clementine is a modern music player and library organizer."
 msgstr ""
 "Clementine és un reproductor modern de música i organitzador de fonoteca."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:63-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:62-7
 msgid ""
 "Clementine is a multiplatform music player. It is inspired by Amarok 1.4, "
 "focusing on a fast and easy-to-use interface for searching and playing your "
@@ -766,24 +506,7 @@ msgstr ""
 "Amarok 1.4, posant èmfasi en una interfície ràpida i fàcil per cercar i "
 "reproduir la vostra música."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:70-7
-msgid ""
-"Homepage Clementine: <a href=\"https://www.clementine-player.org\" target="
-"\"_blank\">https://www.clementine-player.org</a>"
-msgstr ""
-"Pàgina Web de Clementine: <a href=\"https://www.clementine-player.org\" "
-"target=\"_blank\">https://www.clementine-player.org</a>"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:74-43
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:79-22
-msgid "handbrake"
-msgstr "handbrake"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:74-9
-msgid "HandBrake"
-msgstr "HandBrake"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:77-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:74-7
 msgid ""
 "HandBrake is a tool for converting video from nearly any format to a "
 "selection of modern, widely supported codecs."
@@ -791,24 +514,7 @@ msgstr ""
 "Handbrake és una eina per convertir vídeo de gairebé qualsevol format a una "
 "selecció de còdecs moderns amb suport ampli."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:82-6
-msgid ""
-"Homepage: <a href=\"https://handbrake.fr\" target=\"_blank\">https://"
-"handbrake.fr</a>"
-msgstr ""
-"Pàgina Web: <a href=\"https://handbrake.fr\" target=\"_blank\">https://"
-"handbrake.fr</a>"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:84-43
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:89-22
-msgid "soundconverter"
-msgstr "soundconverter"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:84-9
-msgid "SoundConverter"
-msgstr "SoundConverter"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:87-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:84-7
 msgid ""
 "SoundConverter is the leading audio file converter. It reads anything "
 "GStreamer can read (Ogg Vorbis, AAC, MP3, FLAC, WAV, AVI, MPEG, MOV, M4A, "
@@ -820,24 +526,7 @@ msgstr ""
 "AVI, MPEG, MOV, M4A, AC3, DTS, ALAC, MPC, Shorten, APE, SID, MOD, XM, S3M, "
 "etc...) i ho enregistra en fitxers Opus, Ogg Vorbis, FLAC, WAV, AAC, i MP3."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:92-6
-msgid ""
-"Homepage: <a href=\"http://soundconverter.org\" target=\"_blank\">http://"
-"soundconverter.org</a>"
-msgstr ""
-"Pàgina Web: <a href=\"http://soundconverter.org\" target=\"_blank\">http://"
-"soundconverter.org</a>"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:94-43
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:100-22
-msgid "pitivi"
-msgstr "pitivi"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:94-9
-msgid "Pitivi / Kdenlive"
-msgstr "Pitivi / Kdenlive"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:97-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:94-7
 msgid ""
 "Pitivi is a Free video editor with a beautiful and intuitive user interface, "
 "a clean codebase and a fantastic community."
@@ -845,38 +534,13 @@ msgstr ""
 "Pitivi és un editor de vídeo lliure amb una interfície intuïtiva i bonica, "
 "un codi de base net i una comunitat fantàstica."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:98-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:95-7
 msgid ""
 "For SolydK Kdenlive is installed. It has the same functionality as Pitivi"
 msgstr ""
 "Per SolydK s'instal·la Kdenlive. Té la mateixa funcionalitat que Pitivi."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:104-7
-msgid ""
-"Homepage Pitivi: <a href=\"http://www.pitivi.org\" target=\"_blank\">http://"
-"www.pitivi.org</a>"
-msgstr ""
-"Pàgina Web de Pitivi: <a href=\"http://www.pitivi.org\" target=\"_blank"
-"\">http://www.pitivi.org</a>"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:105-7
-msgid ""
-"Homepage Kdenlive: <a href=\"https://kdenlive.org/\" target=\"_blank"
-"\">https://kdenlive.org</a>"
-msgstr ""
-"Pàgina Web de Kdenlive: <a href=\"https://kdenlive.org/\" target=\"_blank"
-"\">https://kdenlive.org</a>"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:108-43
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.img[alt]:113-22
-msgid "transmission"
-msgstr "transmission"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td:108-9
-msgid "Transmission"
-msgstr "Transmission"
-
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:111-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:108-7
 msgid ""
 "Transmission is a BitTorrent client which features a simple interface on top "
 "of a cross-platform back-end."
@@ -884,27 +548,19 @@ msgstr ""
 "Transmission és un client de BitTorrent amb una interfície senzilla sobre un "
 "potent motor multi-plataforma."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:117-7
-msgid ""
-"Homepage Transmission: <a href=\"https://www.transmissionbt.com/\" target="
-"\"_blank\">https://www.transmissionbt.com</a>"
-msgstr ""
-"Pàgina Web de Transmission: <a href=\"https://www.transmissionbt.com/\" "
-"target=\"_blank\">https://www.transmissionbt.com</a>"
-
 #: po/en/system.html%2Bhtml.body.h1:11-2
 msgid "System applications"
 msgstr "Aplicacions del Sistema "
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:34-41
-msgid "virtualbox"
-msgstr "virtualbox"
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
+msgid ""
+"ClamAV is an open source antivirus engine for detecting trojans, viruses, "
+"malware & other malicious threats."
+msgstr ""
+"ClamAV és un antivirus de codi obert per detectar troians, virus i altre "
+"programari maliciós."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:34-9
-msgid "VirtualBox"
-msgstr "VirtualBox"
-
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:37-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
 msgid ""
 "VirtualBox is a general-purpose full virtualizer for x86 hardware, targeted "
 "at server, desktop and embedded use. The VirtualBox package installs on an "
@@ -918,23 +574,7 @@ msgstr ""
 "aplicació hoste permet carregar i executar diversos Sistemes Operatius "
 "convidats, anomenats <i>Guest OS</i>, cadascun amb el seu entorn virtual."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:42-6
-msgid ""
-"Homepage: <a href=\"https://www.virtualbox.org/\" target=\"_blank\">https://"
-"www.virtualbox.org</a>"
-msgstr ""
-"Pàgina Web: <a href=\"https://www.virtualbox.org/\" target=\"_blank"
-"\">https://www.virtualbox.org</a>"
-
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:44-41
-msgid "filezilla"
-msgstr "filezilla"
-
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:44-9
-msgid "FileZilla"
-msgstr "FileZilla"
-
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:47-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:36-7
 msgid ""
 "FileZilla Client is a fast and reliable cross-platform FTP, FTPS and SFTP "
 "client with lots of useful features and an intuitive graphical user "
@@ -943,69 +583,19 @@ msgstr ""
 "Filezilla Client és un client FTP, FTPS i SFTP multi-plataforma ràpid i "
 "segur amb moltes funcions útils i una interfície gràfica d'usuari intuïtiva."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:52-6
-msgid ""
-"Homepage: <a href=\"https://filezilla-project.org/\" target=\"_blank"
-"\">https://filezilla-project.org</a>"
-msgstr ""
-"Pàgina Web: <a href=\"https://filezilla-project.org/\" target=\"_blank"
-"\">https://filezilla-project.org</a>"
-
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:54-41
-msgid "clamav"
-msgstr "clamav"
-
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:54-9
-msgid "ClamAV"
-msgstr "ClamAV"
-
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:57-7
-msgid ""
-"ClamAV is an open source antivirus engine for detecting trojans, viruses, "
-"malware & other malicious threats."
-msgstr ""
-
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:62-6
-msgid ""
-"Homepage: <a href=\"https://www.clamav.net/\" target=\"_blank\">https://www."
-"clamav.net</a>"
-msgstr ""
-"Homepage: <a href=\"https://www.clamav.net/\" target=\"_blank\">https://www."
-"clamav.net</a>"
-
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:64-41
-msgid "samba"
-msgstr "samba"
-
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:64-9
-msgid "Samba"
-msgstr "Samba"
-
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:67-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:49-7
 msgid ""
 "Samba provides file and print services for various Microsoft Windows clients "
 "and can integrate with a Microsoft Windows Server domain, either as a Domain "
 "Controller (DC) or as a domain member. It supports both Active Directory and "
 "Microsoft Windows NT domains."
 msgstr ""
+"Samba facilita serveis de fitxers i impressió per a diversos clients de "
+"Microsoft Windows i es pot integrar amb un domini  de Microsoft Windows "
+"Server, sigui com un Controlador de Domini (DC) o com un membre de domini. "
+"Suporta els dominis d'Active Directory  i de Microsoft Windows NT."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:71-6
-msgid ""
-"Homepage: <a href=\"https://samba.org\" target=\"_blank\">https://samba.org</"
-"a>"
-msgstr ""
-"Homepage: <a href=\"https://samba.org\" target=\"_blank\">https://samba.org</"
-"a>"
-
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:73-31
-msgid "css"
-msgstr "css"
-
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td:73-9
-msgid "CSS"
-msgstr "CSS "
-
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:76-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:58-7
 msgid ""
 "Most commercial DVDs are encrypted with CSS (the Content Scramble System), "
 "which attempts to restrict the software that can play a DVD."
@@ -1013,7 +603,7 @@ msgstr ""
 "Molts DVD comercials estan encriptats amb CSS (Content Scramble System), el "
 "que limita el programari que pot reproduir un DVD."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:77-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:59-7
 msgid ""
 "SolydXK does not come with the necessary packages pre-installed to play "
 "these encrypted DVDs."
@@ -1021,7 +611,7 @@ msgstr ""
 "SolydXK no incorpora per omissió els paquets necessaris preinstal·lats per "
 "reproduir aquests DVDs encriptats. "
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:78-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:60-7
 msgid ""
 "By clicking the install button below the following packages will be "
 "installed on your system:"
@@ -1029,19 +619,19 @@ msgstr ""
 "Bo i clicant el botó d'instal·lació de sota s'instal·laran aquests paquets "
 "al vostre sistema: "
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:80-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:62-8
 msgid "libdvdcss2"
 msgstr "libdvdcss2"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:81-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:63-8
 msgid "w32codecs or w64codecs"
 msgstr "w32codecs o w64codecs"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:88-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:70-8
 msgid "Legal warning:"
 msgstr "Avís legal: "
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:89-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:71-8
 msgid ""
 "Check with your local laws to make sure usage of libdvdcss2 would be legal "
 "in your area."
@@ -1079,11 +669,11 @@ msgstr ""
 msgid "Click on the <strong>Next</strong> button to get started."
 msgstr "Cliqueu sobre el botó <strong>Següent</strong> per començar."
 
-#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td:36-9
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:20-25
 msgid "Software"
 msgstr "Programari"
 
-#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:38-10
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:22-10
 msgid ""
 "All software is built, maintained and checked by the community. Software "
 "databases called \"repositories\" are used to offer and maintain over 60,000 "
@@ -1097,15 +687,15 @@ msgstr ""
 "descarregar aplicacions de llocs dubtosos. Senzillament cerqueu i instal·leu "
 "el programari que vulgueu amb el Gestor de Programari."
 
-#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.img[alt]:39-22
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.img[alt]:23-22
 msgid "softwaremanager"
 msgstr "softwaremanager"
 
-#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td:44-9
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:28-25
 msgid "Support"
 msgstr "Suport"
 
-#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:46-10
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:30-10
 msgid ""
 "If you're new to SolydXK or whenever you get stuck, there is the SolydXK "
 "community to help you solve your problem. You can search the forum to find "
@@ -1116,19 +706,11 @@ msgstr ""
 "fòrum per veure si el vostre problema ja ha estat resolt, o encetar un nou "
 "tema per trobar ajuda."
 
-#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.img[alt]:47-22
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.img[alt]:31-22
 msgid "forum"
 msgstr "fòrum"
 
-#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td:50-6
-msgid ""
-"Forum: <a href=\"https://forums.solydxk.com/\" target=\"_blank\">https://"
-"forums.solydxk.com</a>"
-msgstr ""
-"Fòrum: <a href=\"https://forums.solydxk.com/\" target=\"_blank\">https://"
-"forums.solydxk.com</a>"
-
-#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:54-7
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:38-7
 msgid ""
 "The following channels are used to communicate to the SolydX and SolydK "
 "users:"
@@ -1136,7 +718,7 @@ msgstr ""
 "Podeu usar aquests canals per comunicar-vos amb SolydXK i els usuaris "
 "SolydXK:"
 
-#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.ul.li:56-8
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.ul.li:40-8
 msgid ""
 "RSS: <a href=\"https://solydxk.com/feed\" target=\"_blank\">https://solydxk."
 "com/feed</a>"
@@ -1145,25 +727,7 @@ msgstr ""
 "com/feed</a>"
 
 #: po/en/wine.html%2Bhtml.body.h1:11-2
-#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td:22-9
-msgid "PlayOnLinux"
-msgstr "PlayOnLinux "
-
-#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
-msgid ""
-"When you click the install button all listed applications are going to be "
-"installed on your system. You can use the software manager to install them "
-"separately."
-msgstr ""
-"En clicar el botó d'instal·lació s'instal·laran al vostre sistema totes les "
-"aplicacions de la llista. Podeu usar el Gestor de Programari per instal·lar-"
-"les separadament."
-
-#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.input[value]:22-41
-msgid "playonlinux"
-msgstr "playonlinux"
-
-#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.p:25-7
+#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
 msgid ""
 "SolydXK comes with a wide variety of software. However, if you cannot find "
 "the right software in our repository and you need to use MS Windows "
@@ -1175,7 +739,7 @@ msgstr ""
 "aplicacions per MS Windows, podeu instal·lar PlayOnLinux. No es pot executar "
 "tot el programari, però n'hi ha molts que ja en són compatibles. "
 
-#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.div.p:27-8
+#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.div.p:22-8
 msgid ""
 "By using this software you may make your system vulnerable to MS Windows "
 "viruses and malware. The risk of infection is not higher than under native "
@@ -1185,23 +749,15 @@ msgstr ""
 "virus de MS Windows i altre programari maliciós. El risc d'infecció, "
 "evidentment, no és més gran que al propi MS Windows. "
 
-#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.div.p:28-8
+#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.div.p:23-8
 msgid "Make sure you install software from trusted parties only."
 msgstr ""
 "Assegureu-vos d'instal·lar programari només des de llocs de confiança. "
 
-#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.div.p:29-8
+#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.div.p:24-8
 msgid ""
 "Read about the <a href=\"http://wiki.winehq.org/"
 "FAQ#head-1c91cac836dd52754c846d2ef62be4f346eebe87\">risk on using Wine</a>"
 msgstr ""
 "llegiu més sobre <a href=\"http://wiki.winehq.org/"
 "FAQ#head-1c91cac836dd52754c846d2ef62be4f346eebe87\">el risc d'usar Wine</a>"
-
-#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td:36-6
-msgid ""
-"Homepage: <a href=\"http://www.playonlinux.com\" target=\"_blank\">http://"
-"www.playonlinux.com</a>"
-msgstr ""
-"Pàgina web: <a href=\"http://www.playonlinux.com\" target=\"_blank\">http://"
-"www.playonlinux.com</a>"
