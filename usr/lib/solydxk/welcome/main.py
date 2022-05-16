@@ -13,8 +13,7 @@ import getopt
 
 # i18n: http://docs.python.org/3/library/gettext.html
 import gettext
-from gettext import gettext as _
-gettext.textdomain('solydxk-welcome')
+_ = gettext.translation('solydxk-welcome', fallback=True).gettext
 
 # Handle arguments
 try:
@@ -25,7 +24,7 @@ except getopt.GetoptError:
 force = False
 autostart = False
 for opt, arg in opts:
-    print((">> opt = {} / arg = {}".format(opt, arg)))
+    #print((">> opt = {} / arg = {}".format(opt, arg)))
     if opt in ('-a', '--autostart'):
         autostart = True
     elif opt in ('-f', '--force'):

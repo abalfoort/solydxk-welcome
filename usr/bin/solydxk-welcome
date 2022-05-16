@@ -15,11 +15,14 @@ for ARG in $@; do
     -d|--debug)
       DEBUG='-Wd'
       ;;
-    -f|-a)
+    -f|--force|-a|--autostart)
       ARGS="$ARGS $ARG"
-    ;;
-  *)
-    # Unknown option
+      ;;
+    *)
+      echo '-d|--debug: start python3 with -Wd parameters'
+      echo '-a|--autostart: check if solydxk-welcome can run'
+      echo '-f|--force: start solydxk-welcome in a live environment'
+      exit
   esac
 done
 

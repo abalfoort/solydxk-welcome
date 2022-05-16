@@ -17,8 +17,7 @@ from queue import Queue
 
 # i18n: http://docs.python.org/3/library/gettext.html
 import gettext
-from gettext import gettext as _
-gettext.textdomain('solydxk-welcome')
+_ = gettext.translation('solydxk-welcome', fallback=True).gettext
 
 
 #class for the main window
@@ -30,14 +29,7 @@ class SolydXKWelcome(object):
         self.deb_version = get_debian_version()
 
         # Check for backports
-        self.isBackportsEnabled = False
-        output = getoutput("grep backports /etc/apt/sources.list | grep -v ^#")
-        if output:
-            self.isBackportsEnabled = True
-        else:
-            output = getoutput("grep backports /etc/apt/sources.list.d/*.list | grep -v ^#")
-            if output:
-                self.isBackportsEnabled = True
+        self.isBackportsEnabled = True if getoutput("grep backports /etc/apt/sources.list /etc/apt/sources.list.d/*.list | grep -v ^#") else False
 
         # ================================
         # Define html page array [action (see below), script_name, post_exec]
@@ -49,6 +41,8 @@ class SolydXKWelcome(object):
         if self.need_drivers():
             self.pages.append([2, 'drivers', ''])
         if self.isBackportsEnabled:
+            self.pages.append([1, 'libreofficebp', ''])
+        else:
             self.pages.append([1, 'libreoffice', ''])
         self.pages.append([1, 'business', ''])
         self.pages.append([1, 'multimedia', ''])

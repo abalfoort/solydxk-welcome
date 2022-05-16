@@ -86,6 +86,9 @@ update:
 
 	# Create pot files from html files
 	@ html2po -i ./po/en -o ./po/pot -P --duplicates=merge && echo "HTML pot files created"
+	
+	# Remove unwanted tags td and input
+	@ find ./po/pot -type f -name "*.pot*" -exec sed -i '/.*td:\|.*input/,/msgstr.*/d' {} \;
 
 	# Get strings from policy files
 	@ for POLICY in $(policyfiles); do \
@@ -116,10 +119,10 @@ update:
 	done && echo "Desktop files updated with new translations"
 
 	# Translate HTML files
-	@ po4a po4a.cfg && echo "HTML files scanned for translations"
+	@ po4a --debug po4a.cfg && echo "HTML files scanned for translations"
 
 	# Do not ship incomplete html translations
 	@ find ./po/translated -empty -type d -delete &&  echo "Shipped $(source) translations ($(shell ls ./po/translated | wc -l)):" $(shell ls ./po/translated)
 
 	# Push pot file to Transifex
-	tx push -s
+	#tx push -s
