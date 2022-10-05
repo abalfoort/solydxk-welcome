@@ -5,15 +5,15 @@
 # Translators:
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2022
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2017-2019
-# Slobodan Simić <slsimic@gmail.com>, 2017,2019-2021
+# Slobodan Simić <slsimic@gmail.com>, 2017,2019-2022
 # Slobodan Simić <slsimic@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-05 21:30+0200\n"
+"POT-Creation-Date: 2022-10-05 08:34+0200\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
-"Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2022\n"
+"Last-Translator: Slobodan Simić <slsimic@gmail.com>, 2017,2019-2022\n"
 "Language-Team: Serbian (http://www.transifex.com/abalfoort/solydxk-welcome/"
 "language/sr/)\n"
 "Language: sr\n"
@@ -417,6 +417,8 @@ msgid ""
 "SolydXK comes with a minimal LibreOffice suite pre-installed. However, if "
 "you are missing some additional packages, you can install them here."
 msgstr ""
+"СолидИксК долази са минималним ЛибреОфис пакетом. Међутим, ако вам је неки "
+"додатни пакет потребан, можете га инсталирати одавде."
 
 #: po/en/multimedia.html%2Bhtml.body.h1:11-2
 msgid "Multimedia applications"
@@ -544,6 +546,8 @@ msgid ""
 "ClamAV is an open source antivirus engine for detecting trojans, viruses, "
 "malware & other malicious threats."
 msgstr ""
+"КлемАВ (ClamAV) је антивирусни програм отвореног кода за детекцију "
+"тројанаца, вируса, малвера и осталих малициозних претњи."
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
 msgid ""
@@ -575,6 +579,10 @@ msgid ""
 "Controller (DC) or as a domain member. It supports both Active Directory and "
 "Microsoft Windows NT domains."
 msgstr ""
+"Самба омогућава сервисе за фајлове и штампање, за разне клијенте Мајкрософт "
+"Виндоуза и може се интегрисати са Мајкрософт Виндоуз сервер доменом, било "
+"као домен контролер (DC) или као члан домена. Подржава „Активни "
+"директоријум“ и НТ домене."
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:58-7
 msgid ""
