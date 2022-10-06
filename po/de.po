@@ -6,6 +6,7 @@
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2022
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2017-2019
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2016-2017
+# ilu lu, 2022
 # ilu lu, 2015
 # pitfd, 2017
 # pitfd, 2018-2020
@@ -13,9 +14,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-05 21:30+0200\n"
+"POT-Creation-Date: 2022-10-06 12:31+0200\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
-"Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2022\n"
+"Last-Translator: ilu lu, 2022\n"
 "Language-Team: German (http://www.transifex.com/abalfoort/solydxk-welcome/"
 "language/de/)\n"
 "Language: de\n"
@@ -428,10 +429,12 @@ msgid ""
 "SolydXK comes with a minimal LibreOffice suite pre-installed. However, if "
 "you are missing some additional packages, you can install them here."
 msgstr ""
+"SolydXK enthält die Grundfunktionen von LibreOffice. Wenn Sie zusätzliche "
+"Funktionen benötigen, können diese hier installiert werden."
 
 #: po/en/multimedia.html%2Bhtml.body.h1:11-2
 msgid "Multimedia applications"
-msgstr ""
+msgstr "Multimedia-Anwendungen"
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
 msgid "This is a list of recommended applications suited for home users."
@@ -565,6 +568,8 @@ msgid ""
 "ClamAV is an open source antivirus engine for detecting trojans, viruses, "
 "malware & other malicious threats."
 msgstr ""
+"ClamAV ist eine quelloffene Antivirus-Anwendung zur Entdeckung von "
+"Trojanern, Viren, Schadsoftware und anderen bösartigen Bedrohungen. "
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
 msgid ""
@@ -597,6 +602,10 @@ msgid ""
 "Controller (DC) or as a domain member. It supports both Active Directory and "
 "Microsoft Windows NT domains."
 msgstr ""
+"Samba bietet Datei- und Druckdienste für verschiedene Microsoft Windows "
+"Rechner und die Integration in Microsoft Windows Server-Domänen, entweder "
+"als Domänen-Controller (DC) oder als Domänen-Mitglied. Es unterstützt sowohl "
+"Active Directory als auch Microsoft Windows NT Domänen."
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:58-7
 msgid ""
