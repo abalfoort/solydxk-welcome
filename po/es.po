@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-05 21:30+0200\n"
+"POT-Creation-Date: 2022-10-07 19:15+0200\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
 "Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2022\n"
 "Language-Team: Spanish (http://www.transifex.com/abalfoort/solydxk-welcome/"
@@ -21,7 +21,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
 
 #: usr/lib/solydxk/welcome/main.py:37
 #: usr/share/applications/solydxk-welcome.desktop.in.h:2
@@ -174,36 +175,40 @@ msgid ""
 "Open source ERP for sales, accounting, operations and CRM in a single system "
 "(accounting, sales, CRM, purchasing, etc.)."
 msgstr ""
+"ERP de código abierto para ventas, contabilidad, operaciones y CRM en un "
+"único sistema (contabilidad, ventas, CRM, compras, etc.)."
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:38-7
 msgid "Use this information to start PostBooks:"
-msgstr ""
+msgstr "Utilice esta información para iniciar PostBooks:"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:40-9
 msgid "Username: admin"
-msgstr ""
+msgstr "Usuario: admin"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:41-9
 msgid "Password: solydxk"
-msgstr ""
+msgstr "Clave: solydxk"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:42-9
 msgid "Server: localhost"
-msgstr ""
+msgstr "Servidor: localhost"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:43-9
 msgid "Port: 5432"
-msgstr ""
+msgstr "Puerto: 5432"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:44-9
 msgid "Database: demo, quickstart or empty"
-msgstr ""
+msgstr "Base de datos: demo, quickstart o vacía"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:46-8
 msgid ""
 "You can maintain the PostgreSql databases with pgAdmin III (Login: "
 "postgres / solydxk)"
 msgstr ""
+"Puedes mantener las bases de datos de PostgreSql con pgAdmin III (Login: "
+"postgres / solydxk)"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:56-7
 msgid ""
@@ -261,7 +266,7 @@ msgstr "Juegos"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
 msgid "All work and no play..."
-msgstr ""
+msgstr "Solo trabajo y nada de juegos..."
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:25-7
 msgid ""
@@ -282,6 +287,8 @@ msgid ""
 "Minetest is an infinite-world block sandbox game and a game engine, inspired "
 "by InfiniMiner, Minecraft and the like."
 msgstr ""
+"Minetest es un juego sandbox de mundo infinito y un motor de juego, "
+"inspirado en InfiniMiner, Minecraft y similares."
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:45-7
 msgid "Installed size: 10 MB"
@@ -362,6 +369,9 @@ msgid ""
 "out. Neverball is part puzzle game, part action game, and entirely a test of "
 "skill."
 msgstr ""
+"Inclina el suelo para hacer rodar una bola por una pista de obstáculos antes "
+"de que se acabe el tiempo. Neverball es en parte un juego de rompecabezas, "
+"en parte un juego de acción y en su totalidad una prueba de habilidad."
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:99-7
 msgid "Installed size: 150 MB"
@@ -372,6 +382,8 @@ msgid ""
 "SuperTuxKart is a Free 3D kart racing game, with many tracks, characters and "
 "items for you to try. Have fun!"
 msgstr ""
+"SuperTuxKart es un juego gratuito de carreras de karts en 3D, con muchos "
+"circuitos, personajes y objetos para que los pruebes. ¡Diviértete!"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:112-7
 msgid "Installed size: 350 MB"
@@ -388,18 +400,28 @@ msgid ""
 "if you are missing some features or you want LibreOffice to stay updated you "
 "can install LibreOffice from the backports repository."
 msgstr ""
+"SolydXK viene con la suite LibreOffice preinstalada. Su estabilidad y "
+"características funcionan muy bien para la mayoría de la gente y "
+"especialmente para las empresas. Sin embargo, si te faltan algunas "
+"características o quieres que LibreOffice se mantenga actualizado puedes "
+"instalar LibreOffice desde el repositorio de backports."
 
 #: po/en/libreofficebp.html%2Bhtml.body.div.div.form.table.tr.td.p:21-7
 msgid ""
 "Backports are recompiled new packages for the current stable environment. "
 "So, they will run without new libraries."
 msgstr ""
+"Los backports son paquetes nuevos recompilados para el entorno estable "
+"actual. Por lo tanto, se ejecutarán sin nuevas bibliotecas."
 
 #: po/en/libreofficebp.html%2Bhtml.body.div.div.form.table.tr.td.p:22-7
 msgid ""
 "Although you can run more up to date software using the backports "
 "repository, you introduce a greater risk of breakage doing so."
 msgstr ""
+"Aunque se puede ejecutar un software más actualizado utilizando el "
+"repositorio de backports, se introduce un mayor riesgo de inestabilidad al "
+"hacerlo."
 
 #: po/en/libreoffice.html%2Bhtml.body.h1:11-2
 msgid "LibreOffice"
@@ -410,11 +432,12 @@ msgid ""
 "SolydXK comes with a minimal LibreOffice suite pre-installed. However, if "
 "you are missing some additional packages, you can install them here."
 msgstr ""
+"SolydXK viene con una suite mínima de LibreOffice preinstalada. Sin embargo, "
+"si le faltan algunos paquetes adicionales, puede instalarlos aquí."
 
 #: po/en/multimedia.html%2Bhtml.body.h1:11-2
-#, fuzzy
 msgid "Multimedia applications"
-msgstr "Aplicaciones de negocios"
+msgstr "Aplicaciones multimedia"
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
 msgid "This is a list of recommended applications suited for home users."
@@ -426,6 +449,9 @@ msgid ""
 "distributed program for such tasks as photo retouching, image composition "
 "and image authoring."
 msgstr ""
+"GIMP es el acrónimo de GNU Image Manipulation Program. Es un programa de "
+"distribución gratuita para tareas como el retoque fotográfico, la "
+"composición de imágenes y la creación de imágenes."
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
 msgid ""
@@ -433,6 +459,10 @@ msgid ""
 "expert quality photo retouching program, an online batch processing system, "
 "a mass production image renderer, an image format converter, etc."
 msgstr ""
+" Tiene muchas capacidades. Puede utilizarse como un simple programa de "
+"pintura, un programa de retoque fotográfico de calidad experta, un sistema "
+"de procesamiento por lotes en línea, un renderizador de imágenes de "
+"producción en masa, un convertidor de formatos de imagen, etc."
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:36-7
 msgid ""
@@ -441,6 +471,10 @@ msgid ""
 "its use of Scalable Vector Graphics (SVG), an open XML-based W3C standard, "
 "as the native format."
 msgstr ""
+"Inkscape es un editor de gráficos vectoriales de código abierto similar a "
+"Adobe Illustrator, Corel Draw, Freehand o Xara X. Lo que diferencia a "
+"Inkscape es el uso de Scalable Vector Graphics (SVG), un estándar abierto "
+"del W3C basado en XML, como formato nativo."
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:46-7
 msgid ""
@@ -456,15 +490,22 @@ msgid ""
 "tagging. Its image editing features allow users to straighten, crop, "
 "eliminate red eye, and adjust levels and color balance."
 msgstr ""
+"Shotwell puede importar fotos y videos desde una cámara digital "
+"directamente. Shotwell agrupa automáticamente las fotos y los videos por "
+"fecha y admite el etiquetado. Sus funciones de edición de imágenes permiten "
+"a los usuarios enderezar, recortar, eliminar los ojos rojos y ajustar los "
+"niveles y el balance de color."
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:48-7
 msgid ""
 "For SolydK Digikam is installed. It has the same functionality as Shotwell"
 msgstr ""
+"Para SolydK se instala Digikam. Tiene la misma funcionalidad que Shotwell"
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:61-7
 msgid "Clementine is a modern music player and library organizer."
 msgstr ""
+"Clementine es un moderno reproductor de música y organizador de bibliotecas."
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:62-7
 msgid ""
@@ -472,6 +513,9 @@ msgid ""
 "focusing on a fast and easy-to-use interface for searching and playing your "
 "music."
 msgstr ""
+"Clementine es un reproductor de música multiplataforma. Está inspirado en "
+"Amarok 1.4, centrándose en una interfaz rápida y fácil de usar para buscar y "
+"reproducir tu música."
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:74-7
 msgid ""
@@ -488,23 +532,32 @@ msgid ""
 "AC3, DTS, ALAC, MPC, Shorten, APE, SID, MOD, XM, S3M, etc...), and writes to "
 "Opus, Ogg Vorbis, FLAC, WAV, AAC, and MP3 files."
 msgstr ""
+"SoundConverter es el principal convertidor de archivos de audio. Lee "
+"cualquier cosa que GStreamer pueda leer (Ogg Vorbis, AAC, MP3, FLAC, WAV, "
+"AVI, MPEG, MOV, M4A, AC3, DTS, ALAC, MPC, Shorten, APE, SID, MOD, XM, S3M, "
+"etc), y escribe en archivos Opus, Ogg Vorbis, FLAC, WAV, AAC y MP3."
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:94-7
 msgid ""
 "Pitivi is a Free video editor with a beautiful and intuitive user interface, "
 "a clean codebase and a fantastic community."
 msgstr ""
+"Pitivi es un editor de video gratuito con una bonita e intuitiva interfaz de "
+"usuario, un código limpio y una fantástica comunidad."
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:95-7
 msgid ""
 "For SolydK Kdenlive is installed. It has the same functionality as Pitivi"
 msgstr ""
+"Para SolydK se instala Kdenlive. Tiene la misma funcionalidad que Pitivi"
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:108-7
 msgid ""
 "Transmission is a BitTorrent client which features a simple interface on top "
 "of a cross-platform back-end."
 msgstr ""
+"Transmission es un cliente de BitTorrent que presenta una interfaz sencilla "
+"sobre un back-end multiplataforma."
 
 #: po/en/system.html%2Bhtml.body.h1:11-2
 msgid "System applications"
@@ -515,6 +568,8 @@ msgid ""
 "ClamAV is an open source antivirus engine for detecting trojans, viruses, "
 "malware & other malicious threats."
 msgstr ""
+"ClamAV es un motor antivirus de código abierto para detectar troyanos, "
+"virus, malware y otras amenazas maliciosas."
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
 msgid ""
@@ -524,6 +579,12 @@ msgid ""
 "allows additional guest operating systems, each known as a Guest OS, to load "
 "and run, each with its own virtual environment."
 msgstr ""
+"VirtualBox es un virtualizador completo de uso general para hardware x86, "
+"destinado a servidores, escritorios y aplicaciones integradas. El paquete de "
+"VirtualBox se instala en un sistema operativo anfitrión existente como una "
+"aplicación; esta aplicación anfitriona permite cargar y ejecutar sistemas "
+"operativos invitados adicionales, cada uno conocido como SO invitado, con su "
+"propio entorno virtual."
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:36-7
 msgid ""
@@ -542,6 +603,10 @@ msgid ""
 "Controller (DC) or as a domain member. It supports both Active Directory and "
 "Microsoft Windows NT domains."
 msgstr ""
+"Samba proporciona servicios de archivo e impresión para varios clientes de "
+"Microsoft Windows y puede integrarse en un dominio de Microsoft Windows "
+"Server, ya sea como controlador de dominio (DC) o como miembro del dominio. "
+"Es compatible con los dominios de Active Directory y Microsoft Windows NT."
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:58-7
 msgid ""
@@ -711,492 +776,3 @@ msgstr ""
 "Lea acerca de la <a href=\"http://wiki.winehq.org/"
 "FAQ#head-1c91cac836dd52754c846d2ef62be4f346eebe87\">risk sobre el uso de "
 "Wine</a>"
-
-#~ msgid "gnucash"
-#~ msgstr "gnucash"
-
-#, fuzzy
-#~| msgid "projectlibre"
-#~ msgid "http://www.gnucash.org"
-#~ msgstr "projectlibre"
-
-#~ msgid "postbooks"
-#~ msgstr "postbooks"
-
-#~ msgid "projectlibre"
-#~ msgstr "projectlibre"
-
-#, fuzzy
-#~| msgid "projectlibre"
-#~ msgid "http://www.projectlibre.org"
-#~ msgstr "projectlibre"
-
-#~ msgid "steam"
-#~ msgstr "steam"
-
-#~ msgid "minetest"
-#~ msgstr "minetest"
-
-#~ msgid "0ad"
-#~ msgstr "0ad"
-
-#, fuzzy
-#~| msgid "projectlibre"
-#~ msgid "http://play0ad.com"
-#~ msgstr "projectlibre"
-
-#~ msgid "wesnoth"
-#~ msgstr "wesnoth"
-
-#, fuzzy
-#~| msgid "projectlibre"
-#~ msgid "http://www.wesnoth.org"
-#~ msgstr "projectlibre"
-
-#~ msgid "sauerbraten"
-#~ msgstr "sauerbraten"
-
-#, fuzzy
-#~| msgid "handbrake"
-#~ msgid "http://sauerbraten.org"
-#~ msgstr "handbrake"
-
-#~ msgid "neverball"
-#~ msgstr "neverball"
-
-#, fuzzy
-#~| msgid "handbrake"
-#~ msgid "http://neverball.org"
-#~ msgstr "handbrake"
-
-#~ msgid "supertuxkart"
-#~ msgstr "supertuxkart"
-
-#, fuzzy
-#~| msgid "projectlibre"
-#~ msgid "https://www.libreoffice.org"
-#~ msgstr "projectlibre"
-
-#~ msgid "gimp"
-#~ msgstr "gimp"
-
-#, fuzzy
-#~| msgid "projectlibre"
-#~ msgid "http://www.gimp.org"
-#~ msgstr "projectlibre"
-
-#~ msgid "inkscape"
-#~ msgstr "inkscape"
-
-#, fuzzy
-#~| msgid "handbrake"
-#~ msgid "https://inkscape.org"
-#~ msgstr "handbrake"
-
-#~ msgid "shotwell"
-#~ msgstr "shotwell"
-
-#, fuzzy
-#~| msgid "projectlibre"
-#~ msgid "https://www.digikam.org"
-#~ msgstr "projectlibre"
-
-#~ msgid "clementine"
-#~ msgstr "clementine"
-
-#, fuzzy
-#~| msgid "projectlibre"
-#~ msgid "https://www.clementine-player.org"
-#~ msgstr "projectlibre"
-
-#~ msgid "handbrake"
-#~ msgstr "handbrake"
-
-#, fuzzy
-#~| msgid "handbrake"
-#~ msgid "https://handbrake.fr"
-#~ msgstr "handbrake"
-
-#~ msgid "soundconverter"
-#~ msgstr "soundconverter"
-
-#, fuzzy
-#~| msgid "soundconverter"
-#~ msgid "http://soundconverter.org"
-#~ msgstr "soundconverter"
-
-#~ msgid "pitivi"
-#~ msgstr "pitivi"
-
-#, fuzzy
-#~| msgid "projectlibre"
-#~ msgid "http://www.pitivi.org"
-#~ msgstr "projectlibre"
-
-#, fuzzy
-#~| msgid "handbrake"
-#~ msgid "https://kdenlive.org"
-#~ msgstr "handbrake"
-
-#~ msgid "transmission"
-#~ msgstr "transmission"
-
-#, fuzzy
-#~| msgid "projectlibre"
-#~ msgid "https://www.transmissionbt.com"
-#~ msgstr "projectlibre"
-
-#, fuzzy
-#~| msgid "projectlibre"
-#~ msgid "https://www.virtualbox.org"
-#~ msgstr "projectlibre"
-
-#, fuzzy
-#~| msgid "projectlibre"
-#~ msgid "https://filezilla-project.org"
-#~ msgstr "projectlibre"
-
-#, fuzzy
-#~| msgid "projectlibre"
-#~ msgid "https://www.clamav.net"
-#~ msgstr "projectlibre"
-
-#, fuzzy
-#~| msgid "handbrake"
-#~ msgid "https://samba.org"
-#~ msgstr "handbrake"
-
-#~ msgid "PlayOnLinux"
-#~ msgstr "PlayOnLinux"
-
-#, fuzzy
-#~| msgid "projectlibre"
-#~ msgid "http://www.playonlinux.com"
-#~ msgstr "projectlibre"
-
-#~ msgid ""
-#~ "Homepage: <a href=\"http://www.gnucash.org/\" target=\"_blank\">http://"
-#~ "www.gnucash.org</a>"
-#~ msgstr ""
-#~ "Homepage: <a href=\"http://www.gnucash.org/\" target=\"_blank\">http://"
-#~ "www.gnucash.org</a>"
-
-#~ msgid ""
-#~ "Homepage: <a href=\"https://xtuple.com/products/postbooks\" target="
-#~ "\"_blank\">https://xtuple.com/products/postbooks</a>"
-#~ msgstr ""
-#~ "Homepage: <a href=\"https://xtuple.com/products/postbooks\" target="
-#~ "\"_blank\">https://xtuple.com/products/postbooks</a>"
-
-#~ msgid ""
-#~ "Homepage: <a href=\"http://www.projectlibre.org/\" target=\"_blank"
-#~ "\">http://www.projectlibre.org</a>"
-#~ msgstr ""
-#~ "Homepage: <a href=\"http://www.projectlibre.org/\" target=\"_blank"
-#~ "\">http://www.projectlibre.org</a>"
-
-#~ msgid ""
-#~ "Homepage: <a href=\"http://store.steampowered.com/\" target=\"_blank"
-#~ "\">http://store.steampowered.com</a>"
-#~ msgstr ""
-#~ "Homepage: <a href=\"http://store.steampowered.com/\" target=\"_blank"
-#~ "\">http://store.steampowered.com</a>"
-
-#~ msgid ""
-#~ "Homepage: <a href=\"http://minetest.net\" target=\"_blank\">http://"
-#~ "minetest.net</a>"
-#~ msgstr ""
-#~ "Homepage: <a href=\"http://minetest.net\" target=\"_blank\">http://"
-#~ "minetest.net</a>"
-
-#~ msgid ""
-#~ "Homepage: <a href=\"http://play0ad.com\" target=\"_blank\">http://play0ad."
-#~ "com</a>"
-#~ msgstr ""
-#~ "Homepage: <a href=\"http://play0ad.com\" target=\"_blank\">http://play0ad."
-#~ "com</a>"
-
-#~ msgid ""
-#~ "Homepage: <a href=\"http://www.wesnoth.org/\" target=\"_blank\">http://"
-#~ "www.wesnoth.org</a>"
-#~ msgstr ""
-#~ "Homepage: <a href=\"http://www.wesnoth.org/\" target=\"_blank\">http://"
-#~ "www.wesnoth.org</a>"
-
-#~ msgid ""
-#~ "Homepage: <a href=\"http://sauerbraten.org/\" target=\"_blank\">http://"
-#~ "sauerbraten.org</a>"
-#~ msgstr ""
-#~ "Homepage: <a href=\"http://sauerbraten.org/\" target=\"_blank\">http://"
-#~ "sauerbraten.org</a>"
-
-#~ msgid ""
-#~ "Homepage: <a href=\"http://neverball.org\" target=\"_blank\">http://"
-#~ "neverball.org</a>"
-#~ msgstr ""
-#~ "Homepage: <a href=\"http://neverball.org\" target=\"_blank\">http://"
-#~ "neverball.org</a>"
-
-#~ msgid ""
-#~ "Homepage: <a href=\"http://supertuxkart.sourceforge.net/\" target=\"_blank"
-#~ "\">http://supertuxkart.sourceforge.net</a>"
-#~ msgstr ""
-#~ "Homepage: <a href=\"http://supertuxkart.sourceforge.net/\" target=\"_blank"
-#~ "\">http://supertuxkart.sourceforge.net</a>"
-
-#~ msgid ""
-#~ "Homepage: <a href=\"https://www.libreoffice.org/\" target=\"_blank"
-#~ "\">https://www.libreoffice.org</a>"
-#~ msgstr ""
-#~ "Homepage: <a href=\"https://www.libreoffice.org/\" target=\"_blank"
-#~ "\">https://www.libreoffice.org</a>"
-
-#~ msgid ""
-#~ "Homepage: <a href=\"http://www.gimp.org\" target=\"_blank\">http://www."
-#~ "gimp.org</a>"
-#~ msgstr ""
-#~ "Homepage: <a href=\"http://www.gimp.org\" target=\"_blank\">http://www."
-#~ "gimp.org</a>"
-
-#~ msgid ""
-#~ "Homepage: <a href=\"https://inkscape.org\" target=\"_blank\">https://"
-#~ "inkscape.org</a>"
-#~ msgstr ""
-#~ "Homepage: <a href=\"https://inkscape.org\" target=\"_blank\">https://"
-#~ "inkscape.org</a>"
-
-#~ msgid ""
-#~ "Homepage Shotwell: <a href=\"https://wiki.gnome.org/Apps/Shotwell/\" "
-#~ "target=\"_blank\">https://wiki.gnome.org/Apps/Shotwell</a>"
-#~ msgstr ""
-#~ "Homepage Shotwell: <a href=\"https://wiki.gnome.org/Apps/Shotwell/\" "
-#~ "target=\"_blank\">https://wiki.gnome.org/Apps/Shotwell</a>"
-
-#~ msgid ""
-#~ "Homepage Digikam: <a href=\"https://www.digikam.org/\" target=\"_blank"
-#~ "\">https://www.digikam.org</a>"
-#~ msgstr ""
-#~ "Homepage Digikam: <a href=\"https://www.digikam.org/\" target=\"_blank"
-#~ "\">https://www.digikam.org</a>"
-
-#~ msgid ""
-#~ "Homepage Clementine: <a href=\"https://www.clementine-player.org\" target="
-#~ "\"_blank\">https://www.clementine-player.org</a>"
-#~ msgstr ""
-#~ "Homepage Clementine: <a href=\"https://www.clementine-player.org\" target="
-#~ "\"_blank\">https://www.clementine-player.org</a>"
-
-#~ msgid ""
-#~ "Homepage: <a href=\"https://handbrake.fr\" target=\"_blank\">https://"
-#~ "handbrake.fr</a>"
-#~ msgstr ""
-#~ "Homepage: <a href=\"https://handbrake.fr\" target=\"_blank\">https://"
-#~ "handbrake.fr</a>"
-
-#~ msgid ""
-#~ "Homepage: <a href=\"http://soundconverter.org\" target=\"_blank\">http://"
-#~ "soundconverter.org</a>"
-#~ msgstr ""
-#~ "Homepage: <a href=\"http://soundconverter.org\" target=\"_blank\">http://"
-#~ "soundconverter.org</a>"
-
-#~ msgid ""
-#~ "Homepage Pitivi: <a href=\"http://www.pitivi.org\" target=\"_blank"
-#~ "\">http://www.pitivi.org</a>"
-#~ msgstr ""
-#~ "Homepage Pitivi: <a href=\"http://www.pitivi.org\" target=\"_blank"
-#~ "\">http://www.pitivi.org</a>"
-
-#~ msgid ""
-#~ "Homepage Kdenlive: <a href=\"https://kdenlive.org/\" target=\"_blank"
-#~ "\">https://kdenlive.org</a>"
-#~ msgstr ""
-#~ "Homepage Kdenlive: <a href=\"https://kdenlive.org/\" target=\"_blank"
-#~ "\">https://kdenlive.org</a>"
-
-#~ msgid ""
-#~ "Homepage Transmission: <a href=\"https://www.transmissionbt.com/\" target="
-#~ "\"_blank\">https://www.transmissionbt.com</a>"
-#~ msgstr ""
-#~ "Homepage Transmission: <a href=\"https://www.transmissionbt.com/\" target="
-#~ "\"_blank\">https://www.transmissionbt.com</a>"
-
-#~ msgid ""
-#~ "Homepage: <a href=\"https://www.virtualbox.org/\" target=\"_blank"
-#~ "\">https://www.virtualbox.org</a>"
-#~ msgstr ""
-#~ "Homepage: <a href=\"https://www.virtualbox.org/\" target=\"_blank"
-#~ "\">https://www.virtualbox.org</a>"
-
-#~ msgid ""
-#~ "Homepage: <a href=\"https://filezilla-project.org/\" target=\"_blank"
-#~ "\">https://filezilla-project.org</a>"
-#~ msgstr ""
-#~ "Homepage: <a href=\"https://filezilla-project.org/\" target=\"_blank"
-#~ "\">https://filezilla-project.org</a>"
-
-#~ msgid ""
-#~ "Homepage: <a href=\"https://www.clamav.net/\" target=\"_blank\">https://"
-#~ "www.clamav.net</a>"
-#~ msgstr ""
-#~ "Homepage: <a href=\"https://www.clamav.net/\" target=\"_blank\">https://"
-#~ "www.clamav.net</a>"
-
-#~ msgid ""
-#~ "Homepage: <a href=\"https://samba.org\" target=\"_blank\">https://samba."
-#~ "org</a>"
-#~ msgstr ""
-#~ "Homepage: <a href=\"https://samba.org\" target=\"_blank\">https://samba."
-#~ "org</a>"
-
-#~ msgid ""
-#~ "Forum: <a href=\"https://forums.solydxk.com/\" target=\"_blank\">https://"
-#~ "forums.solydxk.com</a>"
-#~ msgstr ""
-#~ "Foro: <a href=\"https://forums.solydxk.com/\" target=\"_blank\">https://"
-#~ "forums.solydxk.com</a>"
-
-#~ msgid ""
-#~ "Homepage: <a href=\"http://www.playonlinux.com\" target=\"_blank\">http://"
-#~ "www.playonlinux.com</a>"
-#~ msgstr ""
-#~ "Homepage: <a href=\"http://www.playonlinux.com\" target=\"_blank\">http://"
-#~ "www.playonlinux.com</a>"
-
-#~ msgid "Gnucash"
-#~ msgstr "Gnucash"
-
-#, fuzzy
-#~ msgid "PostBooks"
-#~ msgstr "postbooks"
-
-#~ msgid "ProjectLibre"
-#~ msgstr "ProjectLibre"
-
-#~ msgid "Steam"
-#~ msgstr "Steam"
-
-#~ msgid "Minetest"
-#~ msgstr "Minetest"
-
-#~ msgid "0 A.D."
-#~ msgstr "0 A.D."
-
-#~ msgid "The Battle for Wesnoth"
-#~ msgstr "The Battle for Wesnoth"
-
-#~ msgid "Sauerbraten"
-#~ msgstr "Sauerbraten"
-
-#~ msgid "Neverball"
-#~ msgstr "Neverball"
-
-#~ msgid "Super Tux Kart"
-#~ msgstr "Super Tux Kart"
-
-#~ msgid "libreoffice"
-#~ msgstr "libreoffice"
-
-#~ msgid "lodraw"
-#~ msgstr "lodraw"
-
-#~ msgid "LibreOffice Draw"
-#~ msgstr "LibreOffice Draw"
-
-#~ msgid "loimpress"
-#~ msgstr "loimpress"
-
-#~ msgid "LibreOffice Impress"
-#~ msgstr "LibreOffice Impress"
-
-#~ msgid "lobase"
-#~ msgstr "lobase"
-
-#~ msgid "LibreOffice Base"
-#~ msgstr "LibreOffice Base"
-
-#~ msgid "lomath"
-#~ msgstr "lomath"
-
-#~ msgid "LibreOffice Math"
-#~ msgstr "LibreOffice Math"
-
-#~ msgid "Gimp"
-#~ msgstr "Gimp"
-
-#~ msgid "Inkscape"
-#~ msgstr "Inkscape"
-
-#~ msgid "Shotwell / Digikam"
-#~ msgstr "Shotwell / Digikam"
-
-#~ msgid "Clementine"
-#~ msgstr "Clementine"
-
-#~ msgid "HandBrake"
-#~ msgstr "HandBrake"
-
-#~ msgid "SoundConverter"
-#~ msgstr "SoundConverter"
-
-#~ msgid "Pitivi / Kdenlive"
-#~ msgstr "Pitivi / Kdenlive"
-
-#~ msgid "Transmission"
-#~ msgstr "Transmission"
-
-#~ msgid "clamav"
-#~ msgstr "clamav"
-
-#~ msgid "ClamAV"
-#~ msgstr "ClamAV"
-
-#~ msgid "virtualbox"
-#~ msgstr "virtualbox"
-
-#~ msgid "VirtualBox"
-#~ msgstr "VirtualBox"
-
-#~ msgid "filezilla"
-#~ msgstr "filezilla"
-
-#~ msgid "FileZilla"
-#~ msgstr "FileZilla"
-
-#~ msgid "samba"
-#~ msgstr "samba"
-
-#~ msgid "Samba"
-#~ msgstr "Samba"
-
-#~ msgid "css"
-#~ msgstr "css"
-
-#~ msgid "CSS"
-#~ msgstr "CSS"
-
-#~ msgid "playonlinux"
-#~ msgstr "playonlinux"
-
-#~ msgid ""
-#~ "When you click the install button all selected applications are going to "
-#~ "be installed on your system."
-#~ msgstr ""
-#~ "Cuando haga clic en el botón Instalar todas las aplicaciones "
-#~ "seleccionadas se instalarán en su sistema."
-
-#~ msgid ""
-#~ "When you click the install button all selected games are going to be "
-#~ "installed on your system."
-#~ msgstr ""
-#~ "Cuando haga clic en el botón Instalar todos los juegos seleccionados se "
-#~ "instalarán en su sistema."
-
-#~ msgid ""
-#~ "When you click the install button all listed applications are going to be "
-#~ "installed on your system. You can use the software manager to install "
-#~ "them separately."
-#~ msgstr ""
-#~ "Cuando haga clic en el botón Instalar todas las aplicaciones incluidas se "
-#~ "van a ser instalados en su sistema. Puede utilizar el Administrador de "
-#~ "software para instalarlas por separado."
