@@ -6,14 +6,14 @@
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2022
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2017-2019
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2016-2017
-# Moo, 2016-2021
+# Moo, 2016-2021,2023
 msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-05 21:30+0200\n"
+"POT-Creation-Date: 2023-01-23 17:44+0100\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
-"Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2022\n"
+"Last-Translator: Moo, 2016-2021,2023\n"
 "Language-Team: Lithuanian (http://www.transifex.com/abalfoort/solydxk-"
 "welcome/language/lt/)\n"
 "Language: lt\n"
@@ -427,6 +427,9 @@ msgid ""
 "SolydXK comes with a minimal LibreOffice suite pre-installed. However, if "
 "you are missing some additional packages, you can install them here."
 msgstr ""
+"SolydXK yra pateikiama su iš anksto įdiegtu minimaliu LibreOffice programų "
+"rinkiniu. Vis dėlto, jeigu jums trūksta tam tikrų papildomų paketų, juos "
+"įsidiegti galite čia."
 
 #: po/en/multimedia.html%2Bhtml.body.h1:11-2
 msgid "Multimedia applications"
@@ -601,6 +604,10 @@ msgid ""
 "Controller (DC) or as a domain member. It supports both Active Directory and "
 "Microsoft Windows NT domains."
 msgstr ""
+"Samba pateikia failų ir spausdinimo tarnybas, skirtas įvairiems Microsoft "
+"Windows klientams ir gali būti integruota su Microsoft Windows Server "
+"domenu, kaip arba domeno valdiklis (DC), arba domeno narys. Samba palaiko "
+"tiek aktyvaus katalogo, tiek ir Microsoft Windows NT domenus."
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:58-7
 msgid ""

@@ -6,15 +6,15 @@
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2022
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2017-2019
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2016-2017
-# Eduard Selma <selma@tinet.cat>, 2015,2018-2019,2021
+# Eduard Selma <selma@tinet.cat>, 2015,2018-2019,2021-2022
 # root <arjenbalfoort@solydxk.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-05 21:30+0200\n"
+"POT-Creation-Date: 2022-12-27 16:59+0100\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
-"Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2022\n"
+"Last-Translator: Eduard Selma <selma@tinet.cat>, 2015,2018-2019,2021-2022\n"
 "Language-Team: Catalan (http://www.transifex.com/abalfoort/solydxk-welcome/"
 "language/ca/)\n"
 "Language: ca\n"
@@ -423,6 +423,8 @@ msgid ""
 "SolydXK comes with a minimal LibreOffice suite pre-installed. However, if "
 "you are missing some additional packages, you can install them here."
 msgstr ""
+"SolydXK ve amb una versió mínima de LibreOffice preinstal·lada. Tanmateix, "
+"si trobeu a faltar alguns paquets addicionals, podeu instal·lar-los aquí."
 
 #: po/en/multimedia.html%2Bhtml.body.h1:11-2
 msgid "Multimedia applications"
