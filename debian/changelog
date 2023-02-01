@@ -1,3 +1,15 @@
+solydxk-welcome (2.1.0) stable; urgency=low
+
+  * Updated translation: lt
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Mon, 23 Jan 2023 17:43:49 +0100
+
+solydxk-welcome (2.0.9) stable; urgency=low
+
+  * Updated translation: ca
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Tue, 27 Dec 2022 16:59:13 +0100
+
 solydxk-welcome (2.0.8) stable; urgency=low
 
   * Updated translation: es
