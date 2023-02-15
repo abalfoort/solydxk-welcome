@@ -7,7 +7,6 @@ Build-Depends: debhelper-compat (= 12)
   , intltool
   , itstool
   , po4a
-  , transifex-client
   , translate-toolkit
   , dh-python
 Standards-Version: 4.5.0
