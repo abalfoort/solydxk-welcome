@@ -6,7 +6,7 @@
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2022
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2017-2019
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2015-2017
-# root <arjenbalfoort@solydxk.com>, 2014-2015
+# root <arjenbalfoort@hotmail.com>, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
