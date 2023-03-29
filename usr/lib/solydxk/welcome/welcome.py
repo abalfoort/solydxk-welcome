@@ -29,25 +29,25 @@ class SolydXKWelcome(object):
         self.deb_version = get_debian_version()
 
         # Check for backports
-        self.isBackportsEnabled = True if getoutput("grep backports /etc/apt/sources.list /etc/apt/sources.list.d/*.list | grep -v ^#") else False
+        self.isBackportsEnabled = bool(getoutput("grep backports /etc/apt/sources.list /etc/apt/sources.list.d/*.list | grep -v ^#"))
 
         # ================================
-        # Define html page array [action (see below), script_name, post_exec]
+        # Define html page array [action (see below), script_name, (optional) post_exec]
         # 0 = no action (just show)
         # 1 = apt install
         # 2 = open external application
         self.pages = []
-        self.pages.append([0, 'welcome', ''])
+        self.pages.append([0, 'welcome'])
         if self.need_drivers():
-            self.pages.append([2, 'drivers', ''])
+            self.pages.append([2, 'drivers'])
         if self.isBackportsEnabled:
-            self.pages.append([1, 'libreofficebp', ''])
+            self.pages.append([1, 'libreofficebp'])
         else:
-            self.pages.append([1, 'libreoffice', ''])
-        self.pages.append([1, 'business', ''])
-        self.pages.append([1, 'multimedia', ''])
-        self.pages.append([1, 'system', ''])
-        self.pages.append([1, 'games', ''])
+            self.pages.append([1, 'libreoffice'])
+        self.pages.append([1, 'business'])
+        self.pages.append([1, 'multimedia'])
+        self.pages.append([1, 'system'])
+        self.pages.append([1, 'games'])
         self.pages.append([1, 'wine'])
         # ================================
 
@@ -132,15 +132,16 @@ class SolydXKWelcome(object):
             script = join(self.scriptDir, "scripts/{}".format(page))
             print(("Install packages ({}): {}".format(script, ' '.join(values))))
             self.exec_command("pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY {} {}".format(script, ' '.join(values)))
-            post_exec = self.pages[self.currentPage][2]
-            if post_exec:
-                #print(("    post_exec[0:4] = {}".format(post_exec[0:4])))
-                if post_exec[0:4] == 'http':
-                    # load URL in window
-                    self.browser.show_html(post_exec)
-                else:
-                    # execute command
-                    self.exec_command(post_exec)
+            if len(self.pages[self.currentPage]) == 3:
+                post_exec = self.pages[self.currentPage][2]
+                if post_exec:
+                    #print(("    post_exec[0:4] = {}".format(post_exec[0:4])))
+                    if post_exec[0:4] == 'http':
+                        # load URL in window
+                        self.browser.show_html(post_exec)
+                    else:
+                        # execute command
+                        self.exec_command(post_exec)
         else:
             msg = _("Nothing to do:\n"
                     "No packages were selected.")
