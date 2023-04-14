@@ -13,10 +13,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-19 18:38+0100\n"
+"POT-Creation-Date: 2023-04-14 08:08+0200\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
 "Last-Translator: ortanca_samuray <ortanca_samuray@hotmail.com>, 2016,2022\n"
-"Language-Team: Turkish (http://www.transifex.com/abalfoort/solydxk-welcome/"
+"Language-Team: Turkish (http://app.transifex.com/abalfoort/solydxk-welcome/"
 "language/tr/)\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -78,7 +78,7 @@ msgstr ""
 "VirtualBox, VirtualBox istemcisine kurulamaz.\n"
 "Bu paket atlanır."
 
-#: usr/lib/solydxk/welcome/welcome.py:145
+#: usr/lib/solydxk/welcome/welcome.py:146
 msgid ""
 "Nothing to do:\n"
 "No packages were selected."
@@ -86,7 +86,7 @@ msgstr ""
 "Yapılacak bir şey yok:\n"
 "Hiçbir paket seçilmedi."
 
-#: usr/lib/solydxk/welcome/welcome.py:160
+#: usr/lib/solydxk/welcome/welcome.py:161
 msgid ""
 "You selected some packages for installation.\n"
 "\n"
@@ -98,11 +98,11 @@ msgstr ""
 "Şimdi kurmak istiyor musunuz?\n"
 " Not: Kuruluma devam ederseniz liste temizlenir."
 
-#: usr/lib/solydxk/welcome/welcome.py:172
+#: usr/lib/solydxk/welcome/welcome.py:173
 msgid "No internet connection"
 msgstr "İnternet bağlantısı yok"
 
-#: usr/lib/solydxk/welcome/welcome.py:173
+#: usr/lib/solydxk/welcome/welcome.py:174
 msgid ""
 "You need an internet connection to install the additional software.\n"
 "Please, connect to the internet and try again."
@@ -110,7 +110,7 @@ msgstr ""
 "Ek yazılım kurulumu için internet bağlantısına ihtiyacınız var.\n"
 "Lütfen, bağlantı sağladıktan sonra yeniden deneyin."
 
-#: usr/lib/solydxk/welcome/welcome.py:195
+#: usr/lib/solydxk/welcome/welcome.py:196
 msgid ""
 "Cannot install the requested software:\n"
 "Script not found: {}"
@@ -118,7 +118,7 @@ msgstr ""
 "İstenen yazılım kurulamıyor:\n"
 "Betik bulunamadı: {}"
 
-#: usr/lib/solydxk/welcome/welcome.py:260
+#: usr/lib/solydxk/welcome/welcome.py:261
 msgid ""
 "There was an error during the installation.\n"
 "Please, run 'sudo apt-get -f install' in a terminal.\n"
@@ -128,7 +128,7 @@ msgstr ""
 "Lütfen, 'sudo apt-get -f install' komutunu uçbirimde çalıştırınız.\n"
 "Destek için forumu ziyaret edebilirsiniz. https://forums.solydxk.com"
 
-#: usr/lib/solydxk/welcome/welcome.py:268
+#: usr/lib/solydxk/welcome/welcome.py:269
 msgid "The software has been successfully installed."
 msgstr "Yazılım başarıyla kuruldu."
 
@@ -267,6 +267,12 @@ msgstr "Sürekli iş, hiç eğlence yok..."
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:25-7
 msgid ""
+"Lutris is an open gaming platform for Linux. Lutris helps you install and "
+"play video games from all eras and from most gaming systems."
+msgstr ""
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:37-7
+msgid ""
 "Steam is an internet-based digital distribution, digital rights management "
 "(DRM), multiplayer, and social networking platform developed by Valve "
 "Corporation."
@@ -274,114 +280,6 @@ msgstr ""
 "Steam, Valve Corporation tarafından geliştirilen internet tabanlı bir "
 "dijital dağıtım, dijital haklar yönetimi (DRM), çoğul oyunculu ve sosyal ağ "
 "platformudur."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:32-7
-msgid "Installed size: 200 MB (after user installation)"
-msgstr "Yükleme boyutu:200 MB(Kurulumdan sonra)"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:38-7
-msgid ""
-"Minetest is an infinite-world block sandbox game and a game engine, inspired "
-"by InfiniMiner, Minecraft and the like."
-msgstr ""
-"Minetest, InfiniMiner, Minecraft ve benzerlerinden ilham alan sonsuz bir "
-"dünya blok sandbox oyunu ve bir oyun motorudur."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:45-7
-msgid "Installed size: 10 MB"
-msgstr "Yükleme Boyutu: 10 MB"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:51-7
-msgid ""
-"0 A.D. (pronounced \"zero-ey-dee\") is a free, open-source, historical Real "
-"Time Strategy (RTS) game currently under development by Wildfire Games, a "
-"global group of volunteer game developers. As the leader of an ancient "
-"civilization, you must gather the resources you need to raise a military "
-"force and dominate your enemies."
-msgstr ""
-"0 A.D. (\"ziro-ey-dii\" olarak telaffuz edilir), şu anda küresel bir gönüllü "
-"oyun geliştiricileri grubu olan Wildfire Games tarafından geliştirilmekte "
-"olan ücretsiz, açık kaynaklı, tarihi bir Gerçek Zamanlı Strateji (RTS) "
-"oyunudur. Eski bir uygarlığın lideri olarak, askeri bir güç oluşturmak ve "
-"düşmanlarınıza hükmetmek için ihtiyacınız olan kaynakları toplamalısınız."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:58-7
-msgid "Installed size: 1 GB"
-msgstr "Yükleme Boyutu: 1 GB"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:64-7
-msgid ""
-"The Battle for Wesnoth is a turn-based tactical strategy game with a high "
-"fantasy theme."
-msgstr ""
-"The Battle for Wesnoth, yüksek fantezi temalı, dönüşüm tabanlı bir taktik "
-"strateji oyunudur."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:65-7
-msgid ""
-"Build up a great army, gradually turning raw recruits into hardened "
-"veterans. In later games, recall your toughest warriors and form a deadly "
-"host whom none can stand against! Choose units from a large pool of "
-"specialists, and hand-pick a force with the right strengths to fight well on "
-"different terrains against all manner of opposition."
-msgstr ""
-"Büyük bir ordu kurun, acemi askerleri yavaş yavaş sert gazilere dönüştürün. "
-"Sonraki oyunlarda en zorlu savaşçılarınızı geri çağırın ve kimsenin karşı "
-"koyamayacağı ölümcül bir ordu kurun! Geniş bir uzman havuzundan birimleri "
-"seçin ve her türlü muhalefete karşı farklı arazilerde iyi savaşmak için "
-"doğru güçlere sahip bir gücü elle seçin."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:72-7
-msgid "Installed size: 450 MB"
-msgstr "Yükleme Boyutu: 450 MB"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:78-7
-msgid ""
-"Sauerbraten is a free multiplayer and singleplayer first person shooter, the "
-"successor of the Cube FPS."
-msgstr ""
-"Sauerbraten, Cube FPS'nin halefi olan ücretsiz bir çok oyunculu ve tekil "
-"oyunculu birinci şahıs nişancı oyunudur."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:79-7
-msgid ""
-"Much like the original Cube, the aim of this game is fun, old school "
-"deathmatch gameplay and also to allow map/geometry editing to be done "
-"cooperatively in-game."
-msgstr ""
-"Orijinal Cube'a çok benzer şekilde, bu oyunun amacı eğlenceli, eski tarz "
-"ölüm maçı oynanışı ve ayrıca oyun içinde harita/geometri düzenlemesinin "
-"birlikte yapılmasına izin vermektir."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:86-7
-msgid "Installed size: 650 MB"
-msgstr "Yükleme Boyutu: 650 MB"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:92-7
-msgid ""
-"Tilt the floor to roll a ball through an obstacle course before time runs "
-"out. Neverball is part puzzle game, part action game, and entirely a test of "
-"skill."
-msgstr ""
-"Süre dolmadan önce bir engel parkurunda topu yuvarlamak için zemini eğin. "
-"Neverball, kısmen bulmaca oyunu, kısmen aksiyon oyunu ve tamamen bir beceri "
-"testidir."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:99-7
-msgid "Installed size: 150 MB"
-msgstr "Yükleme Boyutu: 150 MB"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:105-7
-msgid ""
-"SuperTuxKart is a Free 3D kart racing game, with many tracks, characters and "
-"items for you to try. Have fun!"
-msgstr ""
-"SuperTuxKart, denemeniz için birçok parkur, karakter ve öğe içeren Ücretsiz "
-"bir 3D kart yarış oyunudur. İyi eğlenceler!"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:112-7
-msgid "Installed size: 350 MB"
-msgstr "Yükleme Boyutu: 350 MB"
 
 #: po/en/libreofficebp.html%2Bhtml.body.h1:11-2
 msgid "LibreOffice (Backports)"

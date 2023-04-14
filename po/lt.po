@@ -11,10 +11,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-19 18:38+0100\n"
+"POT-Creation-Date: 2023-04-14 08:08+0200\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
 "Last-Translator: Moo, 2016-2021,2023\n"
-"Language-Team: Lithuanian (http://www.transifex.com/abalfoort/solydxk-"
+"Language-Team: Lithuanian (http://app.transifex.com/abalfoort/solydxk-"
 "welcome/language/lt/)\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -78,7 +78,7 @@ msgstr ""
 "VirtualBox paketas negali būti įdiegtas VirtualBox kliente.\n"
 "Šis paketas yra praleistas."
 
-#: usr/lib/solydxk/welcome/welcome.py:145
+#: usr/lib/solydxk/welcome/welcome.py:146
 msgid ""
 "Nothing to do:\n"
 "No packages were selected."
@@ -86,7 +86,7 @@ msgstr ""
 "Nėra ką atlikti:\n"
 "Nebuvo pažymėti jokie paketai."
 
-#: usr/lib/solydxk/welcome/welcome.py:160
+#: usr/lib/solydxk/welcome/welcome.py:161
 msgid ""
 "You selected some packages for installation.\n"
 "\n"
@@ -98,11 +98,11 @@ msgstr ""
 "Ar norite juos įdiegti dabar?\n"
 "Pastaba: jei tęsite neįdiegdami, sąrašas bus išvalytas."
 
-#: usr/lib/solydxk/welcome/welcome.py:172
+#: usr/lib/solydxk/welcome/welcome.py:173
 msgid "No internet connection"
 msgstr "Nėra interneto ryšio"
 
-#: usr/lib/solydxk/welcome/welcome.py:173
+#: usr/lib/solydxk/welcome/welcome.py:174
 msgid ""
 "You need an internet connection to install the additional software.\n"
 "Please, connect to the internet and try again."
@@ -110,7 +110,7 @@ msgstr ""
 "Norint įdiegti papildomą programinę įrangą, reikalingas interneto ryšys.\n"
 "Prašome prisijungti prie interneto ir bandyti vėl."
 
-#: usr/lib/solydxk/welcome/welcome.py:195
+#: usr/lib/solydxk/welcome/welcome.py:196
 msgid ""
 "Cannot install the requested software:\n"
 "Script not found: {}"
@@ -118,7 +118,7 @@ msgstr ""
 "Nepavyksta įdiegti užklaustos programinės įrangos:\n"
 "Scenarijus nerastas: {}"
 
-#: usr/lib/solydxk/welcome/welcome.py:260
+#: usr/lib/solydxk/welcome/welcome.py:261
 msgid ""
 "There was an error during the installation.\n"
 "Please, run 'sudo apt-get -f install' in a terminal.\n"
@@ -129,7 +129,7 @@ msgstr ""
 "Norėdami gauti palaikymą, apsilankykite mūsų forume: https://forums.solydxk."
 "com"
 
-#: usr/lib/solydxk/welcome/welcome.py:268
+#: usr/lib/solydxk/welcome/welcome.py:269
 msgid "The software has been successfully installed."
 msgstr "Programinė įranga buvo sėkmingai įdiegta."
 
@@ -269,6 +269,12 @@ msgstr "Tik darbas ir jokių žaidimų..."
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:25-7
 msgid ""
+"Lutris is an open gaming platform for Linux. Lutris helps you install and "
+"play video games from all eras and from most gaming systems."
+msgstr ""
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:37-7
+msgid ""
 "Steam is an internet-based digital distribution, digital rights management "
 "(DRM), multiplayer, and social networking platform developed by Valve "
 "Corporation."
@@ -276,114 +282,6 @@ msgstr ""
 "Steam yra Valve Corporation kuriama internetu pagrįsta skaitmeninio "
 "platinimo, skaitmeninių teisių valdymo (DRM), daugelio žaidėjų ir socialinio "
 "tinklo platforma."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:32-7
-msgid "Installed size: 200 MB (after user installation)"
-msgstr "Dydis įdiegus: 200 MB (po naudotojo įdiegimo)"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:38-7
-msgid ""
-"Minetest is an infinite-world block sandbox game and a game engine, inspired "
-"by InfiniMiner, Minecraft and the like."
-msgstr ""
-"Minetest yra beribio pasaulio blokų smėliadėžės žaidimas ir žaidimo modulis, "
-"įkvėptas InfiniMiner, Minecraft ir kitų panašių žaidimų."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:45-7
-msgid "Installed size: 10 MB"
-msgstr "Dydis įdiegus: 10 MB"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:51-7
-msgid ""
-"0 A.D. (pronounced \"zero-ey-dee\") is a free, open-source, historical Real "
-"Time Strategy (RTS) game currently under development by Wildfire Games, a "
-"global group of volunteer game developers. As the leader of an ancient "
-"civilization, you must gather the resources you need to raise a military "
-"force and dominate your enemies."
-msgstr ""
-"0 A.D. (tariama \"zyrou-ei-dy\") yra nemokamas atvirosios programinės "
-"įrangos istorinis tikralaikės strategijos (RTS) žaidimas, kurį šiuo metu "
-"kuria Wildfire Games, visuotinė žaidimų kūrėjų savanorių grupė. Kaip "
-"senovinės civilizacijos vadovas, jūs privalote surinkti išteklius, kad "
-"suformuotumėte kariuomenę ir nugalėtumėte priešus."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:58-7
-msgid "Installed size: 1 GB"
-msgstr "Dydis įdiegus: 1 GB"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:64-7
-msgid ""
-"The Battle for Wesnoth is a turn-based tactical strategy game with a high "
-"fantasy theme."
-msgstr ""
-"The Battle for Wesnoth yra paeilinis taktinis strateginis žaidimas su didele "
-"fantazijos tema."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:65-7
-msgid ""
-"Build up a great army, gradually turning raw recruits into hardened "
-"veterans. In later games, recall your toughest warriors and form a deadly "
-"host whom none can stand against! Choose units from a large pool of "
-"specialists, and hand-pick a force with the right strengths to fight well on "
-"different terrains against all manner of opposition."
-msgstr ""
-"Kurkite kariuomenę, palaipsniui paversdami neapmokytus samdinius į "
-"užgrūdintus veteranus. Vėlesniuose žaidimuose pasikvieskite stipriausius "
-"karius ir formuokite galingą bazę prieš kurią niekas neatsilaikys! Rinkitės "
-"iš didelio specialistų sąrašo ir išrinkite armiją su tinkamomis stiprybėmis "
-"gerai kariauti įvairiose vietovėse prieš įvairios manieros opoziciją."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:72-7
-msgid "Installed size: 450 MB"
-msgstr "Dydis įdiegus: 450 MB"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:78-7
-msgid ""
-"Sauerbraten is a free multiplayer and singleplayer first person shooter, the "
-"successor of the Cube FPS."
-msgstr ""
-"Sauerbraten yra nemokamas daugelio žaidėjų ir vieno žaidėjo pirmojo asmens "
-"šaudyklė, tolesnė Cube FPS versija."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:79-7
-msgid ""
-"Much like the original Cube, the aim of this game is fun, old school "
-"deathmatch gameplay and also to allow map/geometry editing to be done "
-"cooperatively in-game."
-msgstr ""
-"Panašiai kaip ir pradinio Cube, šio žaidimo tikslas yra įdomumas, senosios "
-"mokyklos \"deathmatch\" žaidimo eiga ir taip pat leisti atlikti žemėlapio/"
-"geometrijos redagavimą bendradarbiaujant žaidime."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:86-7
-msgid "Installed size: 650 MB"
-msgstr "Dydis įdiegus: 650 MB"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:92-7
-msgid ""
-"Tilt the floor to roll a ball through an obstacle course before time runs "
-"out. Neverball is part puzzle game, part action game, and entirely a test of "
-"skill."
-msgstr ""
-"Palenkite grindis, kad kamuolys nuriedėtų per kliūčių ruožą dar laikui "
-"nepasibaigus. Neverball yra dalinai galvosūkių, dalinai veiksmo ir pilnai "
-"įgūdžių išbandymo žaidimas."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:99-7
-msgid "Installed size: 150 MB"
-msgstr "Dydis įdiegus: 150 MB"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:105-7
-msgid ""
-"SuperTuxKart is a Free 3D kart racing game, with many tracks, characters and "
-"items for you to try. Have fun!"
-msgstr ""
-"SuperTuxKart yra nemokamas 3D kartingų lenktynių žaidimas, su daugeliu "
-"išbandyti prieinamų trasų, personažų ir elementų. Linksmai praleiskite laiką!"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:112-7
-msgid "Installed size: 350 MB"
-msgstr "Dydis įdiegus: 350 MB"
 
 #: po/en/libreofficebp.html%2Bhtml.body.h1:11-2
 msgid "LibreOffice (Backports)"

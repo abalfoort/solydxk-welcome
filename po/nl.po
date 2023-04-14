@@ -3,18 +3,18 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2022
+# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2023
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2017-2019
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2015-2017
-# root <arjenbalfoort@hotmail.com>, 2014-2015
+# root <arjenbalfoort@solydxk.com>, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-05 21:30+0200\n"
+"POT-Creation-Date: 2023-04-14 08:08+0200\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
-"Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2022\n"
-"Language-Team: Dutch (http://www.transifex.com/abalfoort/solydxk-welcome/"
+"Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2023\n"
+"Language-Team: Dutch (http://app.transifex.com/abalfoort/solydxk-welcome/"
 "language/nl/)\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -76,7 +76,7 @@ msgstr ""
 "VirtualBox kan niet in een VirtualBox client geïnstalleerd worden.\n"
 "Dit pakket wordt overgeslagen."
 
-#: usr/lib/solydxk/welcome/welcome.py:145
+#: usr/lib/solydxk/welcome/welcome.py:146
 msgid ""
 "Nothing to do:\n"
 "No packages were selected."
@@ -84,7 +84,7 @@ msgstr ""
 "Niets te doen:\n"
 "Er zijn geen pakketten geselecteerd."
 
-#: usr/lib/solydxk/welcome/welcome.py:160
+#: usr/lib/solydxk/welcome/welcome.py:161
 msgid ""
 "You selected some packages for installation.\n"
 "\n"
@@ -96,11 +96,11 @@ msgstr ""
 "Wilt u deze nu installeren?\n"
 "Opmerking: de lijst wordt gewist als u doorgaat zonder te installeren."
 
-#: usr/lib/solydxk/welcome/welcome.py:172
+#: usr/lib/solydxk/welcome/welcome.py:173
 msgid "No internet connection"
 msgstr "Geen internetverbinding"
 
-#: usr/lib/solydxk/welcome/welcome.py:173
+#: usr/lib/solydxk/welcome/welcome.py:174
 msgid ""
 "You need an internet connection to install the additional software.\n"
 "Please, connect to the internet and try again."
@@ -108,7 +108,7 @@ msgstr ""
 "U hebt een internetverbinding nodig om de extra software te installeren.\n"
 "Maak verbinding met het internet en probeer het opnieuw."
 
-#: usr/lib/solydxk/welcome/welcome.py:195
+#: usr/lib/solydxk/welcome/welcome.py:196
 msgid ""
 "Cannot install the requested software:\n"
 "Script not found: {}"
@@ -116,7 +116,7 @@ msgstr ""
 "Kan de gevraagde software niet installeren:\n"
 "Script niet gevonden: {}"
 
-#: usr/lib/solydxk/welcome/welcome.py:260
+#: usr/lib/solydxk/welcome/welcome.py:261
 msgid ""
 "There was an error during the installation.\n"
 "Please, run 'sudo apt-get -f install' in a terminal.\n"
@@ -126,7 +126,7 @@ msgstr ""
 "Voer de volgende opdracht uit in een terminal: 'sudo apt-get -f install'.\n"
 "Bezoek ons forum wanneer u hulp nodig heeft: https://forums.solydxk.com"
 
-#: usr/lib/solydxk/welcome/welcome.py:268
+#: usr/lib/solydxk/welcome/welcome.py:269
 msgid "The software has been successfully installed."
 msgstr "De software is succesvol geïnstalleerd."
 
@@ -264,6 +264,15 @@ msgstr "Na een dag noeste arbeid is het tijd voor ontspanning..."
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:25-7
 msgid ""
+"Lutris is an open gaming platform for Linux. Lutris helps you install and "
+"play video games from all eras and from most gaming systems."
+msgstr ""
+"Lutris is een open spelplatform voor Linux. Lutris helpt u bij het \n"
+"installeren en spelen van videospellen uit alle tijden en van de \n"
+"meeste spelsystemen."
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:37-7
+msgid ""
 "Steam is an internet-based digital distribution, digital rights management "
 "(DRM), multiplayer, and social networking platform developed by Valve "
 "Corporation."
@@ -271,112 +280,6 @@ msgstr ""
 "Steam is een internet-gebaseerd, digitaal gedistribueerd, digitale rechten "
 "(DRM) bewust, multiplayer en sociaal netwerk platform, ontwikkeld door de "
 "Valve Corporation."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:32-7
-msgid "Installed size: 200 MB (after user installation)"
-msgstr "Geïnstalleerde grootte: 200 MB"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:38-7
-msgid ""
-"Minetest is an infinite-world block sandbox game and a game engine, inspired "
-"by InfiniMiner, Minecraft and the like."
-msgstr ""
-"Minetest is een sandbox game en een game engine, geïnspireerd door "
-"InfiniMiner, Minecraft en dergelijke spellen."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:45-7
-msgid "Installed size: 10 MB"
-msgstr "Geïnstalleerde grootte: 10 MB"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:51-7
-msgid ""
-"0 A.D. (pronounced \"zero-ey-dee\") is a free, open-source, historical Real "
-"Time Strategy (RTS) game currently under development by Wildfire Games, a "
-"global group of volunteer game developers. As the leader of an ancient "
-"civilization, you must gather the resources you need to raise a military "
-"force and dominate your enemies."
-msgstr ""
-"0 A.D. is een gratis, open-source, historisch Real Time Strategy (RTS) spel, "
-"ontwikkeld door Wildfire Games, een wereldwijde groep van vrijwillige game-"
-"ontwikkelaars. Als de leider van een oude beschaving, moet u de middelen die "
-"u nodig hebt verzamelen om uw vijanden te verslaan."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:58-7
-msgid "Installed size: 1 GB"
-msgstr "Geïnstalleerde grootte: 1 GB"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:64-7
-msgid ""
-"The Battle for Wesnoth is a turn-based tactical strategy game with a high "
-"fantasy theme."
-msgstr ""
-"De Battle for Wesnoth is een tactisch strategie spel met een fantasy thema "
-"waarbij de spelers om beurten spelen."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:65-7
-msgid ""
-"Build up a great army, gradually turning raw recruits into hardened "
-"veterans. In later games, recall your toughest warriors and form a deadly "
-"host whom none can stand against! Choose units from a large pool of "
-"specialists, and hand-pick a force with the right strengths to fight well on "
-"different terrains against all manner of opposition."
-msgstr ""
-"Maak een groot leger en leid uw rekruten op tot geharde veteranen. In latere "
-"spellen roept u uw hardste krijgers terug en formeer een dodelijk leger waar "
-"niemand weerstand tegen kan bieden! Kies eenheden uit een grote verzameling "
-"van specialisten en maak eenheden met de juiste talenten om op verschillende "
-"terreinen en welke tegenstand dan ook onverslaanbaar te zijn."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:72-7
-msgid "Installed size: 450 MB"
-msgstr "Geïnstalleerde grootte: 450 MB"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:78-7
-msgid ""
-"Sauerbraten is a free multiplayer and singleplayer first person shooter, the "
-"successor of the Cube FPS."
-msgstr ""
-"Sauerbraten is een gratis multiplayer en singleplayer eerste person shooter, "
-"de opvolger van de Cube FPS."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:79-7
-msgid ""
-"Much like the original Cube, the aim of this game is fun, old school "
-"deathmatch gameplay and also to allow map/geometry editing to be done "
-"cooperatively in-game."
-msgstr ""
-"Net als de originele Cube is het doel van dit spel plezier te hebben met "
-"ouderwetse deathmatch. Je kunt ook gezamenlijk de kaart in het spel bewerken."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:86-7
-msgid "Installed size: 650 MB"
-msgstr "Geïnstalleerde grootte: 650 MB"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:92-7
-msgid ""
-"Tilt the floor to roll a ball through an obstacle course before time runs "
-"out. Neverball is part puzzle game, part action game, and entirely a test of "
-"skill."
-msgstr ""
-"Kantel de vloer om een bal door een hindernisbaan te rollen voordat de tijd "
-"om is. Neverball is deels puzzelspel, deels actiespel, maar vooral een test "
-"van bekwaamheid."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:99-7
-msgid "Installed size: 150 MB"
-msgstr "Geïnstalleerde grootte: 150 MB"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:105-7
-msgid ""
-"SuperTuxKart is a Free 3D kart racing game, with many tracks, characters and "
-"items for you to try. Have fun!"
-msgstr ""
-"SuperTuxKart is een gratis 3D kart race spel, met veel tracks, personages en "
-"items om uit te proberen. Veel plezier!"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:112-7
-msgid "Installed size: 350 MB"
-msgstr "Geïnstalleerde grootte: 350 MB"
 
 #: po/en/libreofficebp.html%2Bhtml.body.h1:11-2
 msgid "LibreOffice (Backports)"

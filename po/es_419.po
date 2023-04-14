@@ -8,10 +8,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-19 18:38+0100\n"
+"POT-Creation-Date: 2023-04-14 08:08+0200\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
 "Last-Translator: F A <jaw2pc@gmail.com>, 2022\n"
-"Language-Team: Spanish (Latin America) (http://www.transifex.com/abalfoort/"
+"Language-Team: Spanish (Latin America) (http://app.transifex.com/abalfoort/"
 "solydxk-welcome/language/es_419/)\n"
 "Language: es_419\n"
 "MIME-Version: 1.0\n"
@@ -74,7 +74,7 @@ msgstr ""
 "VirtualBox no puede ser instalado en un cliente VirtualBox.\n"
 "Se omite este paquete."
 
-#: usr/lib/solydxk/welcome/welcome.py:145
+#: usr/lib/solydxk/welcome/welcome.py:146
 msgid ""
 "Nothing to do:\n"
 "No packages were selected."
@@ -82,7 +82,7 @@ msgstr ""
 "Nada para hacer:\n"
 "No hay paquetes seleccionados."
 
-#: usr/lib/solydxk/welcome/welcome.py:160
+#: usr/lib/solydxk/welcome/welcome.py:161
 msgid ""
 "You selected some packages for installation.\n"
 "\n"
@@ -93,11 +93,11 @@ msgstr ""
 "¿Quieres instalarlos ahora?\n"
 "Nota: la lista se borra si se continúa sin instalarlos."
 
-#: usr/lib/solydxk/welcome/welcome.py:172
+#: usr/lib/solydxk/welcome/welcome.py:173
 msgid "No internet connection"
 msgstr "No hay conexión a Internet"
 
-#: usr/lib/solydxk/welcome/welcome.py:173
+#: usr/lib/solydxk/welcome/welcome.py:174
 msgid ""
 "You need an internet connection to install the additional software.\n"
 "Please, connect to the internet and try again."
@@ -105,7 +105,7 @@ msgstr ""
 "Necesitas una conexión a Internet para instalar programas adicionales.\n"
 "Por favor conectar a Internet y probar nuevamente."
 
-#: usr/lib/solydxk/welcome/welcome.py:195
+#: usr/lib/solydxk/welcome/welcome.py:196
 msgid ""
 "Cannot install the requested software:\n"
 "Script not found: {}"
@@ -113,7 +113,7 @@ msgstr ""
 "No es posible instalar el programa seleccionado:\n"
 "Script no encontrado: {}"
 
-#: usr/lib/solydxk/welcome/welcome.py:260
+#: usr/lib/solydxk/welcome/welcome.py:261
 msgid ""
 "There was an error during the installation.\n"
 "Please, run 'sudo apt-get -f install' in a terminal.\n"
@@ -123,7 +123,7 @@ msgstr ""
 "Por favor ejecutar 'sudo apt-get -f install' en una terminal.\n"
 "Visita nuestro foro para soporte: https://forums.solydxk.com"
 
-#: usr/lib/solydxk/welcome/welcome.py:268
+#: usr/lib/solydxk/welcome/welcome.py:269
 msgid "The software has been successfully installed."
 msgstr "Programa instalado exitosamente."
 
@@ -263,6 +263,12 @@ msgstr "Solo trabajo y nada de juegos..."
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:25-7
 msgid ""
+"Lutris is an open gaming platform for Linux. Lutris helps you install and "
+"play video games from all eras and from most gaming systems."
+msgstr ""
+
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:37-7
+msgid ""
 "Steam is an internet-based digital distribution, digital rights management "
 "(DRM), multiplayer, and social networking platform developed by Valve "
 "Corporation."
@@ -270,115 +276,6 @@ msgstr ""
 "Steam es una plataforma de distribución digital basada en Internet, gestión "
 "de derechos digitales (DRM), multijugador y red social desarrollada por "
 "Valve Corporation."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:32-7
-msgid "Installed size: 200 MB (after user installation)"
-msgstr "Tamaño instalado: 200 MB (tras la instalación del usuario)"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:38-7
-msgid ""
-"Minetest is an infinite-world block sandbox game and a game engine, inspired "
-"by InfiniMiner, Minecraft and the like."
-msgstr ""
-"Minetest es un juego sandbox de mundo infinito y un motor de juego, "
-"inspirado en InfiniMiner, Minecraft y similares."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:45-7
-msgid "Installed size: 10 MB"
-msgstr "Tamaño tras instalación: 10 MB"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:51-7
-msgid ""
-"0 A.D. (pronounced \"zero-ey-dee\") is a free, open-source, historical Real "
-"Time Strategy (RTS) game currently under development by Wildfire Games, a "
-"global group of volunteer game developers. As the leader of an ancient "
-"civilization, you must gather the resources you need to raise a military "
-"force and dominate your enemies."
-msgstr ""
-"0 A.D. (pronunciado \"zero-ey-dee\") es un juego histórico de estrategia en "
-"tiempo real (RTS), gratuito y de código abierto, actualmente en desarrollo "
-"por Wildfire Games, un grupo global de desarrolladores de juegos "
-"voluntarios. Como líder de una antigua civilización, debes reunir los "
-"recursos necesarios para formar una fuerza militar y dominar a tus enemigos."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:58-7
-msgid "Installed size: 1 GB"
-msgstr "Tamaño tras instalación: 1 GB"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:64-7
-msgid ""
-"The Battle for Wesnoth is a turn-based tactical strategy game with a high "
-"fantasy theme."
-msgstr ""
-"The Battle for Wesnoth es un juego de estrategia táctica por turnos con una "
-"temática de alta fantasía."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:65-7
-msgid ""
-"Build up a great army, gradually turning raw recruits into hardened "
-"veterans. In later games, recall your toughest warriors and form a deadly "
-"host whom none can stand against! Choose units from a large pool of "
-"specialists, and hand-pick a force with the right strengths to fight well on "
-"different terrains against all manner of opposition."
-msgstr ""
-"Construye un gran ejército, convirtiendo poco a poco a los reclutas novatos "
-"en curtidos veteranos. En las partidas posteriores, recupera a tus guerreros "
-"más duros y forma una hueste letal a la que nadie pueda hacer frente. Escoge "
-"unidades de un gran grupo de especialistas y elige una fuerza con las "
-"fuerzas adecuadas para luchar bien en diferentes terrenos contra todo tipo "
-"de oposición."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:72-7
-msgid "Installed size: 450 MB"
-msgstr "Tamaño tras instalación: 450 MB"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:78-7
-msgid ""
-"Sauerbraten is a free multiplayer and singleplayer first person shooter, the "
-"successor of the Cube FPS."
-msgstr ""
-"Sauerbraten es un juego de disparos en primera persona multijugador y para "
-"un solo jugador, sucesor de Cube FPS."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:79-7
-msgid ""
-"Much like the original Cube, the aim of this game is fun, old school "
-"deathmatch gameplay and also to allow map/geometry editing to be done "
-"cooperatively in-game."
-msgstr ""
-"Al igual que el Cube original, el objetivo de este juego es la diversión, el "
-"juego a muerte de la vieja escuela y también permitir la edición de mapas/"
-"geometría en cooperación en el juego."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:86-7
-msgid "Installed size: 650 MB"
-msgstr "Tamaño tras instalación: 650 MB"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:92-7
-msgid ""
-"Tilt the floor to roll a ball through an obstacle course before time runs "
-"out. Neverball is part puzzle game, part action game, and entirely a test of "
-"skill."
-msgstr ""
-"Inclina el suelo para hacer rodar una bola por una pista de obstáculos antes "
-"de que se acabe el tiempo. Neverball es en parte un juego de rompecabezas, "
-"en parte un juego de acción y en su totalidad una prueba de habilidad."
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:99-7
-msgid "Installed size: 150 MB"
-msgstr "Tamaño tras instalación: 150 MB"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:105-7
-msgid ""
-"SuperTuxKart is a Free 3D kart racing game, with many tracks, characters and "
-"items for you to try. Have fun!"
-msgstr ""
-"SuperTuxKart es un juego gratuito de carreras de karts en 3D, con muchos "
-"circuitos, personajes y objetos para que los pruebes. ¡Diviértete!"
-
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:112-7
-msgid "Installed size: 350 MB"
-msgstr "Tamaño tras instalación: 350 MB"
 
 #: po/en/libreofficebp.html%2Bhtml.body.h1:11-2
 msgid "LibreOffice (Backports)"
