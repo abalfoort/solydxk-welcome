@@ -1,3 +1,10 @@
+solydxk-welcome (2.1.2) stable; urgency=low
+
+  * Add Lutris to games page
+  * Add vulkan libraries to PlayOnLinux install
+
+ -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Thu, 13 Apr 2023 09:54:30 +0200
+
 solydxk-welcome (2.1.1) stable; urgency=low
 
   * Fix error when installing playonlinux
