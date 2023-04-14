@@ -6,20 +6,15 @@ if [ $# -gt 0 ]; then
   for ARG in "$@"; do
     #echo "$ARG"
     if [ "$ARG" == 'playonlinux' ]; then
-      AMD64='playonlinux wine32 libasound2-plugins:i386 libgl1-mesa-glx:i386 libxft2:i386 libcups2:i386'
-      I386='playonlinux wine32 libasound2-plugins libgl1-mesa-glx libxft2 libcups2'
+      PCK='wine32:i386 winetricks libasound2-plugins:i386 libgl1-mesa-glx:i386 libxft2:i386 libcups2:i386 libvulkan1:i386 mesa-vulkan-drivers:i386 playonlinux'
     fi
   done
 fi
 
-if [ -z "$AMD64" ] && [ -z "$I386" ] ; then
+if [ -z "$PCK" ]; then
   exit
 fi
 
-PCK=$I386
-if [ "$(uname -m)" == "x86_64" ]; then
-  PCK=$AMD64
-fi
 
 # ===============================================================
 
