@@ -106,8 +106,8 @@ a:hover
 
 .warning
 {
-	color: red;
-	font-size: 18px;
+	/*color: red;
+	font-size: 18px;*/
 	padding: 20px;
     font-weight: bold;
 }
