@@ -7,13 +7,14 @@
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2017-2019
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2016-2017
 # Moo, 2016-2021,2023
+# Moo, 2023
 msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-14 08:08+0200\n"
+"POT-Creation-Date: 2023-04-30 09:28+0200\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
-"Last-Translator: Moo, 2016-2021,2023\n"
+"Last-Translator: Moo, 2023\n"
 "Language-Team: Lithuanian (http://app.transifex.com/abalfoort/solydxk-"
 "welcome/language/lt/)\n"
 "Language: lt\n"
@@ -272,6 +273,8 @@ msgid ""
 "Lutris is an open gaming platform for Linux. Lutris helps you install and "
 "play video games from all eras and from most gaming systems."
 msgstr ""
+"Lutris yra atvira žaidimų platforma, skirta Linux. Lutris padeda jums "
+"įsidiegti ir žaisti visų erų video žaidimus iš daugelio žaidimų sistemų."
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:37-7
 msgid ""
