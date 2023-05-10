@@ -1,5 +1,12 @@
+solydxk-welcome (2.1.4) stable; urgency=low
+
+  * Updated translations: pt, lt
+
+ -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Wed, 10 May 2023 11:53:15 +0200
+
 solydxk-welcome (2.1.3) stable; urgency=low
 
+  * Check if dpkg is locked by another process
   * Updated translation: sr
 
  -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sun, 30 Apr 2023 09:28:09 +0200
