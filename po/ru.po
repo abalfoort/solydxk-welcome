@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-14 08:08+0200\n"
+"POT-Creation-Date: 2023-05-08 08:15+0200\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
 "Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, 2017-2018\n"
 "Language-Team: Russian (http://app.transifex.com/abalfoort/solydxk-welcome/"
@@ -118,7 +118,13 @@ msgstr ""
 "Пожалуйста, выполните sudo apt-get -f install.\n"
 "Посетите наш форум поддержки: https://forums.solydxk.com"
 
-#: usr/lib/solydxk/welcome/welcome.py:269
+#: usr/lib/solydxk/welcome/welcome.py:267
+msgid ""
+"Could not get lock /var/lib/dpkg/lock\n"
+"Is another process using it?"
+msgstr ""
+
+#: usr/lib/solydxk/welcome/welcome.py:272
 msgid "The software has been successfully installed."
 msgstr "Программное обеспечение было успешно установлено."
 

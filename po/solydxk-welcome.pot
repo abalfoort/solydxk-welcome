@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-30 09:28+0200\n"
+"POT-Creation-Date: 2023-05-10 11:53+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,7 +101,13 @@ msgid ""
 "Visit our forum for support: https://forums.solydxk.com"
 msgstr ""
 
-#: usr/lib/solydxk/welcome/welcome.py:269
+#: usr/lib/solydxk/welcome/welcome.py:267
+msgid ""
+"Could not get lock /var/lib/dpkg/lock\n"
+"Is another process using it?"
+msgstr ""
+
+#: usr/lib/solydxk/welcome/welcome.py:272
 msgid "The software has been successfully installed."
 msgstr ""
 

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-30 09:28+0200\n"
+"POT-Creation-Date: 2023-05-10 11:53+0200\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
 "Last-Translator: Moo, 2023\n"
 "Language-Team: Lithuanian (http://app.transifex.com/abalfoort/solydxk-"
@@ -130,7 +130,15 @@ msgstr ""
 "Norėdami gauti palaikymą, apsilankykite mūsų forume: https://forums.solydxk."
 "com"
 
-#: usr/lib/solydxk/welcome/welcome.py:269
+#: usr/lib/solydxk/welcome/welcome.py:267
+msgid ""
+"Could not get lock /var/lib/dpkg/lock\n"
+"Is another process using it?"
+msgstr ""
+"Nepavyko gauti /var/lib/dpkg/lock užrakto\n"
+"Ar jį naudoja kitas procesas?"
+
+#: usr/lib/solydxk/welcome/welcome.py:272
 msgid "The software has been successfully installed."
 msgstr "Programinė įranga buvo sėkmingai įdiegta."
 

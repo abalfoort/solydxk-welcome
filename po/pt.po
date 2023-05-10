@@ -6,15 +6,16 @@
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2022
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2017-2019
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2016-2017
-# Luis Filipe Teixeira <lufilte@gmail.com>, 2015-2020,2022
+# Luis Filipe Teixeira <lufilte@gmail.com>, 2015-2020,2022-2023
 # 25dcf36596cc573910517485ce7471d2_e63d9c6 <02fb85a8c2ff1359b9784c1b22793096_365094>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-14 08:08+0200\n"
+"POT-Creation-Date: 2023-05-10 11:53+0200\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
-"Last-Translator: Luis Filipe Teixeira <lufilte@gmail.com>, 2015-2020,2022\n"
+"Last-Translator: Luis Filipe Teixeira <lufilte@gmail.com>, "
+"2015-2020,2022-2023\n"
 "Language-Team: Portuguese (http://app.transifex.com/abalfoort/solydxk-"
 "welcome/language/pt/)\n"
 "Language: pt\n"
@@ -52,7 +53,7 @@ msgid ""
 "Please submit a bug report!"
 msgstr ""
 "O Bem-vindo do SolydXK falhou com o seguinte erro inesperado.\n"
-"Por favor envie um relatório de erro!"
+"Por favor, envie um relatório de erro!"
 
 #: usr/lib/solydxk/welcome/welcome.py:73
 msgid "Install"
@@ -128,7 +129,15 @@ msgstr ""
 "Por favor, execute 'sudo apt-get -f install' num terminal.\n"
 "Ou Visite o nosso fórum para suporte: https://forums.solydxk.com "
 
-#: usr/lib/solydxk/welcome/welcome.py:269
+#: usr/lib/solydxk/welcome/welcome.py:267
+msgid ""
+"Could not get lock /var/lib/dpkg/lock\n"
+"Is another process using it?"
+msgstr ""
+"Não é possível obter o bloqueio /var/lib/dpkg/lock\n"
+"Há outro processo a usá-lo?"
+
+#: usr/lib/solydxk/welcome/welcome.py:272
 msgid "The software has been successfully installed."
 msgstr "O software foi instalado com sucesso."
 
@@ -272,6 +281,8 @@ msgid ""
 "Lutris is an open gaming platform for Linux. Lutris helps you install and "
 "play video games from all eras and from most gaming systems."
 msgstr ""
+"Lutris é uma plataforma aberta de jogos para Linux. Lutris ajuda a instalar "
+"e jogar jogos de vídeo de todas as épocas e da maioria dos sistemas de jogos."
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:37-7
 msgid ""
