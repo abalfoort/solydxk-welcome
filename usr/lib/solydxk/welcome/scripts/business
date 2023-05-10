@@ -2,6 +2,10 @@
 
 # Possible arguments: gnucash, postbooks, projectlibre
 
+if [ ! -z "$(lsof /var/lib/dpkg/lock 2>/dev/null | grep '/var/lib/dpkg/lock')" ]; then
+    exit 100
+fi
+
 LOG="$PWD/business.log"
 
 DB=false

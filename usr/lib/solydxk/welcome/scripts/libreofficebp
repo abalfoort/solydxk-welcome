@@ -1,5 +1,9 @@
 #!/bin/bash
 
+if [ ! -z "$(lsof /var/lib/dpkg/lock 2>/dev/null | grep '/var/lib/dpkg/lock')" ]; then
+    exit 100
+fi
+
 # Possible arguments: libreoffice
 
 if [ $# -gt 0 ]; then

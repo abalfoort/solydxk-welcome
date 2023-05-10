@@ -2,6 +2,10 @@
 
 # Possible arguments: lutris, steam, minetest, 0ad, wesnoth, sauerbraten, neverball, supertuxkart
 
+if [ ! -z "$(lsof /var/lib/dpkg/lock 2>/dev/null | grep '/var/lib/dpkg/lock')" ]; then
+    exit 100
+fi
+
 APTUPD=false
 
 if [ $# -gt 0 ]; then
@@ -76,3 +80,5 @@ while IFS=' ' read -ra PS; do
   done
 done <<< "$PCK"
 echo "Done"
+exit 0
+

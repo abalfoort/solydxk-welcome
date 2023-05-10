@@ -263,6 +263,9 @@ class SolydXKWelcome(object):
                     "Visit our forum for support: https://forums.solydxk.com")
             if int(cmdOutput) != 255:
                 if int(cmdOutput) > 0:
+                    if int(cmdOutput) == 100:
+                        msg = _("Could not get lock /var/lib/dpkg/lock\n"
+                                "Is another process using it?")
                     # There was an error
                     ErrorDialog(self.btnInstall.get_label(), msg)
                 elif not onlyOnError:
