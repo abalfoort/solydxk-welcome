@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-10 11:53+0200\n"
+"POT-Creation-Date: 2023-05-17 10:45+0200\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
 "Last-Translator: Luis Filipe Teixeira <lufilte@gmail.com>, "
 "2015-2020,2022-2023\n"
@@ -648,6 +648,9 @@ msgstr ""
 "com/feed</a>"
 
 #: po/en/wine.html%2Bhtml.body.h1:11-2
+msgid "Wine / PlayOnLinux"
+msgstr ""
+
 #: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
 msgid ""
 "SolydXK comes with a wide variety of software. However, if you cannot find "

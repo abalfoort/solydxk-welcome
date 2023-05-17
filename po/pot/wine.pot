@@ -1,4 +1,7 @@
 #: ./po/en/wine.html%2Bhtml.body.h1:11-2
+msgid "Wine / PlayOnLinux"
+msgstr ""
+
 
 
 #: ./po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
