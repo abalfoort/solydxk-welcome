@@ -1,3 +1,9 @@
+solydxk-welcome (2.1.6) stable; urgency=low
+
+  * Updated translation: ca
+
+ -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sat, 03 Jun 2023 06:57:39 +0200
+
 solydxk-welcome (2.1.5) stable; urgency=low
 
   * Change Wine/PlayOnLinux title
