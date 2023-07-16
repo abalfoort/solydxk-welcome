@@ -3,16 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2022
+# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2023
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2018-2019
+# Tony Albers, 2021
 # Tony Albers, 2018-2019
 msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-17 10:45+0200\n"
+"POT-Creation-Date: 2023-06-03 06:58+0200\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
-"Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2022\n"
+"Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2023\n"
 "Language-Team: Danish (http://app.transifex.com/abalfoort/solydxk-welcome/"
 "language/da/)\n"
 "Language: da\n"
@@ -97,16 +98,16 @@ msgstr ""
 
 #: usr/lib/solydxk/welcome/welcome.py:173
 msgid "No internet connection"
-msgstr "Ingen internetforbindelse"
+msgstr "Ingen forbindelse til internettet"
 
 #: usr/lib/solydxk/welcome/welcome.py:174
 msgid ""
 "You need an internet connection to install the additional software.\n"
 "Please, connect to the internet and try again."
 msgstr ""
-"Forbindelse til internettet er påkrævet for at kunne installere yderligere "
+"Du skal være forbundet til internettet for at kunne installere yderligere "
 "programmer.\n"
-"Forbind venligst til internettet og forsøg igen."
+"Opret venligst forbindelse til internettet og prøv igen."
 
 #: usr/lib/solydxk/welcome/welcome.py:196
 msgid ""

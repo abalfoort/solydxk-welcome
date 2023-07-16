@@ -3,19 +3,20 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2022
+# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2023
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2017-2019
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2016-2017
-# Davide Favaro <belzebu87@gmail.com>, 2015,2017
-# Franco Frolloni <franco@frolloni.eu>, 2020
+# Davide Favaro <belzebu87@gmail.com>, 2015,2017,2021
+# Franco Frolloni <franco@frolloni.eu>, 2020-2021
 # Franco Frolloni <franco@frolloni.eu>, 2019
+# Moo, 2023
 msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-17 10:45+0200\n"
+"POT-Creation-Date: 2023-06-03 06:58+0200\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
-"Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2022\n"
+"Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2023\n"
 "Language-Team: Italian (http://app.transifex.com/abalfoort/solydxk-welcome/"
 "language/it/)\n"
 "Language: it\n"
@@ -45,7 +46,7 @@ msgstr ""
 
 #: usr/lib/solydxk/welcome/main.py:104
 msgid "Unexpected error"
-msgstr "Errore inaspettato"
+msgstr "Errore inatteso"
 
 #: usr/lib/solydxk/welcome/main.py:105
 msgid ""
@@ -101,16 +102,16 @@ msgstr ""
 
 #: usr/lib/solydxk/welcome/welcome.py:173
 msgid "No internet connection"
-msgstr "Connessione internet assente"
+msgstr "Nessuna connessione internet"
 
 #: usr/lib/solydxk/welcome/welcome.py:174
 msgid ""
 "You need an internet connection to install the additional software.\n"
 "Please, connect to the internet and try again."
 msgstr ""
-"È necessaria una connessione ad internet per installare software "
-"aggiuntivo.\n"
-"Si prega di connettersi ad internet e provare di nuovo."
+"È necessaria una connessione ad internet per installare pacchetti "
+"aggiuntivi.\n"
+"Si prega di connettersi ad internet e riprovare."
 
 #: usr/lib/solydxk/welcome/welcome.py:196
 msgid ""
@@ -639,7 +640,7 @@ msgstr ""
 
 #: po/en/wine.html%2Bhtml.body.h1:11-2
 msgid "Wine / PlayOnLinux"
-msgstr ""
+msgstr "Wine / PlayOnLinux"
 
 #: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
 msgid ""

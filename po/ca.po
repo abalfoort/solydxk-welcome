@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2022
+# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2023
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2017-2019
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2016-2017
 # Eduard Selma <selma@tinet.cat>, 2015,2018-2019,2021-2023
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-03 06:58+0200\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
-"Last-Translator: Eduard Selma <selma@tinet.cat>, 2015,2018-2019,2021-2023\n"
+"Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2023\n"
 "Language-Team: Catalan (http://app.transifex.com/abalfoort/solydxk-welcome/"
 "language/ca/)\n"
 "Language: ca\n"
@@ -42,7 +42,7 @@ msgstr ""
 
 #: usr/lib/solydxk/welcome/main.py:104
 msgid "Unexpected error"
-msgstr "Error inesperat"
+msgstr "Error inesperat "
 
 #: usr/lib/solydxk/welcome/main.py:105
 msgid ""
@@ -54,7 +54,7 @@ msgstr ""
 
 #: usr/lib/solydxk/welcome/welcome.py:73
 msgid "Install"
-msgstr "Instal·la"
+msgstr "Instal·la "
 
 #: usr/lib/solydxk/welcome/welcome.py:74
 msgid "Quit"
@@ -98,15 +98,15 @@ msgstr ""
 
 #: usr/lib/solydxk/welcome/welcome.py:173
 msgid "No internet connection"
-msgstr "Sense connexió a internet"
+msgstr "No hi ha connexió a Internet "
 
 #: usr/lib/solydxk/welcome/welcome.py:174
 msgid ""
 "You need an internet connection to install the additional software.\n"
 "Please, connect to the internet and try again."
 msgstr ""
-"Cal una connexió a Internet per instal·lar programari addicional.\n"
-"Si us plau, connecteu-vos a Internet i torneu-ho a provar."
+"Cal una connexió a Internet per instal·lar el programari addicional.\n"
+"Si us plau, connecteu-vos a Internet i torneu a provar-ho."
 
 #: usr/lib/solydxk/welcome/welcome.py:196
 msgid ""
@@ -639,7 +639,7 @@ msgstr ""
 
 #: po/en/wine.html%2Bhtml.body.h1:11-2
 msgid "Wine / PlayOnLinux"
-msgstr ""
+msgstr "Wine / PlayOnLinux"
 
 #: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
 msgid ""

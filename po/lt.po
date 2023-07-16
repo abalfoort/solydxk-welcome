@@ -3,16 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2022
+# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2023
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2017-2019
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2016-2017
+# Moo, 2023
 # Moo, 2016-2021,2023
 # Moo, 2023
 msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-17 10:45+0200\n"
+"POT-Creation-Date: 2023-06-03 06:58+0200\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
 "Last-Translator: Moo, 2023\n"
 "Language-Team: Lithuanian (http://app.transifex.com/abalfoort/solydxk-"
@@ -108,7 +109,8 @@ msgid ""
 "You need an internet connection to install the additional software.\n"
 "Please, connect to the internet and try again."
 msgstr ""
-"Norint įdiegti papildomą programinę įrangą, reikalingas interneto ryšys.\n"
+"Norėdami įdiegti papildomą programinę įrangą, turite prisijungti prie "
+"interneto.\n"
 "Prašome prisijungti prie interneto ir bandyti vėl."
 
 #: usr/lib/solydxk/welcome/welcome.py:196
@@ -650,7 +652,7 @@ msgstr ""
 
 #: po/en/wine.html%2Bhtml.body.h1:11-2
 msgid "Wine / PlayOnLinux"
-msgstr ""
+msgstr "Wine / PlayOnLinux"
 
 #: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
 msgid ""

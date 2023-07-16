@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2022
+# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2018,2021-2023
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2017-2019
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2016-2017
 # Luis Filipe Teixeira <lufilte@gmail.com>, 2015-2020,2022-2023
@@ -12,10 +12,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-17 10:45+0200\n"
+"POT-Creation-Date: 2023-06-03 06:58+0200\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
-"Last-Translator: Luis Filipe Teixeira <lufilte@gmail.com>, "
-"2015-2020,2022-2023\n"
+"Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, 2018,2021-2023\n"
 "Language-Team: Portuguese (http://app.transifex.com/abalfoort/solydxk-"
 "welcome/language/pt/)\n"
 "Language: pt\n"
@@ -65,7 +64,7 @@ msgstr "Sair"
 
 #: usr/lib/solydxk/welcome/welcome.py:75
 msgid "Next"
-msgstr "Seguinte"
+msgstr "Próximo"
 
 #: usr/lib/solydxk/welcome/welcome.py:76
 msgid "Previous"
@@ -84,8 +83,6 @@ msgid ""
 "Nothing to do:\n"
 "No packages were selected."
 msgstr ""
-"Nada a fazer:\n"
-"Nenhum pacote foi selecionado."
 
 #: usr/lib/solydxk/welcome/welcome.py:161
 msgid ""
@@ -101,23 +98,23 @@ msgstr ""
 
 #: usr/lib/solydxk/welcome/welcome.py:173
 msgid "No internet connection"
-msgstr "Sem ligação à Internet"
+msgstr "Sem conexão com a Internet"
 
 #: usr/lib/solydxk/welcome/welcome.py:174
 msgid ""
 "You need an internet connection to install the additional software.\n"
 "Please, connect to the internet and try again."
 msgstr ""
-"Vai precisar de uma ligação à Internet para instalar o software adicional.\n"
-"Por favor, ligue a Internet e tente novamente."
+"Necessita de uma conexão à Internet para instalar o “software” adicional.\n"
+"Por favor, conecte-se à Internet e tente novamente."
 
 #: usr/lib/solydxk/welcome/welcome.py:196
 msgid ""
 "Cannot install the requested software:\n"
 "Script not found: {}"
 msgstr ""
-"Não é possível instalar o software solicitado:\n"
-"O script não foi encontrado: {}"
+"Não foi possível instalar o aplicativo solicitado:\n"
+"Script não encontrado: {}"
 
 #: usr/lib/solydxk/welcome/welcome.py:261
 msgid ""
@@ -139,13 +136,13 @@ msgstr ""
 
 #: usr/lib/solydxk/welcome/welcome.py:272
 msgid "The software has been successfully installed."
-msgstr "O software foi instalado com sucesso."
+msgstr "O aplicativo foi instalado com sucesso."
 
 #: usr/share/applications/solydxk-welcome.desktop.in.h:1
 #: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:1
 #: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:1
 msgid "Welcome"
-msgstr "Bem-vindo"
+msgstr "Bem vindo"
 
 #: etc/xdg/autostart/solydxk-welcome.desktop.in.h:2
 msgid "SolydXK Welcome Screen"
@@ -610,7 +607,7 @@ msgstr ""
 
 #: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.img[alt]:23-22
 msgid "softwaremanager"
-msgstr "gestordesoftware"
+msgstr ""
 
 #: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:28-25
 msgid "Support"
@@ -649,7 +646,7 @@ msgstr ""
 
 #: po/en/wine.html%2Bhtml.body.h1:11-2
 msgid "Wine / PlayOnLinux"
-msgstr ""
+msgstr "Wine / PlayOnLinux"
 
 #: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
 msgid ""

@@ -4,18 +4,21 @@
 #
 # Translators:
 # anechampenois <analogic@zaclys.net>, 2018-2020
-# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2022
+# anechampenois <analogic@zaclys.net>, 2021
+# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2023
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2017-2019
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2016-2017
+# Gaïus Baltar <ichbin1199@gmail.com>, 2021
 # anechampenois <analogic@zaclys.net>, 2015
+# Kyodev, 2021
 # Kyodev, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-17 10:45+0200\n"
+"POT-Creation-Date: 2023-06-03 06:58+0200\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
-"Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2022\n"
+"Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2023\n"
 "Language-Team: French (http://app.transifex.com/abalfoort/solydxk-welcome/"
 "language/fr/)\n"
 "Language: fr\n"
@@ -44,7 +47,7 @@ msgstr ""
 
 #: usr/lib/solydxk/welcome/main.py:104
 msgid "Unexpected error"
-msgstr "Erreur inattendue "
+msgstr "Erreur inattendue"
 
 #: usr/lib/solydxk/welcome/main.py:105
 msgid ""
@@ -56,7 +59,7 @@ msgstr ""
 
 #: usr/lib/solydxk/welcome/welcome.py:73
 msgid "Install"
-msgstr "Installation"
+msgstr "Installation "
 
 #: usr/lib/solydxk/welcome/welcome.py:74
 msgid "Quit"
@@ -107,8 +110,9 @@ msgid ""
 "You need an internet connection to install the additional software.\n"
 "Please, connect to the internet and try again."
 msgstr ""
-"Une connexion internet est indispensable pour installer ces logiciels.\n"
-"Merci de vous connecter et de réessayer ensuite."
+"Une connexion internet est nécessaire pour installer un programme "
+"supplémentaire.\n"
+"Merci de vous connecter et de réessayer."
 
 #: usr/lib/solydxk/welcome/welcome.py:196
 msgid ""

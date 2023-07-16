@@ -3,20 +3,23 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2022
+# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2023
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2017-2019
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2016-2017
 # ilu lu, 2022
+# ilu lu, 2022
 # ilu lu, 2015
+# pitfd, 2021
 # pitfd, 2017
 # pitfd, 2018-2020
+# Werner Jud, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-17 10:45+0200\n"
+"POT-Creation-Date: 2023-06-03 06:58+0200\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
-"Last-Translator: ilu lu, 2022\n"
+"Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2023\n"
 "Language-Team: German (http://app.transifex.com/abalfoort/solydxk-welcome/"
 "language/de/)\n"
 "Language: de\n"
@@ -56,7 +59,7 @@ msgstr ""
 
 #: usr/lib/solydxk/welcome/welcome.py:73
 msgid "Install"
-msgstr "Installiere"
+msgstr "Installieren"
 
 #: usr/lib/solydxk/welcome/welcome.py:74
 msgid "Quit"
@@ -100,15 +103,16 @@ msgstr ""
 
 #: usr/lib/solydxk/welcome/welcome.py:173
 msgid "No internet connection"
-msgstr "Keine Internet Verbindung"
+msgstr "Keine Internetverbindung"
 
 #: usr/lib/solydxk/welcome/welcome.py:174
 msgid ""
 "You need an internet connection to install the additional software.\n"
 "Please, connect to the internet and try again."
 msgstr ""
-"Zusätzliche Software kann nur mit Internet-Verbindung installiert werden.\n"
-"Bitte mit dem Internet verbinden und erneut versuchen."
+"Zum Installieren der zusätzlichen Software wird eine Internetverbindung "
+"benötigt.\n"
+"Bitte verbinden und noch einmal versuchen."
 
 #: usr/lib/solydxk/welcome/welcome.py:196
 msgid ""
@@ -645,7 +649,7 @@ msgstr ""
 
 #: po/en/wine.html%2Bhtml.body.h1:11-2
 msgid "Wine / PlayOnLinux"
-msgstr ""
+msgstr "Wine / PlayOnLinux"
 
 #: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
 msgid ""
