@@ -5,15 +5,16 @@
 # Translators:
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2023
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2017-2019
+# ilu lu, 2023
 # Slobodan Simić <slsimic@gmail.com>, 2017,2019-2023
 # Slobodan Simić <slsimic@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-03 06:58+0200\n"
+"POT-Creation-Date: 2023-07-14 08:23+0200\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
-"Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2023\n"
+"Last-Translator: ilu lu, 2023\n"
 "Language-Team: Serbian (http://app.transifex.com/abalfoort/solydxk-welcome/"
 "language/sr/)\n"
 "Language: sr\n"
@@ -131,6 +132,8 @@ msgid ""
 "Could not get lock /var/lib/dpkg/lock\n"
 "Is another process using it?"
 msgstr ""
+"Није могуће закључати /var/lib/dpkg/lock\n"
+"Да ли га користи други процес?"
 
 #: usr/lib/solydxk/welcome/welcome.py:272
 msgid "The software has been successfully installed."
@@ -303,6 +306,8 @@ msgid ""
 "Backports are recompiled new packages for the current stable environment. "
 "So, they will run without new libraries."
 msgstr ""
+"Бекпортови су поново пресађени нови пакети за тренутно стабилно окружење. "
+"Дакле , трчаће без нових библиотека."
 
 #: po/en/libreofficebp.html%2Bhtml.body.div.div.form.table.tr.td.p:22-7
 msgid ""

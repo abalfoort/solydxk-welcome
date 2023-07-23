@@ -5,6 +5,7 @@
 # Translators:
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2023
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2017-2019
+# ilu lu, 2023
 # ilu lu, 2017
 # juan jose borges <juanborgesprivado@gmail.com>, 2017
 # Vibo Lavida <vibo@firemail.cc>, 2020-2021
@@ -12,9 +13,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-03 06:58+0200\n"
+"POT-Creation-Date: 2023-07-14 08:23+0200\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
-"Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2023\n"
+"Last-Translator: ilu lu, 2023\n"
 "Language-Team: Spanish (http://app.transifex.com/abalfoort/solydxk-welcome/"
 "language/es/)\n"
 "Language: es\n"
@@ -133,6 +134,8 @@ msgid ""
 "Could not get lock /var/lib/dpkg/lock\n"
 "Is another process using it?"
 msgstr ""
+"No se ha podido obtener el bloqueo /var/lib/dpkg/lock\n"
+"¿Lo está utilizando otro proceso?"
 
 #: usr/lib/solydxk/welcome/welcome.py:272
 msgid "The software has been successfully installed."
@@ -279,6 +282,9 @@ msgid ""
 "Lutris is an open gaming platform for Linux. Lutris helps you install and "
 "play video games from all eras and from most gaming systems."
 msgstr ""
+"Lutris es una plataforma de juegos abierta para Linux. Lutris te ayuda a "
+"instalar y jugar a videojuegos de todas las épocas y de la mayoría de los "
+"sistemas de juego."
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:37-7
 msgid ""

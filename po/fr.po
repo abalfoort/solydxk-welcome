@@ -9,6 +9,7 @@
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2017-2019
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2016-2017
 # Gaïus Baltar <ichbin1199@gmail.com>, 2021
+# ilu lu, 2023
 # anechampenois <analogic@zaclys.net>, 2015
 # Kyodev, 2021
 # Kyodev, 2018
@@ -16,9 +17,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-03 06:58+0200\n"
+"POT-Creation-Date: 2023-07-14 08:23+0200\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
-"Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2023\n"
+"Last-Translator: ilu lu, 2023\n"
 "Language-Team: French (http://app.transifex.com/abalfoort/solydxk-welcome/"
 "language/fr/)\n"
 "Language: fr\n"
@@ -137,6 +138,8 @@ msgid ""
 "Could not get lock /var/lib/dpkg/lock\n"
 "Is another process using it?"
 msgstr ""
+"Impossible d'obtenir le verrou /var/lib/dpkg/lock\n"
+"Un autre processus l'utilise-t-il ?"
 
 #: usr/lib/solydxk/welcome/welcome.py:272
 msgid "The software has been successfully installed."
@@ -283,6 +286,9 @@ msgid ""
 "Lutris is an open gaming platform for Linux. Lutris helps you install and "
 "play video games from all eras and from most gaming systems."
 msgstr ""
+"Lutris est une plateforme de jeu ouverte pour Linux. Lutris vous permet "
+"d'installer et de jouer à des jeux vidéo de toutes les époques et de la "
+"plupart des systèmes de jeu."
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:37-7
 msgid ""
@@ -336,10 +342,13 @@ msgid ""
 "SolydXK comes with a minimal LibreOffice suite pre-installed. However, if "
 "you are missing some additional packages, you can install them here."
 msgstr ""
+"SolydXK est livré avec une suite LibreOffice minimale préinstallée. "
+"Cependant, s'il vous manque des paquets supplémentaires, vous pouvez les "
+"installer ici."
 
 #: po/en/multimedia.html%2Bhtml.body.h1:11-2
 msgid "Multimedia applications"
-msgstr ""
+msgstr "Applications multimédias"
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
 msgid "This is a list of recommended applications suited for home users."
@@ -471,6 +480,8 @@ msgid ""
 "ClamAV is an open source antivirus engine for detecting trojans, viruses, "
 "malware & other malicious threats."
 msgstr ""
+"ClamAV est un moteur antivirus libre qui détecte les trojans, les virus, les "
+"logiciels malveillants et d'autres menaces malveillantes."
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
 msgid ""
@@ -505,6 +516,11 @@ msgid ""
 "Controller (DC) or as a domain member. It supports both Active Directory and "
 "Microsoft Windows NT domains."
 msgstr ""
+"Samba fournit des services de fichiers et d'impression à divers clients "
+"Microsoft Windows et peut s'intégrer à un domaine Microsoft Windows Server, "
+"soit en tant que contrôleur de domaine (DC), soit en tant que membre de "
+"domaine. Il prend en charge les domaines Active Directory et Microsoft "
+"Windows NT."
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:58-7
 msgid ""
@@ -643,7 +659,7 @@ msgstr ""
 
 #: po/en/wine.html%2Bhtml.body.h1:11-2
 msgid "Wine / PlayOnLinux"
-msgstr ""
+msgstr "Wine / PlayOnLinux"
 
 #: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
 msgid ""

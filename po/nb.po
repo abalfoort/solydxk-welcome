@@ -7,13 +7,14 @@
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2023
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2017-2019
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2016-2017
+# ilu lu, 2023
 msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-03 06:58+0200\n"
+"POT-Creation-Date: 2023-07-14 08:23+0200\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
-"Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2023\n"
+"Last-Translator: ilu lu, 2023\n"
 "Language-Team: Norwegian Bokmål (http://app.transifex.com/abalfoort/solydxk-"
 "welcome/language/nb/)\n"
 "Language: nb\n"
@@ -73,12 +74,16 @@ msgid ""
 "VirtualBox cannot be installed in a VirtualBox client.\n"
 "This package is skipped."
 msgstr ""
+"VirtualBox kan ikke installeres i en VirtualBox-klient.\n"
+"Denne pakken er hoppet over."
 
 #: usr/lib/solydxk/welcome/welcome.py:146
 msgid ""
 "Nothing to do:\n"
 "No packages were selected."
 msgstr ""
+"Ingenting å gjøre:\n"
+"Ingen pakker ble valgt."
 
 #: usr/lib/solydxk/welcome/welcome.py:161
 msgid ""
@@ -87,6 +92,10 @@ msgid ""
 "Do you want to install them now?\n"
 "Note: list is cleared if you continue without installing."
 msgstr ""
+"Du har valgt noen pakker for installasjon.\n"
+"\n"
+"Vil du installere dem nå?\n"
+"Merk: Listen slettes hvis du fortsetter uten å installere."
 
 #: usr/lib/solydxk/welcome/welcome.py:173
 msgid "No internet connection"
@@ -123,6 +132,8 @@ msgid ""
 "Could not get lock /var/lib/dpkg/lock\n"
 "Is another process using it?"
 msgstr ""
+"Kunne ikke få lås /var/lib/dpkg/lock\n"
+"Er det en annen prosess som bruker den?"
 
 #: usr/lib/solydxk/welcome/welcome.py:272
 msgid "The software has been successfully installed."
@@ -169,36 +180,40 @@ msgid ""
 "Open source ERP for sales, accounting, operations and CRM in a single system "
 "(accounting, sales, CRM, purchasing, etc.)."
 msgstr ""
+"Open source ERP for salg, regnskap, drift og CRM i ett og samme system "
+"(regnskap, salg, CRM, innkjøp osv.)."
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:38-7
 msgid "Use this information to start PostBooks:"
-msgstr ""
+msgstr "Bruk denne informasjonen til å starte PostBooks:"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:40-9
 msgid "Username: admin"
-msgstr ""
+msgstr "Username: admin"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:41-9
 msgid "Password: solydxk"
-msgstr ""
+msgstr "Password: solydxk"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:42-9
 msgid "Server: localhost"
-msgstr ""
+msgstr "Server: localhost"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:43-9
 msgid "Port: 5432"
-msgstr ""
+msgstr "Port: 5432"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:44-9
 msgid "Database: demo, quickstart or empty"
-msgstr ""
+msgstr "Database: demo, quickstart eller empty"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:46-8
 msgid ""
 "You can maintain the PostgreSql databases with pgAdmin III (Login: "
 "postgres / solydxk)"
 msgstr ""
+"Du kan vedlikeholde PostgreSql-databaser med pgAdmin III (Login: postgres / "
+"solydxk)"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:56-7
 msgid ""
@@ -230,6 +245,11 @@ msgid ""
 "only need to select the recommended driver for your hardware and the "
 "application will do the rest."
 msgstr ""
+"Installasjonsknappen åpner programmet SolydXK Systeminnstillinger. Dette er "
+"et verktøy som hjelper deg med å installere disse maskinvaredriverne. Det "
+"sjekker maskinvaren din og lister opp alle tilgjengelige proprietære drivere "
+"du kan installere. Du trenger bare å velge den anbefalte driveren for din "
+"maskinvare, så gjør programmet resten."
 
 #: po/en/drivers.html%2Bhtml.body.div.div.p:16-4
 msgid ""
@@ -255,6 +275,9 @@ msgid ""
 "Lutris is an open gaming platform for Linux. Lutris helps you install and "
 "play video games from all eras and from most gaming systems."
 msgstr ""
+"Lutris er en åpen spillplattform for Linux. Lutris hjelper deg med å "
+"installere og spille videospill fra alle tidsepoker og fra de fleste "
+"spillsystemer."
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:37-7
 msgid ""
@@ -307,10 +330,12 @@ msgid ""
 "SolydXK comes with a minimal LibreOffice suite pre-installed. However, if "
 "you are missing some additional packages, you can install them here."
 msgstr ""
+"SolydXK leveres med en minimal LibreOffice-pakke forhåndsinstallert. Men "
+"hvis du mangler noen tilleggspakker, kan du installere dem her."
 
 #: po/en/multimedia.html%2Bhtml.body.h1:11-2
 msgid "Multimedia applications"
-msgstr ""
+msgstr "Multimedieprogrammer"
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
 msgid "This is a list of recommended applications suited for home users."
@@ -440,6 +465,8 @@ msgid ""
 "ClamAV is an open source antivirus engine for detecting trojans, viruses, "
 "malware & other malicious threats."
 msgstr ""
+"ClamAV er en antivirusmotor med åpen kildekode som oppdager trojanere, "
+"virus, skadevare og andre ondsinnede trusler."
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
 msgid ""
@@ -472,6 +499,10 @@ msgid ""
 "Controller (DC) or as a domain member. It supports both Active Directory and "
 "Microsoft Windows NT domains."
 msgstr ""
+"Samba tilbyr fil- og utskriftstjenester for ulike Microsoft Windows-klienter "
+"og kan integreres med et Microsoft Windows Server-domene, enten som "
+"domenekontroller (DC) eller som domenemedlem. Samba støtter både Active "
+"Directory- og Microsoft Windows NT-domener."
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:58-7
 msgid ""

@@ -9,14 +9,15 @@
 # Davide Favaro <belzebu87@gmail.com>, 2015,2017,2021
 # Franco Frolloni <franco@frolloni.eu>, 2020-2021
 # Franco Frolloni <franco@frolloni.eu>, 2019
+# ilu lu, 2023
 # Moo, 2023
 msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-03 06:58+0200\n"
+"POT-Creation-Date: 2023-07-14 08:23+0200\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
-"Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2023\n"
+"Last-Translator: ilu lu, 2023\n"
 "Language-Team: Italian (http://app.transifex.com/abalfoort/solydxk-welcome/"
 "language/it/)\n"
 "Language: it\n"
@@ -136,6 +137,8 @@ msgid ""
 "Could not get lock /var/lib/dpkg/lock\n"
 "Is another process using it?"
 msgstr ""
+"Impossibile ottenere il blocco /var/lib/dpkg/lock\n"
+"Un altro processo lo sta usando?"
 
 #: usr/lib/solydxk/welcome/welcome.py:272
 msgid "The software has been successfully installed."
@@ -280,6 +283,9 @@ msgid ""
 "Lutris is an open gaming platform for Linux. Lutris helps you install and "
 "play video games from all eras and from most gaming systems."
 msgstr ""
+"Lutris è una piattaforma di gioco aperta per Linux. Lutris aiuta a "
+"installare e giocare ai videogiochi di tutte le epoche e della maggior parte "
+"dei sistemi di gioco."
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:37-7
 msgid ""
@@ -334,10 +340,12 @@ msgid ""
 "SolydXK comes with a minimal LibreOffice suite pre-installed. However, if "
 "you are missing some additional packages, you can install them here."
 msgstr ""
+"SolydXK viene fornito con una suite minima di LibreOffice preinstallata. "
+"Tuttavia, se vi mancano alcuni pacchetti aggiuntivi, potete installarli qui."
 
 #: po/en/multimedia.html%2Bhtml.body.h1:11-2
 msgid "Multimedia applications"
-msgstr ""
+msgstr "Applicazioni multimediali"
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
 msgid "This is a list of recommended applications suited for home users."
@@ -472,6 +480,8 @@ msgid ""
 "ClamAV is an open source antivirus engine for detecting trojans, viruses, "
 "malware & other malicious threats."
 msgstr ""
+"ClamAV è un motore antivirus libero di rilevare trojan, virus, malware e "
+"altre minacce dannose."
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
 msgid ""
@@ -504,6 +514,10 @@ msgid ""
 "Controller (DC) or as a domain member. It supports both Active Directory and "
 "Microsoft Windows NT domains."
 msgstr ""
+"Samba fornisce servizi di file e stampa per vari clienti Microsoft Windows e "
+"può integrarsi con un Microsoft Windows Server domain, sia come Domain "
+"Controller (DC) che come membro del domain. Supporta sia Active Directory "
+"che i Microsoft Windows NT domain."
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:58-7
 msgid ""

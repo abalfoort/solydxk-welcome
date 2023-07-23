@@ -4,14 +4,15 @@
 #
 # Translators:
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2023
+# ilu lu, 2023
 # Sebastião Guerra <sebastiao.luiz.guerra@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-03 06:58+0200\n"
+"POT-Creation-Date: 2023-07-14 08:23+0200\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
-"Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, 2023\n"
+"Last-Translator: ilu lu, 2023\n"
 "Language-Team: Portuguese (Brazil) (http://app.transifex.com/abalfoort/"
 "solydxk-welcome/language/pt_BR/)\n"
 "Language: pt_BR\n"
@@ -80,6 +81,8 @@ msgid ""
 "Nothing to do:\n"
 "No packages were selected."
 msgstr ""
+"Nada a fazer:\n"
+"Nenhum pacote foi selecionado."
 
 #: usr/lib/solydxk/welcome/welcome.py:161
 msgid ""
@@ -604,7 +607,7 @@ msgstr ""
 
 #: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.img[alt]:23-22
 msgid "softwaremanager"
-msgstr ""
+msgstr "softwaremanager"
 
 #: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:28-25
 msgid "Support"

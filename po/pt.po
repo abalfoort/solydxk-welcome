@@ -6,15 +6,16 @@
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2018,2021-2023
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2017-2019
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2016-2017
+# ilu lu, 2023
 # Luis Filipe Teixeira <lufilte@gmail.com>, 2015-2020,2022-2023
 # 25dcf36596cc573910517485ce7471d2_e63d9c6 <02fb85a8c2ff1359b9784c1b22793096_365094>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-03 06:58+0200\n"
+"POT-Creation-Date: 2023-07-14 08:23+0200\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
-"Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, 2018,2021-2023\n"
+"Last-Translator: ilu lu, 2023\n"
 "Language-Team: Portuguese (http://app.transifex.com/abalfoort/solydxk-"
 "welcome/language/pt/)\n"
 "Language: pt\n"
@@ -83,6 +84,8 @@ msgid ""
 "Nothing to do:\n"
 "No packages were selected."
 msgstr ""
+"Não há nada a fazer:\n"
+"Não foi selecionado nenhum pacote."
 
 #: usr/lib/solydxk/welcome/welcome.py:161
 msgid ""
@@ -607,7 +610,7 @@ msgstr ""
 
 #: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.img[alt]:23-22
 msgid "softwaremanager"
-msgstr ""
+msgstr "softwaremanager"
 
 #: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:28-25
 msgid "Support"
