@@ -1,3 +1,9 @@
+solydxk-welcome (2.1.9) stable; urgency=low
+
+  * Add firewalld samba service when installing samba
+
+ -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Mon, 14 Aug 2023 09:38:41 +0200
+
 solydxk-welcome (2.1.8) stable; urgency=low
 
   * Updated translations: da, de, es, es_419, fr, it, nb, pt, pt_BR, sr, tr
