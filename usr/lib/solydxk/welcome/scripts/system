@@ -7,36 +7,36 @@ fi
 # Possible arguments: gparted, filezilla, virtualbox, clamav, samba, css
 
 if [ $# -gt 0 ]; then
-  for ARG in "$@"; do
-    #echo "$ARG"
-    if [ "$ARG" == 'gparted' ]; then
-      PCK='gparted'
-    fi
-    if [ "$ARG" == 'filezilla' ]; then
-      PCK="$PCK filezilla"
-    fi
-    if [ "$ARG" == 'virtualbox' ]; then
-      PCK="$PCK virtualbox"
-    fi
-    if [ "$ARG" == 'clamav' ]; then
-      PCK="$PCK clamav clamtk"
-    fi
-    if [ "$ARG" == 'samba' ]; then
-      PCK="$PCK samba winbind"
-    fi
-    if [ "$ARG" == 'css' ]; then
-      PCK="$PCK libdvdcss2"
-      if [ "$(uname -m)" == "x86_64" ]; then
-          PCK="$PCK w64codecs"
-      else
-          PCK="$PCK w32codecs"
-      fi
-    fi
-  done
+    for ARG in "$@"; do
+        #echo "$ARG"
+        if [ "$ARG" == 'gparted' ]; then
+            PCK='gparted'
+        fi
+        if [ "$ARG" == 'filezilla' ]; then
+            PCK="$PCK filezilla"
+        fi
+        if [ "$ARG" == 'virtualbox' ]; then
+            PCK="$PCK virtualbox"
+        fi
+        if [ "$ARG" == 'clamav' ]; then
+            PCK="$PCK clamav clamtk"
+        fi
+        if [ "$ARG" == 'samba' ]; then
+            PCK="$PCK samba winbind"
+        fi
+        if [ "$ARG" == 'css' ]; then
+            PCK="$PCK libdvdcss2"
+        if [ "$(uname -m)" == "x86_64" ]; then
+            PCK="$PCK w64codecs"
+        else
+            PCK="$PCK w32codecs"
+        fi
+        fi
+    done
 fi
 
 if [ -z "$PCK" ]; then
-  exit
+    exit
 fi
 
 # ===============================================================
@@ -45,7 +45,7 @@ fi
 FORCE='--force-yes'
 . /etc/lsb-release
 if [[ -z "$DISTRIB_RELEASE" ]] || [ "$DISTRIB_RELEASE" -gt 8 ]; then
-  FORCE='--allow-downgrades --allow-remove-essential --allow-change-held-packages'
+    FORCE='--allow-downgrades --allow-remove-essential --allow-change-held-packages'
 fi
 
 
@@ -70,9 +70,15 @@ fi
 export DEBIAN_FRONTEND=gnome
 echo
 while IFS=' ' read -ra PS; do
-  for P in "${PS[@]}"; do
-    echo "Start installing: $P"
-    apt-get install --assume-yes -o Dpkg::Options::=--force-confdef -o Dpkg::Options::=--force-confold $FORCE $P
-  done
+    for P in "${PS[@]}"; do
+        echo "Start installing: $P"
+        apt-get install --assume-yes -o Dpkg::Options::=--force-confdef -o Dpkg::Options::=--force-confold $FORCE $P
+    done
 done <<< "$PCK"
+
+if [[ "$PCK" == *samba* ]] && [ ! -z "$(which firewall-cmd)" ]; then
+    firewall-cmd -q --permanent --add-service=samba
+    firewall-cmd --reload
+fi
+
 echo "Done"
