@@ -3,25 +3,23 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2017-2018
-# Михаил Ильинский <mail@milinsky.com>, 2015
-# Михаил Ильинский <mail@milinsky.com>, 2016-2017
+# Михаил Ильинский (milinsky) <mail@milinsky.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-17 10:45+0200\n"
+"POT-Creation-Date: 2023-10-09 09:57+0200\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
-"Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, 2017-2018\n"
-"Language-Team: Russian (http://app.transifex.com/abalfoort/solydxk-welcome/"
-"language/ru/)\n"
-"Language: ru\n"
+"Last-Translator: Михаил Ильинский (milinsky) <mail@milinsky.com>, 2015\n"
+"Language-Team: Russian (Russia) (http://app.transifex.com/abalfoort/solydxk-"
+"welcome/language/ru_RU/)\n"
+"Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
-"%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #: usr/lib/solydxk/welcome/main.py:37
 #: usr/share/applications/solydxk-welcome.desktop.in.h:2
@@ -73,12 +71,16 @@ msgid ""
 "VirtualBox cannot be installed in a VirtualBox client.\n"
 "This package is skipped."
 msgstr ""
+"VirtualBox не может быть установлен в клиенте VirtualBox.\n"
+"Этот пакет пропускается."
 
 #: usr/lib/solydxk/welcome/welcome.py:146
 msgid ""
 "Nothing to do:\n"
 "No packages were selected."
 msgstr ""
+"Нечего делать:\n"
+"Пакеты не выбраны."
 
 #: usr/lib/solydxk/welcome/welcome.py:161
 msgid ""
@@ -87,6 +89,10 @@ msgid ""
 "Do you want to install them now?\n"
 "Note: list is cleared if you continue without installing."
 msgstr ""
+"Вы выбрали несколько пакетов для установки.\n"
+"\n"
+"Хотите установить их сейчас?\n"
+"Примечание: список очищается, если вы продолжите без установки."
 
 #: usr/lib/solydxk/welcome/welcome.py:173
 msgid "No internet connection"
@@ -123,6 +129,8 @@ msgid ""
 "Could not get lock /var/lib/dpkg/lock\n"
 "Is another process using it?"
 msgstr ""
+"Не удалось получить блокировку /var/lib/dpkg/lock\n"
+"Использует ли его другой процесс?"
 
 #: usr/lib/solydxk/welcome/welcome.py:272
 msgid "The software has been successfully installed."
@@ -168,36 +176,40 @@ msgid ""
 "Open source ERP for sales, accounting, operations and CRM in a single system "
 "(accounting, sales, CRM, purchasing, etc.)."
 msgstr ""
+"ERP с открытым исходным кодом для продаж, бухгалтерского учета, операций и "
+"CRM в единой системе(бухгалтерия, продажи, CRM, закупки и т. д.)."
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:38-7
 msgid "Use this information to start PostBooks:"
-msgstr ""
+msgstr "Используйте эту информацию для запуска PostBooks:"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:40-9
 msgid "Username: admin"
-msgstr ""
+msgstr "Имя пользователя: admin"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:41-9
 msgid "Password: solydxk"
-msgstr ""
+msgstr "Пароль: solydxk"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:42-9
 msgid "Server: localhost"
-msgstr ""
+msgstr "Сервер: localhost"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:43-9
 msgid "Port: 5432"
-msgstr ""
+msgstr "Порт: 5432"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:44-9
 msgid "Database: demo, quickstart or empty"
-msgstr ""
+msgstr "База данных: демо, быстрый старт или пустая"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:46-8
 msgid ""
 "You can maintain the PostgreSql databases with pgAdmin III (Login: "
 "postgres / solydxk)"
 msgstr ""
+"Вы можете поддерживать базы данных PostgreSql с помощью pgAdmin III (Login: "
+"postgres / solydxk)"
 
 #: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:56-7
 msgid ""
@@ -229,6 +241,12 @@ msgid ""
 "only need to select the recommended driver for your hardware and the "
 "application will do the rest."
 msgstr ""
+"Кнопка установки откроет приложение «Системные настройки SolydXK». Это "
+"инструмент, который поможет вам установить эти драйверы оборудования. Он "
+"проверит ваше оборудование и выдаст список всех доступных проприетарных "
+"драйверов, которые вы можете установить. Вам нужно только выбрать "
+"рекомендуемый драйвер для вашего оборудования, а приложение сделает все "
+"остальное."
 
 #: po/en/drivers.html%2Bhtml.body.div.div.p:16-4
 msgid ""
@@ -248,13 +266,16 @@ msgstr "Игры"
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
 msgid "All work and no play..."
-msgstr ""
+msgstr "Вся работа и никакой игры..."
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:25-7
 msgid ""
 "Lutris is an open gaming platform for Linux. Lutris helps you install and "
 "play video games from all eras and from most gaming systems."
 msgstr ""
+"Lutris — открытая игровая платформа для Linux. Lutris помогает вам "
+"устанавливать и играть в видеоигры всех эпох и для большинства игровых "
+"систем."
 
 #: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:37-7
 msgid ""
@@ -268,7 +289,7 @@ msgstr ""
 
 #: po/en/libreofficebp.html%2Bhtml.body.h1:11-2
 msgid "LibreOffice (Backports)"
-msgstr ""
+msgstr "LibreOffice (Backports)"
 
 #: po/en/libreofficebp.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
 msgid ""
@@ -277,36 +298,49 @@ msgid ""
 "if you are missing some features or you want LibreOffice to stay updated you "
 "can install LibreOffice from the backports repository."
 msgstr ""
+"SolydXK поставляется с предустановленным пакетом LibreOffice. Его "
+"стабильность и функции отлично подходят для большинства людей, особенно для "
+"бизнеса. Однако, если вам не хватает некоторых функций или вы хотите, чтобы "
+"LibreOffice постоянно обновлялся, вы можете установить LibreOffice из "
+"backports репозитория."
 
 #: po/en/libreofficebp.html%2Bhtml.body.div.div.form.table.tr.td.p:21-7
 msgid ""
 "Backports are recompiled new packages for the current stable environment. "
 "So, they will run without new libraries."
 msgstr ""
+"Backports — это перекомпилированные новые пакеты для текущей стабильной "
+"среды. Таким образом, они будут работать без новых библиотек."
 
 #: po/en/libreofficebp.html%2Bhtml.body.div.div.form.table.tr.td.p:22-7
 msgid ""
 "Although you can run more up to date software using the backports "
 "repository, you introduce a greater risk of breakage doing so."
 msgstr ""
+"Хотя вы можете запускать более современное программное обеспечение, "
+"используя backports репозиторий, при этом вы повышаете риск поломки."
 
 #: po/en/libreoffice.html%2Bhtml.body.h1:11-2
 msgid "LibreOffice"
-msgstr ""
+msgstr "LibreOffice"
 
 #: po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
 msgid ""
 "SolydXK comes with a minimal LibreOffice suite pre-installed. However, if "
 "you are missing some additional packages, you can install them here."
 msgstr ""
+"SolydXK поставляется с предустановленным минимальным пакетом LibreOffice. "
+"Однако, если вам не хватает некоторых дополнительных пакетов, вы можете "
+"установить их здесь."
 
 #: po/en/multimedia.html%2Bhtml.body.h1:11-2
 msgid "Multimedia applications"
-msgstr ""
+msgstr "Мультимедийные приложения"
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
 msgid "This is a list of recommended applications suited for home users."
 msgstr ""
+"Это список рекомендуемых приложений, подходящих для домашних пользователей."
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:25-7
 msgid ""
@@ -336,11 +370,17 @@ msgid ""
 "its use of Scalable Vector Graphics (SVG), an open XML-based W3C standard, "
 "as the native format."
 msgstr ""
+"Inkscape — это редактор векторной графики с открытым исходным кодом, "
+"аналогичный Adobe Illustrator, Corel Draw, Freehand или Xara X. Что отличает "
+"Inkscape, так это использование масштабируемой векторной графики (SVG), "
+"открытого стандарта W3C на основе XML, в качестве собственного формата."
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:46-7
 msgid ""
 "Shotwell is an image organizer designed to provide personal photo management."
 msgstr ""
+"Shotwell — это органайзер изображений, предназначенный для управления "
+"личными фотографиями."
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:47-7
 msgid ""
@@ -349,15 +389,22 @@ msgid ""
 "tagging. Its image editing features allow users to straighten, crop, "
 "eliminate red eye, and adjust levels and color balance."
 msgstr ""
+"Shotwell может импортировать фотографии и видео напрямую с цифровой камеры. "
+"Shotwell автоматически группирует фотографии и видео по дате и поддерживает "
+"тегирование. Его функции редактирования изображений позволяют пользователям "
+"выпрямлять, обрезать, устранять эффект красных глаз, а также регулировать "
+"уровни и цветовой баланс."
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:48-7
 msgid ""
 "For SolydK Digikam is installed. It has the same functionality as Shotwell"
 msgstr ""
+"В SolydK установлен Digikam . Он имеет ту же функциональность, что и Shotwell"
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:61-7
 msgid "Clementine is a modern music player and library organizer."
 msgstr ""
+"Clementine — современный музыкальный проигрыватель и организатор библиотеки."
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:62-7
 msgid ""
@@ -365,12 +412,17 @@ msgid ""
 "focusing on a fast and easy-to-use interface for searching and playing your "
 "music."
 msgstr ""
+"Clementine — мультиплатформенный музыкальный проигрыватель. Он создан на "
+"основе Amarok 1.4 и ориентирован на быстрый и простой в использовании "
+"интерфейс для поиска и воспроизведения музыки."
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:74-7
 msgid ""
 "HandBrake is a tool for converting video from nearly any format to a "
 "selection of modern, widely supported codecs."
 msgstr ""
+"HandBrake — это инструмент для конвертации видео практически из любого "
+"формата в набор современных, широко поддерживаемых кодеков."
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:84-7
 msgid ""
@@ -379,33 +431,43 @@ msgid ""
 "AC3, DTS, ALAC, MPC, Shorten, APE, SID, MOD, XM, S3M, etc...), and writes to "
 "Opus, Ogg Vorbis, FLAC, WAV, AAC, and MP3 files."
 msgstr ""
+"SoundConverter — ведущий конвертер аудиофайлов. Он читает все, что может "
+"прочитать GStreamer (Ogg Vorbis, AAC, MP3, FLAC, WAV, AVI, MPEG, MOV, M4A, "
+"AC3, DTS, ALAC, MPC, Shorten, APE, SID, MOD, XM, S3M, etc...), и записывает "
+"в файлы Opus, Ogg Vorbis, FLAC, WAV, AAC и MP3."
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:94-7
 msgid ""
 "Pitivi is a Free video editor with a beautiful and intuitive user interface, "
 "a clean codebase and a fantastic community."
 msgstr ""
+"Pitivi — бесплатный видеоредактор с красивым и интуитивно понятным "
+"пользовательским интерфейсом, чистым кодом и фантастическим сообществом."
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:95-7
 msgid ""
 "For SolydK Kdenlive is installed. It has the same functionality as Pitivi"
-msgstr ""
+msgstr "В SolydK установлен Kdenlive. Имеет тот же функционал, что и Pitivi"
 
 #: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:108-7
 msgid ""
 "Transmission is a BitTorrent client which features a simple interface on top "
 "of a cross-platform back-end."
 msgstr ""
+"Transmission — это BitTorrent-клиент с простым интерфейсом поверх кросс-"
+"платформенной серверной части."
 
 #: po/en/system.html%2Bhtml.body.h1:11-2
 msgid "System applications"
-msgstr ""
+msgstr "Системные приложения"
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
 msgid ""
 "ClamAV is an open source antivirus engine for detecting trojans, viruses, "
 "malware & other malicious threats."
 msgstr ""
+"ClamAV — это антивирусный механизм с открытым исходным кодом для обнаружения "
+"троянов, вирусов, вредоносных программ и других вредоносных угроз."
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
 msgid ""
@@ -415,6 +477,13 @@ msgid ""
 "allows additional guest operating systems, each known as a Guest OS, to load "
 "and run, each with its own virtual environment."
 msgstr ""
+"VirtualBox — это полноценный виртуализатор общего назначения для "
+"оборудования x86, предназначенный для использования на серверах, настольных "
+"компьютерах и встраиваемых системах. Пакет VirtualBox устанавливается в "
+"существующую операционную систему хоста как приложение; это хост-приложение "
+"позволяет загружать и запускать дополнительные гостевые операционные "
+"системы, каждая из которых называется гостевой ОС, каждая со своей "
+"собственной виртуальной средой."
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:36-7
 msgid ""
@@ -422,6 +491,9 @@ msgid ""
 "client with lots of useful features and an intuitive graphical user "
 "interface."
 msgstr ""
+"FileZilla Client — это быстрый и надежный кроссплатформенный клиент FTP, "
+"FTPS и SFTP с множеством полезных функций и интуитивно понятным графическим "
+"интерфейсом пользователя."
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:49-7
 msgid ""
@@ -430,42 +502,55 @@ msgid ""
 "Controller (DC) or as a domain member. It supports both Active Directory and "
 "Microsoft Windows NT domains."
 msgstr ""
+"Samba предоставляет службы файлов и печати для различных клиентов Microsoft "
+"Windows и может интегрироваться с доменом Microsoft Windows Server либо в "
+"качестве контроллера домена (DC), либо в качестве члена домена. Он "
+"поддерживает домены Active Directory и Microsoft Windows NT."
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:58-7
 msgid ""
 "Most commercial DVDs are encrypted with CSS (the Content Scramble System), "
 "which attempts to restrict the software that can play a DVD."
 msgstr ""
+"Большинство коммерческих DVD-дисков зашифрованы с помощью CSS (системы "
+"шифрования контента), которая пытается ограничить программное обеспечение, "
+"способное воспроизводить DVD."
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:59-7
 msgid ""
 "SolydXK does not come with the necessary packages pre-installed to play "
 "these encrypted DVDs."
 msgstr ""
+"SolydXK не поставляется с предустановленными пакетами, необходимыми для "
+"воспроизведения этих зашифрованных DVD."
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:60-7
 msgid ""
 "By clicking the install button below the following packages will be "
 "installed on your system:"
 msgstr ""
+"При нажатии кнопки установки ниже в вашу систему будут установлены следующие "
+"пакеты:"
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:62-8
 msgid "libdvdcss2"
-msgstr ""
+msgstr "libdvdcss2"
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:63-8
 msgid "w32codecs or w64codecs"
-msgstr ""
+msgstr "w32codecs или w64codecs"
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:70-8
 msgid "Legal warning:"
-msgstr ""
+msgstr "Юридическое предупреждение:"
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:71-8
 msgid ""
 "Check with your local laws to make sure usage of libdvdcss2 would be legal "
 "in your area."
 msgstr ""
+"Ознакомьтесь с местным законодательством, чтобы убедиться, что использование "
+"libdvdcss2 законно в вашем регионе."
 
 #: po/en/welcome.html%2Bhtml.body.h1:10-2
 msgid "Welcome to SolydXK"
@@ -481,20 +566,27 @@ msgid ""
 "organizations and home users. Both SolydX and SolydK are based on Debian "
 "stable to ensure the greatest stability and security."
 msgstr ""
+"SolydXK — это настольная операционная система с открытым исходным кодом для "
+"предприятий, организаций и домашних пользователей. И SolydX, и SolydK "
+"основаны на стабильной версии Debian, что обеспечивает максимальную "
+"стабильность и безопасность."
 
 #: po/en/welcome.html%2Bhtml.body.div.div.p:16-4
 msgid ""
 "We have created a list of recommended software for businesses and home users "
 "which you can install in the next couple of pages."
 msgstr ""
+"Мы создали список рекомендуемого программного обеспечения для бизнеса и "
+"домашних пользователей, которое вы можете установить на следующих нескольких "
+"страницах."
 
 #: po/en/welcome.html%2Bhtml.body.div.div.p:17-4
 msgid "Click on the <strong>Next</strong> button to get started."
-msgstr ""
+msgstr "Нажмите на кнопку <strong>Next</strong>, чтобы начать работу."
 
 #: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:20-25
 msgid "Software"
-msgstr ""
+msgstr "Программное обеспечение"
 
 #: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:22-10
 msgid ""
@@ -504,14 +596,21 @@ msgid ""
 "web sites. You simply search and install the software you need with the "
 "Software Manager."
 msgstr ""
+"Все программное обеспечение создается, поддерживается и проверяется "
+"сообществом. Базы данных программного обеспечения, называемые "
+"«репозиториями», используются для предложения и поддержки более 60 000 "
+"пакетов программного обеспечения. Таким образом, нет необходимости скачивать "
+"программное обеспечение с сомнительных сайтов. Вы просто ищете и "
+"устанавливаете необходимое программное обеспечение с помощью Менеджера "
+"программного обеспечения."
 
 #: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.img[alt]:23-22
 msgid "softwaremanager"
-msgstr ""
+msgstr "softwaremanager"
 
 #: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:28-25
 msgid "Support"
-msgstr ""
+msgstr "Поддержка"
 
 #: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:30-10
 msgid ""
@@ -519,26 +618,33 @@ msgid ""
 "community to help you solve your problem. You can search the forum to find "
 "if your issue has already been solved or start a new topic to get help."
 msgstr ""
+"Если вы новичок в SolydXK или когда-нибудь у вас возникнут проблемы, "
+"сообщество SolydXK поможет вам решить вашу проблему. Вы можете поискать на "
+"форуме, чтобы узнать, была ли ваша проблема уже решена, или создать новую "
+"тему, чтобы получить помощь."
 
 #: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.img[alt]:31-22
 msgid "forum"
-msgstr ""
+msgstr "Форум"
 
 #: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:38-7
 msgid ""
 "The following channels are used to communicate to the SolydX and SolydK "
 "users:"
 msgstr ""
+"Для связи с пользователями SolydX и SolydK используются следующие каналы:"
 
 #: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.ul.li:40-8
 msgid ""
 "RSS: <a href=\"https://solydxk.com/feed\" target=\"_blank\">https://solydxk."
 "com/feed</a>"
 msgstr ""
+"RSS: <a href=\"https://solydxk.com/feed\" target=\"_blank\">https://solydxk."
+"com/feed</a>"
 
 #: po/en/wine.html%2Bhtml.body.h1:11-2
 msgid "Wine / PlayOnLinux"
-msgstr ""
+msgstr "Wine / PlayOnLinux"
 
 #: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
 msgid ""
@@ -547,6 +653,12 @@ msgid ""
 "software, you can install it using PlayOnLinux. Not all software can run "
 "this way, but a large number of software is already supported."
 msgstr ""
+"SolydXK поставляется с широким набором программного обеспечения. Однако, "
+"если вы не можете найти подходящее программное обеспечение в нашем "
+"репозитории и вам необходимо использовать программное обеспечение MS "
+"Windows, вы можете установить его с помощью PlayOnLinux. Не все программное "
+"обеспечение может работать таким образом, но большое количество программного "
+"обеспечения уже поддерживается."
 
 #: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.div.p:22-8
 msgid ""
@@ -554,13 +666,21 @@ msgid ""
 "viruses and malware. The risk of infection is not higher than under native "
 "MS Windows."
 msgstr ""
+"Используя это программное обеспечение, вы можете сделать свою систему "
+"уязвимой для вирусов и вредоносных программ MS Windows. Риск заражения не "
+"выше, чем под родной MS Windows."
 
 #: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.div.p:23-8
 msgid "Make sure you install software from trusted parties only."
 msgstr ""
+"Убедитесь, что вы устанавливаете программное обеспечение только от "
+"доверенных лиц."
 
 #: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.div.p:24-8
 msgid ""
 "Read about the <a href=\"http://wiki.winehq.org/"
 "FAQ#head-1c91cac836dd52754c846d2ef62be4f346eebe87\">risk on using Wine</a>"
 msgstr ""
+"Прочтите здесь <a href=\"http://wiki.winehq.org/"
+"FAQ#head-1c91cac836dd52754c846d2ef62be4f346eebe87\">о риске при "
+"использовании Wine</a>"
