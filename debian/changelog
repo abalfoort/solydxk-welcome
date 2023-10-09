@@ -1,3 +1,9 @@
+solydxk-welcome (2.2.0) stable; urgency=low
+
+  * New translation: ru
+
+ -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Mon, 09 Oct 2023 09:54:37 +0200
+
 solydxk-welcome (2.1.9) stable; urgency=low
 
   * Add firewalld samba service when installing samba
