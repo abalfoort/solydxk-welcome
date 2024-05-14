@@ -56,6 +56,9 @@ class SolydXKWelcome(object):
         self.scriptDir = abspath(dirname(__file__))
         self.mediaDir = abspath(join(self.scriptDir, '../../../share/solydxk/welcome'))
         self.htmlDir = join(self.mediaDir, "html")
+        if not exists(self.htmlDir):
+            # Dev environment
+            self.htmlDir = abspath(join(self.scriptDir, '../../../../po'))
         self.builder = Gtk.Builder()
         self.builder.add_from_file(join(self.mediaDir, 'welcome.glade'))
 
@@ -81,11 +84,14 @@ class SolydXKWelcome(object):
         # Resize the window to 75% of the screen size in the primary monitor
         display = Gdk.Display.get_default()
         pm = display.get_primary_monitor()
-        geo = pm.get_geometry()
-        w = geo.width
-        h = geo.height
-        if w > 640:
-            self.window.set_default_size(w * 0.75, h * 0.75)
+        mon_width = 0
+        if pm:
+            geo = pm.get_geometry()
+            mon_width = geo.width
+            mon_height = geo.height
+
+        if mon_width > 640:
+            self.window.set_default_size(mon_width * 0.75, mon_height * 0.75)
         else:
             self.window.fullscreen()
 
