@@ -1,3 +1,9 @@
+solydxk-welcome (2.2.2) stable; urgency=low
+
+  * Add support for newer gir1.2-webkit versions
+
+ -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sun, 03 Mar 2024 15:17:33 +0100
+
 solydxk-welcome (2.2.1) stable; urgency=low
 
   * Updated translation: ru
