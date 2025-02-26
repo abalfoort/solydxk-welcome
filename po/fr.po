@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-14 08:23+0200\n"
+"POT-Creation-Date: 2025-02-25 13:32+0100\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
 "Last-Translator: ilu lu, 2023\n"
 "Language-Team: French (http://app.transifex.com/abalfoort/solydxk-welcome/"
@@ -29,7 +29,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
 
-#: usr/lib/solydxk/welcome/main.py:37
+#: usr/lib/solydxk/welcome/main.py:50
 #: usr/share/applications/solydxk-welcome.desktop.in.h:2
 #: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:2
 #: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:2
@@ -37,7 +37,7 @@ msgstr ""
 msgid "SolydXK Welcome"
 msgstr "SolydXK Welcome"
 
-#: usr/lib/solydxk/welcome/main.py:38
+#: usr/lib/solydxk/welcome/main.py:51
 msgid ""
 "SolydXK Welcome cannot be started in a live environment\n"
 "You can use the --force argument to start SolydXK Welcome in a live "
@@ -46,35 +46,36 @@ msgstr ""
 "SolydXK Welcome ne peut être démarré dans un environnement live\n"
 "Vous pouvez utiliser l'argument '--force' pour le faire démarrer malgré tout"
 
-#: usr/lib/solydxk/welcome/main.py:104
+#: usr/lib/solydxk/welcome/main.py:60
 msgid "Unexpected error"
 msgstr "Erreur inattendue"
 
-#: usr/lib/solydxk/welcome/main.py:105
+#: usr/lib/solydxk/welcome/main.py:61
+#, fuzzy
 msgid ""
-"SolydXK Welcome has failed with the following unexpected error.\n"
-"Please submit a bug report!"
+"SolydXK Welcome has failed with the following unexpected error. Please "
+"submit a bug report!"
 msgstr ""
 "SolydXK Welcome a échoué à cause de cette erreur inattendue.\n"
 "Merci de soumettre un rapport de bug!"
 
-#: usr/lib/solydxk/welcome/welcome.py:73
+#: usr/lib/solydxk/welcome/welcome.py:75
 msgid "Install"
 msgstr "Installation "
 
-#: usr/lib/solydxk/welcome/welcome.py:74
+#: usr/lib/solydxk/welcome/welcome.py:76
 msgid "Quit"
 msgstr "Quitter"
 
-#: usr/lib/solydxk/welcome/welcome.py:75
+#: usr/lib/solydxk/welcome/welcome.py:77
 msgid "Next"
 msgstr "Suivant"
 
-#: usr/lib/solydxk/welcome/welcome.py:76
+#: usr/lib/solydxk/welcome/welcome.py:78
 msgid "Previous"
 msgstr "Précédent"
 
-#: usr/lib/solydxk/welcome/welcome.py:124
+#: usr/lib/solydxk/welcome/welcome.py:136
 msgid ""
 "VirtualBox cannot be installed in a VirtualBox client.\n"
 "This package is skipped."
@@ -82,7 +83,7 @@ msgstr ""
 "VirtualBox ne peut pas être installé dans un client VirtualBox.\n"
 "Ce paquet est ignoré."
 
-#: usr/lib/solydxk/welcome/welcome.py:146
+#: usr/lib/solydxk/welcome/welcome.py:159
 msgid ""
 "Nothing to do:\n"
 "No packages were selected."
@@ -90,7 +91,7 @@ msgstr ""
 "Rien à faire:\n"
 "Aucun paquet n'a été sélectionné."
 
-#: usr/lib/solydxk/welcome/welcome.py:161
+#: usr/lib/solydxk/welcome/welcome.py:174
 msgid ""
 "You selected some packages for installation.\n"
 "\n"
@@ -102,11 +103,11 @@ msgstr ""
 "Voulez-vous les installer maintenant?\n"
 "Note: la liste sélectionnée est effacée si vous poursuivez sans installer."
 
-#: usr/lib/solydxk/welcome/welcome.py:173
+#: usr/lib/solydxk/welcome/welcome.py:187
 msgid "No internet connection"
 msgstr "Pas de connexion internet"
 
-#: usr/lib/solydxk/welcome/welcome.py:174
+#: usr/lib/solydxk/welcome/welcome.py:188
 msgid ""
 "You need an internet connection to install the additional software.\n"
 "Please, connect to the internet and try again."
@@ -115,15 +116,14 @@ msgstr ""
 "supplémentaire.\n"
 "Merci de vous connecter et de réessayer."
 
-#: usr/lib/solydxk/welcome/welcome.py:196
-msgid ""
-"Cannot install the requested software:\n"
-"Script not found: {}"
+#: usr/lib/solydxk/welcome/welcome.py:210
+#, fuzzy
+msgid "Cannot install the requested software:\n"
 msgstr ""
 "Impossible d'installer le logiciel demandé:\n"
 "Script non trouvé: {}"
 
-#: usr/lib/solydxk/welcome/welcome.py:261
+#: usr/lib/solydxk/welcome/welcome.py:292
 msgid ""
 "There was an error during the installation.\n"
 "Please, run 'sudo apt-get -f install' in a terminal.\n"
@@ -133,7 +133,7 @@ msgstr ""
 "Entrez 'sudo apt-get -f install' dans un terminal.\n"
 "Si vous avez besoin d'aide, venez sur notre forum: https://forums.solydxk.com"
 
-#: usr/lib/solydxk/welcome/welcome.py:267
+#: usr/lib/solydxk/welcome/welcome.py:298
 msgid ""
 "Could not get lock /var/lib/dpkg/lock\n"
 "Is another process using it?"
@@ -141,7 +141,7 @@ msgstr ""
 "Impossible d'obtenir le verrou /var/lib/dpkg/lock\n"
 "Un autre processus l'utilise-t-il ?"
 
-#: usr/lib/solydxk/welcome/welcome.py:272
+#: usr/lib/solydxk/welcome/welcome.py:303
 msgid "The software has been successfully installed."
 msgstr "Le logiciel a été installé avec succès."
 
