@@ -1,237 +1,172 @@
 #!/usr/bin/env python3
 
 import subprocess
-from socket import timeout
-from urllib.request import ProxyHandler, HTTPBasicAuthHandler, Request, \
-                           build_opener, HTTPHandler, install_opener, urlopen
-from urllib.error import URLError, HTTPError
-from random import choice
-import re
+import numbers
 import threading
+import pwd
+import socket
+import re
 import os
 from os.path import exists
-import pwd
-import apt
+from aptsources.sourceslist import SourcesList
 
 
-def shell_exec_popen(command, kwargs={}):
-    print(('Executing:', command))
-    return subprocess.Popen(command, shell=True,
-                            stdout=subprocess.PIPE, **kwargs)
+def shell_exec_popen(command, kwargs=None):
+    """ Execute a command with Popen (returns the returncode attribute) """
+    if not kwargs:
+        kwargs = {}
+    print((f"Executing: {command}"))
+    # return subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, **kwargs)
+    return subprocess.Popen(command,
+                            shell=True,
+                            bufsize=0,
+                            stdout=subprocess.PIPE,
+                            universal_newlines=True,
+                            **kwargs)
 
 
-def shell_exec(command):
-    print(('Executing:', command))
+def shell_exec(command, wait=False):
+    """ Execute a command (returns the returncode attribute) """
+    print((f"Executing: {command}"))
+    if wait:
+        return subprocess.check_call(command, shell=True)
     return subprocess.call(command, shell=True)
 
 
-def getoutput(command):
-    #return shell_exec(command).stdout.read().strip()
+def getoutput(command, timeout=None):
+    """ Return command output (list) """
     try:
-        output = subprocess.check_output(command, shell=True).decode('utf-8').strip().split('\n')
-    except:
-        output = []
+        output = subprocess.check_output(
+            command, shell=True, timeout=timeout).decode('utf-8').strip().split('\n')
+    except Exception as detail:
+        print((f'getoutput exception: {detail}'))
+        output = ['']
     return output
 
 
-def chroot_exec(command):
+def chroot_exec(command, target):
+    """ Excecute command in chroot """
     command = command.replace('"', "'").strip()  # FIXME
-    return shell_exec('chroot /target/ /bin/sh -c "%s"' % command)
+    return shell_exec(f'chroot {target}/ /bin/sh -c "{command}"')
 
 
-def memoize(func):
-    """ Caches expensive function calls.
+def get_repo_suite(pattern):
+    """Return repo suite by pattern
+       Used in scripts/*
 
-    Use as:
+    Args:
+        pattern (str): regexp pattern to match suite
 
-        c = Cache(lambda arg: function_to_call_if_yet_uncached(arg))
-        c('some_arg')  # returns evaluated result
-        c('some_arg')  # returns *same* (non-evaluated) result
-
-    or as a decorator:
-
-        @memoize
-        def some_expensive_function(args [, ...]):
-            [...]
-
-    See also: http://en.wikipedia.org/wiki/Memoization
+    Returns:
+        str: repo suite
     """
-    class memodict(dict):
-        def __call__(self, *args):
-            return self[args]
-
-        def __missing__(self, key):
-            ret = self[key] = func(*key)
-            return ret
-    return memodict()
+    sources_list = SourcesList().list
+    for source_entry in sources_list:
+        # Save suites and types separately because of Deb822SourceEntry/SourceEntry differences
+        try:
+            suites = source_entry.suites
+        except AttributeError:
+            suites = [source_entry.dist]
+        if not source_entry.disabled:
+            for suite in suites:
+                match = re.search(pattern=pattern, string=suite, flags=re.IGNORECASE)
+                if match:
+                    return suite
+    return ''
 
 
 # Convert string to number
-def str_to_nr(stringnr, toInt=False):
-    nr = 0
-    # Might be a int or float: convert to str
-    stringnr = str(stringnr).strip()
+def str_to_nr(value):
+    """ Convert string to number """
+    if isinstance(value, numbers.Number):
+        # Already numeric
+        return value
+
+    number = None
     try:
-        if toInt:
-            nr = int(stringnr)
-        else:
-            nr = float(stringnr)
+        number = int(value)
     except ValueError:
-        nr = 0
-    return nr
+        try:
+            number = float(value)
+        except ValueError:
+            number = None
+    return number
+
+
+def is_numeric(value):
+    """ Check if value is a number """
+    return bool(str_to_nr(value))
 
 
 # Get Debian's version number (float)
 def get_debian_version():
-    try:
-        version = str_to_nr(getoutput("grep -oP '^[0-9]+' /etc/debian_version")[0], True)
-    except:
-        try:
-            version = str_to_nr(getoutput("grep VERSION= /etc/os-release | grep -oP '[0-9]+'")[0], True)
-        except:
-            version = str_to_nr(getoutput("grep DISTRIB_RELEASE= /etc/lsb-release | grep -oP '[0-9]+'")[0], True)
+    """ Get Debian's version number (float) """
+    version = 0
+    if exists('/etc/debian_version'):
+        cmd = "grep -oP '^[a-z0-9]+' /etc/debian_version"
+        version = str_to_nr(getoutput(cmd)[0].strip())
+    if not version:
+        cmd = "grep -Ei 'version=|version_id=|release=' /etc/*release | grep -oP '[0-9]+'"
+        versions = getoutput(cmd)
+        for version in versions:
+            if is_numeric(version):
+                version = str_to_nr(version)
+                break
     return version
 
 
-def get_config_dict(file, key_value=re.compile(r'^\s*(\w+)\s*=\s*["\']?(.*?)["\']?\s*(#.*)?$')):
-    """Returns POSIX config file (key=value, no sections) as dict.
-    Assumptions: no multiline values, no value contains '#'. """
-    d = {}
-    with open(file) as f:
-        for line in f:
-            try:
-                key, value, _ = key_value.match(line).groups()
-            except AttributeError:
-                continue
-            d[key] = value
-    return d
-
-
 # Check for internet connection
-def has_internet_connection(test_url=None):
-    urls = []
-    if test_url is not None:
-        urls.append(test_url)
-    if not urls:
-        src_lst = '/etc/apt/sources.list'
-        if exists(src_lst):
-            with open(src_lst, 'r') as f:
-                for line in f:
-                    line = line.strip()
-                    if not line.startswith('#'):
-                        matchObj = re.search(r'http[s]{,1}://[a-z0-9\.]+', line)
-                        if matchObj:
-                            urls.append(matchObj.group(0))
-    for url in urls:
-        if get_value_from_url(url) is not None:
+def has_internet_connection(hostname=None):
+    """ Check for internet connection """
+    # Taken from https://stackoverflow.com/questions/20913411/test-if-an-internet-connection-is-present-in-python
+    if not hostname:
+        hostname = 'solydxk.com'
+    try:
+        # See if we can resolve the host name - tells us if there is
+        # A DNS listening
+        host = socket.gethostbyname(hostname)
+        # Connect to the host - tells us if the host is actually reachable
+        s = socket.create_connection((host, 80), 2)
+        s.close()
+        return True
+    except Exception:
+        pass # We ignore any errors, returning False
+    return False
+
+
+def is_running_live():
+    """ Is the system a live system """
+    live_dirs = ['/live', '/lib/live/mount', '/rofs']
+    for live_dir in live_dirs:
+        if exists(live_dir):
             return True
     return False
 
 
-def get_value_from_url(url, timeout_secs=5, return_errors=False):
-    try:
-        # http://www.webuseragents.com/my-user-agent
-        user_agents = [
-            'Mozilla/5.0 (X11; Linux x86_64; rv:61.0) Gecko/20100101 Firefox/61.0',
-            'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36',
-            'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0'
-        ]
-
-        # Create proxy handler
-        proxy = ProxyHandler({})
-        auth = HTTPBasicAuthHandler()
-        opener = build_opener(proxy, auth, HTTPHandler)
-        install_opener(opener)
-
-        # Create a request object with given url
-        req = Request(url)
-
-        # Get a random user agent and add that to the request object
-        ua = choice(user_agents)
-        req.add_header('User-Agent', ua)
-
-        # Get the output of the URL
-        output = urlopen(req, timeout=timeout_secs)
-
-        # Decode to text
-        txt = output.read().decode('utf-8')
-        
-        # Return the text
-        return txt
-        
-    except (HTTPError, URLError) as error:
-        err = 'ERROR: could not connect to {}: {}'.format(url, error)
-        if return_errors:
-            return err
-        else:
-            print((err))
-            return None
-    except timeout:
-        err = 'ERROR: socket timeout on: {}'.format(url)
-        if return_errors:
-            return err
-        else:
-            print((err))
-            return None
-
-
-# Check if running in VB
-def in_virtualbox():
-    vb = 'VirtualBox'
-    dmiBIOSVersion = getoutput("grep '{}' /sys/devices/virtual/dmi/id/bios_version".format(vb))
-    dmiSystemProduct = getoutput("grep '{}' /sys/devices/virtual/dmi/id/product_name".format(vb))
-    dmiBoardProduct = getoutput("grep '{}' /sys/devices/virtual/dmi/id/board_name".format(vb))
-    if vb not in dmiBIOSVersion and \
-       vb not in dmiSystemProduct and \
-       vb not in dmiBoardProduct:
+def in_virtual_box():
+    """ Check if running in virtual box """
+    virtual_box = 'VirtualBox'
+    dmi_bios_version = getoutput(
+        f"grep '{virtual_box}' /sys/devices/virtual/dmi/id/bios_version")
+    dmi_system_product = getoutput(
+        f"grep '{virtual_box}' /sys/devices/virtual/dmi/id/product_name")
+    dmi_board_product = getoutput(
+        f"grep '{virtual_box}' /sys/devices/virtual/dmi/id/board_name")
+    if virtual_box not in dmi_bios_version and \
+       virtual_box not in dmi_system_product and \
+       virtual_box not in dmi_board_product:
         return False
     return True
 
 
-# Get the kernel's architecture
-def get_architecture():
-    arch = getoutput("uname -m")
-    if arch:
-        return arch[0]
-    return ''
-
-
-# Get the login name of the current user
-def getUserLoginName():
+def get_logged_user():
+    """ Get user name """
     p = os.popen("logname", 'r')
-    userName = p.readline().strip()
+    user_name = p.readline().strip()
     p.close()
-    if userName == "":
-        userName = pwd.getpwuid(os.getuid()).pw_name
-    return userName
-
-
-# Check if a package is installed
-def isPackageInstalled(packageName, alsoCheckVersion=True):
-    isInstalled = False
-    try:
-        cmd = 'dpkg-query -l %s | grep ^i' % packageName
-        if '*' in packageName:
-            cmd = 'aptitude search -w 150 %s | grep ^i' % packageName
-        pckList = getoutput(cmd)
-        for line in pckList:
-            matchObj = re.search(r'([a-z]+)\s+([a-z0-9\-_\.]*)', line)
-            if matchObj:
-                if matchObj.group(1)[:1] == 'i':
-                    if alsoCheckVersion:
-                        cache = apt.Cache()
-                        pkg = cache[matchObj.group(2)]
-                        if pkg.installed.version == pkg.candidate.version:
-                            isInstalled = True
-                            break
-                    else:
-                        isInstalled = True
-                        break
-            if isInstalled:
-                break
-    except:
-        pass
-    return isInstalled
+    if user_name == "":
+        user_name = pwd.getpwuid(os.getuid()).pw_name
+    return user_name
 
 
 # Class to run commands in a thread and return the output in a queue

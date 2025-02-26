@@ -22,12 +22,12 @@
     <property name="can-focus">False</property>
     <property name="icon-name">gtk-quit</property>
   </object>
-  <object class="GtkWindow" id="welcomeWindow">
+  <object class="GtkWindow" id="welcome_window">
     <property name="can-focus">False</property>
     <property name="window-position">center-always</property>
     <property name="icon-name">solydxk</property>
     <property name="decorated">False</property>
-    <signal name="destroy" handler="on_welcomeWindow_destroy" swapped="no"/>
+    <signal name="destroy" handler="on_welcome_window_destroy" swapped="no"/>
     <child>
       <object class="GtkBox" id="box1">
         <property name="visible">True</property>
@@ -36,7 +36,7 @@
         <property name="margin-bottom">5</property>
         <property name="orientation">vertical</property>
         <child>
-          <object class="GtkScrolledWindow" id="swWelcome">
+          <object class="GtkScrolledWindow" id="sw_welcome">
             <property name="visible">True</property>
             <property name="can-focus">True</property>
             <property name="shadow-type">in</property>
@@ -51,7 +51,7 @@
           </packing>
         </child>
         <child>
-          <object class="GtkProgressBar" id="pbWelcome">
+          <object class="GtkProgressBar" id="pb_welcome">
             <property name="height-request">5</property>
             <property name="visible">True</property>
             <property name="can-focus">False</property>
@@ -72,7 +72,7 @@
             <property name="hexpand">True</property>
             <property name="spacing">5</property>
             <child>
-              <object class="GtkButton" id="btnQuit">
+              <object class="GtkButton" id="btn_quit">
                 <property name="label" translatable="yes">Quit</property>
                 <property name="width-request">100</property>
                 <property name="visible">True</property>
@@ -80,7 +80,7 @@
                 <property name="receives-default">True</property>
                 <property name="image">imgQuit</property>
                 <property name="always-show-image">True</property>
-                <signal name="clicked" handler="on_btnQuit_clicked" swapped="no"/>
+                <signal name="clicked" handler="on_btn_quit_clicked" swapped="no"/>
               </object>
               <packing>
                 <property name="expand">False</property>
@@ -100,7 +100,7 @@
               </packing>
             </child>
             <child>
-              <object class="GtkButton" id="btnInstall">
+              <object class="GtkButton" id="btn_install">
                 <property name="label" translatable="yes">Install</property>
                 <property name="width-request">200</property>
                 <property name="visible">True</property>
@@ -108,7 +108,7 @@
                 <property name="receives-default">True</property>
                 <property name="image">imgInstall</property>
                 <property name="always-show-image">True</property>
-                <signal name="clicked" handler="on_btnInstall_clicked" swapped="no"/>
+                <signal name="clicked" handler="on_btn_install_clicked" swapped="no"/>
               </object>
               <packing>
                 <property name="expand">False</property>
@@ -128,7 +128,7 @@
               </packing>
             </child>
             <child>
-              <object class="GtkButton" id="btnPrevious">
+              <object class="GtkButton" id="btn_previous">
                 <property name="label" translatable="yes">Previous</property>
                 <property name="width-request">100</property>
                 <property name="visible">True</property>
@@ -136,7 +136,7 @@
                 <property name="receives-default">True</property>
                 <property name="image">imgPrevious</property>
                 <property name="always-show-image">True</property>
-                <signal name="clicked" handler="on_btnPrevious_clicked" swapped="no"/>
+                <signal name="clicked" handler="on_btn_previous_clicked" swapped="no"/>
               </object>
               <packing>
                 <property name="expand">False</property>
@@ -146,7 +146,7 @@
               </packing>
             </child>
             <child>
-              <object class="GtkButton" id="btnNext">
+              <object class="GtkButton" id="btn_next">
                 <property name="label" translatable="yes">Next</property>
                 <property name="width-request">100</property>
                 <property name="visible">True</property>
@@ -156,7 +156,7 @@
                 <property name="image">imgNext</property>
                 <property name="image-position">right</property>
                 <property name="always-show-image">True</property>
-                <signal name="clicked" handler="on_btnNext_clicked" swapped="no"/>
+                <signal name="clicked" handler="on_btn_next_clicked" swapped="no"/>
               </object>
               <packing>
                 <property name="expand">False</property>
