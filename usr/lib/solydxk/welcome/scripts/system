@@ -48,20 +48,6 @@ if [[ -z "$DISTRIB_RELEASE" ]] || [ "$DISTRIB_RELEASE" -gt 8 ]; then
     FORCE='--allow-downgrades --allow-remove-essential --allow-change-held-packages'
 fi
 
-
-#if [ "$DISTRIB_RELEASE" -eq 9 ]; then
-#  PCK="$PCK-5.2"
-#  # Add virtualbox to sources
-#  REL=$(grep '/debian' /etc/apt/sources.list | grep -v backports | awk '{print $3}')
-#  if [ "$REL" != '' ]; then
-#   wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | apt-key add -
-#    wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | apt-key add -
-#   echo "deb http://download.virtualbox.org/virtualbox/debian $REL contrib" > /etc/apt/sources.list.d/virtualbox.list
-# fi
-#  # Update
-#  apt-get update
-#fi
-
 if [ ! -e /tmp/update-state ]; then
     apt-get update
     touch /tmp/update-state
