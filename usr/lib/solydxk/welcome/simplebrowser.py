@@ -4,8 +4,6 @@ WebKit1 reference: https://webkitgtk.org/reference/webkitgtk/stable
 WebKit2 reference: https://webkitgtk.org/reference/webkit2gtk/stable
 
 Make sure you have WebKit2 2.22.x or higher installed.
-For Debian Stretch you need the backports packages:
-apt install -t stretch-backports gir1.2-javascriptcoregtk-4.0 gir1.2-webkit2-4.0 libjavascriptcoregtk-4.0-18 libwebkit2gtk-4.0-37  libwebkit2gtk-4.0-37-gtk2
 
 Make sure you have this JavaScript in your HTML when using WebKit2:
 <script>
@@ -43,8 +41,12 @@ except ImportError:
         gi.require_version('WebKit2', '4.0')
         WEBKIT2 = True
     except ImportError:
-        gi.require_version('WebKit', '3.0')
-        from gi.repository import WebKit
+        try:
+            gi.require_version('WebKit', '6.0')
+            from gi.repository import WebKit
+        except ImportError:
+            gi.require_version('WebKit', '3.0')
+            from gi.repository import WebKit
 if WEBKIT2:
     from gi.repository import WebKit2 as WebKit
     WEBKIT2VER = WebKit.get_major_version(), WebKit.get_minor_version(), WebKit.get_micro_version()
@@ -129,7 +131,7 @@ class SimpleBrowser(WebKit.WebView):
         """
         self.js_values = []
         if self.uses_webkit2:
-            self.js_run(f'get_checked_values(f"{element_name}")', js_return=True)
+            self.js_run(f"get_checked_values('{element_name}')", js_return=True)
         else:
             values = []
             doc = self.get_dom_document()
@@ -155,7 +157,7 @@ class SimpleBrowser(WebKit.WebView):
             check (bool): True (check) or False (uncheck)
         """
         if self.uses_webkit2:
-            self.js_run('switch_checked(f"{element_name}", f"{check}")', js_return=False)
+            self.js_run(f"switch_checked('{element_name}', '{check}')", js_return=False)
         else:
             doc = self.get_dom_document()
             # https://webkitgtk.org/reference/webkitdomgtk/stable/WebKitDOMDocument.html#webkit-dom-document-get-elements-by-class-name
@@ -174,27 +176,49 @@ class SimpleBrowser(WebKit.WebView):
         """
         if self.uses_webkit2:
             # JavaScript
-            # https://webkitgtk.org/reference/webkit2gtk/stable/WebKitWebView.html#webkit-web-view-run-javascript
+            # https://webkitgtk.org/reference/webkit2gtk/stable/method.WebView.evaluate_javascript.html
             run_js_finish = self._js_finish if js_return else None
-            self.run_javascript(function_name, None, run_js_finish, None)
+            # Deprecated from 2.40: run_javascript(function_name, None, run_js_finish, None)
+            self.evaluate_javascript(script=function_name,
+                                     length=-1,
+                                     world_name=None,
+                                     source_uri=None,
+                                     cancellable=None,
+                                     callback=run_js_finish)
         else:
             raise TypeError('WebKit2 method only.')
+
+    def _convert_js_value(self, js_value):
+        if not js_value or js_value.is_null() or js_value.is_undefined():
+            return None
+        elif js_value.is_boolean():
+            return js_value.to_boolean()
+        elif js_value.is_number():
+            return js_value.to_double()
+        elif js_value.is_string():
+            return js_value.to_string()
+        elif js_value.is_array():
+            value = js_value.to_string()
+            return value.split(',') if value else []
+        elif js_value.is_object():
+            js_object = js_value.to_object()
+            python_dict = {}
+            properties = js_object.get_property_names()
+            for prop in properties:
+                python_dict[prop] = self._js_value_to_python(js_object.get_property(prop))
+            return python_dict
+        else:
+            print((f'Unsupported JavaScriptCore.Value type: {js_value}'))
+            return js_value.to_string()
 
     def _js_finish(self, webview, result, user_data=None):
         """Internal function to finish js"""
         if self.uses_webkit2:
             try:
-                # https://webkitgtk.org/reference/webkit2gtk/stable/WebKitWebView.html#webkit-web-view-run-javascript-finish
-                js_result = self.run_javascript_finish(result)
-                if js_result is not None:
-                    # https://webkitgtk.org/reference/jsc-glib/stable/JSCValue.html
-                    # Couldn't handle anything but string :(
-                    # If returning the getElementsByClassName object itself:
-                    # GLib.Error: WebKitJavascriptError:  (699)
-                    value = js_result.get_js_value().to_string()
-                    if value:
-                        self.js_values = value.split(',')
-                    #print((self.js_values))
+                # https://webkitgtk.org/reference/webkit2gtk/stable/method.WebView.evaluate_javascript_finish.html
+                # Deprecated from 2.40: run_javascript_finish(result)
+                js_result = self.evaluate_javascript_finish(result=result)
+                self.js_values = self._convert_js_value(js_result)
             except Exception as e:
                 print((f"JavaScript error: {e}"))
             finally:
