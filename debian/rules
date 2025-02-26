@@ -30,9 +30,8 @@ policyfiles := $(shell find ./usr/share/polkit-1/actions/ -name "*.policy" 2>/de
 
 override_dh_auto_clean:
 	# Cleanup first
-	find ./usr -type d -name "*__pycache__" -exec rm -r "{}" \;
-	find ./usr -type f -name "*.pyc" -delete
-	find ./usr -type f -name "*.*~" -delete
+	sudo rm -rf ./usr/lib/solydxk/welcome/__pycache__/
+	find ./usr/share/solydxk/welcome -type f -name "*.*~" -delete
 	rm -rf ./po/mo ./po/pot
 	mkdir ./po/mo ./po/pot
 	# Clean HTML
