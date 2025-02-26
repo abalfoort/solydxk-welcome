@@ -29,11 +29,9 @@ if [[ -z "$DISTRIB_RELEASE" ]] || [ "$DISTRIB_RELEASE" -gt 8 ]; then
 fi
 
 # Check if backports is enabled
-BP=$(grep backports /etc/apt/sources.list | grep -v ^# | awk '{print $3}')
-if [[ ! "$BP" =~ 'backports' ]]; then
-    BP=$(grep backports /etc/apt/sources.list.d/*.list | grep -v ^# | awk '{print $3}')
-fi
-if [[ "$BP" =~ 'backports' ]]; then
+cd /usr/lib/solydxk/welcome
+BP=$(python3 -c"from utils import get_repo_suite; print((get_repo_suite('backports')))")
+if [ ! -z "$BP" ]; then
     BP="-t $BP"
 fi
 

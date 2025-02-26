@@ -1,110 +1,67 @@
 #!/usr/bin/env python3 -OO
 
-# Make sure the right Gtk version is loaded
-import gi
-gi.require_version('Gtk', '3.0')
-
 import sys
-from gi.repository import Gtk
-from welcome import SolydXKWelcome
-from utils import getUserLoginName
+import traceback
 import os
 import getopt
+from welcome import SolydXKWelcome
+from utils import get_logged_user, is_running_live
+from dialogs import ErrorDialog, MessageDialog
 
 # i18n: http://docs.python.org/3/library/gettext.html
 import gettext
 _ = gettext.translation('solydxk-welcome', fallback=True).gettext
 
+# Make sure the right Gtk version is loaded
+import gi
+gi.require_version('Gtk', '3.0')
+from gi.repository import Gtk
+
 # Handle arguments
 try:
-    opts, args = getopt.getopt(sys.argv[1:], 'af', ['autostart', 'force'])
+    opts, opt_args = getopt.getopt(sys.argv[1:], 'af', ['autostart', 'force'])
 except getopt.GetoptError:
     sys.exit(2)
 
-force = False
-autostart = False
+FORCE = False
+AUTOSTART = False
+LIVE = is_running_live()
+OEM = get_logged_user()[-4:] == "-oem"
+
 for opt, arg in opts:
-    #print((">> opt = {} / arg = {}".format(opt, arg)))
+    #print((">> opt = {} / opt_arg = {}".format(opt, opt_arg)))
     if opt in ('-a', '--autostart'):
-        autostart = True
+        AUTOSTART = True
     elif opt in ('-f', '--force'):
-        force = True
+        FORCE = True
 
 
 # Set variables
 scriptDir = os.path.dirname(os.path.realpath(__file__))
 flagPath = os.path.join(os.environ.get('HOME'), '.sws.flag')
-title = _("SolydXK Welcome")
-msg = _("SolydXK Welcome cannot be started in a live environment\n"
-        "You can use the --force argument to start SolydXK Welcome in a live environment")
-
-
-def isRunningLive():
-    if force:
-        return False
-    liveDirs = ['/live', '/lib/live/mount', '/rofs']
-    for ld in liveDirs:
-        if os.path.exists(ld):
-            return True
-    return False
-
-
-def isOEM():
-    if force:
-        return False
-    logged_user = getUserLoginName()
-    if len(logged_user) > 4:
-        if logged_user[-4:] == "-oem":
-            return True
-    return False
-
 
 # Check if we can start
-if autostart:
-    if os.path.isfile(flagPath) or isRunningLive() or isOEM():
+if AUTOSTART:
+    if os.path.isfile(flagPath) or OEM or LIVE:
         sys.exit()
 
-
-def showMsg(title, message, GtkMessageType=Gtk.MessageType.INFO):
-    dialog = Gtk.MessageDialog(parent=None, modal=True, message_type=GtkMessageType, buttons=Gtk.ButtonsType.OK, text=message)
-    dialog.set_markup("<b>{}</b>".format(title))
-    dialog.format_secondary_markup(message)
-    dialog.set_icon_name("solydxk")
-    dialog.run()
-    dialog.destroy()
-
-
 # Do not run in live environment
-if isRunningLive():
-    showMsg(title, msg)
+if LIVE and not FORCE:
+    live_title = _("SolydXK Welcome")
+    live_msg = _("SolydXK Welcome cannot be started in a live environment\n"
+            "You can use the --force argument to start SolydXK Welcome in a live environment")
+    MessageDialog(live_title, live_msg)
     sys.exit()
-
 
 def uncaught_excepthook(*args):
     sys.__excepthook__(*args)
-    if __debug__:
-        from pprint import pprint
-        from types import BuiltinFunctionType, ClassType, ModuleType, TypeType
-        tb = sys.last_traceback
-        while tb.tb_next: tb = tb.tb_next
-        print('\nDumping locals() ...')
-        pprint({k:v for k,v in tb.tb_frame.f_locals.items()
-                    if not k.startswith('_') and
-                       not isinstance(v, (BuiltinFunctionType,
-                                          ClassType, ModuleType, TypeType))})
-        if sys.stdin.isatty() and (sys.stdout.isatty() or sys.stderr.isatty()):
-            try:
-                import ipdb as pdb  # try to import the IPython debugger
-            except ImportError:
-                import pdb as pdb
-            print('\nStarting interactive debug prompt ...')
-            pdb.pm()
-    else:
-        import traceback
+    if not __debug__:
+        details = '\n'.join(traceback.format_exception(*args)).replace('<', '').replace('>', '')
         title = _('Unexpected error')
-        msg = _('SolydXK Welcome has failed with the following unexpected error.\nPlease submit a bug report!')
-        msg = "<b>{}</b>\n\n<tt>{}</tt>".format(msg, '\n'.join(traceback.format_exception(*args)))
-        showMsg(title, msg)
+        msg = _('SolydXK Welcome has failed with the following unexpected error. '
+                'Please submit a bug report!')
+        ErrorDialog(title, f"<b>{msg}</b>", f"<tt>{details}</tt>", None, True, 'solydxk')
+
     sys.exit(1)
 
 sys.excepthook = uncaught_excepthook
@@ -113,11 +70,6 @@ sys.excepthook = uncaught_excepthook
 if __name__ == "__main__":
     # Create an instance of our GTK application
     try:
-        # Calling GObject.threads_init() is not needed for PyGObject 3.10.2+
-        # Check with print (sys.version)
-        # Debian Jessie: 3.4.2
-        #GObject.threads_init()
-
         SolydXKWelcome()
         Gtk.main()
     except KeyboardInterrupt:
