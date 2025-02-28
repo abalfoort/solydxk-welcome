@@ -6,7 +6,7 @@ import os
 import getopt
 from welcome import SolydXKWelcome
 from utils import get_logged_user, is_running_live
-from dialogs import ErrorDialog, MessageDialog
+from dialogs import error_dialog, message_dialog
 
 # i18n: http://docs.python.org/3/library/gettext.html
 import gettext
@@ -50,7 +50,7 @@ if LIVE and not FORCE:
     live_title = _("SolydXK Welcome")
     live_msg = _("SolydXK Welcome cannot be started in a live environment\n"
             "You can use the --force argument to start SolydXK Welcome in a live environment")
-    MessageDialog(live_title, live_msg)
+    message_dialog(live_title, live_msg)
     sys.exit()
 
 def uncaught_excepthook(*args):
@@ -60,7 +60,7 @@ def uncaught_excepthook(*args):
         title = _('Unexpected error')
         msg = _('SolydXK Welcome has failed with the following unexpected error. '
                 'Please submit a bug report!')
-        ErrorDialog(title, f"<b>{msg}</b>", f"<tt>{details}</tt>", None, True, 'solydxk')
+        error_dialog(title, f"<b>{msg}</b>", f"<tt>{details}</tt>", None, True, 'solydxk')
 
     sys.exit(1)
 

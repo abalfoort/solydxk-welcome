@@ -9,8 +9,8 @@ from utils import ExecuteThreadedCommands, has_internet_connection, \
                   get_repo_suite
 from simplebrowser import SimpleBrowser
 
-from dialogs import ErrorDialog, WarningDialog, \
-                    MessageDialog, QuestionDialog
+from dialogs import error_dialog, warning_dialog, \
+                    message_dialog, question_dialog
 
 # i18n: http://docs.python.org/3/library/gettext.html
 import gettext
@@ -135,7 +135,7 @@ class SolydXKWelcome():
         if in_virtual_box() and 'virtualbox' in values:
             msg = _("VirtualBox cannot be installed in a VirtualBox client.\n"
                     "This package is skipped.")
-            MessageDialog(self.btn_install.get_label(), msg)
+            message_dialog(self.btn_install.get_label(), msg)
             values.remove('virtualbox')
 
         # Install selected packages
@@ -158,7 +158,7 @@ class SolydXKWelcome():
         else:
             msg = _("Nothing to do:\n"
                     "No packages were selected.")
-            MessageDialog(self.btn_install.get_label(), msg)
+            message_dialog(self.btn_install.get_label(), msg)
             self.set_buttons_state(True)
 
     def _js_finished(self, cur_browser):
@@ -170,7 +170,7 @@ class SolydXKWelcome():
         else:
             # User switched page but selected packages to install
             if self.cur_browser.js_values:
-                answer = QuestionDialog(self.btn_install.get_label(),
+                answer = question_dialog(self.btn_install.get_label(),
                         _("You selected some packages for installation.\n\n"
                         "Do you want to install them now?\n"
                         "Note: list is cleared if you continue without installing."))
@@ -187,7 +187,7 @@ class SolydXKWelcome():
                 title = _("No internet connection")
                 msg = _("You need an internet connection to install the additional software.\n"
                         "Please, connect to the internet and try again.")
-                WarningDialog(title, msg)
+                warning_dialog(title, msg)
                 return
 
             # Disable buttons
@@ -209,7 +209,7 @@ class SolydXKWelcome():
             else:
                 msg = _("Cannot install the requested software:\n"
                         f"Script not found: {script}")
-                ErrorDialog(self.btn_install.get_label(), msg)
+                error_dialog(self.btn_install.get_label(), msg)
                 self.set_buttons_state(True)
 
     def on_btn_quit_clicked(self, widget):
@@ -298,12 +298,12 @@ class SolydXKWelcome():
                         msg = _("Could not get lock /var/lib/dpkg/lock\n"
                                 "Is another process using it?")
                     # There was an error
-                    ErrorDialog(self.btn_install.get_label(), msg)
+                    error_dialog(self.btn_install.get_label(), msg)
                 elif not only_on_error:
                     msg = _("The software has been successfully installed.")
-                    MessageDialog(self.btn_install.get_label(), msg)
+                    message_dialog(self.btn_install.get_label(), msg)
         except Exception:
-            MessageDialog(self.btn_install.get_label(), cmd_output)
+            message_dialog(self.btn_install.get_label(), cmd_output)
 
     def exec_command(self, command):
         """Execute a command in a separate thread
@@ -323,7 +323,7 @@ class SolydXKWelcome():
             GLib.timeout_add(250, self.check_thread, name)
 
         except Exception as detail:
-            ErrorDialog(self.btn_install.get_label(), detail)
+            error_dialog(self.btn_install.get_label(), detail)
 
     def set_buttons_state(self, enable):
         """ Enable/disable buttons """
