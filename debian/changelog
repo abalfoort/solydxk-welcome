@@ -1,3 +1,9 @@
+solydxk-welcome (2.2.6) stable; urgency=low
+
+  * Use transient_for in dialogs init
+
+ -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sat, 01 Mar 2025 11:58:27 +0100
+
 solydxk-welcome (2.2.5) stable; urgency=low
 
   * Fix dialogs.py always returning False
