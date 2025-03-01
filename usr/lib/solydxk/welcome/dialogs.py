@@ -61,9 +61,9 @@ class Dialog(Gtk.MessageDialog):
             Returns True if user response was confirmatory.
         """
         response = self.run() in (Gtk.ResponseType.YES,
-                                    Gtk.ResponseType.APPLY,
-                                    Gtk.ResponseType.OK,
-                                    Gtk.ResponseType.ACCEPT)
+                                  Gtk.ResponseType.APPLY,
+                                  Gtk.ResponseType.OK,
+                                  Gtk.ResponseType.ACCEPT)
         self.destroy()
 
         return response if not self.is_threaded else False
