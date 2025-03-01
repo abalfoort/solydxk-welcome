@@ -23,8 +23,7 @@ class Dialog(Gtk.MessageDialog):
         parent = next((w for w in Gtk.Window.list_toplevels() if w.get_title()), None)
 
         # Initialize the dialog object
-        super().__init__(self,
-                         parent=parent,
+        super().__init__(transient_for=parent,
                          message_type=message_type,
                          buttons=buttons,
                          text=text)
