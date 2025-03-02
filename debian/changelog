@@ -1,3 +1,9 @@
+solydxk-welcome (2.2.7) stable; urgency=low
+
+  * Add Qemu to system applications
+
+ -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sat, 01 Mar 2025 13:54:24 +0100
+
 solydxk-welcome (2.2.6) stable; urgency=low
 
   * Use transient_for in dialogs init
