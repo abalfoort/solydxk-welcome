@@ -4,7 +4,7 @@ if [ ! -z "$(lsof /var/lib/dpkg/lock 2>/dev/null | grep '/var/lib/dpkg/lock')" ]
     exit 100
 fi
 
-# Possible arguments: gparted, filezilla, virtualbox, clamav, samba, css
+# Possible arguments: gparted, filezilla, qemu virtualbox, clamav, samba, css
 
 if [ $# -gt 0 ]; then
     for ARG in "$@"; do
@@ -14,6 +14,9 @@ if [ $# -gt 0 ]; then
         fi
         if [ "$ARG" == 'filezilla' ]; then
             PCK="$PCK filezilla"
+        fi
+        if [ "$ARG" == 'qemu' ]; then
+            PCK="$PCK qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virt-manager"
         fi
         if [ "$ARG" == 'virtualbox' ]; then
             PCK="$PCK virtualbox"
