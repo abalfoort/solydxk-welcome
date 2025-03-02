@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2023
+# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2023,2025
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2017-2019
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2016-2017
 # Eduard Selma <selma@tinet.cat>, 2015,2018-2019,2021-2023
@@ -12,9 +12,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-25 13:32+0100\n"
+"POT-Creation-Date: 2025-03-02 13:55+0100\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
-"Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2023\n"
+"Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2023,2025\n"
 "Language-Team: Catalan (http://app.transifex.com/abalfoort/solydxk-welcome/"
 "language/ca/)\n"
 "Language: ca\n"
@@ -45,13 +45,12 @@ msgid "Unexpected error"
 msgstr "Error inesperat "
 
 #: usr/lib/solydxk/welcome/main.py:61
-#, fuzzy
 msgid ""
 "SolydXK Welcome has failed with the following unexpected error. Please "
 "submit a bug report!"
 msgstr ""
-"SolydXK Welcome ha fallat amb un error inesperat.\n"
-"Si us plau, envieu un informe d'error!"
+"SolydXK System Settings ha fallat amb el següent error inesperat. Si us "
+"plau, envieu un informe d'error!"
 
 #: usr/lib/solydxk/welcome/welcome.py:75
 msgid "Install"
@@ -110,11 +109,8 @@ msgstr ""
 "Si us plau, connecteu-vos a Internet i torneu a provar-ho."
 
 #: usr/lib/solydxk/welcome/welcome.py:210
-#, fuzzy
 msgid "Cannot install the requested software:\n"
-msgstr ""
-"No es pot instal·lar el programari demanat:\n"
-"No es troba l'script: {} "
+msgstr "No es pot instal·lar el programari demanat:\n"
 
 #: usr/lib/solydxk/welcome/welcome.py:292
 msgid ""
@@ -473,6 +469,13 @@ msgstr ""
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
 msgid ""
+"QEMU (Quick Emulator) is an open-source virtualization software that enables "
+"the emulation and virtualization of various operating systems and "
+"applications across different hardware platforms."
+msgstr ""
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:38-7
+msgid ""
 "VirtualBox is a general-purpose full virtualizer for x86 hardware, targeted "
 "at server, desktop and embedded use. The VirtualBox package installs on an "
 "existing host operating system as an application; this host application "
@@ -485,7 +488,7 @@ msgstr ""
 "aplicació hoste permet carregar i executar diversos Sistemes Operatius "
 "convidats, anomenats <i>Guest OS</i>, cadascun amb el seu entorn virtual."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:36-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:48-7
 msgid ""
 "FileZilla Client is a fast and reliable cross-platform FTP, FTPS and SFTP "
 "client with lots of useful features and an intuitive graphical user "
@@ -494,7 +497,7 @@ msgstr ""
 "Filezilla Client és un client FTP, FTPS i SFTP multi-plataforma ràpid i "
 "segur amb moltes funcions útils i una interfície gràfica d'usuari intuïtiva."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:49-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:61-7
 msgid ""
 "Samba provides file and print services for various Microsoft Windows clients "
 "and can integrate with a Microsoft Windows Server domain, either as a Domain "
@@ -506,7 +509,7 @@ msgstr ""
 "Server, sigui com un Controlador de Domini (DC) o com un membre de domini. "
 "Suporta els dominis d'Active Directory  i de Microsoft Windows NT."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:58-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:70-7
 msgid ""
 "Most commercial DVDs are encrypted with CSS (the Content Scramble System), "
 "which attempts to restrict the software that can play a DVD."
@@ -514,7 +517,7 @@ msgstr ""
 "Molts DVD comercials estan encriptats amb CSS (Content Scramble System), el "
 "que limita el programari que pot reproduir un DVD."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:59-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:71-7
 msgid ""
 "SolydXK does not come with the necessary packages pre-installed to play "
 "these encrypted DVDs."
@@ -522,7 +525,7 @@ msgstr ""
 "SolydXK no incorpora per omissió els paquets necessaris preinstal·lats per "
 "reproduir aquests DVDs encriptats. "
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:60-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:72-7
 msgid ""
 "By clicking the install button below the following packages will be "
 "installed on your system:"
@@ -530,19 +533,19 @@ msgstr ""
 "Bo i clicant el botó d'instal·lació de sota s'instal·laran aquests paquets "
 "al vostre sistema: "
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:62-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:74-8
 msgid "libdvdcss2"
 msgstr "libdvdcss2"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:63-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:75-8
 msgid "w32codecs or w64codecs"
 msgstr "w32codecs o w64codecs"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:70-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:82-8
 msgid "Legal warning:"
 msgstr "Avís legal: "
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:71-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:83-8
 msgid ""
 "Check with your local laws to make sure usage of libdvdcss2 would be legal "
 "in your area."

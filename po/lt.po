@@ -3,19 +3,19 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2023
+# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2023,2025
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2017-2019
 # Arjen Balfoort <arjenbalfoort@hotmail.com>, 2016-2017
 # Moo, 2023
 # Moo, 2016-2021,2023
-# Moo, 2023
+# Moo, 2023,2025
 msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-25 13:32+0100\n"
+"POT-Creation-Date: 2025-03-02 13:55+0100\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
-"Last-Translator: Moo, 2023\n"
+"Last-Translator: Moo, 2023,2025\n"
 "Language-Team: Lithuanian (http://app.transifex.com/abalfoort/solydxk-"
 "welcome/language/lt/)\n"
 "Language: lt\n"
@@ -49,13 +49,12 @@ msgid "Unexpected error"
 msgstr "Netikėta klaida"
 
 #: usr/lib/solydxk/welcome/main.py:61
-#, fuzzy
 msgid ""
 "SolydXK Welcome has failed with the following unexpected error. Please "
 "submit a bug report!"
 msgstr ""
-"SolydXK pasveikinimas patyrė nesėkmę su šia netikėta klaida.\n"
-"Prašome pranešti apie klaidą!"
+"SolydXK sistemos nustatymai patyrė nesėkmę su šia netikėta klaida. Prašome "
+"pranešti apie klaidą!"
 
 #: usr/lib/solydxk/welcome/welcome.py:75
 msgid "Install"
@@ -115,11 +114,8 @@ msgstr ""
 "Prašome prisijungti prie interneto ir bandyti vėl."
 
 #: usr/lib/solydxk/welcome/welcome.py:210
-#, fuzzy
 msgid "Cannot install the requested software:\n"
-msgstr ""
-"Nepavyksta įdiegti užklaustos programinės įrangos:\n"
-"Scenarijus nerastas: {}"
+msgstr "Nepavyksta įdiegti užklaustos programinės įrangos:\n"
 
 #: usr/lib/solydxk/welcome/welcome.py:292
 msgid ""
@@ -484,6 +480,16 @@ msgstr ""
 
 #: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
 msgid ""
+"QEMU (Quick Emulator) is an open-source virtualization software that enables "
+"the emulation and virtualization of various operating systems and "
+"applications across different hardware platforms."
+msgstr ""
+"QEMU (Greitas emuliatorius) yra atvirojo kodo virtualizacijos programinė "
+"įranga, kuri įgalina įvairių operacinių sistemų ir programų skirtingose "
+"programinės aparatinės įrangos platformose emuliaciją ir virtualizaciją."
+
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:38-7
+msgid ""
 "VirtualBox is a general-purpose full virtualizer for x86 hardware, targeted "
 "at server, desktop and embedded use. The VirtualBox package installs on an "
 "existing host operating system as an application; this host application "
@@ -498,7 +504,7 @@ msgstr ""
 "Svečio OS, būti įkeltoms ir vykdomoms, kiekvienai su savo pačios virtualia "
 "aplinka."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:36-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:48-7
 msgid ""
 "FileZilla Client is a fast and reliable cross-platform FTP, FTPS and SFTP "
 "client with lots of useful features and an intuitive graphical user "
@@ -508,7 +514,7 @@ msgstr ""
 "kliento programa su daugeliu naudingų ypatybių bei intuityvia grafine "
 "naudotojo sąsaja."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:49-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:61-7
 msgid ""
 "Samba provides file and print services for various Microsoft Windows clients "
 "and can integrate with a Microsoft Windows Server domain, either as a Domain "
@@ -520,7 +526,7 @@ msgstr ""
 "domenu, kaip arba domeno valdiklis (DC), arba domeno narys. Samba palaiko "
 "tiek aktyvaus katalogo, tiek ir Microsoft Windows NT domenus."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:58-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:70-7
 msgid ""
 "Most commercial DVDs are encrypted with CSS (the Content Scramble System), "
 "which attempts to restrict the software that can play a DVD."
@@ -529,7 +535,7 @@ msgstr ""
 "sistema, (angl. Content Scramble System)), kuri bando apriboti programinę "
 "įrangą, galinčią atkurti DVD diskus."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:59-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:71-7
 msgid ""
 "SolydXK does not come with the necessary packages pre-installed to play "
 "these encrypted DVDs."
@@ -537,7 +543,7 @@ msgstr ""
 "SolydXK sistemoje, šių DVD diskų atkūrimui reikalingi paketai nėra iš anksto "
 "įdiegti."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:60-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:72-7
 msgid ""
 "By clicking the install button below the following packages will be "
 "installed on your system:"
@@ -545,19 +551,19 @@ msgstr ""
 "Spustelėjus žemiau esantį įdiegimo mygtuką, į jūsų sistemą bus įdiegti šie "
 "paketai:"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:62-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:74-8
 msgid "libdvdcss2"
 msgstr "libdvdcss2"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:63-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:75-8
 msgid "w32codecs or w64codecs"
 msgstr "w32codecs arba w64codecs"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:70-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:82-8
 msgid "Legal warning:"
 msgstr "Teisinis įspėjimas:"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:71-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:83-8
 msgid ""
 "Check with your local laws to make sure usage of libdvdcss2 would be legal "
 "in your area."
