@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-02 13:55+0100\n"
+"POT-Creation-Date: 2025-03-02 21:47+0100\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
 "Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, "
 "2016,2021-2023,2025\n"
@@ -70,7 +70,7 @@ msgstr "İleri"
 msgid "Previous"
 msgstr "Geri"
 
-#: usr/lib/solydxk/welcome/welcome.py:136
+#: usr/lib/solydxk/welcome/welcome.py:128
 msgid ""
 "VirtualBox cannot be installed in a VirtualBox client.\n"
 "This package is skipped."
@@ -78,7 +78,7 @@ msgstr ""
 "VirtualBox, VirtualBox istemcisine kurulamaz.\n"
 "Bu paket atlanır."
 
-#: usr/lib/solydxk/welcome/welcome.py:159
+#: usr/lib/solydxk/welcome/welcome.py:151
 msgid ""
 "Nothing to do:\n"
 "No packages were selected."
@@ -86,7 +86,7 @@ msgstr ""
 "Yapılacak bir şey yok:\n"
 "Hiçbir paket seçilmedi."
 
-#: usr/lib/solydxk/welcome/welcome.py:174
+#: usr/lib/solydxk/welcome/welcome.py:166
 msgid ""
 "You selected some packages for installation.\n"
 "\n"
@@ -98,11 +98,11 @@ msgstr ""
 "Şimdi kurmak istiyor musunuz?\n"
 " Not: Kuruluma devam ederseniz liste temizlenir."
 
-#: usr/lib/solydxk/welcome/welcome.py:187
+#: usr/lib/solydxk/welcome/welcome.py:179
 msgid "No internet connection"
 msgstr "İnternet bağlantısı yok"
 
-#: usr/lib/solydxk/welcome/welcome.py:188
+#: usr/lib/solydxk/welcome/welcome.py:180
 msgid ""
 "You need an internet connection to install the additional software.\n"
 "Please, connect to the internet and try again."
@@ -110,11 +110,11 @@ msgstr ""
 "Ek yazılım kurulumu için internet bağlantısına ihtiyacınız var.\n"
 "Lütfen, bağlantı sağladıktan sonra yeniden deneyin."
 
-#: usr/lib/solydxk/welcome/welcome.py:210
+#: usr/lib/solydxk/welcome/welcome.py:202
 msgid "Cannot install the requested software:\n"
 msgstr "İstenen yazılım kurulamıyor:\n"
 
-#: usr/lib/solydxk/welcome/welcome.py:292
+#: usr/lib/solydxk/welcome/welcome.py:284
 msgid ""
 "There was an error during the installation.\n"
 "Please, run 'sudo apt-get -f install' in a terminal.\n"
@@ -124,7 +124,7 @@ msgstr ""
 "Lütfen, 'sudo apt-get -f install' komutunu uçbirimde çalıştırınız.\n"
 "Destek için forumu ziyaret edebilirsiniz. https://forums.solydxk.com"
 
-#: usr/lib/solydxk/welcome/welcome.py:298
+#: usr/lib/solydxk/welcome/welcome.py:290
 msgid ""
 "Could not get lock /var/lib/dpkg/lock\n"
 "Is another process using it?"
@@ -132,7 +132,7 @@ msgstr ""
 "Kilit alınamadı /var/lib/dpkg/lock\n"
 "Başka bir süreç mi kullanıyor?"
 
-#: usr/lib/solydxk/welcome/welcome.py:303
+#: usr/lib/solydxk/welcome/welcome.py:295
 msgid "The software has been successfully installed."
 msgstr "Yazılım başarıyla kuruldu."
 
@@ -475,7 +475,7 @@ msgid ""
 "applications across different hardware platforms."
 msgstr ""
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:38-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:36-7
 msgid ""
 "VirtualBox is a general-purpose full virtualizer for x86 hardware, targeted "
 "at server, desktop and embedded use. The VirtualBox package installs on an "
@@ -490,7 +490,7 @@ msgstr ""
 "konuk işletim sistemlerinin, her biri kendi sanal ortamına sahip olarak "
 "yüklenmesine ve çalıştırılmasına izin verir."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:48-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:46-7
 msgid ""
 "FileZilla Client is a fast and reliable cross-platform FTP, FTPS and SFTP "
 "client with lots of useful features and an intuitive graphical user "
@@ -500,7 +500,7 @@ msgstr ""
 "kullanıcı arayüzüne sahip, hızlı ve güvenilir bir çapraz platform FTP, FTPS "
 "ve SFTP istemcisidir."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:61-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:59-7
 msgid ""
 "Samba provides file and print services for various Microsoft Windows clients "
 "and can integrate with a Microsoft Windows Server domain, either as a Domain "
@@ -512,7 +512,7 @@ msgstr ""
 "üyesi olarak bir Microsoft Windows Server etki alanıyla entegre olabilir. "
 "Hem Active Directory hem de Microsoft Windows NT etki alanlarını destekler."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:70-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:68-7
 msgid ""
 "Most commercial DVDs are encrypted with CSS (the Content Scramble System), "
 "which attempts to restrict the software that can play a DVD."
@@ -520,7 +520,7 @@ msgstr ""
 "Çoğu ticari DVD, DVD oynatabilen yazılımı kısıtlamaya çalışan CSS (İçerik "
 "Karıştırma Sistemi) ile şifrelenir."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:71-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:69-7
 msgid ""
 "SolydXK does not come with the necessary packages pre-installed to play "
 "these encrypted DVDs."
@@ -528,7 +528,7 @@ msgstr ""
 "SolydXK, bu şifreli DVD'leri oynatmak için önceden yüklenmiş gerekli "
 "paketlerle birlikte gelmez."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:72-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:70-7
 msgid ""
 "By clicking the install button below the following packages will be "
 "installed on your system:"
@@ -536,19 +536,19 @@ msgstr ""
 "Aşağıdaki yükle düğmesine tıklayarak sisteminize aşağıdaki paketler "
 "yüklenecektir:"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:74-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:72-8
 msgid "libdvdcss2"
 msgstr "libdvdcss2"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:75-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:73-8
 msgid "w32codecs or w64codecs"
 msgstr "w32codecs veya w64codecs"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:82-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:80-8
 msgid "Legal warning:"
 msgstr "Yasal Uyarı"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:83-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:81-8
 msgid ""
 "Check with your local laws to make sure usage of libdvdcss2 would be legal "
 "in your area."

@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-02 13:55+0100\n"
+"POT-Creation-Date: 2025-03-02 21:47+0100\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
 "Last-Translator: Moo, 2023,2025\n"
 "Language-Team: Lithuanian (http://app.transifex.com/abalfoort/solydxk-"
@@ -72,7 +72,7 @@ msgstr "Kitas"
 msgid "Previous"
 msgstr "Ankstesnis"
 
-#: usr/lib/solydxk/welcome/welcome.py:136
+#: usr/lib/solydxk/welcome/welcome.py:128
 msgid ""
 "VirtualBox cannot be installed in a VirtualBox client.\n"
 "This package is skipped."
@@ -80,7 +80,7 @@ msgstr ""
 "VirtualBox paketas negali būti įdiegtas VirtualBox kliente.\n"
 "Šis paketas yra praleistas."
 
-#: usr/lib/solydxk/welcome/welcome.py:159
+#: usr/lib/solydxk/welcome/welcome.py:151
 msgid ""
 "Nothing to do:\n"
 "No packages were selected."
@@ -88,7 +88,7 @@ msgstr ""
 "Nėra ką atlikti:\n"
 "Nebuvo pažymėti jokie paketai."
 
-#: usr/lib/solydxk/welcome/welcome.py:174
+#: usr/lib/solydxk/welcome/welcome.py:166
 msgid ""
 "You selected some packages for installation.\n"
 "\n"
@@ -100,11 +100,11 @@ msgstr ""
 "Ar norite juos įdiegti dabar?\n"
 "Pastaba: jei tęsite neįdiegdami, sąrašas bus išvalytas."
 
-#: usr/lib/solydxk/welcome/welcome.py:187
+#: usr/lib/solydxk/welcome/welcome.py:179
 msgid "No internet connection"
 msgstr "Nėra interneto ryšio"
 
-#: usr/lib/solydxk/welcome/welcome.py:188
+#: usr/lib/solydxk/welcome/welcome.py:180
 msgid ""
 "You need an internet connection to install the additional software.\n"
 "Please, connect to the internet and try again."
@@ -113,11 +113,11 @@ msgstr ""
 "interneto.\n"
 "Prašome prisijungti prie interneto ir bandyti vėl."
 
-#: usr/lib/solydxk/welcome/welcome.py:210
+#: usr/lib/solydxk/welcome/welcome.py:202
 msgid "Cannot install the requested software:\n"
 msgstr "Nepavyksta įdiegti užklaustos programinės įrangos:\n"
 
-#: usr/lib/solydxk/welcome/welcome.py:292
+#: usr/lib/solydxk/welcome/welcome.py:284
 msgid ""
 "There was an error during the installation.\n"
 "Please, run 'sudo apt-get -f install' in a terminal.\n"
@@ -128,7 +128,7 @@ msgstr ""
 "Norėdami gauti palaikymą, apsilankykite mūsų forume: https://forums.solydxk."
 "com"
 
-#: usr/lib/solydxk/welcome/welcome.py:298
+#: usr/lib/solydxk/welcome/welcome.py:290
 msgid ""
 "Could not get lock /var/lib/dpkg/lock\n"
 "Is another process using it?"
@@ -136,7 +136,7 @@ msgstr ""
 "Nepavyko gauti /var/lib/dpkg/lock užrakto\n"
 "Ar jį naudoja kitas procesas?"
 
-#: usr/lib/solydxk/welcome/welcome.py:303
+#: usr/lib/solydxk/welcome/welcome.py:295
 msgid "The software has been successfully installed."
 msgstr "Programinė įranga buvo sėkmingai įdiegta."
 
@@ -488,7 +488,7 @@ msgstr ""
 "įranga, kuri įgalina įvairių operacinių sistemų ir programų skirtingose "
 "programinės aparatinės įrangos platformose emuliaciją ir virtualizaciją."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:38-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:36-7
 msgid ""
 "VirtualBox is a general-purpose full virtualizer for x86 hardware, targeted "
 "at server, desktop and embedded use. The VirtualBox package installs on an "
@@ -504,7 +504,7 @@ msgstr ""
 "Svečio OS, būti įkeltoms ir vykdomoms, kiekvienai su savo pačios virtualia "
 "aplinka."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:48-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:46-7
 msgid ""
 "FileZilla Client is a fast and reliable cross-platform FTP, FTPS and SFTP "
 "client with lots of useful features and an intuitive graphical user "
@@ -514,7 +514,7 @@ msgstr ""
 "kliento programa su daugeliu naudingų ypatybių bei intuityvia grafine "
 "naudotojo sąsaja."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:61-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:59-7
 msgid ""
 "Samba provides file and print services for various Microsoft Windows clients "
 "and can integrate with a Microsoft Windows Server domain, either as a Domain "
@@ -526,7 +526,7 @@ msgstr ""
 "domenu, kaip arba domeno valdiklis (DC), arba domeno narys. Samba palaiko "
 "tiek aktyvaus katalogo, tiek ir Microsoft Windows NT domenus."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:70-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:68-7
 msgid ""
 "Most commercial DVDs are encrypted with CSS (the Content Scramble System), "
 "which attempts to restrict the software that can play a DVD."
@@ -535,7 +535,7 @@ msgstr ""
 "sistema, (angl. Content Scramble System)), kuri bando apriboti programinę "
 "įrangą, galinčią atkurti DVD diskus."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:71-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:69-7
 msgid ""
 "SolydXK does not come with the necessary packages pre-installed to play "
 "these encrypted DVDs."
@@ -543,7 +543,7 @@ msgstr ""
 "SolydXK sistemoje, šių DVD diskų atkūrimui reikalingi paketai nėra iš anksto "
 "įdiegti."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:72-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:70-7
 msgid ""
 "By clicking the install button below the following packages will be "
 "installed on your system:"
@@ -551,19 +551,19 @@ msgstr ""
 "Spustelėjus žemiau esantį įdiegimo mygtuką, į jūsų sistemą bus įdiegti šie "
 "paketai:"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:74-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:72-8
 msgid "libdvdcss2"
 msgstr "libdvdcss2"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:75-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:73-8
 msgid "w32codecs or w64codecs"
 msgstr "w32codecs arba w64codecs"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:82-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:80-8
 msgid "Legal warning:"
 msgstr "Teisinis įspėjimas:"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:83-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:81-8
 msgid ""
 "Check with your local laws to make sure usage of libdvdcss2 would be legal "
 "in your area."

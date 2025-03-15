@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-02 13:55+0100\n"
+"POT-Creation-Date: 2025-03-02 21:47+0100\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
 "Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2023,2025\n"
 "Language-Team: Catalan (http://app.transifex.com/abalfoort/solydxk-welcome/"
@@ -68,7 +68,7 @@ msgstr "Següent"
 msgid "Previous"
 msgstr "Anterior"
 
-#: usr/lib/solydxk/welcome/welcome.py:136
+#: usr/lib/solydxk/welcome/welcome.py:128
 msgid ""
 "VirtualBox cannot be installed in a VirtualBox client.\n"
 "This package is skipped."
@@ -76,7 +76,7 @@ msgstr ""
 "No es pot instal·lar VirtualBox en un client de Virtualmox. Ometem aquest "
 "paquet."
 
-#: usr/lib/solydxk/welcome/welcome.py:159
+#: usr/lib/solydxk/welcome/welcome.py:151
 msgid ""
 "Nothing to do:\n"
 "No packages were selected."
@@ -84,7 +84,7 @@ msgstr ""
 "No cal fer res:\n"
 "No s'ha seleccionat cap paquet."
 
-#: usr/lib/solydxk/welcome/welcome.py:174
+#: usr/lib/solydxk/welcome/welcome.py:166
 msgid ""
 "You selected some packages for installation.\n"
 "\n"
@@ -96,11 +96,11 @@ msgstr ""
 "Voleu instal·lar-los ara?\n"
 "Nota: S'esborrarà la llista si continueu sense instal·lar."
 
-#: usr/lib/solydxk/welcome/welcome.py:187
+#: usr/lib/solydxk/welcome/welcome.py:179
 msgid "No internet connection"
 msgstr "No hi ha connexió a Internet "
 
-#: usr/lib/solydxk/welcome/welcome.py:188
+#: usr/lib/solydxk/welcome/welcome.py:180
 msgid ""
 "You need an internet connection to install the additional software.\n"
 "Please, connect to the internet and try again."
@@ -108,11 +108,11 @@ msgstr ""
 "Cal una connexió a Internet per instal·lar el programari addicional.\n"
 "Si us plau, connecteu-vos a Internet i torneu a provar-ho."
 
-#: usr/lib/solydxk/welcome/welcome.py:210
+#: usr/lib/solydxk/welcome/welcome.py:202
 msgid "Cannot install the requested software:\n"
 msgstr "No es pot instal·lar el programari demanat:\n"
 
-#: usr/lib/solydxk/welcome/welcome.py:292
+#: usr/lib/solydxk/welcome/welcome.py:284
 msgid ""
 "There was an error during the installation.\n"
 "Please, run 'sudo apt-get -f install' in a terminal.\n"
@@ -122,7 +122,7 @@ msgstr ""
 "Executeu 'sudo apt-get -f install' en un terminal.\n"
 "Trobareu ajuda al nostre fòrum: https://forums.solydxk.com"
 
-#: usr/lib/solydxk/welcome/welcome.py:298
+#: usr/lib/solydxk/welcome/welcome.py:290
 msgid ""
 "Could not get lock /var/lib/dpkg/lock\n"
 "Is another process using it?"
@@ -130,7 +130,7 @@ msgstr ""
 "No puc bloquejar /var/lib/dpkg/lock\n"
 "Hi ha un altre procés usant-lo?"
 
-#: usr/lib/solydxk/welcome/welcome.py:303
+#: usr/lib/solydxk/welcome/welcome.py:295
 msgid "The software has been successfully installed."
 msgstr "El programari s'ha instal·lat amb èxit."
 
@@ -474,7 +474,7 @@ msgid ""
 "applications across different hardware platforms."
 msgstr ""
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:38-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:36-7
 msgid ""
 "VirtualBox is a general-purpose full virtualizer for x86 hardware, targeted "
 "at server, desktop and embedded use. The VirtualBox package installs on an "
@@ -488,7 +488,7 @@ msgstr ""
 "aplicació hoste permet carregar i executar diversos Sistemes Operatius "
 "convidats, anomenats <i>Guest OS</i>, cadascun amb el seu entorn virtual."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:48-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:46-7
 msgid ""
 "FileZilla Client is a fast and reliable cross-platform FTP, FTPS and SFTP "
 "client with lots of useful features and an intuitive graphical user "
@@ -497,7 +497,7 @@ msgstr ""
 "Filezilla Client és un client FTP, FTPS i SFTP multi-plataforma ràpid i "
 "segur amb moltes funcions útils i una interfície gràfica d'usuari intuïtiva."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:61-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:59-7
 msgid ""
 "Samba provides file and print services for various Microsoft Windows clients "
 "and can integrate with a Microsoft Windows Server domain, either as a Domain "
@@ -509,7 +509,7 @@ msgstr ""
 "Server, sigui com un Controlador de Domini (DC) o com un membre de domini. "
 "Suporta els dominis d'Active Directory  i de Microsoft Windows NT."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:70-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:68-7
 msgid ""
 "Most commercial DVDs are encrypted with CSS (the Content Scramble System), "
 "which attempts to restrict the software that can play a DVD."
@@ -517,7 +517,7 @@ msgstr ""
 "Molts DVD comercials estan encriptats amb CSS (Content Scramble System), el "
 "que limita el programari que pot reproduir un DVD."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:71-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:69-7
 msgid ""
 "SolydXK does not come with the necessary packages pre-installed to play "
 "these encrypted DVDs."
@@ -525,7 +525,7 @@ msgstr ""
 "SolydXK no incorpora per omissió els paquets necessaris preinstal·lats per "
 "reproduir aquests DVDs encriptats. "
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:72-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:70-7
 msgid ""
 "By clicking the install button below the following packages will be "
 "installed on your system:"
@@ -533,19 +533,19 @@ msgstr ""
 "Bo i clicant el botó d'instal·lació de sota s'instal·laran aquests paquets "
 "al vostre sistema: "
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:74-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:72-8
 msgid "libdvdcss2"
 msgstr "libdvdcss2"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:75-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:73-8
 msgid "w32codecs or w64codecs"
 msgstr "w32codecs o w64codecs"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:82-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:80-8
 msgid "Legal warning:"
 msgstr "Avís legal: "
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:83-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:81-8
 msgid ""
 "Check with your local laws to make sure usage of libdvdcss2 would be legal "
 "in your area."
