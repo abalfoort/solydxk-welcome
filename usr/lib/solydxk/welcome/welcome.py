@@ -6,7 +6,7 @@ from queue import Queue
 from os.path import join, abspath, dirname, basename, exists, isdir
 from utils import ExecuteThreadedCommands, has_internet_connection, \
                   getoutput, in_virtual_box, get_debian_version, \
-                  get_repo_suite
+                  get_repo_suite, get_screen_size
 from simplebrowser import SimpleBrowser
 
 from dialogs import error_dialog, warning_dialog, \
@@ -81,15 +81,7 @@ class SolydXKWelcome():
         self.btn_previous.set_sensitive(False)
 
         # Resize the window to 75% of the screen size in the primary monitor
-        display = Gdk.Display.get_default()
-        pm = display.get_primary_monitor()
-        mon_width = 0
-        mon_height = 0
-        if pm:
-            geo = pm.get_geometry()
-            mon_width = geo.width
-            mon_height = geo.height
-
+        mon_width, mon_height = get_screen_size()
         if mon_width > 640:
             self.window.set_default_size(mon_width * 0.75, mon_height * 0.75)
         else:

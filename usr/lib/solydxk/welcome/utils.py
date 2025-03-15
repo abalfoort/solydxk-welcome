@@ -10,6 +10,11 @@ import os
 from os.path import exists
 from aptsources.sourceslist import SourcesList
 
+# Make sure the right Gtk version is loaded
+import gi
+gi.require_version('Gtk', '3.0')
+from gi.repository import Gdk
+
 
 def shell_exec_popen(command, kwargs=None):
     """ Execute a command with Popen (returns the returncode attribute) """
@@ -136,7 +141,7 @@ def has_internet_connection(hostname=None):
 
 def is_running_live():
     """ Is the system a live system """
-    live_dirs = ['/live', '/lib/live/mount', '/rofs']
+    live_dirs = ['/lib/live', '/live', '/rofs']
     for live_dir in live_dirs:
         if exists(live_dir):
             return True
@@ -167,6 +172,26 @@ def get_logged_user():
     if user_name == "":
         user_name = pwd.getpwuid(os.getuid()).pw_name
     return user_name
+
+
+def get_screen_size():
+    """Get the screen size of the current monitor
+
+    Returns:
+        tuple: (width, height)
+    """
+    display = Gdk.Display.get_default()
+    mon_geoms = [
+        display.get_monitor(i).get_geometry()
+        for i in range(display.get_n_monitors())
+    ]
+
+    x0 = min(r.x            for r in mon_geoms)
+    y0 = min(r.y            for r in mon_geoms)
+    x1 = max(r.x + r.width  for r in mon_geoms)
+    y1 = max(r.y + r.height for r in mon_geoms)
+
+    return x1 - x0, y1 - y0
 
 
 # Class to run commands in a thread and return the output in a queue
