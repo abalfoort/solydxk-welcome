@@ -1,3 +1,10 @@
+solydxk-welcome (2.2.9) stable; urgency=low
+
+  * Updated translation: lt, ru
+  * Simplified list install packages for Qemu
+
+ -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sun, 23 Mar 2025 18:13:57 +0100
+
 solydxk-welcome (2.2.8) stable; urgency=low
 
   * Fix Qemu screen resolution not found
