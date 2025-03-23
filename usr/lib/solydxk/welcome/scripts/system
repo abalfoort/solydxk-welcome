@@ -16,7 +16,7 @@ if [ $# -gt 0 ]; then
             PCK="$PCK filezilla"
         fi
         if [ "$ARG" == 'qemu' ]; then
-            PCK="$PCK qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virt-manager spice-client-gtk"
+            PCK="$PCK qemu-kvm bridge-utils virt-manager spice-client-gtk spice-vdagent"
         fi
         if [ "$ARG" == 'virtualbox' ]; then
             PCK="$PCK virtualbox"
