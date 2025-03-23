@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-02 21:47+0100\n"
+"POT-Creation-Date: 2025-03-23 18:14+0100\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
 "Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2023,2025\n"
 "Language-Team: Catalan (http://app.transifex.com/abalfoort/solydxk-welcome/"
@@ -22,35 +22,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: usr/lib/solydxk/welcome/main.py:50
-#: usr/share/applications/solydxk-welcome.desktop.in.h:2
-#: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:2
-#: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:2
-#: etc/xdg/autostart/solydxk-welcome.desktop.in.h:1
-msgid "SolydXK Welcome"
-msgstr "SolydXK Welcome"
-
-#: usr/lib/solydxk/welcome/main.py:51
-msgid ""
-"SolydXK Welcome cannot be started in a live environment\n"
-"You can use the --force argument to start SolydXK Welcome in a live "
-"environment"
-msgstr ""
-"No es pot engegar SolydXK Welcome en un entorn autònom\n"
-"Podeu usar l'argument --force per engegar-lo dins d'un entorn autònom."
-
-#: usr/lib/solydxk/welcome/main.py:60
-msgid "Unexpected error"
-msgstr "Error inesperat "
-
-#: usr/lib/solydxk/welcome/main.py:61
-msgid ""
-"SolydXK Welcome has failed with the following unexpected error. Please "
-"submit a bug report!"
-msgstr ""
-"SolydXK System Settings ha fallat amb el següent error inesperat. Si us "
-"plau, envieu un informe d'error!"
 
 #: usr/lib/solydxk/welcome/welcome.py:75
 msgid "Install"
@@ -134,15 +105,44 @@ msgstr ""
 msgid "The software has been successfully installed."
 msgstr "El programari s'ha instal·lat amb èxit."
 
-#: usr/share/applications/solydxk-welcome.desktop.in.h:1
-#: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:1
-#: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:1
-msgid "Welcome"
-msgstr "Benvinguts"
+#: usr/lib/solydxk/welcome/main.py:50
+#: etc/xdg/autostart/solydxk-welcome.desktop.in.h:1
+#: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:2
+#: usr/share/applications/solydxk-welcome.desktop.in.h:2
+#: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:2
+msgid "SolydXK Welcome"
+msgstr "SolydXK Welcome"
+
+#: usr/lib/solydxk/welcome/main.py:51
+msgid ""
+"SolydXK Welcome cannot be started in a live environment\n"
+"You can use the --force argument to start SolydXK Welcome in a live "
+"environment"
+msgstr ""
+"No es pot engegar SolydXK Welcome en un entorn autònom\n"
+"Podeu usar l'argument --force per engegar-lo dins d'un entorn autònom."
+
+#: usr/lib/solydxk/welcome/main.py:60
+msgid "Unexpected error"
+msgstr "Error inesperat "
+
+#: usr/lib/solydxk/welcome/main.py:61
+msgid ""
+"SolydXK Welcome has failed with the following unexpected error. Please "
+"submit a bug report!"
+msgstr ""
+"SolydXK System Settings ha fallat amb el següent error inesperat. Si us "
+"plau, envieu un informe d'error!"
 
 #: etc/xdg/autostart/solydxk-welcome.desktop.in.h:2
 msgid "SolydXK Welcome Screen"
 msgstr "Pantalla de Benvinguda de SolydXK"
+
+#: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:1
+#: usr/share/applications/solydxk-welcome.desktop.in.h:1
+#: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:1
+msgid "Welcome"
+msgstr "Benvinguts"
 
 #: po/en/business.html%2Bhtml.body.h1:11-2
 msgid "Business applications"

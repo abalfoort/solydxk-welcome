@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-02 21:47+0100\n"
+"POT-Creation-Date: 2025-03-23 18:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,31 +16,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: usr/lib/solydxk/welcome/main.py:50
-#: usr/share/applications/solydxk-welcome.desktop.in.h:2
-#: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:2
-#: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:2
-#: etc/xdg/autostart/solydxk-welcome.desktop.in.h:1
-msgid "SolydXK Welcome"
-msgstr ""
-
-#: usr/lib/solydxk/welcome/main.py:51
-msgid ""
-"SolydXK Welcome cannot be started in a live environment\n"
-"You can use the --force argument to start SolydXK Welcome in a live "
-"environment"
-msgstr ""
-
-#: usr/lib/solydxk/welcome/main.py:60
-msgid "Unexpected error"
-msgstr ""
-
-#: usr/lib/solydxk/welcome/main.py:61
-msgid ""
-"SolydXK Welcome has failed with the following unexpected error. Please "
-"submit a bug report!"
-msgstr ""
 
 #: usr/lib/solydxk/welcome/welcome.py:75
 msgid "Install"
@@ -109,14 +84,39 @@ msgstr ""
 msgid "The software has been successfully installed."
 msgstr ""
 
-#: usr/share/applications/solydxk-welcome.desktop.in.h:1
-#: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:1
-#: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:1
-msgid "Welcome"
+#: usr/lib/solydxk/welcome/main.py:50
+#: etc/xdg/autostart/solydxk-welcome.desktop.in.h:1
+#: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:2
+#: usr/share/applications/solydxk-welcome.desktop.in.h:2
+#: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:2
+msgid "SolydXK Welcome"
+msgstr ""
+
+#: usr/lib/solydxk/welcome/main.py:51
+msgid ""
+"SolydXK Welcome cannot be started in a live environment\n"
+"You can use the --force argument to start SolydXK Welcome in a live "
+"environment"
+msgstr ""
+
+#: usr/lib/solydxk/welcome/main.py:60
+msgid "Unexpected error"
+msgstr ""
+
+#: usr/lib/solydxk/welcome/main.py:61
+msgid ""
+"SolydXK Welcome has failed with the following unexpected error. Please "
+"submit a bug report!"
 msgstr ""
 
 #: etc/xdg/autostart/solydxk-welcome.desktop.in.h:2
 msgid "SolydXK Welcome Screen"
+msgstr ""
+
+#: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:1
+#: usr/share/applications/solydxk-welcome.desktop.in.h:1
+#: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:1
+msgid "Welcome"
 msgstr ""
 #: po/en/business.html%2Bhtml.body.h1:11-2
 msgid "Business applications"

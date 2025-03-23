@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-02 21:47+0100\n"
+"POT-Creation-Date: 2025-03-23 18:14+0100\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
 "Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2023,2025\n"
 "Language-Team: Serbian (http://app.transifex.com/abalfoort/solydxk-welcome/"
@@ -23,35 +23,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-
-#: usr/lib/solydxk/welcome/main.py:50
-#: usr/share/applications/solydxk-welcome.desktop.in.h:2
-#: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:2
-#: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:2
-#: etc/xdg/autostart/solydxk-welcome.desktop.in.h:1
-msgid "SolydXK Welcome"
-msgstr "СолидИксК добродошлица"
-
-#: usr/lib/solydxk/welcome/main.py:51
-msgid ""
-"SolydXK Welcome cannot be started in a live environment\n"
-"You can use the --force argument to start SolydXK Welcome in a live "
-"environment"
-msgstr ""
-"СолидИксК добродошлица се не може покренути на „живом“ систему\n"
-"Можете употребити --force аргумент како бисте ипак то учинили"
-
-#: usr/lib/solydxk/welcome/main.py:60
-msgid "Unexpected error"
-msgstr "Неочекивана грешка"
-
-#: usr/lib/solydxk/welcome/main.py:61
-msgid ""
-"SolydXK Welcome has failed with the following unexpected error. Please "
-"submit a bug report!"
-msgstr ""
-"Поставке СолидИксК система су имале неочекивану грешку. Пошаљите извештај о "
-"грешци!"
 
 #: usr/lib/solydxk/welcome/welcome.py:75
 msgid "Install"
@@ -135,15 +106,44 @@ msgstr ""
 msgid "The software has been successfully installed."
 msgstr "Софтвер је успешно инсталиран."
 
-#: usr/share/applications/solydxk-welcome.desktop.in.h:1
-#: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:1
-#: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:1
-msgid "Welcome"
-msgstr "Добродошли"
+#: usr/lib/solydxk/welcome/main.py:50
+#: etc/xdg/autostart/solydxk-welcome.desktop.in.h:1
+#: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:2
+#: usr/share/applications/solydxk-welcome.desktop.in.h:2
+#: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:2
+msgid "SolydXK Welcome"
+msgstr "СолидИксК добродошлица"
+
+#: usr/lib/solydxk/welcome/main.py:51
+msgid ""
+"SolydXK Welcome cannot be started in a live environment\n"
+"You can use the --force argument to start SolydXK Welcome in a live "
+"environment"
+msgstr ""
+"СолидИксК добродошлица се не може покренути на „живом“ систему\n"
+"Можете употребити --force аргумент како бисте ипак то учинили"
+
+#: usr/lib/solydxk/welcome/main.py:60
+msgid "Unexpected error"
+msgstr "Неочекивана грешка"
+
+#: usr/lib/solydxk/welcome/main.py:61
+msgid ""
+"SolydXK Welcome has failed with the following unexpected error. Please "
+"submit a bug report!"
+msgstr ""
+"Поставке СолидИксК система су имале неочекивану грешку. Пошаљите извештај о "
+"грешци!"
 
 #: etc/xdg/autostart/solydxk-welcome.desktop.in.h:2
 msgid "SolydXK Welcome Screen"
 msgstr "СолидИксК екран добродошлице"
+
+#: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:1
+#: usr/share/applications/solydxk-welcome.desktop.in.h:1
+#: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:1
+msgid "Welcome"
+msgstr "Добродошли"
 
 #: po/en/business.html%2Bhtml.body.h1:11-2
 msgid "Business applications"
