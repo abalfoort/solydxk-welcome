@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-02 21:47+0100\n"
+"POT-Creation-Date: 2025-03-23 18:14+0100\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
 "Last-Translator: Moo, 2023,2025\n"
 "Language-Team: Lithuanian (http://app.transifex.com/abalfoort/solydxk-"
@@ -25,36 +25,6 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < "
 "11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? "
 "1 : n % 1 != 0 ? 2: 3);\n"
-
-#: usr/lib/solydxk/welcome/main.py:50
-#: usr/share/applications/solydxk-welcome.desktop.in.h:2
-#: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:2
-#: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:2
-#: etc/xdg/autostart/solydxk-welcome.desktop.in.h:1
-msgid "SolydXK Welcome"
-msgstr "SolydXK pasveikinimas"
-
-#: usr/lib/solydxk/welcome/main.py:51
-msgid ""
-"SolydXK Welcome cannot be started in a live environment\n"
-"You can use the --force argument to start SolydXK Welcome in a live "
-"environment"
-msgstr ""
-"SolydXK pasveikinimas negali būti paleistas pristatymo aplinkoje\n"
-"Galite naudoti --force argumentą, kad paleistumėte SolydXK pasveikinimą "
-"pristatymo aplinkoje"
-
-#: usr/lib/solydxk/welcome/main.py:60
-msgid "Unexpected error"
-msgstr "Netikėta klaida"
-
-#: usr/lib/solydxk/welcome/main.py:61
-msgid ""
-"SolydXK Welcome has failed with the following unexpected error. Please "
-"submit a bug report!"
-msgstr ""
-"SolydXK sistemos nustatymai patyrė nesėkmę su šia netikėta klaida. Prašome "
-"pranešti apie klaidą!"
 
 #: usr/lib/solydxk/welcome/welcome.py:75
 msgid "Install"
@@ -140,15 +110,45 @@ msgstr ""
 msgid "The software has been successfully installed."
 msgstr "Programinė įranga buvo sėkmingai įdiegta."
 
-#: usr/share/applications/solydxk-welcome.desktop.in.h:1
-#: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:1
-#: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:1
-msgid "Welcome"
-msgstr "Sveiki atvykę"
+#: usr/lib/solydxk/welcome/main.py:50
+#: etc/xdg/autostart/solydxk-welcome.desktop.in.h:1
+#: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:2
+#: usr/share/applications/solydxk-welcome.desktop.in.h:2
+#: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:2
+msgid "SolydXK Welcome"
+msgstr "SolydXK pasveikinimas"
+
+#: usr/lib/solydxk/welcome/main.py:51
+msgid ""
+"SolydXK Welcome cannot be started in a live environment\n"
+"You can use the --force argument to start SolydXK Welcome in a live "
+"environment"
+msgstr ""
+"SolydXK pasveikinimas negali būti paleistas pristatymo aplinkoje\n"
+"Galite naudoti --force argumentą, kad paleistumėte SolydXK pasveikinimą "
+"pristatymo aplinkoje"
+
+#: usr/lib/solydxk/welcome/main.py:60
+msgid "Unexpected error"
+msgstr "Netikėta klaida"
+
+#: usr/lib/solydxk/welcome/main.py:61
+msgid ""
+"SolydXK Welcome has failed with the following unexpected error. Please "
+"submit a bug report!"
+msgstr ""
+"SolydXK sistemos nustatymai patyrė nesėkmę su šia netikėta klaida. Prašome "
+"pranešti apie klaidą!"
 
 #: etc/xdg/autostart/solydxk-welcome.desktop.in.h:2
 msgid "SolydXK Welcome Screen"
 msgstr "SolydXK pasveikinimo ekranas"
+
+#: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:1
+#: usr/share/applications/solydxk-welcome.desktop.in.h:1
+#: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:1
+msgid "Welcome"
+msgstr "Sveiki atvykę"
 
 #: po/en/business.html%2Bhtml.body.h1:11-2
 msgid "Business applications"
