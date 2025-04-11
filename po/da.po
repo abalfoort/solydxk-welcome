@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-23 18:14+0100\n"
+"POT-Creation-Date: 2025-04-11 10:24+0200\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
 "Last-Translator: Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2023,2025\n"
 "Language-Team: Danish (http://app.transifex.com/abalfoort/solydxk-welcome/"
@@ -109,7 +109,7 @@ msgstr "Programmet er blevet installeret uden problemer."
 #: usr/lib/solydxk/welcome/main.py:50
 #: etc/xdg/autostart/solydxk-welcome.desktop.in.h:1
 #: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:2
-#: usr/share/applications/solydxk-welcome.desktop.in.h:2
+#: usr/share/applications/solydxk-welcome.desktop.in.h:1
 #: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:2
 msgid "SolydXK Welcome"
 msgstr "Velkommen til SolydXK"
@@ -141,7 +141,6 @@ msgid "SolydXK Welcome Screen"
 msgstr "SolydXK Velkomstbillede"
 
 #: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:1
-#: usr/share/applications/solydxk-welcome.desktop.in.h:1
 #: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:1
 msgid "Welcome"
 msgstr "Velkommen"
