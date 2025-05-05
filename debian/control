@@ -1,7 +1,7 @@
 Source: solydxk-welcome
 Section: admin
 Priority: optional
-Maintainer: Arjen Balfoort <arjenbalfoort@hotmail.com>
+Maintainer: Arjen Balfoort <solydxk.abalfoort@tuta.com>
 Build-Depends: debhelper-compat (= 12),
   python3:any,
   intltool,
