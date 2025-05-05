@@ -8,84 +8,104 @@
   <body>
     <div id="background"></div>
     
-	<h1 class="title">System applications</h1>
+    <h1 class="title">System applications</h1>
 
-	<div class="main">
-		<div class="content">
+    <div class="main">
+        <div class="content">
             <form>
-			<table>
-				<tr><td colspan=2 class="app_title"><input type="checkbox" class="package" value="clamav" /> ClamAV</td></tr>
-				<tr>
-					<td>
-						<p>ClamAV is an open source antivirus engine for detecting trojans, viruses, malware & other malicious threats.</p>
-					</td>
-				</tr>
-				<tr><td colspan=2 class="app_title"><input type="checkbox" class="package" value="qemu" /> Qemu</td></tr>
-				<tr>
-					<td>
-						<p>QEMU (Quick Emulator) is an open-source virtualization software that enables the emulation and virtualization of various operating systems and applications across different hardware platforms.</p>
-					</td>
-					<td rowspan=2><img class="screenshot" src="../link/screenshots/qemu.jpg" /></td>
-				</tr>
-				<tr>
-					<td class="app_homepage">Homepage: <a href="https://www.qemu.org/" target="_blank">https://www.qemu.org</a></td>
-				</tr>
-				<tr><td colspan=2 class="app_title"><input type="checkbox" class="package" value="virtualbox" /> VirtualBox</td></tr>
-				<tr>
-					<td>
-						<p>VirtualBox is a general-purpose full virtualizer for x86 hardware, targeted at server, desktop and embedded use. The VirtualBox package installs on an existing host operating system as an application; this host application allows additional guest operating systems, each known as a Guest OS, to load and run, each with its own virtual environment.</p>
-					</td>
-					<td rowspan=2><img class="screenshot" src="../link/screenshots/virtualbox.jpg" /></td>
-				</tr>
-				<tr>
-					<td class="app_homepage">Homepage: <a href="https://www.virtualbox.org/" target="_blank">https://www.virtualbox.org</a></td>
-				</tr>
-				<tr><td colspan=2 class="app_title"><input type="checkbox" class="package" value="filezilla" /> FileZilla</td></tr>
-				<tr>
-					<td>
-						<p>FileZilla Client is a fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface.</p>
-					</td>
-					<td rowspan=2><img class="screenshot" src="../link/screenshots/filezilla.jpg" /></td>
-				</tr>
-				<tr>
-					<td class="app_homepage">Homepage: <a href="https://filezilla-project.org/" target="_blank">https://filezilla-project.org</a></td>
-				</tr>
-				<tr>
-					<td class="app_homepage">Homepage: <a href="https://www.clamav.net/" target="_blank">https://www.clamav.net</a></td>
-				</tr>
-				<tr><td colspan=2 class="app_title"><input type="checkbox" class="package" value="samba" /> Samba</td></tr>
-				<tr>
-					<td>
-						<p>Samba provides file and print services for various Microsoft Windows clients and can integrate with a Microsoft Windows Server domain, either as a Domain Controller (DC) or as a domain member. It supports both Active Directory and Microsoft Windows NT domains.</p>
-					</td>
-				</tr>
-				<tr>
-					<td class="app_homepage">Homepage: <a href="https://samba.org" target="_blank">https://samba.org</a></td>
-				</tr>
-				<tr><td class="app_title"><input type="checkbox" class="package" value="css" /> CSS</td></tr>
-				<tr>
-					<td>
-						<p>Most commercial DVDs are encrypted with CSS (the Content Scramble System), which attempts to restrict the software that can play a DVD.</p>
-						<p>SolydXK does not come with the necessary packages pre-installed to play these encrypted DVDs.</p>
-						<p>By clicking the install button below the following packages will be installed on your system:</p>
-						<ul>
-							<li>libdvdcss2</li>
-							<li>w32codecs or w64codecs</li>
-						</ul>
-					</td>
-				</tr>
-				<tr>
-					<td class="app_homepage">
-						<div class="warning">
-							<p>Legal warning:</p>
-							<p>Check with your local laws to make sure usage of libdvdcss2 would be legal in your area.</p>
-						</div>
-					</td>
-				</tr>
-				<tr><td colspan=2>&nbsp;</td></tr>
-			</table>
-			</form>
-		</div>
-	</div>
+            <table>
+                <tr>
+                    <td class="app_title"><input type="checkbox" class="package" value="clamav" /> ClamAV</td>
+                    <td rowspan="3"><img class="screenshot" src="../link/screenshots/clamav.jpg" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>ClamAV is an open source antivirus engine for detecting trojans, viruses, malware & other malicious threats.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="app_homepage">Homepage: <a href="https://www.clamav.net/" target="_blank">https://www.clamav.net</a></td>
+                </tr>
+                <tr><td colspan="2"><hr /></td></tr>
+                <tr>
+                    <td class="app_title"><input type="checkbox" class="package" value="qemu" /> Qemu</td>
+                    <td rowspan="3"><img class="screenshot" src="../link/screenshots/qemu.jpg" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>QEMU (Quick Emulator) is an open-source virtualization software that enables the emulation and virtualization of various operating systems and applications across different hardware platforms.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="app_homepage">Homepage: <a href="https://www.qemu.org/" target="_blank">https://www.qemu.org</a></td>
+                </tr>
+                <tr><td colspan="2"><hr /></td></tr>
+                <tr>
+                    <td class="app_title"><input type="checkbox" class="package" value="virtualbox" /> VirtualBox</td>
+                    <td rowspan="3"><img class="screenshot" src="../link/screenshots/virtualbox.jpg" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>VirtualBox is a general-purpose full virtualizer for x86 hardware, targeted at server, desktop and embedded use. The VirtualBox package installs on an existing host operating system as an application; this host application allows additional guest operating systems, each known as a Guest OS, to load and run, each with its own virtual environment.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="app_homepage">Homepage: <a href="https://www.virtualbox.org/" target="_blank">https://www.virtualbox.org</a></td>
+                </tr>
+                <tr><td colspan="2"><hr /></td></tr>
+                <tr>
+                    <td class="app_title"><input type="checkbox" class="package" value="filezilla" /> FileZilla</td>
+                    <td rowspan="3"><img class="screenshot" src="../link/screenshots/filezilla.jpg" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>FileZilla Client is a fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="app_homepage">Homepage: <a href="https://filezilla-project.org/" target="_blank">https://filezilla-project.org</a></td>
+                </tr>
+                <tr><td colspan="2"><hr /></td></tr>
+                <tr>
+                    <td class="app_title"><input type="checkbox" class="package" value="samba" /> Samba</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Samba provides file and print services for various Microsoft Windows clients and can integrate with a Microsoft Windows Server domain, either as a Domain Controller (DC) or as a domain member. It supports both Active Directory and Microsoft Windows NT domains.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="app_homepage">Homepage: <a href="https://samba.org" target="_blank">https://samba.org</a></td>
+                </tr>
+                <tr><td colspan="2"><hr /></td></tr>
+                <tr>
+                    <td class="app_title"><input type="checkbox" class="package" value="css" /> CSS</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Most commercial DVDs are encrypted with CSS (the Content Scramble System), which attempts to restrict the software that can play a DVD.</p>
+                        <p>SolydXK does not come with the necessary packages pre-installed to play these encrypted DVDs.</p>
+                        <p>By clicking the install button below the following packages will be installed on your system:</p>
+                        <ul>
+                            <li>libdvdcss2</li>
+                            <li>w32codecs or w64codecs</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="app_homepage">
+                        <div class="warning">
+                            <p>Legal warning:</p>
+                            <p>Check with your local laws to make sure usage of libdvdcss2 would be legal in your area.</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr><td colspan="2">&nbsp;</td></tr>
+            </table>
+            </form>
+        </div>
+    </div>
   </body>
 </html>
