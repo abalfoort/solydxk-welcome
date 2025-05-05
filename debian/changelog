@@ -1,222 +1,238 @@
+solydxk-welcome (2.3.3) stable; urgency=low
+
+  * Change kcm name
+  * Remove kde4 services
+
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Sun, 04 May 2025 13:27:42 +0200
+
+solydxk-welcome (2.3.2) stable; urgency=low
+
+  * Fix faulty HTML tables
+  * Add missing Clamav image
+  * Resize some images
+  * Change dev e-mail address
+
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Thu, 01 May 2025 19:39:24 +0200
+
 solydxk-welcome (2.3.1) stable; urgency=low
 
   * Change name: Welcome to SolydXK Welcome
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Fri, 11 Apr 2025 10:24:01 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Fri, 11 Apr 2025 10:24:01 +0200
 
 solydxk-welcome (2.3.0) stable; urgency=low
 
   * Updated translation: pt
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Tue, 25 Mar 2025 15:05:00 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Tue, 25 Mar 2025 15:05:00 +0100
 
 solydxk-welcome (2.2.9) stable; urgency=low
 
   * Updated translation: lt, ru
   * Simplified list install packages for Qemu
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sun, 23 Mar 2025 18:13:57 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Sun, 23 Mar 2025 18:13:57 +0100
 
 solydxk-welcome (2.2.8) stable; urgency=low
 
   * Fix Qemu screen resolution not found
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sun, 02 Mar 2025 21:46:57 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Sun, 02 Mar 2025 21:46:57 +0100
 
 solydxk-welcome (2.2.7) stable; urgency=low
 
   * Add Qemu to system applications
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sat, 01 Mar 2025 13:54:24 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Sat, 01 Mar 2025 13:54:24 +0100
 
 solydxk-welcome (2.2.6) stable; urgency=low
 
   * Use transient_for in dialogs init
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sat, 01 Mar 2025 11:58:27 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Sat, 01 Mar 2025 11:58:27 +0100
 
 solydxk-welcome (2.2.5) stable; urgency=low
 
   * Fix dialogs.py always returning False
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Fri, 28 Feb 2025 10:18:34 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Fri, 28 Feb 2025 10:18:34 +0100
 
 solydxk-welcome (2.2.4) stable; urgency=low
 
   * Fix dialog not closing after package install
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Wed, 26 Feb 2025 11:16:26 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Wed, 26 Feb 2025 11:16:26 +0100
 
 solydxk-welcome (2.2.3) stable; urgency=low
 
   * deb822 proofing
   * Fix simplebrowser.py: replace deprecated js functions
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Mon, 24 Feb 2025 19:35:38 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Mon, 24 Feb 2025 19:35:38 +0100
 
 solydxk-welcome (2.2.2) stable; urgency=low
 
   * Add support for newer gir1.2-webkit versions
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sun, 03 Mar 2024 15:17:33 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Sun, 03 Mar 2024 15:17:33 +0100
 
 solydxk-welcome (2.2.1) stable; urgency=low
 
   * Updated translation: ru
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Thu, 12 Oct 2023 08:23:44 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Thu, 12 Oct 2023 08:23:44 +0200
 
 solydxk-welcome (2.2.0) stable; urgency=low
 
   * New translation: ru
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Mon, 09 Oct 2023 09:54:37 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Mon, 09 Oct 2023 09:54:37 +0200
 
 solydxk-welcome (2.1.9) stable; urgency=low
 
   * Add firewalld samba service when installing samba
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Mon, 14 Aug 2023 09:38:41 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Mon, 14 Aug 2023 09:38:41 +0200
 
 solydxk-welcome (2.1.8) stable; urgency=low
 
   * Updated translations: da, de, es, es_419, fr, it, nb, pt, pt_BR, sr, tr
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Fri, 21 Jul 2023 19:16:48 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Fri, 21 Jul 2023 19:16:48 +0200
 
 solydxk-welcome (2.1.7) stable; urgency=low
 
   * Updated translations
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Thu, 13 Jul 2023 20:13:27 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Thu, 13 Jul 2023 20:13:27 +0200
 
 solydxk-welcome (2.1.6) stable; urgency=low
 
   * Updated translation: ca
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sat, 03 Jun 2023 06:57:39 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Sat, 03 Jun 2023 06:57:39 +0200
 
 solydxk-welcome (2.1.5) stable; urgency=low
 
   * Change Wine/PlayOnLinux title
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Wed, 17 May 2023 10:45:16 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Wed, 17 May 2023 10:45:16 +0200
 
 solydxk-welcome (2.1.4) stable; urgency=low
 
   * Updated translations: pt, lt
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Wed, 10 May 2023 11:53:15 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Wed, 10 May 2023 11:53:15 +0200
 
 solydxk-welcome (2.1.3) stable; urgency=low
 
   * Check if dpkg is locked by another process
   * Updated translation: sr
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sun, 30 Apr 2023 09:28:09 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Sun, 30 Apr 2023 09:28:09 +0200
 
 solydxk-welcome (2.1.2) stable; urgency=low
 
   * Add Lutris to games page
   * Add vulkan libraries to PlayOnLinux install
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Thu, 13 Apr 2023 09:54:30 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Thu, 13 Apr 2023 09:54:30 +0200
 
 solydxk-welcome (2.1.1) stable; urgency=low
 
   * Fix error when installing playonlinux
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Wed, 29 Mar 2023 17:19:00 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Wed, 29 Mar 2023 17:19:00 +0200
 
 solydxk-welcome (2.1.0) stable; urgency=low
 
   * Updated translation: lt
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Mon, 23 Jan 2023 17:43:49 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Mon, 23 Jan 2023 17:43:49 +0100
 
 solydxk-welcome (2.0.9) stable; urgency=low
 
   * Updated translation: ca
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Tue, 27 Dec 2022 16:59:13 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Tue, 27 Dec 2022 16:59:13 +0100
 
 solydxk-welcome (2.0.8) stable; urgency=low
 
   * Updated translation: es
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Fri, 07 Oct 2022 19:15:43 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Fri, 07 Oct 2022 19:15:43 +0200
 
 solydxk-welcome (2.0.7) stable; urgency=low
 
   * Updated translation: de
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Thu, 06 Oct 2022 12:31:23 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Thu, 06 Oct 2022 12:31:23 +0200
 
 solydxk-welcome (2.0.6) stable; urgency=low
 
   * Updated translation: sr
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Wed, 05 Oct 2022 08:34:04 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Wed, 05 Oct 2022 08:34:04 +0200
 
 solydxk-welcome (2.0.5) stable; urgency=low
 
   * Updated translation: es_419 (latin america), pt
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Tue, 28 Jun 2022 08:17:47 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Tue, 28 Jun 2022 08:17:47 +0200
 
 solydxk-welcome (2.0.4) stable; urgency=low
 
   * Updated translation: tr
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Mon, 16 May 2022 08:32:17 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Mon, 16 May 2022 08:32:17 +0200
 
 solydxk-welcome (2.0.3) stable; urgency=low
 
   * Add page for setup with minimal libreoffice install
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Wed, 04 May 2022 15:00:57 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Wed, 04 May 2022 15:00:57 +0200
 
 solydxk-welcome (2.0.2) stable; urgency=low
 
   * Moved clamav up the page
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Tue, 26 Apr 2022 15:27:44 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Tue, 26 Apr 2022 15:27:44 +0200
 
 solydxk-welcome (2.0.1) stable; urgency=low
 
   * Updated translation: pt
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sat, 16 Apr 2022 07:49:49 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Sat, 16 Apr 2022 07:49:49 +0200
 
 solydxk-welcome (2.0.0) stable; urgency=low
 
   * Add Samba to system section
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Tue, 07 Sep 2021 16:17:08 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Tue, 07 Sep 2021 16:17:08 +0200
 
 solydxk-welcome (1.9.9) stable; urgency=low
 
   * Add ClamAV to system section
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Tue, 07 Sep 2021 12:01:09 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Tue, 07 Sep 2021 12:01:09 +0200
 
 solydxk-welcome (1.9.8) stable; urgency=low
 
   * Updated translation: ca
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Thu, 05 Aug 2021 15:00:43 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Thu, 05 Aug 2021 15:00:43 +0200
 
 solydxk-welcome (1.9.7) stable; urgency=low
 
   * Remove Amarok: not available since buster
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Mon, 28 Jun 2021 09:04:42 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Mon, 28 Jun 2021 09:04:42 +0200
 
 solydxk-welcome (1.9.6) stable; urgency=low
 
   * Updated translation: sr
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Thu, 24 Jun 2021 09:50:53 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Thu, 24 Jun 2021 09:50:53 +0200
 
 solydxk-welcome (1.9.5) stable; urgency=low
 
@@ -224,474 +240,474 @@ solydxk-welcome (1.9.5) stable; urgency=low
   * Remove flash
   * Rename home applications to multimeda applications
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Thu, 20 May 2021 10:50:15 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Thu, 20 May 2021 10:50:15 +0200
 
 solydxk-welcome (1.9.4) stable; urgency=low
 
   * Updated translation: it
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Mon, 02 Nov 2020 11:41:53 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Mon, 02 Nov 2020 11:41:53 +0100
 
 solydxk-welcome (1.9.3) stable; urgency=low
 
   * Updated translation: sr
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Tue, 11 Aug 2020 17:12:17 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Tue, 11 Aug 2020 17:12:17 +0200
 
 solydxk-welcome (1.9.2) stable; urgency=low
 
   * Updated translation: pt
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Wed, 13 May 2020 09:07:39 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Wed, 13 May 2020 09:07:39 +0200
 
 solydxk-welcome (1.9.1) stable; urgency=low
 
   * Remove nordvpn page
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Thu, 19 Mar 2020 12:07:04 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Thu, 19 Mar 2020 12:07:04 +0100
 
 solydxk-welcome (1.9.0) stable; urgency=low
 
   * Updated translation: de
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Wed, 26 Feb 2020 08:19:48 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Wed, 26 Feb 2020 08:19:48 +0100
 
 solydxk-welcome (1.8.9) stable; urgency=low
 
   * Comment out donating SolydXK
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Wed, 19 Feb 2020 08:22:31 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Wed, 19 Feb 2020 08:22:31 +0100
 
 solydxk-welcome (1.8.8) stable; urgency=low
 
   * Fixed dialogs.py
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Fri, 31 Jan 2020 08:36:01 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Fri, 31 Jan 2020 08:36:01 +0100
 
 solydxk-welcome (1.8.7) stable; urgency=low
 
   * Enable debug mode in solydxk-welcome
   * Fix deprecated code
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Thu, 30 Jan 2020 19:27:33 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Thu, 30 Jan 2020 19:27:33 +0100
 
 solydxk-welcome (1.8.6) stable; urgency=low
 
   * Updated translation: pt
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sun, 10 Nov 2019 10:47:59 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Sun, 10 Nov 2019 10:47:59 +0100
 
 solydxk-welcome (1.8.5) stable; urgency=low
 
   * Updated translation: da
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Fri, 08 Nov 2019 17:32:03 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Fri, 08 Nov 2019 17:32:03 +0100
 
 solydxk-welcome (1.8.4) stable; urgency=low
 
   * Fix get debian version function on testing
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sat, 12 Oct 2019 17:38:20 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Sat, 12 Oct 2019 17:38:20 +0200
 
 solydxk-welcome (1.8.3) stable; urgency=low
 
   * Properly convert Python bool to JS bool
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Fri, 20 Sep 2019 15:11:47 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Fri, 20 Sep 2019 15:11:47 +0200
 
 solydxk-welcome (1.8.2) stable; urgency=low
 
   * Updated translation: ca
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sun, 01 Sep 2019 17:53:24 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Sun, 01 Sep 2019 17:53:24 +0200
 
 solydxk-welcome (1.8.1) stable; urgency=low
 
   * Updated translation: de
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sun, 01 Sep 2019 13:06:28 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Sun, 01 Sep 2019 13:06:28 +0200
 
 solydxk-welcome (1.8.0) stable; urgency=low
 
   * Start nordvpn-indicator after installation
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sun, 01 Sep 2019 07:24:55 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Sun, 01 Sep 2019 07:24:55 +0200
 
 solydxk-welcome (1.7.9) stable; urgency=low
 
   * Updated translation: lt
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Fri, 30 Aug 2019 11:05:04 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Fri, 30 Aug 2019 11:05:04 +0200
 
 solydxk-welcome (1.7.8) stable; urgency=low
 
   * Adapt NordVPN text
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Thu, 29 Aug 2019 16:02:46 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Thu, 29 Aug 2019 16:02:46 +0200
 
 solydxk-welcome (1.7.7) stable; urgency=low
 
   * Adapt NordVPN text
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Wed, 28 Aug 2019 17:23:36 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Wed, 28 Aug 2019 17:23:36 +0200
 
 solydxk-welcome (1.7.6) stable; urgency=low
 
   * Show NordVPN on SolydXK 10 only
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sun, 25 Aug 2019 22:33:54 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Sun, 25 Aug 2019 22:33:54 +0200
 
 solydxk-welcome (1.7.5) stable; urgency=low
 
   * Add dependency libgtk3-perl
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Fri, 23 Aug 2019 19:54:03 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Fri, 23 Aug 2019 19:54:03 +0200
 
 solydxk-welcome (1.7.4) stable; urgency=low
 
   * Include NordVPN affiliate page
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sat, 17 Aug 2019 10:57:26 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Sat, 17 Aug 2019 10:57:26 +0200
 
 solydxk-welcome (1.7.3) stable; urgency=low
 
   * Updated translation: lt
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Wed, 07 Aug 2019 08:34:13 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Wed, 07 Aug 2019 08:34:13 +0200
 
 solydxk-welcome (1.7.2) stable; urgency=low
 
   * Install packages when switching pages
   * Run apt update once
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Tue, 23 Jul 2019 09:13:47 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Tue, 23 Jul 2019 09:13:47 +0200
 
 solydxk-welcome (1.7.1) stable; urgency=low
 
   * Add donation link in welcome page
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Fri, 05 Jul 2019 16:04:49 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Fri, 05 Jul 2019 16:04:49 +0200
 
 solydxk-welcome (1.7.0) stable; urgency=low
 
   * Updated translation: it
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sat, 25 May 2019 18:27:22 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Sat, 25 May 2019 18:27:22 +0200
 
 solydxk-welcome (1.6.9) stable; urgency=low
 
   * Decode binary return from Webkit2 to utf8
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Wed, 12 Dec 2018 18:38:12 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Wed, 12 Dec 2018 18:38:12 +0100
 
 solydxk-welcome (1.6.8) stable; urgency=low
 
   * Updated translations: pt
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Tue, 04 Dec 2018 12:05:11 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Tue, 04 Dec 2018 12:05:11 +0100
 
 solydxk-welcome (1.6.7) stable; urgency=low
 
   * Debug: two scroll bars in SolydX 10
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Fri, 26 Oct 2018 13:31:54 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Fri, 26 Oct 2018 13:31:54 +0200
 
 solydxk-welcome (1.6.6) stable; urgency=low
 
   * Debug: move from name to class name html elements
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Thu, 25 Oct 2018 13:54:23 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Thu, 25 Oct 2018 13:54:23 +0200
 
 solydxk-welcome (1.6.5) stable; urgency=low
 
   * Use WebKit1 and WebKit2
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Wed, 24 Oct 2018 14:57:04 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Wed, 24 Oct 2018 14:57:04 +0200
 
 solydxk-welcome (1.6.4) stable; urgency=low
 
   * Updated translations: da
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sun, 26 Aug 2018 11:03:17 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Sun, 26 Aug 2018 11:03:17 +0200
 
 solydxk-welcome (1.6.3) stable; urgency=low
 
   * Updated translations: fr, de, lt
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Wed, 01 Aug 2018 08:54:13 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Wed, 01 Aug 2018 08:54:13 +0200
 
 solydxk-welcome (1.6.2) stable; urgency=low
 
   * Added Support SolydXK
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Wed, 04 Jul 2018 13:05:33 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Wed, 04 Jul 2018 13:05:33 +0200
 
 solydxk-welcome (1.6.1) stable; urgency=low
 
   * Proxy implementation for urlopen
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Tue, 03 Jul 2018 11:06:21 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Tue, 03 Jul 2018 11:06:21 +0200
 
 solydxk-welcome (1.6.0) stable; urgency=low
 
   * Updated portuguese translation
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Tue, 26 Jun 2018 10:45:37 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Tue, 26 Jun 2018 10:45:37 +0200
 
 solydxk-welcome (1.5.9) stable; urgency=low
 
   * URL check
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Fri, 01 Jun 2018 09:48:11 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Fri, 01 Jun 2018 09:48:11 +0200
 
 solydxk-welcome (1.5.8) stable; urgency=low
 
   * Remove Facebook and Google URLs
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Thu, 31 May 2018 11:03:50 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Thu, 31 May 2018 11:03:50 +0200
 
 solydxk-welcome (1.5.7) stable; urgency=low
 
   * Check internet connection on all urls in sources.list
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Tue, 24 Apr 2018 22:34:52 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Tue, 24 Apr 2018 22:34:52 +0200
 
 solydxk-welcome (1.5.6) stable; urgency=low
 
   * Added Danish translations
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Wed, 11 Apr 2018 10:48:20 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Wed, 11 Apr 2018 10:48:20 +0200
 
 solydxk-welcome (1.5.5) stable; urgency=low
 
   * Replace Dolibarr (discontinued) with PostBooks
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Mon, 12 Mar 2018 11:22:27 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Mon, 12 Mar 2018 11:22:27 +0100
 
 solydxk-welcome (1.5.4) stable; urgency=low
 
   * Use pkexec to install packages
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Wed, 21 Feb 2018 09:11:05 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Wed, 21 Feb 2018 09:11:05 +0100
 
 solydxk-welcome (1.5.3) stable; urgency=low
 
   * Updated translations
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Thu, 08 Feb 2018 18:25:53 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Thu, 08 Feb 2018 18:25:53 +0100
 
 solydxk-welcome (1.5.2) stable; urgency=low
 
   * Replace ktorrent with transmission-qt
   * Improve error handling for testing internet connection
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Mon, 29 Jan 2018 19:24:21 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Mon, 29 Jan 2018 19:24:21 +0100
 
 solydxk-welcome (1.5.1) stable; urgency=low
 
   * Updated translations
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sun, 14 Jan 2018 11:48:45 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Sun, 14 Jan 2018 11:48:45 +0100
 
 solydxk-welcome (1.5.0) stable; urgency=low
 
   * Resolve bug with multiple package selection and VirtualBox installation
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sat, 30 Dec 2017 11:04:24 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Sat, 30 Dec 2017 11:04:24 +0100
 
 solydxk-welcome (1.4.9) stable; urgency=low
 
   * Updated translations
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sun, 24 Dec 2017 21:24:39 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Sun, 24 Dec 2017 21:24:39 +0100
 
 solydxk-welcome (1.4.8) stable; urgency=low
 
   * Check internet connection using repositories in /etc/apt/sources.list
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Wed, 20 Dec 2017 10:06:12 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Wed, 20 Dec 2017 10:06:12 +0100
 
 solydxk-welcome (1.4.7) stable; urgency=low
 
   * Prevent installation of VB in VB client
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Tue, 19 Dec 2017 11:10:58 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Tue, 19 Dec 2017 11:10:58 +0100
 
 solydxk-welcome (1.4.6) stable; urgency=low
 
   * Update MariaDB configuration
   * Drop LetoDMS
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Tue, 12 Dec 2017 13:24:00 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Tue, 12 Dec 2017 13:24:00 +0100
 
 solydxk-welcome (1.4.5) stable; urgency=low
 
   * Debugging simplebrowser
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Fri, 03 Nov 2017 18:38:04 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Fri, 03 Nov 2017 18:38:04 +0100
 
 solydxk-welcome (1.4.4) stable; urgency=low
 
   * Imporved GUI
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Mon, 30 Oct 2017 12:27:05 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Mon, 30 Oct 2017 12:27:05 +0100
 
 solydxk-welcome (1.4.3) stable; urgency=low
 
   * User selection of applications to install
   * Do not use external repository for Virtualbox
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sat, 28 Oct 2017 11:36:38 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Sat, 28 Oct 2017 11:36:38 +0200
 
 solydxk-welcome (1.4.2) stable; urgency=low
 
   * Adapt system script to only use virtualbox repository on Stretch
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Wed, 18 Oct 2017 08:52:20 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Wed, 18 Oct 2017 08:52:20 +0200
 
 solydxk-welcome (1.4.1) stable; urgency=low
 
   * Support proprietary driver installation by SolydXK System Settings
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Thu, 14 Sep 2017 08:38:25 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Thu, 14 Sep 2017 08:38:25 +0200
 
 solydxk-welcome (1.4.0) stable; urgency=low
 
   * Changed system script to include external repository for virtualbox.
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Mon, 28 Aug 2017 12:59:05 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Mon, 28 Aug 2017 12:59:05 +0200
 
 solydxk-welcome (1.3.9) stable; urgency=low
 
   * Implement gazza's fix for window resizing on multiple monitors
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Wed, 16 Aug 2017 08:09:19 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Wed, 16 Aug 2017 08:09:19 +0200
 
 solydxk-welcome (1.3.8) stable; urgency=low
 
   * Added entry for KCM (systemsettings)
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sat, 15 Jul 2017 10:44:03 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Sat, 15 Jul 2017 10:44:03 +0200
 
 solydxk-welcome (1.3.7) stable; urgency=low
 
   * Check if ddm is installed
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Mon, 24 Apr 2017 16:43:17 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Mon, 24 Apr 2017 16:43:17 +0200
 
 solydxk-welcome (1.3.6) stable; urgency=low
 
   * Remove donation button
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Mon, 10 Apr 2017 11:39:35 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Mon, 10 Apr 2017 11:39:35 +0200
 
 solydxk-welcome (1.3.5) stable; urgency=low
 
   * Check with ddm if proprietary drivers can be installed
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sat, 01 Apr 2017 18:55:22 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Sat, 01 Apr 2017 18:55:22 +0200
 
 solydxk-welcome (1.3.4) stable; urgency=low
 
   * Revert logname / who -m change
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Thu, 02 Mar 2017 12:43:18 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Thu, 02 Mar 2017 12:43:18 +0100
 
 solydxk-welcome (1.3.3) stable; urgency=low
 
   * Updated link to Ktorrent site
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Mon, 20 Feb 2017 15:31:11 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Mon, 20 Feb 2017 15:31:11 +0100
 
 solydxk-welcome (1.3.2) stable; urgency=low
 
   * Fix icon
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Fri, 10 Feb 2017 16:09:04 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Fri, 10 Feb 2017 16:09:04 +0100
 
 solydxk-welcome (1.3.1) stable; urgency=low
 
   * Update multimedia script to install latest Flash package
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Fri, 06 Jan 2017 17:35:54 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Fri, 06 Jan 2017 17:35:54 +0100
 
 solydxk-welcome (1.3.0) stable; urgency=low
 
   * Updated translations
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Tue, 03 Jan 2017 16:12:47 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Tue, 03 Jan 2017 16:12:47 +0100
 
 solydxk-welcome (1.2.9) stable; urgency=low
 
   * Install packages separately
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Wed, 03 Aug 2016 19:53:52 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Wed, 03 Aug 2016 19:53:52 +0200
 
 solydxk-welcome (1.2.8) stable; urgency=low
 
   * Updated Portuguese language
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Wed, 27 Jul 2016 10:10:25 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Wed, 27 Jul 2016 10:10:25 +0200
 
 solydxk-welcome (1.2.7) stable; urgency=low
 
   * Solved typo
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Wed, 29 Jun 2016 21:59:01 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Wed, 29 Jun 2016 21:59:01 +0200
 
 solydxk-welcome (1.2.6) stable; urgency=low
 
   * Fix not starting in SolydX RPI
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Wed, 15 Jun 2016 20:35:17 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Wed, 15 Jun 2016 20:35:17 +0200
 
 solydxk-welcome (1.2.5) stable; urgency=low
 
   * Fix install scripts for Stretch
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Wed, 08 Jun 2016 11:33:59 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Wed, 08 Jun 2016 11:33:59 +0200
 
 solydxk-welcome (1.2.4) stable; urgency=low
 
   * Added libcups2:i386 to wine script
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sat, 28 May 2016 08:04:11 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Sat, 28 May 2016 08:04:11 +0200
 
 solydxk-welcome (1.2.3) stable; urgency=low
 
   * Updated wine script with libxft2:i386
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sun, 10 Apr 2016 00:30:48 +0200
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Sun, 10 Apr 2016 00:30:48 +0200
 
 solydxk-welcome (1.2.2) stable; urgency=low
 
   * Skip auto-startup when running as OEM user
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Tue, 15 Mar 2016 10:21:17 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Tue, 15 Mar 2016 10:21:17 +0100
 
 solydxk-welcome (1.2.1) stable; urgency=low
 
   * Flat logo in background information pages
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Fri, 21 Jan 2016 08:00:00 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Fri, 21 Jan 2016 08:00:00 +0100
 
 solydxk-welcome (1.1.7) stable; urgency=low
 
   * Updated translations
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Mon, 18 Jan 2016 18:00:00 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Mon, 18 Jan 2016 18:00:00 +0100
 
 solydxk-welcome (1.1.6) stable; urgency=low
 
   * Updated translations
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Fri, 11 Dec 2015 10:00:00 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Fri, 11 Dec 2015 10:00:00 +0100
 
 solydxk-welcome (1.1.4) stable; urgency=low
 
   * Skip some pages for armhf architecture
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Tue, 17 Nov 2015 15:00:00 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Tue, 17 Nov 2015 15:00:00 +0100
 
 solydxk-welcome (1.1.3) stable; urgency=low
 
@@ -699,68 +715,68 @@ solydxk-welcome (1.1.3) stable; urgency=low
   * Resolve bug with several backports lines in sources.list
   * New translations
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sun, 15 Nov 2015 11:00:00 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Sun, 15 Nov 2015 11:00:00 +0100
 
 solydxk-welcome (1.1.1) stable; urgency=low
 
   * Updated translations
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Tue, 03 Nov 2015 17:00:00 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Tue, 03 Nov 2015 17:00:00 +0100
 
 solydxk-welcome (1.1.0) stable; urgency=low
 
   * Added install page for PlayOnLinux
   * Added Flash to Multimedia Codecs page
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Wed, 23 Sep 2015 11:00:00 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Wed, 23 Sep 2015 11:00:00 +0100
 
 solydxk-welcome (1.0.9) stable; urgency=low
 
   * Added install page for LibreOffice Backports
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sun, 06 Sep 2015 11:00:00 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Sun, 06 Sep 2015 11:00:00 +0100
 
 solydxk-welcome (1.0.8) stable; urgency=low
 
   * Fixed bug not showing English pages when translated language does not exist
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Mon, 29 Jun 2015 13:00:00 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Mon, 29 Jun 2015 13:00:00 +0100
 
 solydxk-welcome (1.0.7) stable; urgency=low
 
   * Now translations are actually working
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sun, 21 Jun 2015 11:00:00 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Sun, 21 Jun 2015 11:00:00 +0100
 
 solydxk-welcome (1.0.6) stable; urgency=low
 
   * Integrated HTML translations into .pot file
   * Added nl and ca translations
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Tue, 28 Apr 2015 11:00:00 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Tue, 28 Apr 2015 11:00:00 +0100
 
 solydxk-welcome (1.0.4) stable; urgency=low
 
   * Added Steam to game page
   * Added donate button to welcome page
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sun, 16 Feb 2015 19:00:00 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Sun, 16 Feb 2015 19:00:00 +0100
 
 solydxk-welcome (1.0.2) stable; urgency=low
 
   * Include Games page
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Sat, 03 Jan 2015 19:00:00 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Sat, 03 Jan 2015 19:00:00 +0100
 
 solydxk-welcome (1.0.1) stable; urgency=low
 
   * Differentiate between SolydX and SolydK packages
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Mon, 15 Dec 2014 08:00:00 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Mon, 15 Dec 2014 08:00:00 +0100
 
 solydxk-welcome (1.0.0) stable; urgency=low
 
   * Initial release
 
- -- Arjen Balfoort <arjenbalfoort@hotmail.com>  Mon, 08 Dec 2014 12:00:00 +0100
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Mon, 08 Dec 2014 12:00:00 +0100
 
