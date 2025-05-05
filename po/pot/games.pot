@@ -1,14 +1,14 @@
-#: ./po/en/games.html%2Bhtml.body.h1:11-2
+#: ./po/en/games.html%2Bhtml.body.h1:11-5
 msgid "Games"
 msgstr ""
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
+#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:19-25
 msgid "All work and no play..."
 msgstr ""
 
 
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:25-7
+#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:28-25
 msgid ""
 "Lutris is an open gaming platform for Linux. Lutris helps you install and "
 "play video games from all eras and from most gaming systems."
@@ -17,7 +17,7 @@ msgstr ""
 
 
 
-#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:37-7
+#: ./po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:43-25
 msgid ""
 "Steam is an internet-based digital distribution, digital rights management "
 "(DRM), multiplayer, and social networking platform developed by Valve "

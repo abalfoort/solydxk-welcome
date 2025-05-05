@@ -1,21 +1,21 @@
-#: ./po/en/multimedia.html%2Bhtml.body.h1:11-2
+#: ./po/en/multimedia.html%2Bhtml.body.h1:11-5
 msgid "Multimedia applications"
 msgstr ""
 
-#: ./po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
+#: ./po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:19-25
 msgid "This is a list of recommended applications suited for home users."
 msgstr ""
 
 
 
-#: ./po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:25-7
+#: ./po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:28-25
 msgid ""
 "GIMP is an acronym for GNU Image Manipulation Program. It is a freely "
 "distributed program for such tasks as photo retouching, image composition "
 "and image authoring."
 msgstr ""
 
-#: ./po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
+#: ./po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:29-25
 msgid ""
 "It has many capabilities. It can be used as a simple paint program, an "
 "expert quality photo retouching program, an online batch processing system, "
@@ -25,7 +25,7 @@ msgstr ""
 
 
 
-#: ./po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:36-7
+#: ./po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:42-25
 msgid ""
 "Inkscape is an open-source vector graphics editor similar to Adobe "
 "Illustrator, Corel Draw, Freehand, or Xara X. What sets Inkscape apart is "
@@ -36,12 +36,12 @@ msgstr ""
 
 
 
-#: ./po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:46-7
+#: ./po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:55-25
 msgid ""
 "Shotwell is an image organizer designed to provide personal photo management."
 msgstr ""
 
-#: ./po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:47-7
+#: ./po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:56-25
 msgid ""
 "Shotwell can import photos and videos from a digital camera directly. "
 "Shotwell automatically groups photos and videos by date, and supports "
@@ -49,7 +49,7 @@ msgid ""
 "eliminate red eye, and adjust levels and color balance."
 msgstr ""
 
-#: ./po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:48-7
+#: ./po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:57-25
 msgid ""
 "For SolydK Digikam is installed. It has the same functionality as Shotwell"
 msgstr ""
@@ -57,11 +57,11 @@ msgstr ""
 
 
 
-#: ./po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:61-7
+#: ./po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:73-25
 msgid "Clementine is a modern music player and library organizer."
 msgstr ""
 
-#: ./po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:62-7
+#: ./po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:74-25
 msgid ""
 "Clementine is a multiplatform music player. It is inspired by Amarok 1.4, "
 "focusing on a fast and easy-to-use interface for searching and playing your "
@@ -71,7 +71,7 @@ msgstr ""
 
 
 
-#: ./po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:74-7
+#: ./po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:89-25
 msgid ""
 "HandBrake is a tool for converting video from nearly any format to a "
 "selection of modern, widely supported codecs."
@@ -80,7 +80,7 @@ msgstr ""
 
 
 
-#: ./po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:84-7
+#: ./po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:102-25
 msgid ""
 "SoundConverter is the leading audio file converter. It reads anything "
 "GStreamer can read (Ogg Vorbis, AAC, MP3, FLAC, WAV, AVI, MPEG, MOV, M4A, "
@@ -91,13 +91,13 @@ msgstr ""
 
 
 
-#: ./po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:94-7
+#: ./po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:115-25
 msgid ""
 "Pitivi is a Free video editor with a beautiful and intuitive user interface, "
 "a clean codebase and a fantastic community."
 msgstr ""
 
-#: ./po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:95-7
+#: ./po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:116-25
 msgid ""
 "For SolydK Kdenlive is installed. It has the same functionality as Pitivi"
 msgstr ""
@@ -105,7 +105,7 @@ msgstr ""
 
 
 
-#: ./po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:108-7
+#: ./po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:132-25
 msgid ""
 "Transmission is a BitTorrent client which features a simple interface on top "
 "of a cross-platform back-end."

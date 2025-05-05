@@ -1,33 +1,33 @@
-#: ./po/en/welcome.html%2Bhtml.body.h1:10-2
+#: ./po/en/welcome.html%2Bhtml.body.h1:10-5
 msgid "Welcome to SolydXK"
 msgstr ""
 
-#: ./po/en/welcome.html%2Bhtml.body.div.div.p:14-4
+#: ./po/en/welcome.html%2Bhtml.body.div.div.p:14-13
 msgid "Thank you for using SolydXK"
 msgstr ""
 
-#: ./po/en/welcome.html%2Bhtml.body.div.div.p:15-4
+#: ./po/en/welcome.html%2Bhtml.body.div.div.p:15-13
 msgid ""
 "SolydXK is an open source desktop operating system for businesses, "
 "organizations and home users. Both SolydX and SolydK are based on Debian "
 "stable to ensure the greatest stability and security."
 msgstr ""
 
-#: ./po/en/welcome.html%2Bhtml.body.div.div.p:16-4
+#: ./po/en/welcome.html%2Bhtml.body.div.div.p:16-13
 msgid ""
 "We have created a list of recommended software for businesses and home users "
 "which you can install in the next couple of pages."
 msgstr ""
 
-#: ./po/en/welcome.html%2Bhtml.body.div.div.p:17-4
+#: ./po/en/welcome.html%2Bhtml.body.div.div.p:17-13
 msgid "Click on the <strong>Next</strong> button to get started."
 msgstr ""
 
-#: ./po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:20-25
+#: ./po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:20-37
 msgid "Software"
 msgstr ""
 
-#: ./po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:22-10
+#: ./po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:22-25
 msgid ""
 "All software is built, maintained and checked by the community. Software "
 "databases called \"repositories\" are used to offer and maintain over 60,000 "
@@ -36,33 +36,33 @@ msgid ""
 "Software Manager."
 msgstr ""
 
-#: ./po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.img[alt]:23-22
+#: ./po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.img[alt]:23-37
 msgid "softwaremanager"
 msgstr ""
 
-#: ./po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:28-25
+#: ./po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:28-37
 msgid "Support"
 msgstr ""
 
-#: ./po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:30-10
+#: ./po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:30-25
 msgid ""
 "If you're new to SolydXK or whenever you get stuck, there is the SolydXK "
 "community to help you solve your problem. You can search the forum to find "
 "if your issue has already been solved or start a new topic to get help."
 msgstr ""
 
-#: ./po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.img[alt]:31-22
+#: ./po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.img[alt]:31-37
 msgid "forum"
 msgstr ""
 
 
-#: ./po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:38-7
+#: ./po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:38-25
 msgid ""
 "The following channels are used to communicate to the SolydX and SolydK "
 "users:"
 msgstr ""
 
-#: ./po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.ul.li:40-8
+#: ./po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.ul.li:40-29
 msgid ""
 "RSS: <a href=\"https://solydxk.com/feed\" target=\"_blank\">https://solydxk."
 "com/feed</a>"

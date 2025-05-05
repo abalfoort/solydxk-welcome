@@ -3,9 +3,9 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2021-2023,2025
-# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2017-2019
-# Arjen Balfoort <arjenbalfoort@hotmail.com>, 2016-2017
+# Arjen Balfoort <abalfoort_abos@tuta.com>, 2021-2023,2025
+# Arjen Balfoort <abalfoort_abos@tuta.com>, 2017-2019
+# Arjen Balfoort <abalfoort_abos@tuta.com>, 2016-2017
 # Moo, 2023
 # Moo, 2016-2021,2023
 # Moo, 2023,2025
@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-11 10:24+0200\n"
+"POT-Creation-Date: 2025-05-04 13:28+0200\n"
 "PO-Revision-Date: 2015-09-21 17:31+0000\n"
 "Last-Translator: Moo, 2023,2025\n"
 "Language-Team: Lithuanian (http://app.transifex.com/abalfoort/solydxk-"
@@ -112,9 +112,8 @@ msgstr "Programinė įranga buvo sėkmingai įdiegta."
 
 #: usr/lib/solydxk/welcome/main.py:50
 #: etc/xdg/autostart/solydxk-welcome.desktop.in.h:1
-#: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:2
 #: usr/share/applications/solydxk-welcome.desktop.in.h:1
-#: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:2
+#: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:1
 msgid "SolydXK Welcome"
 msgstr "SolydXK pasveikinimas"
 
@@ -144,25 +143,20 @@ msgstr ""
 msgid "SolydXK Welcome Screen"
 msgstr "SolydXK pasveikinimo ekranas"
 
-#: usr/share/kde4/services/kcm_solydxk-welcome.desktop.in.h:1
-#: usr/share/kservices5/kcm_solydxk-welcome.desktop.in.h:1
-msgid "Welcome"
-msgstr "Sveiki atvykę"
-
-#: po/en/business.html%2Bhtml.body.h1:11-2
+#: po/en/business.html%2Bhtml.body.h1:11-5
 msgid "Business applications"
 msgstr "Verslo programos"
 
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:19-25
 msgid "This is a list of recommended applications suited for businesses."
 msgstr "Tai yra rekomenduojamų, tinkamų verslui, programų sąrašas."
 
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:28-25
 msgid "GnuCash is personal and small-business financial-accounting software."
 msgstr ""
 "GnuCash yra asmeninė ir mažo verslo finansinės apskaitos programinė įranga."
 
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:27-7
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:29-25
 msgid ""
 "Designed to be easy to use, yet powerful and flexible, GnuCash allows you to "
 "track bank accounts, stocks, income and expenses. As quick and intuitive to "
@@ -175,7 +169,7 @@ msgstr ""
 "profesionaliais apskaitos principais, kad būtų užtikrintos subalansuotos "
 "knygos ir tikslios ataskaitos."
 
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:37-7
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:42-25
 msgid ""
 "Open source ERP for sales, accounting, operations and CRM in a single system "
 "(accounting, sales, CRM, purchasing, etc.)."
@@ -184,31 +178,31 @@ msgstr ""
 "operacijoms ir santykių su klientais valdymui vienoje sistemoje (apskaita, "
 "pardavimai, santykių su klientais valdymas, pirkimai ir t.t.)."
 
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:38-7
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:43-25
 msgid "Use this information to start PostBooks:"
 msgstr "Norėdami paleisti PostBooks, naudokite šią informaciją:"
 
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:40-9
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:45-30
 msgid "Username: admin"
 msgstr "Naudotojo vardas: admin"
 
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:41-9
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:46-30
 msgid "Password: solydxk"
 msgstr "Slaptažodis: solydxk"
 
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:42-9
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:47-30
 msgid "Server: localhost"
 msgstr "Serveris: localhost"
 
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:43-9
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:48-30
 msgid "Port: 5432"
 msgstr "Prievadas: 5432"
 
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:44-9
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:49-30
 msgid "Database: demo, quickstart or empty"
 msgstr "Duomenų bazė: demo, quickstart arba empty"
 
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:46-8
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:51-26
 msgid ""
 "You can maintain the PostgreSql databases with pgAdmin III (Login: "
 "postgres / solydxk)"
@@ -216,7 +210,7 @@ msgstr ""
 "Galite prižiūrėti PostgreSql duomenų bazes, naudodami pgAdmin III "
 "(Prisijungimas: postgres / solydxk)"
 
-#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:56-7
+#: po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:64-25
 msgid ""
 "ProjectLibre is a project management software system. It intends to be a "
 "complete desktop replacement for Microsoft Project."
@@ -265,15 +259,15 @@ msgstr ""
 "įdiegti <strong>PAE</strong> branduolį, skirtą kelių branduolių 32-bitų "
 "sistemoms."
 
-#: po/en/games.html%2Bhtml.body.h1:11-2
+#: po/en/games.html%2Bhtml.body.h1:11-5
 msgid "Games"
 msgstr "Žaidimai"
 
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:19-25
 msgid "All work and no play..."
 msgstr "Tik darbas ir jokių žaidimų..."
 
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:25-7
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:28-25
 msgid ""
 "Lutris is an open gaming platform for Linux. Lutris helps you install and "
 "play video games from all eras and from most gaming systems."
@@ -281,7 +275,7 @@ msgstr ""
 "Lutris yra atvira žaidimų platforma, skirta Linux. Lutris padeda jums "
 "įsidiegti ir žaisti visų erų video žaidimus iš daugelio žaidimų sistemų."
 
-#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:37-7
+#: po/en/games.html%2Bhtml.body.div.div.form.table.tr.td.p:43-25
 msgid ""
 "Steam is an internet-based digital distribution, digital rights management "
 "(DRM), multiplayer, and social networking platform developed by Valve "
@@ -291,11 +285,11 @@ msgstr ""
 "platinimo, skaitmeninių teisių valdymo (DRM), daugelio žaidėjų ir socialinio "
 "tinklo platforma."
 
-#: po/en/libreofficebp.html%2Bhtml.body.h1:11-2
+#: po/en/libreofficebp.html%2Bhtml.body.h1:11-5
 msgid "LibreOffice (Backports)"
 msgstr "LibreOffice (Naujų versijų paketai)"
 
-#: po/en/libreofficebp.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
+#: po/en/libreofficebp.html%2Bhtml.body.div.div.form.table.tr.td.p:23-25
 msgid ""
 "SolydXK comes with the LibreOffice suite pre-installed. Its stability and "
 "features works great for most people and especially for businesses. However, "
@@ -308,7 +302,7 @@ msgstr ""
 "LibreOffice išliktų naujausios versijos, galite įdiegti LibreOffice iš naujų "
 "versijų paketų saugyklos."
 
-#: po/en/libreofficebp.html%2Bhtml.body.div.div.form.table.tr.td.p:21-7
+#: po/en/libreofficebp.html%2Bhtml.body.div.div.form.table.tr.td.p:24-25
 msgid ""
 "Backports are recompiled new packages for the current stable environment. "
 "So, they will run without new libraries."
@@ -316,7 +310,7 @@ msgstr ""
 "Naujų versijų paketai yra iš naujo sukompiliuoti nauji paketai, skirti "
 "esamai stabiliai aplinkai. Taigi, jie veiks be naujų bibliotekų."
 
-#: po/en/libreofficebp.html%2Bhtml.body.div.div.form.table.tr.td.p:22-7
+#: po/en/libreofficebp.html%2Bhtml.body.div.div.form.table.tr.td.p:25-25
 msgid ""
 "Although you can run more up to date software using the backports "
 "repository, you introduce a greater risk of breakage doing so."
@@ -324,11 +318,11 @@ msgstr ""
 "Nors naudodami naujų versijų paketus, jūs galite naudotis naujausia "
 "programine įranga, tačiau tuo pačiu sukeliate gedimo riziką."
 
-#: po/en/libreoffice.html%2Bhtml.body.h1:11-2
+#: po/en/libreoffice.html%2Bhtml.body.h1:11-5
 msgid "LibreOffice"
 msgstr "LibreOffice"
 
-#: po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
+#: po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td.p:19-25
 msgid ""
 "SolydXK comes with a minimal LibreOffice suite pre-installed. However, if "
 "you are missing some additional packages, you can install them here."
@@ -337,15 +331,15 @@ msgstr ""
 "rinkiniu. Vis dėlto, jeigu jums trūksta tam tikrų papildomų paketų, juos "
 "įsidiegti galite čia."
 
-#: po/en/multimedia.html%2Bhtml.body.h1:11-2
+#: po/en/multimedia.html%2Bhtml.body.h1:11-5
 msgid "Multimedia applications"
 msgstr "Multimedijos programos"
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:19-25
 msgid "This is a list of recommended applications suited for home users."
 msgstr "Tai yra rekomenduojamų, tinkamų namų naudotojams, programų sąrašas."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:25-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:28-25
 msgid ""
 "GIMP is an acronym for GNU Image Manipulation Program. It is a freely "
 "distributed program for such tasks as photo retouching, image composition "
@@ -355,7 +349,7 @@ msgstr ""
 "Manipulation Program) akronimas. Tai yra laisvai platinama programa, skirta "
 "nuotraukų tobulinimui, paveikslų komponavimui ir paveikslų kūrimui."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:29-25
 msgid ""
 "It has many capabilities. It can be used as a simple paint program, an "
 "expert quality photo retouching program, an online batch processing system, "
@@ -366,7 +360,7 @@ msgstr ""
 "paketinio apdorojimo sistema, paveikslų formatų keitiklis, gali atvaizduoti "
 "masinės gamybos paveikslus ir t.t."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:36-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:42-25
 msgid ""
 "Inkscape is an open-source vector graphics editor similar to Adobe "
 "Illustrator, Corel Draw, Freehand, or Xara X. What sets Inkscape apart is "
@@ -379,14 +373,14 @@ msgstr ""
 "grafikos (angl. Scalable Vector Graphics (SVG)) formatą, kuris yra atviro "
 "XML-pagrįsto W3C standarto."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:46-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:55-25
 msgid ""
 "Shotwell is an image organizer designed to provide personal photo management."
 msgstr ""
 "Shotwell yra paveikslų tvarkytuvė, kuri yra skirta asmeninių nuotraukų "
 "tvarkymui."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:47-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:56-25
 msgid ""
 "Shotwell can import photos and videos from a digital camera directly. "
 "Shotwell automatically groups photos and videos by date, and supports "
@@ -399,19 +393,19 @@ msgstr ""
 "naudotojui išlyginti, apkirpti nuotraukas, pašalinti raudonų akių efektą ir "
 "reguliuoti lygius bei spalvos balansus."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:48-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:57-25
 msgid ""
 "For SolydK Digikam is installed. It has the same functionality as Shotwell"
 msgstr ""
 "SolydK sistemoje yra įdiegiama programa Digikam. Jos funkcionalumas yra toks "
 "pats kaip ir Shotwell"
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:61-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:73-25
 msgid "Clementine is a modern music player and library organizer."
 msgstr ""
 "Clementine yra šiuolaikinis muzikos grotuvas ir bibliotekos tvarkytuvė."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:62-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:74-25
 msgid ""
 "Clementine is a multiplatform music player. It is inspired by Amarok 1.4, "
 "focusing on a fast and easy-to-use interface for searching and playing your "
@@ -421,7 +415,7 @@ msgstr ""
 "Amarok 1.4, ir susitelkia ties greita ir lengva naudoti sąsaja, kuri skirta "
 "jūsų muzikos paieškai ir atkūrimui."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:74-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:89-25
 msgid ""
 "HandBrake is a tool for converting video from nearly any format to a "
 "selection of modern, widely supported codecs."
@@ -429,7 +423,7 @@ msgstr ""
 "HandBrake yra vaizdo įrašų konvertavimo įrankis, skirtas konvertuoti iš "
 "beveik bet kurio formato į plačiai palaikomų šiuolaikinių kodekų pasirinkimą."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:84-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:102-25
 msgid ""
 "SoundConverter is the leading audio file converter. It reads anything "
 "GStreamer can read (Ogg Vorbis, AAC, MP3, FLAC, WAV, AVI, MPEG, MOV, M4A, "
@@ -442,7 +436,7 @@ msgstr ""
 "S3M, ir t.t....), ir gali rašyti į Opus, Ogg Vorbis, FLAC, WAV, AAC, ir MP3 "
 "failus."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:94-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:115-25
 msgid ""
 "Pitivi is a Free video editor with a beautiful and intuitive user interface, "
 "a clean codebase and a fantastic community."
@@ -450,14 +444,14 @@ msgstr ""
 "Pitivi yra laisvas vaizdo įrašų redaktorius su patrauklia ir intuityvia "
 "naudotojo sąsaja, tvarkingu kodu ir fantastiška bendruomene."
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:95-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:116-25
 msgid ""
 "For SolydK Kdenlive is installed. It has the same functionality as Pitivi"
 msgstr ""
 "SolydK sistemoje yra įdiegiama programa Kdenlive. Jos funkcionalumas yra "
 "toks pats kaip ir Pitivi"
 
-#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:108-7
+#: po/en/multimedia.html%2Bhtml.body.div.div.form.table.tr.td.p:132-25
 msgid ""
 "Transmission is a BitTorrent client which features a simple interface on top "
 "of a cross-platform back-end."
@@ -465,11 +459,11 @@ msgstr ""
 "Transmission yra BitTorrent kliento programa su paprasta sąsaja, kuri yra "
 "paremta daugiaplatforme vidine sąsaja."
 
-#: po/en/system.html%2Bhtml.body.h1:11-2
+#: po/en/system.html%2Bhtml.body.h1:11-5
 msgid "System applications"
 msgstr "Sistemos programos"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:23-25
 msgid ""
 "ClamAV is an open source antivirus engine for detecting trojans, viruses, "
 "malware & other malicious threats."
@@ -477,7 +471,7 @@ msgstr ""
 "ClamAV yra atvirojo kodo antivirusinės modulis, skirtas aptikti Trojos "
 "arklius, virusus, kenkimo programinę įrangą ir kitas kenkimo grėsmes."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:36-25
 msgid ""
 "QEMU (Quick Emulator) is an open-source virtualization software that enables "
 "the emulation and virtualization of various operating systems and "
@@ -487,7 +481,7 @@ msgstr ""
 "įranga, kuri įgalina įvairių operacinių sistemų ir programų skirtingose "
 "programinės aparatinės įrangos platformose emuliaciją ir virtualizaciją."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:36-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:49-25
 msgid ""
 "VirtualBox is a general-purpose full virtualizer for x86 hardware, targeted "
 "at server, desktop and embedded use. The VirtualBox package installs on an "
@@ -503,7 +497,7 @@ msgstr ""
 "Svečio OS, būti įkeltoms ir vykdomoms, kiekvienai su savo pačios virtualia "
 "aplinka."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:46-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:62-25
 msgid ""
 "FileZilla Client is a fast and reliable cross-platform FTP, FTPS and SFTP "
 "client with lots of useful features and an intuitive graphical user "
@@ -513,7 +507,7 @@ msgstr ""
 "kliento programa su daugeliu naudingų ypatybių bei intuityvia grafine "
 "naudotojo sąsaja."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:59-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:75-25
 msgid ""
 "Samba provides file and print services for various Microsoft Windows clients "
 "and can integrate with a Microsoft Windows Server domain, either as a Domain "
@@ -525,7 +519,7 @@ msgstr ""
 "domenu, kaip arba domeno valdiklis (DC), arba domeno narys. Samba palaiko "
 "tiek aktyvaus katalogo, tiek ir Microsoft Windows NT domenus."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:68-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:88-25
 msgid ""
 "Most commercial DVDs are encrypted with CSS (the Content Scramble System), "
 "which attempts to restrict the software that can play a DVD."
@@ -534,7 +528,7 @@ msgstr ""
 "sistema, (angl. Content Scramble System)), kuri bando apriboti programinę "
 "įrangą, galinčią atkurti DVD diskus."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:69-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:89-25
 msgid ""
 "SolydXK does not come with the necessary packages pre-installed to play "
 "these encrypted DVDs."
@@ -542,7 +536,7 @@ msgstr ""
 "SolydXK sistemoje, šių DVD diskų atkūrimui reikalingi paketai nėra iš anksto "
 "įdiegti."
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:70-7
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.p:90-25
 msgid ""
 "By clicking the install button below the following packages will be "
 "installed on your system:"
@@ -550,19 +544,19 @@ msgstr ""
 "Spustelėjus žemiau esantį įdiegimo mygtuką, į jūsų sistemą bus įdiegti šie "
 "paketai:"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:72-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:92-29
 msgid "libdvdcss2"
 msgstr "libdvdcss2"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:73-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:93-29
 msgid "w32codecs or w64codecs"
 msgstr "w32codecs arba w64codecs"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:80-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:100-29
 msgid "Legal warning:"
 msgstr "Teisinis įspėjimas:"
 
-#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:81-8
+#: po/en/system.html%2Bhtml.body.div.div.form.table.tr.td.div.p:101-29
 msgid ""
 "Check with your local laws to make sure usage of libdvdcss2 would be legal "
 "in your area."
@@ -570,15 +564,15 @@ msgstr ""
 "Susipažinkite su vietiniais įstatymais, kad įsitikintumėte, jog libdvdcss2 "
 "naudojimas jūsų vietovėje yra teisėtas."
 
-#: po/en/welcome.html%2Bhtml.body.h1:10-2
+#: po/en/welcome.html%2Bhtml.body.h1:10-5
 msgid "Welcome to SolydXK"
 msgstr "Sveiki atvykę į SolydXK"
 
-#: po/en/welcome.html%2Bhtml.body.div.div.p:14-4
+#: po/en/welcome.html%2Bhtml.body.div.div.p:14-13
 msgid "Thank you for using SolydXK"
 msgstr "Dėkojame, kad naudojatės SolydXK"
 
-#: po/en/welcome.html%2Bhtml.body.div.div.p:15-4
+#: po/en/welcome.html%2Bhtml.body.div.div.p:15-13
 msgid ""
 "SolydXK is an open source desktop operating system for businesses, "
 "organizations and home users. Both SolydX and SolydK are based on Debian "
@@ -588,7 +582,7 @@ msgstr ""
 "organizacijoms ir namų naudotojams. Tiek SolydX, tiek SolydK yra pagrįstos "
 "Debian stabilia laida, kad užtikrintų geriausią stabilumą ir saugumą."
 
-#: po/en/welcome.html%2Bhtml.body.div.div.p:16-4
+#: po/en/welcome.html%2Bhtml.body.div.div.p:16-13
 msgid ""
 "We have created a list of recommended software for businesses and home users "
 "which you can install in the next couple of pages."
@@ -596,15 +590,15 @@ msgstr ""
 "Mes sukūrėme verslui ir namų naudotojams rekomenduojamos programinės įrangos "
 "sąrašą, kurio programas jūs galėsite įdiegti kituose keliuose puslapiuose."
 
-#: po/en/welcome.html%2Bhtml.body.div.div.p:17-4
+#: po/en/welcome.html%2Bhtml.body.div.div.p:17-13
 msgid "Click on the <strong>Next</strong> button to get started."
 msgstr "Norėdami pradėti, spauskite mygtuką <strong>Kitas</strong>."
 
-#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:20-25
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:20-37
 msgid "Software"
 msgstr "Programinė įranga"
 
-#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:22-10
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:22-25
 msgid ""
 "All software is built, maintained and checked by the community. Software "
 "databases called \"repositories\" are used to offer and maintain over 60,000 "
@@ -619,15 +613,15 @@ msgstr ""
 "Programinės įrangos tvarkytuvės pagalba, jūs, tiesiog, ieškote ir įdiegiate "
 "reikiamą programinę įrangą."
 
-#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.img[alt]:23-22
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.img[alt]:23-37
 msgid "softwaremanager"
 msgstr "softwaremanager"
 
-#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:28-25
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:28-37
 msgid "Support"
 msgstr "Palaikymas"
 
-#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:30-10
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:30-25
 msgid ""
 "If you're new to SolydXK or whenever you get stuck, there is the SolydXK "
 "community to help you solve your problem. You can search the forum to find "
@@ -637,17 +631,17 @@ msgstr ""
 "įstrigus, yra SolydXK bendruomenė, skirta padėti jums išspręsti jūsų "
 "problemas."
 
-#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.img[alt]:31-22
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.img[alt]:31-37
 msgid "forum"
 msgstr "forumas"
 
-#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:38-7
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.p:38-25
 msgid ""
 "The following channels are used to communicate to the SolydX and SolydK "
 "users:"
 msgstr "Šie kanalai yra naudojami bendravimui su SolydX ir SolydK naudotojais:"
 
-#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.ul.li:40-8
+#: po/en/welcome.html%2Bhtml.body.div.div.table.tr.td.ul.li:40-29
 msgid ""
 "RSS: <a href=\"https://solydxk.com/feed\" target=\"_blank\">https://solydxk."
 "com/feed</a>"
@@ -655,11 +649,11 @@ msgstr ""
 "RSS: <a href=\"https://solydxk.com/feed\" target=\"_blank\">https://solydxk."
 "com/feed</a>"
 
-#: po/en/wine.html%2Bhtml.body.h1:11-2
+#: po/en/wine.html%2Bhtml.body.h1:11-5
 msgid "Wine / PlayOnLinux"
 msgstr "Wine / PlayOnLinux"
 
-#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
+#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.p:23-25
 msgid ""
 "SolydXK comes with a wide variety of software. However, if you cannot find "
 "the right software in our repository and you need to use MS Windows "
@@ -672,7 +666,7 @@ msgstr ""
 "naudodami PlayOnLinux. Ne visa programinė įranga gali būti vykdoma tokiu "
 "būdu, tačiau jau yra palaikomas didelis programinės įrangos skaičius."
 
-#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.div.p:22-8
+#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.div.p:25-29
 msgid ""
 "By using this software you may make your system vulnerable to MS Windows "
 "viruses and malware. The risk of infection is not higher than under native "
@@ -682,11 +676,11 @@ msgstr ""
 "pažeidžiamą Windows virusams ir kenkėjiškoms programoms. Užsikrėtimo rizika "
 "nėra didesnė nei naudojantis įprasta MS Windows operacine sistema."
 
-#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.div.p:23-8
+#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.div.p:26-29
 msgid "Make sure you install software from trusted parties only."
 msgstr "Įsitikinkite, kad įdiegiate programinę įrangą tik iš patikimų šalių."
 
-#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.div.p:24-8
+#: po/en/wine.html%2Bhtml.body.div.div.form.table.tr.td.div.p:27-29
 msgid ""
 "Read about the <a href=\"http://wiki.winehq.org/"
 "FAQ#head-1c91cac836dd52754c846d2ef62be4f346eebe87\">risk on using Wine</a>"

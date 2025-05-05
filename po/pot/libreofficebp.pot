@@ -1,10 +1,10 @@
-#: ./po/en/libreofficebp.html%2Bhtml.body.h1:11-2
+#: ./po/en/libreofficebp.html%2Bhtml.body.h1:11-5
 msgid "LibreOffice (Backports)"
 msgstr ""
 
 
 
-#: ./po/en/libreofficebp.html%2Bhtml.body.div.div.form.table.tr.td.p:20-7
+#: ./po/en/libreofficebp.html%2Bhtml.body.div.div.form.table.tr.td.p:23-25
 msgid ""
 "SolydXK comes with the LibreOffice suite pre-installed. Its stability and "
 "features works great for most people and especially for businesses. However, "
@@ -12,13 +12,13 @@ msgid ""
 "can install LibreOffice from the backports repository."
 msgstr ""
 
-#: ./po/en/libreofficebp.html%2Bhtml.body.div.div.form.table.tr.td.p:21-7
+#: ./po/en/libreofficebp.html%2Bhtml.body.div.div.form.table.tr.td.p:24-25
 msgid ""
 "Backports are recompiled new packages for the current stable environment. "
 "So, they will run without new libraries."
 msgstr ""
 
-#: ./po/en/libreofficebp.html%2Bhtml.body.div.div.form.table.tr.td.p:22-7
+#: ./po/en/libreofficebp.html%2Bhtml.body.div.div.form.table.tr.td.p:25-25
 msgid ""
 "Although you can run more up to date software using the backports "
 "repository, you introduce a greater risk of breakage doing so."

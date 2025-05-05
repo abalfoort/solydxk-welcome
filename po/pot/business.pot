@@ -1,18 +1,18 @@
-#: ./po/en/business.html%2Bhtml.body.h1:11-2
+#: ./po/en/business.html%2Bhtml.body.h1:11-5
 msgid "Business applications"
 msgstr ""
 
-#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:19-25
 msgid "This is a list of recommended applications suited for businesses."
 msgstr ""
 
 
 
-#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:26-7
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:28-25
 msgid "GnuCash is personal and small-business financial-accounting software."
 msgstr ""
 
-#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:27-7
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:29-25
 msgid ""
 "Designed to be easy to use, yet powerful and flexible, GnuCash allows you to "
 "track bank accounts, stocks, income and expenses. As quick and intuitive to "
@@ -23,37 +23,37 @@ msgstr ""
 
 
 
-#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:37-7
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:42-25
 msgid ""
 "Open source ERP for sales, accounting, operations and CRM in a single system "
 "(accounting, sales, CRM, purchasing, etc.)."
 msgstr ""
 
-#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:38-7
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:43-25
 msgid "Use this information to start PostBooks:"
 msgstr ""
 
-#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:40-9
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:45-30
 msgid "Username: admin"
 msgstr ""
 
-#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:41-9
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:46-30
 msgid "Password: solydxk"
 msgstr ""
 
-#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:42-9
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:47-30
 msgid "Server: localhost"
 msgstr ""
 
-#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:43-9
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:48-30
 msgid "Port: 5432"
 msgstr ""
 
-#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:44-9
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.ul.li:49-30
 msgid "Database: demo, quickstart or empty"
 msgstr ""
 
-#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:46-8
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:51-26
 msgid ""
 "You can maintain the PostgreSql databases with pgAdmin III (Login: postgres /"
 " solydxk)"
@@ -62,7 +62,7 @@ msgstr ""
 
 
 
-#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:56-7
+#: ./po/en/business.html%2Bhtml.body.div.div.form.table.tr.td.p:64-25
 msgid ""
 "ProjectLibre is a project management software system. It intends to be a "
 "complete desktop replacement for Microsoft Project."

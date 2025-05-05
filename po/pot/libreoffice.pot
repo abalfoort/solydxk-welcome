@@ -1,8 +1,8 @@
-#: ./po/en/libreoffice.html%2Bhtml.body.h1:11-2
+#: ./po/en/libreoffice.html%2Bhtml.body.h1:11-5
 msgid "LibreOffice"
 msgstr ""
 
-#: ./po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td.p:19-7
+#: ./po/en/libreoffice.html%2Bhtml.body.div.div.form.table.tr.td.p:19-25
 msgid ""
 "SolydXK comes with a minimal LibreOffice suite pre-installed. However, if "
 "you are missing some additional packages, you can install them here."
