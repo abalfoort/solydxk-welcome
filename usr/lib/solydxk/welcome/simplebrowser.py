@@ -31,30 +31,42 @@ import gi
 from gi.repository import GObject
 
 WEBKIT2 = False
-WEBKIT2VER = None
+WKVER = None
 
 try:
     gi.require_version('WebKit2', '4.1')
+    print(("Using WebKit2 4.1"))
     WEBKIT2 = True
-except ImportError:
+except ValueError as e:
     try:
         gi.require_version('WebKit2', '4.0')
+        print(("Using WebKit2 4.0"))
         WEBKIT2 = True
-    except ImportError:
+    except ValueError:
         try:
             gi.require_version('WebKit', '6.0')
-            from gi.repository import WebKit
-        except ImportError:
-            gi.require_version('WebKit', '3.0')
-            from gi.repository import WebKit
-if WEBKIT2:
-    from gi.repository import WebKit2 as WebKit
-    WEBKIT2VER = WebKit.get_major_version(), WebKit.get_minor_version(), WebKit.get_micro_version()
-    if WEBKIT2VER[0] < 2 or \
-        WEBKIT2VER[1] < 22:
-        WK2VER = '.'.join(map(str, WEBKIT2VER))
-        raise ValueError(f'WebKit2 wrong version ({WK2VER}).'
-                          ' Upgrade to version 2.22.x or higher')
+            print(("Using WebKit 6.0"))
+        except ValueError:
+            try:
+                gi.require_version('WebKit', '3.0')
+                print(("Using WebKit 3.0"))
+            except ValueError as exc:
+                raise e from exc
+try:
+    if WEBKIT2:
+        from gi.repository import WebKit2 as WebKit
+    else:
+        from gi.repository import WebKit
+except ImportError as e:
+    raise e
+
+# Get version information
+WKVER = WebKit.get_major_version(), WebKit.get_minor_version(), WebKit.get_micro_version()
+VER_STR = '.'.join(map(str, WKVER))
+print((f"WebKit version: {VER_STR}"))
+if WEBKIT2 and (WKVER[0] == 2 and WKVER[1] < 22):
+    raise ValueError(f'WebKit2 wrong version ({VER_STR}).'
+                      ' Upgrade to version 2.22.x or higher')
 
 
 class SimpleBrowser(WebKit.WebView):
@@ -70,7 +82,7 @@ class SimpleBrowser(WebKit.WebView):
         WebKit.WebView.__init__(self)
         # Set properties
         self.uses_webkit2 = WEBKIT2
-        self.webkit2_ver = WEBKIT2VER
+        self.webkit2_ver = WKVER
         self.links_in_browser = True
 
         # Store JS output
