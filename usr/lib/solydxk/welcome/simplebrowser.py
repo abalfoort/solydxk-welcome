@@ -82,7 +82,7 @@ class SimpleBrowser(WebKit.WebView):
         WebKit.WebView.__init__(self)
         # Set properties
         self.uses_webkit2 = WEBKIT2
-        self.webkit2_ver = WKVER
+        self.webkit_ver = WKVER
         self.links_in_browser = True
 
         # Store JS output
