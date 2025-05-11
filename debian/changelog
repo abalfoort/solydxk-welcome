@@ -1,3 +1,9 @@
+solydxk-welcome (2.3.4) stable; urgency=low
+
+  * Fix ValueError import of WebKit object
+
+ -- Arjen Balfoort <solydxk.abalfoort@tuta.com>  Sun, 11 May 2025 11:04:49 +0200
+
 solydxk-welcome (2.3.3) stable; urgency=low
 
   * Change kcm name
